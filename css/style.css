@@ -455,14 +455,22 @@ button span{
   font-family: var(--text_font);
 }
 
-.login_logo p{
+.signup_logo h3{
+  padding-top:10%;
+  padding-left: 25%;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: var(--text_font);
+}
+
+.login_logo p, .signup_logo p{
   padding-left: 16%;
 }
 .login{
   padding-left: 12%;
 }
 
-.login_logo span{
+.login_logo span, .signup_logo span{
   color: var(--primary_color);
 }
 
@@ -510,6 +518,15 @@ button span{
   color: var(--primary_color);
   box-shadow: 2px 2px 5px grey;
   font-family: var(--text_font);
+}
+
+.signup_links{
+  padding-left: 8rem;
+}
+
+.signup_question a{
+  text-decoration: underline;
+  padding-left: 5rem;
 }
 
 
