@@ -6,7 +6,9 @@
   --header_font: 'Roboto Mono', monospace;
   --text_font: 'Nunito', sans-serif;
 }
-
+body{
+  background: var(--white_bg);
+}
 
 html {
   scroll-behavior: smooth;
@@ -37,18 +39,19 @@ a:hover {
   text-decoration: none;
 }
 
+/* ===================================
+          NAVBAR
+=================================== */
+
 .form-control {
   box-shadow: none;		
   font-weight: normal;
   font-size: 13px;
 }
 .form-control:focus {
-  border-color: #33cabb;
-  box-shadow: 0 0 8px rgba(0,0,0,0.1);
-}
-.navbar-header.col {
-  padding: 0 !important;
+  border-color: var(--white_bg);
 }	
+
 .navbar {
   background: var(--white_bg);
   padding-left: 16px;
@@ -56,36 +59,15 @@ a:hover {
   border-bottom: 1px solid #dfe3e8;
   border-radius: 0;
 }
-.nav-link img {
-  border-radius: 50%;
-  width: 36px;
-  height: 36px;
-  margin: -8px 0;
-  float: left;
-  margin-right: 10px;
-}
-.navbar .navbar-brand, .navbar .navbar-brand:hover, .navbar .navbar-brand:focus {
-  padding-left: 0;
-  font-size: 20px;
-  padding-right: 50px;
-}
-.navbar .navbar-brand b {
-  font-weight: bold;
-  color: #33cabb;		
-}
 .navbar .form-inline {
       display: inline-block;
   }
 .navbar .nav li {
   position: relative;
 }
-.navbar .nav li a {
-  color: #888;
-}
 .search-box {
       position: relative;
-     
-  }	
+}	
   .search-box input {
       /* padding-right: 85px; */
   border-color: none;
@@ -126,9 +108,14 @@ button span{
   }
   .balance_1{
     width:35px;
-    border-radius: 100%;
-    padding: 0 5px;
+    border-radius: 100px;
+    padding: 0px 5px 0px;
     border: none;
+  }
+  .balance_1::placeholder {
+    color:var(--secondary_color);
+    font-weight: bolder;
+    padding-left:8px;
   }
 
 
@@ -141,6 +128,9 @@ button span{
  font-family: var(--text_font);
  font-style: 12px;
 }
+/* ===================================
+          END OF NAVBAR
+=================================== */
 
 
 /* =================================
@@ -179,7 +169,7 @@ button span{
     padding-left: 10%;
   }
   .hero-text {
-    font-family:'Ubuntu', sans-serif;
+    font-family:var(--text_font);
     text-align: left;
     position: absolute;
     top: 40%;
@@ -198,53 +188,333 @@ button span{
     border-radius: 100px;
     padding: 8px 40px 10px;
   }
-/*   
-  a.learnmore:hover {
-    background: #FCF3D3;
-    font-weight: bold;
-    font-size: 20px;
-  color: #038BB4; 
-  } */
 
-  .section_header {
+  /* ===================================
+          END OF HERO
+=================================== */
+
+
+/* ===================================
+      WHY CHOOSE RECHARGEPRO
+=================================== */
+
+  .section_header_why {
     /* margin-bottom: 60px; */
     position: relative;
     padding-bottom: 3px;
   }
   
-  .section_header::before {
+  .section_header_why::before {
     content: '';
     position: absolute;
     display: block;
-    width: 180px;
+    width: 240px;
     height: 3px;
     background: var(--primary_color);
     bottom: 0;
-    left: 33.4%;
+    left: 28%;
   }
 
-  #why_choose h3{
+  #why_choose h3, #faq h3{
     color: var(--secondary_color);
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
   }
+
   #why_choose span{
     color: var(--primary_color);
   }
+
   .why_choose_icon{
-    padding-left: 160px;
+    padding-left: 200px;
   }
+  
+  .why_choose_img{
+    padding-left: 80px; 
+  }
+
   .why_choose_icon p{
     color: var(--secondary_color);
     font-weight: bold;
     font-size: 25px;
   }
+
+  .card{
+    background: transparent;
+    border: none;
+  }
+
   .card-title{
     background: var(--secondary_color);
-    display: flex;
-    top: 500px;
+    height: 3rem;
+    margin-top: -155px;
+    width: 328px;
+    margin-left: 0rem;
   }
+
+  .card-title2{
+    background: var(--secondary_color);
+    height: 3rem;
+    margin-top: -77px;
+    width: 328px;
+    margin-left: 0rem;
+  }
+
+  .card-title h5{
+    color: var(--text_color);
+    font-size: 16px;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-family: var(--text_font);
+  }
+
+  .card-title2 h5{
+    color: var(--text_color);
+    font-size: 16px;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-family: var(--text_font);
+  }
+
+  .card-text{
+    background: var(--secondary_color);
+    height: 7rem;
+    margin-top: -12px;
+    width: 328px;
+    margin-left: 0rem;
+  }
+
+  .card-text2{
+    background: var(--secondary_color);
+    height: 7.5rem;
+    width: 328px;
+    margin-left: 0rem;
+  }
+  .card-text p{
+    color: var(--text_color);
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: center;
+    padding-right: 1.5rem;
+    padding-left: 1rem;
+    font-family: var(--text_font);
+  }
+  .card-text2 p{
+    color: var(--text_color);
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: center;
+    padding-right: 1.5rem;
+    padding-left: 1rem;
+    font-family: var(--text_font);
+  }
+  .card-link{
+    background: var(--primary_color);
+    height: 3rem;
+    margin-top: -12px;
+    width: 328px;
+    margin-left: 0rem;
+  }
+  .card-link2{
+    background: var(--primary_color);
+    height: 3rem;
+    margin-top: -12px;
+    width: 328px;
+    margin-left: 0rem;
+  }
+  .card-link a{
+    color: var(--text_color);
+    font-size: 18px;
+    text-align: center;
+    font-family: var(--text_font);
+  }
+  .card-link2 a{
+    color: var(--text_color);
+    font-size: 18px;
+    text-align: center;
+    font-family: var(--text_font);
+  }
+
+/* ===================================
+      END OF WHY CHOOSE RECHARGEPRO
+=================================== */
+
+
+
+/* ===================================
+            FAQ
+=================================== */
+
+  .section_header_faq {
+    /* margin-bottom: 60px; */
+    position: relative;
+    padding-bottom: 3px;
+  }
+  
+  .section_header_faq::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 160px;
+    height: 3px;
+    background: var(--primary_color);
+    bottom: 0;
+    left: 22%;
+  }
+#faq{
+  margin-top: 10rem;
+}
+  .accordion {
+    background: var(--primary_color);
+    height: 4rem;
+}
+
+.accordion {
+    color: #fff;
+    cursor: pointer;
+    /* padding: 18px; */
+    width: 100%;
+    border: none;
+    text-align: left;
+    padding-left: 2rem;
+    outline: none !important;
+    font-size: 16px;
+    transition: all ease 0.4s;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #fff;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+    margin-right: 10px;
+    font-size: 18px;
+    background: var(--secondary_color);
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.faq_answer {
+    /* padding: 0 28px; */
+    max-height: 0;
+    color: var(--secondary_color);
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.faq_answer p {
+    font-size: 16px;
+    padding: 6px;
+}
+
+/* ===================================
+      END OF FAQ
+=================================== */
+
+
+#empty{
+  background: var(--secondary_color);
+  height: 15rem;
+}
+
+#footer-top{
+  background: var(--primary_color);
+  height: 5rem;
+}
+
+
+
+
+/* login page */
+.login_bg{
+  /* Use "linear-gradient" to add a darken background */
+  background-image: linear-gradient(rgba(211, 27, 35, 0.7), rgba(211, 27, 35, 0.7)), url("../assets/images/img/home_img.png");
+  
+  /* Set a specific height */
+  height: 97vh;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+}
+
+.login_logo h3{
+  padding-top:20%;
+  padding-left: 25%;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: var(--text_font);
+}
+
+.login_logo p{
+  padding-left: 16%;
+}
+.login{
+  padding-left: 12%;
+}
+
+.login_logo span{
+  color: var(--primary_color);
+}
+
+.signup_form_item input {
+  border: none;
+  border-bottom: 1px solid #fff;
+  width: 55%;
+  padding: 3px;
+  transition: all 0.6s ease-in-out;
+  background: transparent;
+  font-size: 17px;
+  outline: none;
+}
+
+.signup_form_item input:focus,
+.signup_form_item input:hover {
+  border: none;
+  border-bottom: 2px solid var(--text_color);
+}
+.forgot_password{
+  padding-left: 6rem;
+  color: var(--secondary_color);
+}
+
+.forgot_password:hover{
+  color: var(--secondary_color);
+}
+/* .login_links{
+  padding-right: 15rem;
+} */
+
+.login_btn{
+  background: var(--primary_color);
+  border: none;
+  padding: 5px 40px 10px;
+  color: var(--text_color);
+  font-family: var(--text_font);
+  margin-right: 5.5rem;
+}
+
+.signup_btn{
+  background: #fff;
+  border: none;
+  padding: 5px 40px 10px;
+  color: var(--primary_color);
+  box-shadow: 2px 2px 5px grey;
+  font-family: var(--text_font);
+}
+
+
+
+   
   
 
 @media (min-width: 1200px){
@@ -268,5 +538,75 @@ button span{
   }
   .navbar .nav .btn-primary, .navbar .nav .btn-primary:active {
     display: block;
+  }
+}
+
+/* Home screen */
+
+@media (min-width: 300px) and (max-width: 767.98px){
+  #hero{
+    height: 90vh;
+    background-size: cover;
+    position: relative;;
+    /* width: 100%; */
+    margin-bottom: 7rem;
+  }
+  #hero .hero-text{
+    position: absolute !important;
+    font-family:var(--text_font);
+    font-size: 36px;
+    bottom: 100%;
+    left:10% !important;
+    top: 35% !important;
+   }
+
+   .section_header_why {
+    /* margin-bottom: 60px; */
+    position: relative;
+    padding-bottom: 3px;
+  }
+  
+  .section_header_why::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 150px;
+    height: 3px;
+    background: var(--primary_color);
+    bottom: 0;
+    left: 3%;
+  }
+
+  #why_choose h3, #faq h3{
+    color: var(--secondary_color);
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .why_choose_icon{
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .login_bg{
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  }
+
+  .forgot_password{
+    padding-left: 2rem;
+  }
+
+  .login_logo p{
+    padding-left: 2rem;
+  }
+
+  .login_btn{
+    margin-right: 0;
   }
 }
