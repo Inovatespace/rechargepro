@@ -1,0 +1,272 @@
+:root {
+  --primary_color: #D31B23;
+  --secondary_color: #212020;
+  --white_bg: #F3F2F2;
+  --text_color: #F1F1F1;
+  --header_font: 'Roboto Mono', monospace;
+  --text_font: 'Nunito', sans-serif;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--header_font);
+}
+
+a,
+input,
+button,
+span,
+p,
+textarea {
+  font-family: var(--text_font);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.form-control {
+  box-shadow: none;		
+  font-weight: normal;
+  font-size: 13px;
+}
+.form-control:focus {
+  border-color: #33cabb;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+.navbar-header.col {
+  padding: 0 !important;
+}	
+.navbar {
+  background: var(--white_bg);
+  padding-left: 16px;
+  padding-right: 16px;
+  border-bottom: 1px solid #dfe3e8;
+  border-radius: 0;
+}
+.nav-link img {
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  margin: -8px 0;
+  float: left;
+  margin-right: 10px;
+}
+.navbar .navbar-brand, .navbar .navbar-brand:hover, .navbar .navbar-brand:focus {
+  padding-left: 0;
+  font-size: 20px;
+  padding-right: 50px;
+}
+.navbar .navbar-brand b {
+  font-weight: bold;
+  color: #33cabb;		
+}
+.navbar .form-inline {
+      display: inline-block;
+  }
+.navbar .nav li {
+  position: relative;
+}
+.navbar .nav li a {
+  color: #888;
+}
+.search-box {
+      position: relative;
+     
+  }	
+  .search-box input {
+      /* padding-right: 85px; */
+  border-color: none;
+      border-radius: 20px !important;
+  box-shadow: none;
+  background: #fff;
+  min-width: 500px;
+  
+  }
+.search-box .input-group-addon {
+      min-width: 50px;
+      border: none;
+      background: transparent;
+      position: absolute;
+      left: 450px;
+      z-index: 9;
+      padding: 7px;
+      height: 100%;
+  }
+  .search-box i {
+      color: var(--secondary_color);
+    font-size: 18px;
+  }
+  .details_btn{
+    margin-left: 200px;
+  }
+button span{
+  font-size: 12px;
+  color: #fff;
+  font-family: var(--text_font);
+}
+  .balance{
+    background: var(--primary_color);
+    border: none;
+    font-family: var(--text_font);
+    color: var(--text_font);
+    font-style: 10px;
+  }
+  .balance_1{
+    width:35px;
+    border-radius: 100%;
+    padding: 0 5px;
+    border: none;
+  }
+
+
+.navbar .navbar-right {
+ margin-right: 70px;
+}
+.navbar .navbar-right li a  {
+ color: var(--secondary_color);
+ font-weight: bolder;
+ font-family: var(--text_font);
+ font-style: 12px;
+}
+
+
+/* =================================
+  HERO section
+================================= */
+#hero {
+
+  /* Use "linear-gradient" to add a darken background */
+  background-image: linear-gradient(rgba(211, 27, 35, 0.7), rgba(211, 27, 35, 0.7)), url("../assets/images/img/home_img.png");
+  
+  /* Set a specific height */
+  height: 90vh;
+  
+  /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  /* Place text in the left of the image */
+  #hero h5 {
+    color: #fff;
+    font-family:var(--text_font);
+    font-size: 50px;
+    font-weight: bolder;
+    
+  }
+  #hero p{
+    color: #fff;
+    font-family:var(--text_font);
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bolder;
+    padding-left: 10%;
+  }
+  .hero-text {
+    font-family:'Ubuntu', sans-serif;
+    text-align: left;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+  }
+  .hero_btn{
+    padding-left: 20%; 
+  }
+  
+  .learnmore{
+    color:var(--primary_color);
+    background: #FCF3D3;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 100px;
+    padding: 8px 40px 10px;
+  }
+/*   
+  a.learnmore:hover {
+    background: #FCF3D3;
+    font-weight: bold;
+    font-size: 20px;
+  color: #038BB4; 
+  } */
+
+  .section_header {
+    /* margin-bottom: 60px; */
+    position: relative;
+    padding-bottom: 3px;
+  }
+  
+  .section_header::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 180px;
+    height: 3px;
+    background: var(--primary_color);
+    bottom: 0;
+    left: 33.4%;
+  }
+
+  #why_choose h3{
+    color: var(--secondary_color);
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+  }
+  #why_choose span{
+    color: var(--primary_color);
+  }
+  .why_choose_icon{
+    padding-left: 160px;
+  }
+  .why_choose_icon p{
+    color: var(--secondary_color);
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .card-title{
+    background: var(--secondary_color);
+    display: flex;
+    top: 500px;
+  }
+  
+
+@media (min-width: 1200px){
+  .form-inline .input-group {
+    width: 300px;
+    margin-left: 30px;
+  }
+}
+@media (max-width: 768px){
+  .navbar .dropdown-menu.form-wrapper {
+    width: 100%;
+    padding: 10px 15px;
+    background: transparent;
+    border: none;
+  }
+  .navbar .form-inline {
+    display: block;
+  }
+  .navbar .input-group {
+    width: 100%;
+  }
+  .navbar .nav .btn-primary, .navbar .nav .btn-primary:active {
+    display: block;
+  }
+}
