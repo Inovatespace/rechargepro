@@ -529,6 +529,104 @@ button span{
   padding-left: 5rem;
 }
 
+/*side navigation*/
+
+
+
+.dashboard_logo{
+  background: #fff;
+  height: 4.9rem;
+}
+.dashboard_logo img{
+  width: 65%;
+  margin-top: 1.7rem;
+  margin-left: 2.5rem;
+}
+
+aside {
+    width: 300px;
+    position: fixed;
+    background: var(--secondary_color);
+    /* box-shadow: 5px 1px 13px 1px rgba(0, 0, 0, 0.2); */
+    margin-top: -5em;
+}
+
+.side_nav_content {
+    padding-bottom: 0;
+    display: flex;
+    align-items: start;
+    height: 100vh;
+    justify-content: center;
+}
+
+.side_nav_content ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.side_nav_content ul li {
+    padding: 30px 50px 10px 0px;
+    text-align: justify;
+}
+.side_nav_content ul li img{
+  margin-right: 1rem;
+  margin-top: -0.5rem;
+}
+/* .side_nav_content ul li img  a{
+  margin-top: 15rem;
+  padding-top: 100rem;
+} */
+
+.side_nav_content ul li a {
+    color: #fff;
+    font-size: 16px;
+    transition: all 0.3s ease-in;
+    text-transform: uppercase;
+    /* padding-top: 15rem; */
+}
+/* .menu-active {
+  border-bottom: 4px solid  #038BB4;
+  background: var(--text_color);
+  padding-right: 20px;
+
+} */
+
+
+
+
+
+.side_nav_content ul li a:hover,
+.side_nav_content ul li a:focus {
+    color: orange;
+}
+
+.side_nav_content_alt {
+    height: 100vh;
+    padding: 1em;
+}
+
+.airtime_btn{
+  left: 30%;
+  top: 20%;
+  z-index: 9999;
+  position: absolute;
+}
+.electricity_btn{
+  left: 30%;
+  top: 43%;
+  z-index: 9999;
+  position: absolute;
+}
+.airtime{
+  border-radius: 30px;
+  background: #fff;
+  height: 9rem;
+  width: 9rem;
+}
+
+
+
+
 
 
    
