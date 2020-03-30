@@ -605,24 +605,107 @@ aside {
     padding: 1em;
 }
 
+.utility p{
+  font-size: 13px;
+  font-weight: bolder;
+}
+
 .airtime_btn{
-  left: 30%;
+  left: 25%;
   top: 20%;
   z-index: 9999;
   position: absolute;
 }
+.airtime_btn img{
+  width: 40px;
+}
 .electricity_btn{
-  left: 30%;
-  top: 43%;
+  left: 25%;
+  top: 38%;
   z-index: 9999;
   position: absolute;
+}
+.electricity_btn img{
+  width: 60px;
+}
+.cable_btn{
+  left: 25%;
+  top: 57%;
+  z-index: 9999;
+  position: absolute;
+}
+.cable_btn img{
+ width: 60px;
+ padding-bottom: 0.5rem;
+}
+.bills_btn{
+  left: 25%;
+  top: 76%;
+  z-index: 9999;
+  position: absolute;
+}
+.bills_btn img{
+  width: 80px;
 }
 .airtime{
   border-radius: 30px;
   background: #fff;
-  height: 9rem;
-  width: 9rem;
+  height: 7rem;
+  width: 7rem;
 }
+
+.utility_card{
+  padding-left: 30%;
+  padding-top: 8%;
+}
+.utility_card2{
+  padding-left: 30%;
+  padding-top: 3%;
+}
+
+#transaction_card{
+  background-color: #fff;
+  height: 13rem;
+}
+#transaction_card2{
+  background-color: var(--secondary_color);
+  height: 13rem;
+}
+#recurrent_transaction_card2{
+  background-color: var(--secondary_color);
+  height: 11rem;;
+}
+.card-heading{
+  background: var(--primary_color);
+  color: var(--text_color);
+  text-align: center;
+  max-height: 3rem;
+  padding-top: 1rem;
+  font-size: 16px;
+  font-weight: bolder;
+  font-family: var(--text_font);
+}
+.inner_card {
+  border: 1px solid var(--primary_color);
+  background:transparent;
+  z-index: 99999;
+  height: 10rem;
+  width: 14rem;
+  color: #fff;  
+}
+.inner_card2 {
+  border: 1px solid var(--primary_color);
+  background:transparent;
+  z-index: 99999;
+  height: 12rem;
+  width: 14rem;
+  color: #fff;  
+}
+.inner_card p, .inner_card2 p{
+  text-align: center;
+}
+
+
 
 
 
