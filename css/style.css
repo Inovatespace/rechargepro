@@ -42,6 +42,9 @@ a:hover {
 /* ===================================
           NAVBAR
 =================================== */
+/* .logo{
+  padding-left: 15px;
+} */
 
 .form-control {
   box-shadow: none;		
@@ -69,7 +72,6 @@ a:hover {
       position: relative;
 }	
   .search-box input {
-      /* padding-right: 85px; */
   border-color: none;
       border-radius: 20px !important;
   box-shadow: none;
@@ -92,12 +94,15 @@ a:hover {
     font-size: 18px;
   }
   .details_btn{
-    margin-left: 200px;
+    margin-left: 250px;
   }
 button span{
   font-size: 12px;
   color: #fff;
   font-family: var(--text_font);
+}
+ .details_btn .balance_sm{
+  margin-right: 1rem;
 }
   .balance{
     background: var(--primary_color);
@@ -107,7 +112,7 @@ button span{
     font-style: 10px;
   }
   .balance_1{
-    width:35px;
+    width:65px;
     border-radius: 100px;
     padding: 0px 5px 0px;
     border: none;
@@ -365,7 +370,7 @@ button span{
     left: 22%;
   }
 #faq{
-  margin-top: 10rem;
+  margin-top: 1rem;
 }
   .accordion {
     background: var(--primary_color);
@@ -431,7 +436,11 @@ button span{
 
 
 
-/* login page */
+/* ===================================
+    LOGIN AND SIGNUP PAGE STYLING
+=================================== */
+
+
 .login_bg{
   /* Use "linear-gradient" to add a darken background */
   background-image: linear-gradient(rgba(211, 27, 35, 0.7), rgba(211, 27, 35, 0.7)), url("../assets/images/img/home_img.png");
@@ -501,6 +510,9 @@ button span{
 /* .login_links{
   padding-right: 15rem;
 } */
+.login_links{
+  margin-left:2rem
+}
 
 .login_btn{
   background: var(--primary_color);
@@ -518,6 +530,7 @@ button span{
   color: var(--primary_color);
   box-shadow: 2px 2px 5px grey;
   font-family: var(--text_font);
+  font-size: 16px;
 }
 
 .signup_links{
@@ -529,9 +542,14 @@ button span{
   padding-left: 5rem;
 }
 
-/*side navigation*/
+/* ===================================
+END OF LOGIN AND SIGNUP PAGE STYLING
+=================================== */
 
 
+/* ===================================
+    DASHBOARD STYLING
+=================================== */
 
 .dashboard_logo{
   background: #fff;
@@ -705,15 +723,14 @@ aside {
   text-align: center;
 }
 
+/* ===================================
+   END OF  DASHBOARD STYLING
+=================================== */
 
 
-
-
-
-
-
-   
-  
+/* ===================================
+   MEDIA QUERY
+=================================== */
 
 @media (min-width: 1200px){
   .form-inline .input-group {
@@ -723,7 +740,7 @@ aside {
 }
 @media (max-width: 768px){
   .navbar .dropdown-menu.form-wrapper {
-    width: 100%;
+    /* width: 100%; */
     padding: 10px 15px;
     background: transparent;
     border: none;
@@ -742,6 +759,67 @@ aside {
 /* Home screen */
 
 @media (min-width: 300px) and (max-width: 767.98px){
+  .logo img{
+    width: 130px;
+  }
+
+  .form-inline .input-group {
+    width: 150px;
+    margin-top: -35px;
+    padding-left: 210px;
+    margin-left: 0;
+
+  }
+  .search-box input {
+border-color: none;
+    border-radius: 20px !important;
+box-shadow: none;
+background:transparent;
+min-width: 110px;
+border: none;
+
+}
+.search-box input:focus{
+  background: transparent;
+  outline: transparent;
+  border: none;
+}
+.search-box .input-group-addon {
+  min-width: 50px;
+  border: none;
+  background: transparent;
+  position: absolute;
+  left: 285px;
+  z-index: 9;
+  padding: 7px;
+  height: 100%;
+}
+.balance{
+  background: var(--primary_color);
+  border: none;
+  font-family: var(--text_font);
+  color: var(--text_font);
+  font-style: 8px;
+}
+.details_btn .balance_sm{
+  margin-right: 0;
+}
+.balance_1{
+  width:45px;
+  border-radius: 100px;
+  padding: 0px 5px 0px;
+  border: none;
+}
+.balance_1::placeholder {
+  color:var(--secondary_color);
+  font-weight: bolder;
+  padding-left:8px;
+  font-size: 12px;
+}
+.details_btn{
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
   #hero{
     height: 90vh;
     background-size: cover;
@@ -807,4 +885,114 @@ aside {
   .login_btn{
     margin-right: 0;
   }
+
+  .why_choose_img{
+    padding-left: 10px; 
+  }
+
+  
+  .card-title{
+    background: var(--secondary_color);
+    height: 3rem;
+    margin-top: -155px;
+    width: 335px;
+    margin-left: 0rem;
+  }
+
+  .card-title2{
+    background: var(--secondary_color);
+    height: 3rem;
+    margin-top: -77px;
+    width: 332px;
+    margin-left: 0rem;
+  }
+
+  .card-title h5{
+    color: var(--text_color);
+    font-size: 16px;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-family: var(--text_font);
+  }
+
+  .card-title2 h5{
+    color: var(--text_color);
+    font-size: 16px;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-family: var(--text_font);
+  }
+
+  .card-text{
+    background: var(--secondary_color);
+    height: 7rem;
+    margin-top: -12px;
+    width: 335px;
+    margin-left: 0rem;
+  }
+
+  .card-text2{
+    background: var(--secondary_color);
+    height: 7.5rem;
+    width: 335px;
+    margin-left: 0rem;
+  }
+  .card-text p{
+    color: var(--text_color);
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: center;
+    padding-right: 1.5rem;
+    padding-left: 1rem;
+    font-family: var(--text_font);
+  }
+  .card-text2 p{
+    color: var(--text_color);
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: center;
+    padding-right: 1.5rem;
+    padding-left: 1rem;
+    font-family: var(--text_font);
+  }
+  .card-link{
+    background: var(--primary_color);
+    height: 3rem;
+    margin-top: -12px;
+    width: 335.5px;
+    margin-left: 0rem;
+  }
+  .card-link2{
+    background: var(--primary_color);
+    height: 3rem;
+    margin-top: -12px;
+    width: 335px;
+    margin-left: 0rem;
+  }
+  .card-link a{
+    color: var(--text_color);
+    font-size: 18px;
+    text-align: center;
+    font-family: var(--text_font);
+  }
+  .card-link2 a{
+    color: var(--text_color);
+    font-size: 18px;
+    text-align: center;
+    font-family: var(--text_font);
+  }
+
+  .login_links{
+    margin-left:0;
+    margin-right: 3rem;
+  }
+  
+.signup_links{
+  padding-left: 4rem;
+}
+.signup_question a{
+  padding-left: 2rem;
+}
 }
