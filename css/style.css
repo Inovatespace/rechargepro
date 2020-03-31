@@ -676,6 +676,13 @@ aside {
   padding-left: 30%;
   padding-top: 8%;
 }
+
+.utility_card button{
+ background: var(--secondary_color);
+ border-radius: 10px;
+ height: 6rem;
+ width: 5.5rem;
+}
 .utility_card2{
   padding-left: 30%;
   padding-top: 3%;
@@ -726,6 +733,64 @@ aside {
 /* ===================================
    END OF  DASHBOARD STYLING
 =================================== */
+
+
+
+/* ===================================
+   SUPPORT PAGE STYLING
+=================================== */
+.support_card{
+  padding-left: 15%;
+  padding-top: 8%;
+}
+.support_card h5{
+  text-align: center;
+  color: var(--primary_color);
+  padding-left: 47rem;
+}
+
+#support_card_inner{
+  background-color: #fff;
+  height: 3rem;
+}
+#support_card_inner span{
+  color: var(--primary_color);
+  font-size: 28px;
+  font-weight: bolder;
+  font-family: var(--text_font);
+  padding-top: -13rem;
+}
+#support_card_inner p{
+  color: var(--secondary_color);
+  font-size:16px;
+  font-weight: bolder;
+  font-family: var(--text_font);
+}
+
+.support-heading{
+  background: var(--secondary_color);
+  color: var(--primary_color);
+  max-height: 3rem;
+  padding-top: 1rem;
+  font-size: 16px;
+  font-family: var(--text_font);
+}
+.support_tracking{
+  background: transparent;
+  border: 1px solid;
+  height: 8rem;
+  width: 60rem;
+}
+
+.support_inner{
+  background: green;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.support_inner p{
+  text-align: center;
+}
 
 
 /* ===================================

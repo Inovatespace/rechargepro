@@ -32,23 +32,24 @@
             </div> 		
         </div>
         <!-- Collection of nav links, forms, and other content for toggling -->
-        <div id="navbarCollapse" class="collapse navbar-collapse justify-content-start">
+        <div id="navbarCollapse" class="navbar-collapse justify-content-start">
             <form class="navbar-form form-inline">
                 <div class="input-group search-box">								
                     <input type="text" id="search" class="form-control">
                     <span class="input-group-addon"><i class="fa fa-search"></i></span>
                 </div>
             </form>
-            <div class="details_btn pl-5 mr-5">
-                <button class="btn balance pr-3 mr-3"><span class="mr-3"> Balance</span><input class="balance_1" placeholder="0"></button>
-                <button class="btn balance pr-3 mr-3"> <span class="mr-3">Profit</span><input class="balance_1" placeholder="0"></button>
+            <div class="details_btn mr-5">
+                <button class="btn balance balance_sm"><span class="mr-3"> Balance</span><input class="balance_1" placeholder="5000" disabled></button>
+                <button class="btn balance"> <span class="mr-3">Profit</span><input class="balance_1" placeholder="2000" disabled></button>
             </div>
-            <ul class="nav navbar-nav navbar-right ml-auto">			
+            
+            <ul class="collapse navbar-collapse justify-content-start nav navbar-nav navbar-right ml-auto">			
                 <li class="mr-2">
-                    <a href="#">Sign up</a>
+                    <a href="signup.html">Sign up</a>
                 </li>
                 <li class="mr-5">
-                    <a href="#">Login</a>
+                    <a href="login.html">Login</a>
                 </li>
                 <li>
                     <a href="#"><img src="assets/images/icons/icon_Authorisation.png"></a>
@@ -129,6 +130,10 @@
                     <div class="card-heading">
                     <p>Transaction History</p> 
                     </div>
+                    <div class="mt-4 ml-3">
+                        <button class="mr-3"><img src="assets/images/icons/Group 72.png" alt=""></button>
+                        <button><img src="assets/images/icons/Group 75.png" alt=""></button>
+                    </div>
                 </div>
             </div>
             <div class="col-md-4">
@@ -136,12 +141,20 @@
                     <div class="card-heading">
                     <p>Authorisation</p> 
                     </div>
+                    <div class="mt-4 ml-3">
+                        <button class="mr-3"><img src="assets/images/icons/Group 71.png" alt=""></button>
+                        <button><img src="assets/images/icons/Group 72.png" alt=""></button>
+                    </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card" id="transaction_card">
                     <div class="card-heading">
                     <p>Referral</p> 
+                    </div>
+                    <div class="mt-4 ml-3">
+                        <button class="mr-3"><img src="assets/images/icons/Group 72.png" alt=""></button>
+                        <button><img src="assets/images/icons/Group 73.png" alt=""></button>
                     </div>
                 </div>
             </div>
@@ -151,21 +164,34 @@
                 <div class="card mt-3" id="recurrent_transaction_card2">
                    <div class="inner_card mt-2 ml-2">
                         <p>Recents Transaction</p>
+                        <div class="ml-5 pl-3 mt-4">
+                            <img src="assets/images/icons/Group 78.png" alt="" width="90px">
+                        </div>
                     </div>
+                    
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card" id="transaction_card2">
                     <div class="inner_card2 mt-2 ml-2">
                         <p class="mt-2">Sales Agent</p>
+                        <div class="ml-5 pl-3 mt-4">
+                            <img src="assets/images/icons/Group 80.png" alt="" width="90px">
+                        </div>
                     </div>
+                    
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card" id="transaction_card2">
                     <div class="inner_card2 mt-2 ml-2">
                         <p class="mt-2">Fund</p>
+                        <div class="ml-3 pl-3 mt-4">
+                            <img src="assets/images/icons/Group 77.png" alt="" width="70px">
+                            <img src="assets/images/icons/Group 79.png" alt="" width="70px">
+                        </div>
                     </div>
+                    
                 </div>
             </div>
         </div>
