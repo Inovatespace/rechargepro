@@ -15,6 +15,8 @@
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Monoton|Nunito|Roboto+Mono&display=swap" rel="stylesheet">
 
+    <link href="assets/lib/owl-carousel/assets/owl.carousel.min.css" rel="stylesheet">
+
     <!-- main stylesheet -->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -26,45 +28,24 @@
                   NAVBAR
     =================================== -->
 
-    <nav class="navbar navbar-default navbar-expand-lg navbar-light">
-        <div class="navbar-header d-flex col">
-            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle navbar-toggler">
-                <span class="navbar-toggler-icon"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <div class="logo ml-3">
-                <a class="navbar-brand" href="index.html"><img src="assets/images/img/logo.png"></a> 
-            </div> 	
-            	
-        </div>
-        <!-- Collection of nav links, forms, and other content for toggling -->
-        <div id="navbarCollapse" class="navbar-collapse justify-content-start">
-            <form class="navbar-form form-inline">
-                <div class="input-group search-box">								
-                    <input type="text" id="search" class="form-control">
-                    <span class="input-group-addon"><i class="fa fa-search"></i></span>
-                </div>
-            </form>
-            <div class="details_btn mr-5">
-                <button class="btn balance balance_sm"><span class="mr-3"> Balance</span><input class="balance_1" placeholder="5000" disabled></button>
-                <button class="btn balance"> <span class="mr-3">Profit</span><input class="balance_1" placeholder="2000" disabled></button>
-            </div>
+   <!--==========================
+        Header
+        ============================-->
+        <header id="header"> 
             
-            <ul class="collapse navbar-collapse justify-content-start nav navbar-nav navbar-right ml-auto">			
-                <li class="mr-2">
-                    <a href="signup.html">Sign up</a>
-                </li>
-                <li class="mr-5">
-                    <a href="login.html">Login</a>
-                </li>
-                <li>
-                    <a href="#"><img src="assets/images/icons/icon_Authorisation.png"></a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+            <div class="container-fluid ml-4 ">
+                <div id="logo" class="pull-left">
+                    <a href="index.html" class="scrollto"><img src="assets/images/img/logo.png"></a>
+                </div>
+    
+                <nav id="nav-menu-container" class="mr-5">
+                    <ul class="nav-menu">
+                        <li class="signup"><a href="signup.html.html">Sign Up</a></li>
+                        <li class="login pr-5"><a href="login.html">Login</a></li>
+                    </ul>
+                </nav><!-- #nav-menu-container -->
+            </div>
+        </header><!-- End of header -->
     <!-- ===================================
                  END OF  NAVBAR
     =================================== -->
@@ -75,16 +56,109 @@
     =================================== -->
 
     <section id="hero">
-        <div class="hero-image">
-            <div class="hero-text">
-                <h5 class="">Rechargepro</h5>
-                <p>Payment made easy</p>
-                <div class="hero_btn">
-                    <a href="#" class="btn btn-lg learnmore">Get Started</a>
+        <div class="container">
+            <div class="row">
+                <div class="hero_inner_text">
+                    <div class="hero-text">
+                        <h5 class="">Payment made easy.</h5>
+                        <p>The sending money to any phone number or email address made easy with <br><strong>Rechargepro</strong></p>
+                        <div class="hero_btn">
+                            <a href="#" class="btn btn-lg learnmore">Get Started</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <section class="d-none d-sm-block">
+        <div class="container ">
+            <div class="home_inner_card">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-6 mb-5">
+                        <div class="card home_card">
+                            <img  class="mt-3 ml-3" src="assets/images/icons/Group 97.png" alt="" width="65%">
+                            <div class="text-center mt-3">
+                                <p style="color: #fff;">Bills</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6">
+                        <div class="card home_card">
+                            <img class="mt-3 ml-5" src="assets/images/icons/Group 96.png" alt="" width="40%">
+                            <div class="text-center mt-2">
+                                 <p style="color: #fff;">Airtime/Data</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-sm-6">
+                        <div class="card home_card">
+                            <img class="mt-3 ml-4" src="assets/images/icons/Group 100.png" alt="" width="60%">
+                            <div class="text-center mt-2">
+                                 <p style="color: #fff;">Electricity</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6">
+                        <div class="card home_card">
+                            <img class="mt-3 ml-4" src="assets/images/icons/Group 99.png" alt="" width="60%">
+                            <div class="text-center mt-2">
+                                 <p style="color: #fff;">Cable TV</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- 
+    <section class="d-lg-none d-xl-block d-md-none d-lg-block">
+        
+
+
+        <div class="container ">
+            <div class="home_inner_card">
+                <div class="row">
+                    <div class="col-sm-6 mb-5">
+                        <div class="card home_card">
+                            <img  class="mt-3 ml-3" src="assets/images/icons/Group 97.png" alt="" width="65%">
+                            <div class="text-center mt-3">
+                                <p style="color: #fff;">Bills</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card home_card">
+                            <img class="mt-3 ml-5" src="assets/images/icons/Group 96.png" alt="" width="40%">
+                            <div class="text-center mt-2">
+                                 <p style="color: #fff;">Airtime/Data</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card home_card">
+                            <img class="mt-3 ml-4" src="assets/images/icons/Group 100.png" alt="" width="60%">
+                            <div class="text-center mt-2">
+                                 <p style="color: #fff;">Electricity</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card home_card">
+                            <img class="mt-3 ml-4" src="assets/images/icons/Group 99.png" alt="" width="60%">
+                            <div class="text-center mt-2">
+                                 <p style="color: #fff;">Cable TV</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
 
     <!-- ===================================
                 END OF HERO
@@ -100,77 +174,29 @@
 
     <section id="why_choose" class="mt-5">
         <div class="container">
-            <div class="section_header_why">
-                <h3>Why Choose <span>Rechargepro</span></h3>
-            </div>
-        </div>
-
-        <div class="container mt-5 why_choose_icon">
             <div class="row">
-                <div class="col-md-3 col-sm-6">
-                    <img src="assets/images/icons/lowcost.png" alt="">
-                    <div class="mt-2"><p>Low cast</p></div>
+                <div class="col-md-6">
+                   <img src="assets/images/img/vector.svg" alt=""> 
                 </div>
-
-                <div class="col-md-3 col-sm-6">
-                    <img src="assets/images/icons/superfast.png" alt="">
-                    <div class="mt-4"><p>Super Fast</p></div>
-                </div>
-
-                <div class="col-md-3 col-sm-6">
-                    <img src="assets/images/icons/icon_process.png" alt="">
-                    <div class="mt-2"><p>Simple</p></div>
-                </div>
-
-                <div class="col-md-3 col-sm-6"><img src="assets/images/icons/icon_lock-open.png" alt="">
-                    <div class="mt-3"><p>Secure</p></div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container mt-5 why_choose_img">
-            <div class="row">
-                <div class="col-md-4 mb-5 pb-5">
-                    <div class="card">
-                        <img src="assets/images/img/invite_img.png" class="card-img-top" alt="...">
-                        <div class="card-title">
-                            <h5>Refer A friend & Enjoy up to 5%</h5>
+                <div class="col-md-6 mobile_why">
+                    <div class="container">
+                        <div class="section_header_why">
+                            <h3>Why Choose us</h3>
                         </div>
-                        <div class="card-text">
-                            <p class="pt-2">Refer a friend and Enjoy up to 5% Earn reward points & get bonus anytime, anywhere</p>
+                        <div class="pt-3">
+                            <h5>Low cost</h5>
+                            <p>Recharge your phone line instantly</p>
+                            <p>Prepaid and Postpaid lines supported</p>
                         </div>
-                        <div class="card-link text-center">
-                            <a href="#" class="btn btn-lg">Inivte/Refer</a>
+                        <div class="">
+                            <h5>Low cost</h5>
+                            <p>Recharge your phone line instantly</p>
+                            <p>Prepaid and Postpaid lines supported</p>
                         </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 mb-5 pb-5">
-                    <div class="card">
-                        <img src="assets/images/img/register_img@2x.png" class="card-img-top" alt="...">
-                        <div class="card-title2">
-                            <h5>Join Us Right Now</h5>
-                        </div>
-                        <div class="card-text2">
-                            <p class="pt-3">Join us right now and Earn points & get bonus anytime, anywhere</p>
-                        </div>
-                        <div class="card-link2 text-center">
-                            <a href="#" class="btn btn-lg">Register</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 mb-5 pb-5">
-                    <div class="card">
-                        <img src="assets/images/img/person-using-black-smartphone-3585088@2x.png" class="card-img-top" alt="...">
-                        <div class="card-title">
-                            <h5>Find a location close to you</h5>
-                        </div>
-                        <div class="card-text">
-                            <p class="pt-3">Find a location close to you, our online mobile recharge transaction is completely</p>
-                        </div>
-                        <div class="card-link text-center">
-                            <a href="#" class="btn btn-lg">Find Location</a>
+                        <div>
+                            <h5>Low cost</h5>
+                            <p>Recharge your phone line instantly</p>
+                            <p>Prepaid and Postpaid lines supported</p>
                         </div>
                     </div>
                 </div>
@@ -188,109 +214,61 @@
     =================================== -->
 
     <section id="faq">
-        <div class="container mb-5">
-            <div class="section_header_faq">
-                <h3>Frequently asked questions</h3>
+        <div class="faq_main" >
+            <h5 class="mb-2">Got questions or feedbacks?</h5>
+            <p><i class="fa fa-3x fa-question-circle"></i><i class="fa fa-3x fa-comment-alt-edit"></i><i class="fa fa-3x fa-whatsapp"></i></p><p><i class="fal fa-3x fa-comment-alt-edit"></i></p>
+            <h3 class="mt-4 mb-5">Testimonials</h3>
+            
+
+            <div class="container faq_main_card">
+                <div class="row">
+                    <div class="owl-carousel"><!-- carousel start -->
+                    <div class="col-lg-4">
+                        <div class="card faq_card mb-5">
+                           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.!</p>
+                           
+                                <div class=" faq-circle"></div>
+                                <span>Jeniffer allison<span></span>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card faq_card mb-5">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.!</p>
+
+                            <div class=" faq-circle"></div>
+                                <span>Jeniffer allison<span></span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-5">
+                        <div class="card faq_card">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.!</p>
+
+                            <div class=" faq-circle"></div>
+                                <span>Jeniffer allison<span></span>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 mb-3">
-                    <div class="questions pt-2">
-                        <button class="accordion">Who Can be an Agent?</button>
-                        <div class="faq_answer">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temporincididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat.
-                            </p>
-                        </div>
-                    </div>  
+            </div><!-- carousel end -->
+            <div class="bg-no-overlay">
+                <div class="row">
+                    <h1>Use Rechargepro, make transactions fast and easy</h1>
+                   
                 </div>
+            </div>
 
-                <div class="col-md-6 mb-3">
-                    <div class="questions pt-2">
-                        <button class="accordion">Who Can be an Agent?</button>
-                        <div class="faq_answer">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temporincididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat.
-                            </p>
-                        </div>
+            <div class="container faq_play_store">
+                <div class="row">
+                    <div class="col-md-6 faq_phone">
+                        <img src="assets/images/img/Group 124.png" alt="">
                     </div>
-                </div>
-
-
-                <div class="col-md-6 mb-3">
-                    <div class="questions pt-2">
-                        <button class="accordion">Who Can be an Agent?</button>
-                        <div class="faq_answer">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temporincididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat.
-                            </p>
-                        </div>
-                    </div>  
-                </div>
-
-                <div class="col-md-6 mb-3">
-                    <div class="questions pt-2">
-                        <button class="accordion">Who Can be an Agent?</button>
-                        <div class="faq_answer">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temporincididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col-md-6 mb-3">
-                    <div class="questions pt-2">
-                        <button class="accordion">Who Can be an Agent?</button>
-                        <div class="faq_answer">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temporincididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat.
-                            </p>
-                        </div>
-                    </div>  
-                </div>
-
-                <div class="col-md-6 mb-3">
-                    <div class="questions pt-2">
-                        <button class="accordion">Who Can be an Agent?</button>
-                        <div class="faq_answer">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temporincididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 mb-3">
-                    <div class="questions pt-2">
-                        <button class="accordion">Who Can be an Agent?</button>
-                        <div class="faq_answer">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temporincididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat.
-                            </p>
-                        </div>
-                    </div>  
-                </div>
-
-                <div class="col-md-6 mb-3">
-                    <div class="questions pt-2">
-                        <button class="accordion">Who Can be an Agent?</button>
-                        <div class="faq_answer">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temporincididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat.
-                            </p>
-                        </div>
+                    <div class="col-md-6 app_download">
+                        <h5>Download Our App</h5>
+                        <img src="assets/images/img/444-4447595_google-play-store-apple.png" alt="" width="40%">
                     </div>
                 </div>
             </div>
@@ -301,14 +279,87 @@
                     END FAQ
     =================================== -->
 
-    <section id="empty" class="mt-5">
+     <!--==========================
+    Footer
+  ============================-->
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 footer-info">
+                        <h4>Rechargepro</h4>
+                        <p class="pr-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est vel voluptatum eaque repudiandae facilis maiores error deleniti iure nihil molestias, rem distinctio quae, labore consectetur optio omnis veritatis nulla adipisci?</p>
+                    </div>
 
-    </section>
 
+                    <div class="col-md-5 footer-links">
+                        <ul class="footer_link_menu">
+                            <li> <a href="#">Dashboard</a></li>
+                            <li> <a href="#">Airtime/Data</a></li>
+                            <li> <a href="#">Electricity</a></li>
+                            <li> <a href="#">Cable Tv</a></li>
+                            <li> <a href="#">Bills</a></li>
+                        </ul>
+                     </div>
 
-    <section id="footer-top">
+                    <div class="col-md-3 footer-contact">
+                        <h4>Contact</h4>
+                        <p><a href="https://twitter.com/startupsouthng" class="twitter" data-toggle="tooltip" data-placement="top" title="Twitter">
+                                <i class="fa fa-whatsapp"> <span>08166727989</span></i>
+                            </a>
+                        </p>
+                        <p><a href="https://twitter.com/startupsouthng" class="twitter" data-toggle="tooltip" data-placement="top" title="Twitter">
+                                <i class="fa fa-whatsapp"> <span>08100111241</span></i>
+                            </a>
+                        </p>
+                        <p><a href="https://twitter.com/startupsouthng" class="twitter" data-toggle="tooltip" data-placement="top" title="Twitter">
+                                <i class="fa fa-phone"> <span>008165080992</span></i>
+                            </a>
+                        </p>
+                        <p><a href="https://twitter.com/startupsouthng" class="twitter" data-toggle="tooltip" data-placement="top" title="Twitter">
+                                <i class="fa fa-envelope"> <span>support@Rechargepro.com.ng</span></i>
+                                
+                            </a>
+                        </p>
+              
 
-    </section>
+            <div class="social-links">
+                <a href="https://facebook.com/startupsouthng" class="facebook" data-toggle="tooltip"
+                data-placement="top" title="Facebook">
+                <i class="fa fa-facebook"></i></a>
+
+              <a href="https://twitter.com/startupsouthng" class="twitter" data-toggle="tooltip" data-placement="top"
+                title="Twitter">
+                <i class="fa fa-twitter"></i></a>
+                <a href="https://www.youtube.com/playlist?list=PLn9nxT4fO_Z9meugRe9QLvsCP9qmdo2eR" class="instagram"
+                data-toggle="tooltip" data-placement="top" title="youtube channel">
+                <i class="fa fa-linkedin"></i></a>
+              
+              <a href="https://instagram.com//startupsouthng" class="instagram" data-toggle="tooltip"
+                data-placement="top" title="instagram">
+                <i class="fa fa-instagram"></i></a>
+             
+              
+
+               
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; <script>
+          document.write(new Date().getFullYear());
+        </script>  Made with <i class="fa fa-heart"></i> by <a style="color: #fff;"
+          href="">iSpaceng</a>
+      </div>
+    </div>
+  </footer><!-- #footer -->
+  
  
     
 
@@ -319,6 +370,7 @@
     <!-- Javascript Libraries -->
     <script src="assets/lib/jquery/jquery.min.js"></script>
     <script src="assets/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/lib/owl-carousel/owl.carousel.min.js"></script>
 
     <!-- main js -->
     <script src="js/main.js"></script>
