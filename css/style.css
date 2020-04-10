@@ -1,3 +1,5 @@
+/* RESUABLE */
+
 :root {
   --primary_color: #D31B23;
   --secondary_color: #212020;
@@ -6,6 +8,9 @@
   --header_font: 'Roboto Mono', monospace;
   --text_font: 'Nunito', sans-serif;
 }
+
+/* END OF RESUABLE */
+
 body{
   background: #ffffff;
 }
@@ -39,12 +44,7 @@ a:hover {
   text-decoration: none;
 }
 
-/* ===================================
-          NAVBAR
-=================================== */
-/* .logo{
-  padding-left: 15px;
-} */
+
 
 /*--------------------------
    Header
@@ -97,7 +97,7 @@ z-index: 99;
 
 .nav-menu li {
 position: relative;
-white-space: nowrap;
+
 }
 
 .nav-menu>li {
@@ -109,33 +109,6 @@ float: left;
 display: block;
 }
 
-.nav-menu ul ul {
-top: 0;
-/* left: 100%; */
-}
-
-.nav-menu ul li {
-min-width: 180px;
-}
-/* Nav Menu Arrows */
-
-.sf-arrows .sf-with-ul {
-  padding-right: 30px;
-}
-
-.sf-arrows .sf-with-ul:after {
-  content: "\f107";
-  position: absolute;
-  right: 15px;
-  font-family: FontAwesome;
-  font-style: normal;
-  font-weight: normal;
-}
-
-.sf-arrows ul .sf-with-ul:after {
-  content: "\f105";
-}
-
 /* Nav Meu Container */
 
 #nav-menu-container {
@@ -143,18 +116,6 @@ min-width: 180px;
   padding-left: 1000px;
   margin: 0;
   padding-top: 0.5rem;
-}
-
-/* Nav Meu Styling */
-
-
-
-
-.nav-menu a:hover:before,
-.nav-menu li:hover>a:before,
-.nav-menu .menu-active>a:before {
-visibility: visible;
-width: 100%;
 }
 
 .nav-menu li.signup a {
@@ -169,6 +130,20 @@ width: 100%;
   line-height: 1;
   font-size: 13px;
 }
+
+.nav-menu li.signup a:hover{
+  color: white;
+  background: var(--primary_color) ;
+  padding: 7px 22px;
+  border: 1px solid var(--primary_color);
+  transition: all ease-in-out 0.3s;
+  font-weight: 500;
+  margin-left: 8px;
+  margin-top: 2px;
+  line-height: 1;
+  font-size: 13px;
+}
+
 .nav-menu li.login a {
   color: var(--text_color);
   background: var(--primary_color);
@@ -182,16 +157,17 @@ width: 100%;
   font-size: 13px;
 }
 
-.nav-menu li.ExecuteProject a:hover {
-  background: #E5E5E5;
-  font-weight: bold;
-  font-size: 14px;
-color: #038BB4; 
-}
-
-.nav-menu li.ExecuteProject:hover a:before,
-.nav-menu li.ExecuteProject.menu-active a:before {
-visibility: hidden;
+.nav-menu li.login a:hover {
+  color:  var(--primary_color);
+  background: var(--text_color);
+  padding: 7px 22px;
+  border: 1px solid var(--primary_color);
+  transition: all ease-in-out 0.3s;
+  font-weight: 500;
+  margin-left: 8px;
+  margin-top: 2px;
+  line-height: 1;
+  font-size: 13px;
 }
 
 
@@ -200,6 +176,7 @@ visibility: hidden;
 #mobile-nav header{
 background-color: var(--white_bg);
 }
+
 #mobile-nav-toggle {
   position: fixed;
   right: 0;
@@ -226,21 +203,19 @@ background-color: var(--white_bg);
 #mobile-nav {
   position: fixed;
   top: 0;
-  padding-top: 18px;
+  padding-top: 70px;
   bottom: 0;
   z-index: 998;
-  /* background: rgba(252, 243, 211, .8); rgba(252, 243, 211, .9) transparent */
-  left: -260px;
-  width: 260px; /* changes to still be made concering the mobile view background */
+  background: var(--white_bg);
+  left: -460px;
+  width: 400px; /* changes to still be made concering the mobile view background */
   overflow-y: auto;
   transition: 0.4s;
   
 }
 
-
-
 #mobile-nav ul {
-  padding: 0;
+
   margin: 0;
   list-style: none;
 }
@@ -253,57 +228,38 @@ background-color: var(--white_bg);
   position: relative;
 }
 
-#mobile-nav ul li a {
-  color: #038BB4;
-  font-size: 17px;
-  overflow: hidden;
-  padding: 10px 22px 10px 105px;
-  position: relative;
-  text-decoration: none;
-  width: 100%;
-  display: block;
-  outline: none;
-  text-align: center;
-}
+
 #mobile-nav > ul li.signup a {
-  color: #038BB4;
-  background: none;
-  /* padding: 7px 0px; */
-   padding: 7px 12px 10px 105px;
-  border-radius: 7px;
-  border: 2px solid #038BB4;
-  /* transition: all ease-in-out 0.3s; */
-  /* font-weight: 500; */
-  /* margin-left: 8px; */
+  color: var(--primary_color);
+  background: white;
+  padding: 7px 22px;
+  border: 1px solid var(--primary_color);
+  transition: all ease-in-out 0.3s;
+  font-weight: 500;
   margin-top: 2px;
-  /* line-height: 1; */
+  line-height: 1;
   font-size: 13px;
+  margin-left: 7rem;
+  margin-bottom: 31rem;
+}
+
+#mobile-nav >ul li.login a {
+  color: var(--text_color);
+  background: var(--primary_color);
+  padding: 7px 22px;
+  border: 1px solid var(--primary_color);
+  transition: all ease-in-out 0.3s;
+  font-weight: 500;
+  margin-left: 6rem;
+  top: 12px;
+  font-size: 13px;
+  line-height: 1;
 }
 
 #mobile-nav ul li a:hover {
   color: #3D4295; 
 }
 
-#mobile-nav ul li li {
-  padding-left: 30px;
-}
-
-#mobile-nav ul .menu-has-children i {
-  position: absolute;
-  right: 0;
-  z-index: 99;
-  padding: 15px;
-  cursor: pointer;
-  color: #fff;
-}
-
-#mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #3D4295; 
-}
-
-#mobile-nav ul .menu-active {
-  color: #3D4295; 
-}
 
 #mobile-body-overly {
   width: 100%;
@@ -330,6 +286,19 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
+/* ===================================
+    END OF HEADER FOR LANDING PAGE
+=================================== */
+
+
+
+/* ===================================
+          NAVBAR FOR DASHBOARD
+=================================== */
+/* .logo{
+  padding-left: 15px;
+} */
+
 .form-control {
   box-shadow: none;		
   font-weight: normal;
@@ -338,8 +307,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 .form-control:focus {
   border-color: var(--white_bg);
 }	
-
-
 
 .navbar {
   background: var(--white_bg);
@@ -491,6 +458,17 @@ button span{
     border-radius: none;
     box-shadow: 10px 10px 10px 10px var(--primary_color);
   }
+
+  .learnmore:hover{
+    color: var(--white_bg);
+    background:  var(--secondary_color);
+    font-family: var(--text_font);
+    font-family: bold;
+    font-size: 16px;
+    border-radius: none;
+    box-shadow: 10px 10px 10px 10px var(--primary_color);
+  }
+
   .home_inner_card{
     margin-top: -48%;
     margin-left: 60%;
@@ -498,12 +476,13 @@ button span{
    
   }
   .home_card{
-    z-index: 9999;
+    /* z-index: 9999; */
+    cursor: pointer;
 
   }
 
   .home_inner_card .card{
-    z-index: 9999;
+    /* z-index: 9999; */
     height: 22vh;
     width: 22vh;
     border-radius: 10px;  
@@ -963,7 +942,38 @@ color: var(--text_color);
 #footer .footer-top .footer-contact p {
   line-height: 26px;
 }
+/* Back to top button */
+.back-to-top {
+  position: fixed;
+  display: none;
+  z-index: 9999;
+  color: #fff;
+background-color: #fff;
+/* border-top: 1px solid  #DFDFDF; */
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
+line-height: 1;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  width: 60px;
+  height: 45px;
+
+  right: 10px;
+  bottom: 15px;
+  transition: background 0.5s ease-in-out;
+}
+
+
+
+.back-to-top:focus {
+  color: #fff;
+  outline: none;
+}
+
+.back-to-top:hover {
+  color: #fff;
+}
 
 
 
@@ -1532,6 +1542,9 @@ textarea,
 /* Home screen */
 
 @media (min-width: 300px) and (max-width: 767.98px){
+  .back-to-top {
+    bottom: 15px;
+  }
   
   #header {
     background: transparent;
@@ -1548,7 +1561,7 @@ textarea,
     border-radius: 25%; 
     border: 2px solid var(--secondary_color);
     padding: 10px;
-    margin-right: 3rem;
+    margin-right: 1rem;
   }
   #logo img{
     width: 105%;
@@ -1726,7 +1739,7 @@ margin-left: 0;
     z-index: 9999;
   }
   #faq .owl-dot.active {
-    background-color: #fff;
+    background-color:var(--secondary_color);
   }
 
   .faq_phone img{

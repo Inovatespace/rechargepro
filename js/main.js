@@ -1,4 +1,10 @@
 jQuery(document).ready(function( $ ) {
+   // Back to top button
+   
+  $('.back-to-top').click(function(){
+    $('html, body').animate({scrollTop : 0},1500, 'easeInOutExpo');
+    return false;
+  });
 
   // Header fixed on scroll
   $(window).scroll(function() {
