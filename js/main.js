@@ -98,6 +98,10 @@ jQuery(document).ready(function( $ ) {
       }
     })
 
+
+
+    // Carousel
+
     jQuery(".owl-carousel").owlCarousel({
       dots:true,
       center: true,
@@ -128,49 +132,6 @@ jQuery(document).ready(function( $ ) {
   });
 });
 
-// $(".owl-carousel").owlCarousel({
-
-//   loop: true,
-//   nav: true,
-//   items: 1,
-//   autoplay: true,
-//   autoplayTimeout: 2000,
-//   autoplayHoverPause: true,
-//   dots: true,
-//   responsive: {
-//       1000 : {
-//           items: 2
-//       }
-//   }
-// });
-
-
-
-
-function openNav() {
-  document.getElementById("myNav").style.width = "100%"
-}
-
-function closeNav() {
-  document.getElementById("myNav").style.width = "0%";
-}
-
-//dropdown for dashboard
-var navBar = document.getElementById("altNav");
-
-function dropNav(){
-navBar.style.height = "100vh";
-}
-
-function liftNav(){
-navBar.style.height = "0vh";
-}
-
-
-// Prevent dropdown menu from closing when click inside the form
-$(document).on("click", ".navbar-right .dropdown-menu", function(e){
-  e.stopPropagation();
-});
 
 
 //faq accordion

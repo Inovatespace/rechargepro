@@ -19,6 +19,7 @@ html {
   scroll-behavior: smooth;
 }
 
+
 h1,
 h2,
 h3,
@@ -64,18 +65,11 @@ padding-bottom:10px;
 
 #header.header-scrolled,
 #header.header-fixed {
-  background: var(--white_bg);
+background: var(--white_bg);
 height: 70px;
 padding: 15px 0;
-/* padding-bottom: 100px; */
-/* transition: all 0.5s; */
+transition: all 0.5s;
 }
-
-/*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
-
-/* Nav Menu Essentials */
 
 .nav-menu,
 .nav-menu * {
@@ -85,22 +79,19 @@ list-style: none;
 cursor: pointer;
 }
 
-
 .nav-menu ul {
 position: absolute;
 display: none;
 top: 100%;
 left: 0;
 z-index: 99;
-
 }
 
 .nav-menu li {
 position: relative;
-
 }
 
-.nav-menu>li {
+.nav-menu > li {
 float: left;
 }
 
@@ -191,7 +182,7 @@ background-color: var(--white_bg);
   outline: none;
   cursor: pointer;
   padding-top: 7px;
-  padding-left: 80px;
+  padding-right: 270px;
 }
 
 #mobile-nav-toggle i {
@@ -203,9 +194,9 @@ background-color: var(--white_bg);
 #mobile-nav {
   position: fixed;
   top: 0;
-  padding-top: 70px;
+  padding-top: 90px;
   bottom: 0;
-  z-index: 998;
+  z-index: 9999;
   background: var(--white_bg);
   left: -460px;
   width: 400px; /* changes to still be made concering the mobile view background */
@@ -215,19 +206,21 @@ background-color: var(--white_bg);
 }
 
 #mobile-nav ul {
+margin: 0;
+list-style: none;
+}
 
-  margin: 0;
-  list-style: none;
+#mobile-nav ul li {
+position: relative;
 }
 
 #mobile-nav ul li {
   position: relative;
+  padding-bottom: 2rem;
 }
-
-#mobile-nav ul li {
-  position: relative;
+#mobile-nav ul li a{
+ color: var(--secondary_color);
 }
-
 
 #mobile-nav > ul li.signup a {
   color: var(--primary_color);
@@ -239,27 +232,22 @@ background-color: var(--white_bg);
   margin-top: 2px;
   line-height: 1;
   font-size: 13px;
-  margin-left: 7rem;
+  margin-left: 6rem;
   margin-bottom: 31rem;
 }
 
 #mobile-nav >ul li.login a {
   color: var(--text_color);
   background: var(--primary_color);
-  padding: 7px 22px;
+  padding: 7px 24px;
   border: 1px solid var(--primary_color);
   transition: all ease-in-out 0.3s;
   font-weight: 500;
-  margin-left: 6rem;
+  margin-left: 3.5rem;
   top: 12px;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 1;
-}
-
-#mobile-nav ul li a:hover {
-  color: #3D4295; 
-}
-
+  }
 
 #mobile-body-overly {
   width: 100%;
@@ -295,35 +283,41 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* ===================================
           NAVBAR FOR DASHBOARD
 =================================== */
-/* .logo{
-  padding-left: 15px;
-} */
-
-.form-control {
+.dashboard_header .form-control {
   box-shadow: none;		
   font-weight: normal;
   font-size: 13px;
 }
-.form-control:focus {
+
+.dashboard_header .form-control:focus {
   border-color: var(--white_bg);
 }	
 
-.navbar {
+.dashboard_header {
   background: var(--white_bg);
   padding-left: 16px;
   padding-right: 16px;
   border-bottom: 1px solid #dfe3e8;
   border-radius: 0;
 }
-.navbar .form-inline {
-      display: inline-block;
-  }
-.navbar .nav li {
-  position: relative;
+
+.dashboard_header .form-inline {
+      display: block;
 }
+
+.dashboard_header .nav-menu {
+  position: absolute;
+}
+
 .search-box {
   position: relative;
 }	
+
+.dashboard_header #nav-menu-container {
+  padding-left: 300px;
+  margin: 0;
+  padding-top: 0.5rem;
+}
 
 .search-box input {
   border-color: none;
@@ -331,69 +325,77 @@ body.mobile-nav-active #mobile-nav-toggle {
   box-shadow: none;
   background: #fff;
   min-width: 400px;
-  margin-left: 30px;
+  margin-left: 10px;
   }
   
 .search-box .input-group-addon {
-      min-width: 50px;
-      border: none;
-      background: transparent;
-      position: absolute;
-      left: 400px;
-      z-index: 9;
-      padding: 7px;
-      height: 100%;
+  min-width: 50px;
+  border: none;
+  background: transparent;
+  position: absolute;
+  left: 300px;
+  z-index: 9;
+  padding: 7px;
+  height: 100%;
   }
-  .search-box i {
-    font-size: 18px;
-  }
-  .fa-search:before {
-    content: "\f002";
-    
-    color:grey;
+
+.search-box i {
+  font-size: 18px;
 }
-  .details_btn{
-    margin-left: 250px;
-  }
-  .home_login{
-    margin-left: 550px;
-  }
+
+.fa-search:before {
+  content: "\f002";
+  color:grey;
+}
+
+.dashboard_header .dashboard_nav_menu{
+  margin-top: -2rem;
+  margin-left: 800px;
+}
+
+.large_screen_button{
+  margin-left: 450px;
+    margin-top: -2rem;
+}
+
+.small_screen_btn{
+  margin-left: 450px;
+  margin-top: 1.9rem;
+}
+
+.home_login{
+  margin-left: 550px;
+}
+
 button span{
   font-size: 12px;
   color: #fff;
   font-family: var(--text_font);
 }
- .details_btn .balance_sm{
+
+.details_btn .balance_sm{
   margin-right: 1rem;
 }
-  .balance{
+
+.balance{
     background: var(--primary_color);
     border: none;
     font-family: var(--text_font);
     color: var(--text_font);
     font-style: 10px;
-  }
-  .balance_1{
+}
+
+.balance_1{
     width:65px;
     border-radius: 100px;
     padding: 0px 5px 0px;
     border: none;
-  }
-  .balance_1::placeholder {
+}
+
+.balance_1::placeholder {
     color:var(--secondary_color);
     font-weight: bolder;
     padding-left:8px;
-  }
-
-
-.navbar .navbar-right {
- margin-right: 70px;
-}
-.navbar .navbar-right li a  {
- color: var(--secondary_color);
- font-weight: bolder;
- font-family: var(--text_font);
- font-style: 12px;
 }
 
 /* ===================================
@@ -405,16 +407,12 @@ button span{
   HERO section
 ================================= */
 #hero {
-
-  /* Use "linear-gradient" to add a darken background */
-  background-image:url("../assets/images/img/Path\ 116.png");
+  background: var(--primary_color);
   margin-left: 1rem;
-  margin-right: 17rem;
+  margin-right: 1rem;
 
-  
   /* Set a specific height */
-  height: 110vh;
-  
+  height: 100vh;
   
   /* Position and center the image to scale nicely on all screens */
     background-position: center;
@@ -423,40 +421,39 @@ button span{
     overflow: hidden;
     position: relative;
   }
-  
-  /* Place text in the left of the image */
+
   #hero h5 {
     color: #fff;
     font-family:var(--text_font);
     font-size: 35px;
     margin-bottom: 1.5rem;
-    
   }
+
   #hero p{
     color: #fff;
     font-family:var(--text_font);
     font-size: 18px;
     font-style: italic;
-    padding-right: 30rem;
+    padding-right: 45rem;
   }
-   .hero-text {
+
+.hero-text {
     font-family:var(--text_font);
     text-align: left;
     position: absolute;
-    padding-top: 20%;
-    padding-left: 15%;
+    padding-top: 15%;
+    padding-left: 8%;
   }
  
-  
-  
-  .learnmore{
+.learnmore{
     color:var(--primary_color);
     background: #FCF3D3;
     font-family: var(--text_font);
-    font-family: bold;
+    font-family: bolder;
     font-size: 16px;
     border-radius: none;
     box-shadow: 10px 10px 10px 10px var(--primary_color);
+    font-family: var(--text_font);
   }
 
   .learnmore:hover{
@@ -470,37 +467,24 @@ button span{
   }
 
   .home_inner_card{
-    margin-top: -48%;
+    margin-top: -44%;
     margin-left: 60%;
    padding-left: 10%;
    
   }
+
   .home_card{
-    /* z-index: 9999; */
     cursor: pointer;
+}
 
-  }
-
-  .home_inner_card .card{
-    /* z-index: 9999; */
+.home_inner_card .card{
     height: 22vh;
     width: 22vh;
     border-radius: 10px;  
-    background-image: linear-gradient(#D31B23, #FC9D4A);
-    }
+    background: var(--secondary_color);
+  }
 
-      .first_row{
-        margin-right: 5rem;
-      }
-
-  /* 
-  
-  #hero .card img{
-    color: white;
-  } */
-
-
-  /* ===================================
+/* ===================================
           END OF HERO
 =================================== */
 
@@ -527,7 +511,7 @@ button span{
   }
 
   #why_choose{
-padding-top: 30rem;
+padding-top: 15rem;
   }
 
   #why_choose img{
@@ -890,7 +874,7 @@ color: var(--text_color);
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #ffc400;
+  background: red;
   color: #fff;
 }
 
@@ -932,7 +916,7 @@ color: var(--text_color);
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #ffc400;
+  color: red;
 }
 
 #footer .footer-top .footer-contact {
@@ -1074,7 +1058,7 @@ line-height: 1;
   border: none;
   padding: 5px 40px 10px;
   color: var(--primary_color);
-  box-shadow: 1px 1px 1px 1pxgrey;
+  box-shadow: 1px 1px 1px 1px grey;
   font-family: var(--text_font);
   font-size: 16px;
 }
@@ -1097,7 +1081,7 @@ END OF LOGIN AND SIGNUP PAGE STYLING
     DASHBOARD STYLING
 =================================== */
 
-.dashboard_logo{
+/* .dashboard_logo{
   background: #fff;
   height: 4.9rem;
 }
@@ -1105,14 +1089,15 @@ END OF LOGIN AND SIGNUP PAGE STYLING
   width: 65%;
   margin-top: 1.7rem;
   margin-left: 2.5rem;
-}
+} */
 
 aside {
     width: 300px;
     position: fixed;
     background: var(--secondary_color);
     /* box-shadow: 5px 1px 13px 1px rgba(0, 0, 0, 0.2); */
-    margin-top: -5em;
+    margin-top: 3rem;
+    padding-top: 2rem;
 }
 
 .side_nav_content {
@@ -1155,6 +1140,20 @@ aside {
 
 } */
 
+
+
+/* mobile reponsiveness */
+.mobile_card{
+  background: var(--secondary_color);
+  height: 5rem;
+  width: 10rem;
+  border-radius: 10px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+}
+
 /********
  mobile dashboard navigation
  *****/
@@ -1180,10 +1179,10 @@ aside {
 }
 
 
-.mobile_logo {
+/* .mobile_logo {
   padding: 0;
   margin: 0 auto;
-}
+} */
 
 .Contact,
 .message,
@@ -1237,6 +1236,8 @@ textarea,
     padding: 1em;
 }
 
+
+
 .utility p{
   font-size: 13px;
   font-weight: bolder;
@@ -1284,11 +1285,14 @@ textarea,
   background: #fff;
   height: 7rem;
   width: 7rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+
 
 .utility_card{
   padding-left: 32%;
-  padding-top: 6%;
+  padding-top: 12%;
 }
 
 .utility_card button{
@@ -1367,6 +1371,12 @@ textarea,
   min-height: 20rem;
 }
 
+.modal-body p{
+  font-size: 12px;
+  font-weight: bold;
+  font-family: var(--text_font);
+}
+
 .modal-content{
   min-width: 47.5rem;
   
@@ -1381,7 +1391,7 @@ textarea,
 .modal-content select,.modal-content input{
   border-radius:80px;
   padding: 25px;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   margin-top: 1rem;
 }
 .modal-content option::before{
@@ -1389,6 +1399,13 @@ textarea,
   padding: 25px;
   border-radius: 1px solid;
   box-shadow: 2px 2px 2px 2px grey;
+}
+
+.btn-primary{
+  border-radius:80px;
+  padding: 5px;
+  width: 21rem;
+  text-transform: uppercase;
 }
 
 
@@ -1516,32 +1533,104 @@ textarea,
 
 @media (min-width: 1200px){
   .form-inline .input-group {
-    width: 190px;
+    width: 90px;
   }
 }
 @media (max-width: 768px){
 
  
-  .navbar .dropdown-menu.form-wrapper {
+  .dashboard_header .dropdown-menu.form-wrapper {
     /* width: 100%; */
     padding: 10px 15px;
     background: transparent;
     border: none;
   }
-  .navbar .form-inline {
+  .dashboard_header .form-inline {
     display: block;
   }
-  .navbar .input-group {
+  .navbar-form .input-group {
     width: 100%;
-  }
-  .navbar .nav .btn-primary, .navbar .nav .btn-primary:active {
-    display: block;
   }
 }
 
 /* Home screen */
 
 @media (min-width: 300px) and (max-width: 767.98px){
+ 
+
+  .mobile_card{
+    margin-left: 2rem;
+    margin-top: 1rem;
+    background: var(--secondary_color);
+    height: 6rem;
+    width: 18rem;
+    border-radius: 15px;
+    display: flex;
+    
+    align-content: center;
+  }
+
+  .mobile_social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: var(--primary_color);
+    color: #eee;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    transition: 0.3s;
+    margin-right: 1rem;
+    cursor: pointer;
+  }
+  .mobile_social-links span{
+    font-size: 10px;
+    font-weight: bold;
+    color: var(--secondary_color);
+    margin-right: 1rem;
+  }
+  
+   .social-links a:hover {
+    background: #ffc400;
+    color: #fff;
+  }
+
+  .mobile_airtime_card{
+    background-color: #ffffff;
+    width: 7.5rem;
+    height: 7rem;
+   border-top: 1px solid  #DFDFDF;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    margin-left: 3rem;
+    margin-bottom: 0.5rem;
+    margin-right: 0;
+    margin-top: 0.5rem;
+    z-index: 9999;
+  }
+
+  .mobile_footer{
+    background: var(--secondary_color);
+    height: 3rem;
+  }
+
+  .footer_mobile_links a {
+    font-size: 18px;
+    display: inline-block;
+    color: #eee;
+    line-height: 1;
+    padding: 8px 0;
+    border-radius: 50%;
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    transition: 0.3s;
+    cursor: pointer;
+    margin-left: 1.3rem;
+  }
   .back-to-top {
     bottom: 15px;
   }
@@ -1564,21 +1653,28 @@ textarea,
     margin-right: 1rem;
   }
   #logo img{
-    width: 105%;
-  }  
-  .navbar .navbar-right {
-    margin-left: 0;
-    /* padding-left: -1350px; */
-    /* margin-top: -35px; */
-   }
+    width: 80%;
+    margin-left: 4rem;
+    margin-top: 0.5rem;
+  } 
+  #dashboard_logo img{
+    width: 60%;
+    margin-left: 4rem;
+    margin-top: 0.5rem 
+  } 
+
+  /* .fa-times{
+    padding-left: 90rem;
+  } */
+ 
    .home_login{
     margin-left: 150px;
     margin-top: -10px;
   }
 
-  .form-inline .input-group {
+  .dashboard-form-inline .input-group {
     width: 150px;
-    margin-top: -35px;
+    margin-top: 15px;
     padding-left: 210px;
     margin-left: 0;
 
@@ -1635,11 +1731,11 @@ margin-left: 0;
     margin-top: 1rem;
   }
   #hero{
-    height: 90vh;
+    height: 100vh;
     background-size: cover;
     position: relative;
-    margin-top: 15% !important;
-    margin-right: 0;
+    margin-top: 20% !important;
+    margin-right: 0.5rem;
   }
  
    #hero p{
@@ -1650,23 +1746,29 @@ margin-left: 0;
     padding-right: 0;
   }
   .home_inner_card{
-    margin-top: -48%;
-    margin-left: 0;
-   padding-left: 10%;
+    margin-top: -20rem;
+    margin-left: 6%;
+   margin-bottom: 2rem;
    
   }
   .home_card{
-    z-index: 9999;
+    /* z-index: 9999; */
+    cursor: pointer;
 
   }
 
   .home_inner_card .card{
-    z-index: 9999;
-    height: 22vh;
-    width: 22vh;
+    /* z-index: 9999; */
+    height: 20vh;
+    width: 20vh;
     border-radius: 10px;  
-    background-image: linear-gradient(#D31B23, #FC9D4A);
+    background: var(--secondary_color);
     }
+
+    .home_mobile {
+      margin-top: 2rem;
+    }
+
 
    .section_header_why {
     /* margin-bottom: 60px; */
@@ -1934,6 +2036,19 @@ margin-left: 0;
 #footer{
   margin-bottom: 3rem;
 }
+#footer .footer-top .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  color: var(--primary_color);
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
 
 #footer .copyright{
  padding-left: 3rem;
@@ -1943,6 +2058,8 @@ margin-left: 0;
 
 /*media query for dashboard pages*/
 @media screen and (max-width: 960px) {
+
+ 
   aside {
       display: none;
   }
@@ -1963,11 +2080,11 @@ margin-left: 0;
 
  
 
-  .mobile_logo,
+  /* .mobile_logo,
   .open_btn_alt,
   .alt_menu_icon {
       display: block !important;
-  }
+  } */
   .open_btn_alt {
     margin-right: 10px;
     margin-top: -140px;
@@ -1982,6 +2099,68 @@ margin-left: 0;
     color: #EA0000;
     float: right;
 }
+
+/* ===================================
+  MODAL STYLING
+=================================== */
+.modal{
+  z-index: 99999;
+  padding-left: 4px;
+  /* padding-top: 7px; */
+  margin-bottom: 2rem;
+ 
+}
+.modal-body{
+  min-height: 20rem;
+}
+
+.modal-body p{
+  font-size: 12px;
+  font-weight: bold;
+  font-family: var(--text_font);
+  margin-top: 15rem;
+}
+
+.modal-content{
+  min-width: 20.5rem;
+  
+}
+
+.modal-content button span{
+  color: var(--secondary_color);
+  font-size: 50px;
+  padding-left: 40rem;
+}
+
+.modal-content select,.modal-content input{
+  border-radius:80px;
+  padding: 25px;
+  /* margin-bottom: 1rem; */
+  margin-top: 1rem;
+}
+.modal-content option::before{
+  border-radius:80px;
+  padding: 25px;
+  border-radius: 1px solid;
+  box-shadow: 2px 2px 2px 2px grey;
+}
+
+.btn-primary{
+  border-radius:80px;
+  padding: 5px;
+  width: 15rem;
+  text-transform: uppercase;
+  /* margin-top: 10rem; */
+}
+
+.mobile_modal{
+  margin-top: -19rem;
+}
+
+
+/* ===================================
+  END OF MODAL STYLING
+=================================== */
 
 
 
