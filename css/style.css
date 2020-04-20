@@ -1486,11 +1486,15 @@ textarea,
 .developer_main{
   padding-left: 15rem;
 }
-.developer_main .card{
+.developer_main .content{
+  padding-top: 2rem;
+}
+.developer_main .developer_card{
   background: #fff;
   min-height: 8rem;
   min-width: 23rem;
   padding-right: 15rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .content h5{
   color: var(--primary_color);
