@@ -202,7 +202,6 @@ background-color: var(--white_bg);
   width: 400px; /* changes to still be made concering the mobile view background */
   overflow-y: auto;
   transition: 0.4s;
-  
 }
 
 #mobile-nav ul {
@@ -333,7 +332,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: none;
   background: transparent;
   position: absolute;
-  left: 300px;
+  left: 360px;
   z-index: 9;
   padding: 7px;
   height: 100%;
@@ -407,18 +406,16 @@ button span{
 =================================== */
 
 
+
+
 /* =================================
-  HERO section
+  LANDING PAGE"S HERO SECTION
 ================================= */
 #hero {
   background: var(--primary_color);
   margin-left: 1rem;
   margin-right: 1rem;
-
-  /* Set a specific height */
   height: 100vh;
-  
-  /* Position and center the image to scale nicely on all screens */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -489,7 +486,7 @@ button span{
   }
 
 /* ===================================
-          END OF HERO
+  END OF LANDING PAGE"S HERO SECTION
 =================================== */
 
 
@@ -511,11 +508,10 @@ button span{
     height: 3px;
     background: var(--primary_color);
     bottom: 0;
-    /* left: 5%; */
   }
 
   #why_choose{
-padding-top: 15rem;
+  padding-top: 15rem;
   }
 
   #why_choose img{
@@ -541,10 +537,7 @@ padding-top: 15rem;
     text-transform: uppercase;
   }
 
- 
-  
-
-  #why_choose h3, #faq h3{
+ #why_choose h3, #faq h3{
     color: var(--secondary_color);
     font-weight: bolder;
     font-size: 40px;
@@ -621,6 +614,7 @@ padding-top: 15rem;
     width: 328px;
     margin-left: 0rem;
   }
+
   .card-text p{
     color: var(--text_color);
     font-size: 14px;
@@ -630,6 +624,7 @@ padding-top: 15rem;
     padding-left: 1rem;
     font-family: var(--text_font);
   }
+
   .card-text2 p{
     color: var(--text_color);
     font-size: 14px;
@@ -639,6 +634,7 @@ padding-top: 15rem;
     padding-left: 1rem;
     font-family: var(--text_font);
   }
+
   .card-link{
     background: var(--primary_color);
     height: 3rem;
@@ -646,6 +642,7 @@ padding-top: 15rem;
     width: 328px;
     margin-left: 0rem;
   }
+
   .card-link2{
     background: var(--primary_color);
     height: 3rem;
@@ -653,12 +650,14 @@ padding-top: 15rem;
     width: 328px;
     margin-left: 0rem;
   }
+
   .card-link a{
     color: var(--text_color);
     font-size: 18px;
     text-align: center;
     font-family: var(--text_font);
   }
+
   .card-link2 a{
     color: var(--text_color);
     font-size: 18px;
@@ -687,25 +686,27 @@ padding-top: 15rem;
 
 #faq h3{
   font-size: 25px;
-
 }
+
 #faq .faq_main_card{
   padding-left:12rem;
 }
+
 #faq .faq_main{
   z-index: 99999;
   padding-top: 450px;
   text-align: center;
 }
+
 #faq .faq_card{
   height: 15rem;
   width: 18rem;
   background: white;
   border-top: 1px solid  #DFDFDF;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  /* box-shadow: 40px 0px 4px 1px #DFDFDF; */
   z-index: 9999;
 }
+
 #faq .faq_card p{
  margin-top: 2rem;
  padding-left: 1rem;
@@ -721,13 +722,6 @@ padding-top: 15rem;
   font-family: var(--text_font);
   font-weight: bold;
 }
-.fa-question-circle, .fa-comment-alt-edit{
-  color: var(--primary_color);
-  background-color: white;
-}
-.fa-question-circle::before{
-  background-color: white;
-}
 
 .faq-circle {
   height: 50px;
@@ -735,7 +729,6 @@ padding-top: 15rem;
   background-color: #EC7630;
   border-radius: 50%;
   margin-left: 3rem;
-  /* display: inline-block; */
 }
 .owl-nav{
   display: none;
@@ -752,14 +745,14 @@ padding-top: 15rem;
   border: 1px solid #fff;
   color: #fff;
   position: relative;
-  /* left: 3%; */
   z-index: 9999;
 }
+
 #faq .owl-dot.active {
   background-color: #fff;
 }
-.bg-no-overlay {
 
+.bg-no-overlay {
   background:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/images/img/home_img.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -768,12 +761,14 @@ padding-top: 15rem;
   height: 250px;
   margin-top: 150px;
 }
+
 .bg-no-overlay .row h1{
   text-align: center;
   font-size: 25px;
   padding-left: 13rem;
   padding-top: 7rem;
 }
+
 .faq_phone img{
   width: 90%;
 }
@@ -782,25 +777,22 @@ padding-top: 15rem;
   padding-top: 13rem;
   padding-left: 15rem;
 }
+
 .app_download img{
   width: 40%;
 }
+
 .app_download{
   padding-top: 23rem;
   margin-left: -11rem;
 }
+
 .app_download h5{
   color: var(--primary_color);
   font-weight: bold;
   font-family: var(--header_font);
 }
 
-/* .faq_bg{
-  background-image: url();
-  height: 30vh;
-  background-size: cover;
-    position: relative;;
-} */
 
 /* ===================================
       END OF FAQ
@@ -817,20 +809,20 @@ padding-top: 15rem;
   color: #eee;
   font-size: 14px;
 }
+
 #footer .footer_link_menu{
   padding-left: 4rem;
   margin-left: 4rem;
 }
+
 #footer .fa{
 color: var(--primary_color);
 }
+
 #footer .fa span{
 color: var(--text_color);
 }
-/* #footer .empty{
-  background-color: var(--secondary_color);
-  height: 10rem;
-} */
+
 #footer .footer-top {
   background: var(--secondary_color);
   padding: 60px 0 30px 0;
@@ -901,12 +893,6 @@ color: var(--text_color);
 
 }
 
-/* #footer .footer-top .footer-links ul i {
-  padding-right: 5px;
-  color: #ffc400;
-  font-size: 18px;
-} */
-
 #footer .footer-top .footer-links ul li {
   padding: 3px 0;
 }
@@ -930,29 +916,26 @@ color: var(--text_color);
 #footer .footer-top .footer-contact p {
   line-height: 26px;
 }
-/* Back to top button */
+
+
+/* Call center button  */
 .back-to-top {
   position: fixed;
   display: none;
   z-index: 9999;
   color: #fff;
-background-color: #fff;
-/* border-top: 1px solid  #DFDFDF; */
-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-line-height: 1;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  line-height: 1;
   display: inline-block;
   text-align: center;
   border-radius: 50%;
   width: 60px;
   height: 45px;
-
   right: 10px;
   bottom: 15px;
   transition: background 0.5s ease-in-out;
 }
-
-
 
 .back-to-top:focus {
   color: #fff;
@@ -963,6 +946,10 @@ line-height: 1;
   color: #fff;
 }
 
+/* ===================================
+    END OF LANDING PAGE STYLING
+=================================== */
+
 
 
 
@@ -971,15 +958,9 @@ line-height: 1;
     LOGIN AND SIGNUP PAGE STYLING
 =================================== */
 
-
 .login_bg{
-  /* Use "linear-gradient" to add a darken background */
   background-image: linear-gradient(rgba(211, 27, 35, 0.7), rgba(211, 27, 35, 0.7)), url("../assets/images/img/home_img.png");
-  
-  /* Set a specific height */
   height: 97vh;
-
-  /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1006,9 +987,11 @@ line-height: 1;
 .login_logo p, .signup_logo p{
   padding-left: 16%;
 }
+
 .password_request input{
   width:100px;
 }
+
 .login{
   padding-left: 12%;
 }
@@ -1033,6 +1016,7 @@ line-height: 1;
   border: none;
   border-bottom: 2px solid var(--text_color);
 }
+
 .forgot_password{
   padding-left: 6rem;
   color: var(--secondary_color);
@@ -1041,9 +1025,7 @@ line-height: 1;
 .forgot_password:hover{
   color: var(--secondary_color);
 }
-/* .login_links{
-  padding-right: 15rem;
-} */
+
 .login_links{
   margin-left:0.5rem
 }
@@ -1085,21 +1067,10 @@ END OF LOGIN AND SIGNUP PAGE STYLING
     DASHBOARD STYLING
 =================================== */
 
-/* .dashboard_logo{
-  background: #fff;
-  height: 4.9rem;
-}
-.dashboard_logo img{
-  width: 65%;
-  margin-top: 1.7rem;
-  margin-left: 2.5rem;
-} */
-
 aside {
     width: 300px;
     position: fixed;
     background: var(--secondary_color);
-    /* box-shadow: 5px 1px 13px 1px rgba(0, 0, 0, 0.2); */
     margin-top: 3rem;
     padding-top: 2rem;
 }
@@ -1125,18 +1096,14 @@ aside {
   margin-right: 1rem;
   margin-top: -0.5rem;
 }
-/* .side_nav_content ul li img  a{
-  margin-top: 15rem;
-  padding-top: 100rem;
-} */
 
 .side_nav_content ul li a {
     color: #fff;
     font-size: 16px;
     transition: all 0.3s ease-in;
     text-transform: uppercase;
-    /* padding-top: 15rem; */
 }
+
 /* .menu-active {
   border-bottom: 4px solid  #038BB4;
   background: var(--text_color);
@@ -1144,95 +1111,14 @@ aside {
 
 } */
 
-
-
-/* mobile reponsiveness */
-.mobile_card{
-  background: var(--secondary_color);
-  height: 5rem;
-  width: 10rem;
-  border-radius: 10px;
-  display: flex;
-  justify-items: center;
-  align-items: center;
-  align-content: center;
-}
-
-/********
- mobile dashboard navigation
- *****/
- .mobile_nav{
-   display: none;
- }
- .open_btn_alt {
-  margin-right: 10px;
-  margin-top: -32px;
-  color: orange;
-  float: right;
-  
-  display: none;
-}
-
-.alt_menu_icon {
-  font-size: 30px;
-  display: none;
-  cursor: pointer;
-  float: left;
-  color: orange;
-  margin-top: -16px;
-}
-
-
-/* .mobile_logo {
-  padding: 0;
-  margin: 0 auto;
-} */
-
-.Contact,
-.message,
-.withdraw_form_holder,
-.user_field {
-  background: var(--secondary_blue);
-  border-radius: 5px;
-}
-
-.contact_content,
-.withdraw_form_content,
-.message_content,
-.referral_content,
-.user_field_content {
-  color: #fff;
-  padding: 2em 3em;
-}
-
-.contact_form input,
-.contact_form select,
-textarea,
-.withdraw_form input,
-.withdraw_form select,
-.language select,
-.setting_item input,
-.account_fund select,
-.account_fund input {
-  background: var(--primary_blue);
-  padding: 0.3em 1em;
-  border: 2px solid var(--primary_blue);
-  outline: none;
-  border-radius: 5px;
-  color: #fff;
-}
-
 .side_nav_content_alt {
   color: #fff;
 }
 
-
-
-
-
 .side_nav_content ul li a:hover,
 .side_nav_content ul li a:focus {
-    color: orange;
+    color: red;
+    font-weight: bold;
 }
 
 .side_nav_content_alt {
@@ -1240,50 +1126,50 @@ textarea,
     padding: 1em;
 }
 
-
-
 .utility p{
   font-size: 13px;
   font-weight: bolder;
 }
 
-.airtime_btn{
+.airtime_btn,
+.electricity_btn,
+.cable_btn,
+.bills_btn {
   left: 25%;
   top: 20%;
   z-index: 9999;
   position: absolute;
 }
+
 .airtime_btn img{
   width: 40px;
 }
+
 .electricity_btn{
-  left: 25%;
   top: 38%;
-  z-index: 9999;
-  position: absolute;
 }
+
 .electricity_btn img{
   width: 60px;
 }
+
 .cable_btn{
-  left: 25%;
   top: 57%;
-  z-index: 9999;
-  position: absolute;
 }
+
 .cable_btn img{
  width: 60px;
  padding-bottom: 0.5rem;
 }
+
 .bills_btn{
-  left: 25%;
   top: 76%;
-  z-index: 9999;
-  position: absolute;
 }
+
 .bills_btn img{
   width: 80px;
 }
+
 .airtime{
   border-radius: 30px;
   background: #fff;
@@ -1291,8 +1177,6 @@ textarea,
   width: 7rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
-
 
 .utility_card{
   padding-left: 32%;
@@ -1305,6 +1189,7 @@ textarea,
  height: 6rem;
  width: 5.5rem;
 }
+
 .utility_card2{
   padding-left: 32%;
   padding-top: 3%;
@@ -1315,10 +1200,6 @@ textarea,
   height: 13rem;
 }
 
-/* #transaction_card img{
-  width:50%;
-} */
-
 #transaction_card p{
   color: #fff;
   font-size: 10px
@@ -1327,10 +1208,12 @@ textarea,
   background-color: var(--secondary_color);
   height: 13rem;
 }
+
 #recurrent_transaction_card2{
   background-color: var(--secondary_color);
   height: 11rem;;
 }
+
 .card-heading{
   background: var(--primary_color);
   color: var(--text_color);
@@ -1341,6 +1224,7 @@ textarea,
   font-weight: bolder;
   font-family: var(--text_font);
 }
+
 .inner_card {
   border: 1px solid var(--primary_color);
   background:transparent;
@@ -1349,6 +1233,7 @@ textarea,
   width: 13.6rem;
   color: #fff;  
 }
+
 .inner_card2 {
   border: 1px solid var(--primary_color);
   background:transparent;
@@ -1357,6 +1242,7 @@ textarea,
   width: 13.6rem;
   color: #fff;  
 }
+
 .inner_card p, .inner_card2 p{
   text-align: center;
 }
@@ -1398,6 +1284,7 @@ textarea,
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
+
 .modal-content option::before{
   border-radius:80px;
   padding: 25px;
@@ -1412,7 +1299,6 @@ textarea,
   text-transform: uppercase;
 }
 
-
 /* ===================================
   END OF MODAL STYLING
 =================================== */
@@ -1426,10 +1312,12 @@ textarea,
 /* ===================================
    SUPPORT PAGE STYLING
 =================================== */
+
 .support_card{
   padding-left: 23%;
   padding-top: 8%;
 }
+
 .support_card h5{
   text-align: center;
   color: var(--primary_color);
@@ -1441,6 +1329,7 @@ textarea,
   height: 3rem;
   box-shadow: 1px 1px 1px 1px gray;
 }
+
 #support_card_inner span{
   color: var(--primary_color);
   font-size: 28px;
@@ -1448,6 +1337,7 @@ textarea,
   font-family: var(--text_font);
   padding-top: -13rem;
 }
+
 #support_card_inner p{
   color: var(--secondary_color);
   font-size:16px;
@@ -1466,18 +1356,17 @@ textarea,
 }
 
 .support-heading p{
- 
-  margin-left: 3rem;
+ margin-left: 3rem;
 }
+
 .support-heading .tracking_text{
- 
-  margin-right: 3rem;
+margin-right: 3rem;
 }
 
 .support-heading .subject_text{
- 
-  margin-right: 24.5rem;
+ margin-right: 24.5rem;
 }
+
 .support_tracking{
   background: transparent;
   border: 1px solid;
@@ -1502,15 +1391,19 @@ textarea,
 /* ===================================
    DEVELOPER PAGE STYLING
 =================================== */
+
 .developer_main{
-  padding-left: 18rem;
+padding-left: 18rem;
 }
+
 .developer_main .content{
   padding-top: 2rem;
 }
+
 .developer_main .content2{
   padding-top: 4rem;
 }
+
 .developer_main .developer_card{
   background: #fff;
   min-height: 8rem;
@@ -1518,6 +1411,7 @@ textarea,
   padding-right: 15rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .content h5{
   color: var(--primary_color);
   text-transform: uppercase;
@@ -1525,12 +1419,11 @@ textarea,
   font-weight: bolder;
   line-height: 0.5;
 }
-/* .content{
-  margin-right: 1rem;
-} */
+
 .content2{
   padding-left: 15.3rem;
 }
+
 .developer_tool{
   background: var(--secondary_color);
   min-height: 30rem;
@@ -1540,6 +1433,7 @@ textarea,
   padding-right: 0;
   padding-left: 2rem;
 }
+
 .developer_tool h5{
   background: var(--primary_color);
   color: var(--text_color);
@@ -1547,6 +1441,7 @@ textarea,
   width: 8rem;
   font-family: var(--header_font);
 }
+
 .developer_tool p{
   color: var(--text_color);
   line-height: 0;
@@ -1554,23 +1449,22 @@ textarea,
   font-family: var(--text_font);
 }
 
-
 /* ===================================
   INVITES PAGE STYLING
 =================================== */
 
 .invites{
 padding-left:13rem;
-/* margin-top: 2rem; */
 }
+
 .invites h5{
   font-size: 25px;
   color: var(--secondary_color);
-  /* padding-left: 3rem; */
   padding-top: 5rem;
   font-weight: bolder;
   font-family: var(--header_font);
 }
+
 .invites_content{
   background: var(--secondary_color);
   min-height: 3rem;
@@ -1581,29 +1475,71 @@ padding-left:13rem;
   font-family: var(--text_font);
   color: var(--primary_color);
 }
+
 .invites_input input[type=text]{
   margin-left: -1.5rem;
   width: 350px;
   margin-right: 23rem;
 }
+
 .btn_invites{
   background:#2F95FB;
   border-radius: 20px;
   font-family: var(--text_font);
   color: var(--text_color);
 }
+
 .btn_import_contact{
   background:#2F95FB;
   font-family: var(--text_font);
   color: var(--text_color);
 }
+
 .table th{
   background: var(--secondary_color);
   color: var(--text_color);
 }
+
 td{
   color: var(--secondary_color);
 }
+
+/* ===================================
+  ACCOUNT AUTHORIZATION PAGE STYLING
+=================================== */
+
+.authorization_4{
+  padding-top: 5rem;
+  padding-left: 12rem;
+}
+
+.authorization_card{
+  background-color: #fff;
+  border-bottom: 3px solid #F3F2F2;
+  border-top: 3px solid #F3F2F2;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  min-width: 30rem;
+  min-height: 4rem;
+  text-align: center;
+  font-weight: bold;
+  font-family: var(--text_font);
+}
+
+.authorization_card2{
+  background: var(--secondary_color);
+  cursor: pointer;
+  min-width: 35rem;
+  min-height: 4rem;
+  text-align: center;
+  font-family: var(--text_font);
+  color: var(--text_color);
+}
+.authorization_table{
+  padding-left: 15rem;
+}
+
 
 /* ===================================
    MEDIA QUERY
@@ -1614,11 +1550,10 @@ td{
     width: 90px;
   }
 }
+
 @media (max-width: 768px){
 
- 
   .dashboard_header .dropdown-menu.form-wrapper {
-    /* width: 100%; */
     padding: 10px 15px;
     background: transparent;
     border: none;
@@ -1631,11 +1566,436 @@ td{
   }
 }
 
-/* Home screen */
-
 @media (min-width: 300px) and (max-width: 767.98px){
- 
 
+/* ===================================
+  LANDING PAGE MEDIA QUERY
+=================================== */
+
+#header {
+  background: transparent;
+}
+  
+#nav-menu-container {
+  display: none;
+}
+
+#logo img{
+  width: 80%;
+  margin-left: 4rem;
+  margin-top: 0.5rem;
+}
+  
+#mobile-nav-toggle {
+  display: inline;
+}
+
+.fa.fa-bars::before{
+    border-radius: 25%; 
+    border: 2px solid var(--secondary_color);
+    padding: 10px;
+    margin-right: 1rem;
+} 
+
+  .search-box input {
+    border-color: none;
+    border-radius: 20px !important;
+    box-shadow: none;
+    background:transparent;
+    min-width: 110px;
+    border: none;
+    margin-left: 0;
+    }
+
+    .search-box input:focus{
+      background: transparent;
+      outline: transparent;
+      border: none;
+    }
+
+    .search-box .input-group-addon {
+      min-width: 50px;
+      border: none;
+      background: transparent;
+      position: absolute;
+      left: 285px;
+      z-index: 9;
+      padding: 7px;
+      height: 100%;
+    }
+
+    .balance{
+      background: var(--primary_color);
+      border: none;
+      font-family: var(--text_font);
+      color: var(--text_font);
+      font-style: 8px;
+    }
+    
+    .details_btn .balance_sm{
+      margin-right: 0;
+    }
+    .balance_1{
+      width:45px;
+      border-radius: 100px;
+      padding: 0px 5px 0px;
+      border: none;
+    }
+    .balance_1::placeholder {
+      color:var(--secondary_color);
+      font-weight: bolder;
+      padding-left:8px;
+      font-size: 12px;
+    }
+    .details_btn{
+        margin-left: 2rem;
+        margin-top: 1rem;
+      }
+      #hero{
+        height: 100vh;
+        background-size: cover;
+        position: relative;
+        margin-top: 20% !important;
+        margin-right: 0.5rem;
+      }
+     
+       #hero p{
+        color: #fff;
+        font-family:var(--text_font);
+        font-size: 14px;
+        font-style: italic;
+        padding-right: 0;
+      }
+      .home_inner_card{
+        margin-top: -20rem;
+        margin-left: 6%;
+       margin-bottom: 2rem;
+       
+      }
+      .home_card{
+        /* z-index: 9999; */
+        cursor: pointer;
+    
+      }
+    
+      .home_inner_card .card{
+        /* z-index: 9999; */
+        height: 20vh;
+        width: 20vh;
+        border-radius: 10px;  
+        background: var(--secondary_color);
+        }
+    
+        .home_mobile {
+          margin-top: 2rem;
+        }
+    
+    
+       .section_header_why {
+        /* margin-bottom: 60px; */
+        position: relative;
+        padding-bottom: 3px;
+      }
+      
+      .section_header_why::before {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 150px;
+        height: 3px;
+        background: var(--primary_color);
+        bottom: 0;
+        left: 3%;
+      }
+    
+      #why_choose h3, #faq h3{
+        color: var(--secondary_color);
+        font-weight: bolder;
+        font-size: 25px;
+        text-align: center;
+      }
+    
+      .why_choose_icon{
+        padding-left: 0;
+        text-align: center;
+      }
+     
+      #faq .faq_main_card{
+        padding-left:1rem;
+      }
+      .bg-no-overlay .row h1{
+      
+        font-size: 28px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 5rem;
+      }
+    
+      #faq{
+     
+        background-image:url("../assets/images/img/Union\ 1.png"); 
+        height: 240vh;
+        position: flex;
+        margin-top: -30rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 20rem;
+      }
+      .app_download h5{
+        color: var(--primary_color);
+        font-weight: bold;
+        font-family: var(--header_font);
+        font-size: 14px;
+      }
+      #faq .owl-dot {
+        top: 2rem;
+        display: inline-block;
+        margin: 0 5px;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background-color:transparent;
+        border: 1px solid #fff;
+        color: var(--primary_color);
+        position: relative;
+        /* left: 3%; */
+        z-index: 9999;
+      }
+      #faq .owl-dot.active {
+        background-color:var(--secondary_color);
+      }
+    
+      .faq_phone img{
+        width: 60%;
+        margin-right: 8rem;
+      }
+      
+      .faq_play_store{
+        padding-top: 5rem;
+        padding-left: 0rem;
+      }
+      .app_download img{
+        width: 70%;
+      }
+      .app_download{
+        padding-top: 0;
+        margin-top: -6rem;
+        margin-left: 10rem;
+      }
+      .login_bg{
+      height: 50vh;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      overflow: hidden;
+      position: relative;
+      }
+      .login_btn{
+        background: var(--primary_color);
+        border: none;
+        padding: 5px 40px 10px;
+        color: var(--text_color);
+        font-family: var(--text_font);
+        margin-right: 1.5rem;
+      }
+    
+      .forgot_password{
+        padding-left: 2rem;
+      }
+    
+      .login_logo p{
+        padding-left: 2rem;
+        font-size: 12px;
+      }
+    
+      #why_choose{
+        padding-top: 10rem;
+        padding-bottom: 5rem;
+          }
+    
+      .why_choose_img{
+        padding-left: 10px; 
+      }
+      .mobile_why{
+        padding-left: 3rem;
+      }
+      .section_header_why::before {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 150px;
+        height: 3px;
+        background: var(--primary_color);
+        bottom: 0;
+        left: 15%;
+      }
+    
+      .section_header_why h3{
+        padding-top: 2rem;
+      }
+    
+      
+      .card-title{
+        background: var(--secondary_color);
+        height: 3rem;
+        margin-top: -155px;
+        width: 335px;
+        margin-left: 0rem;
+      }
+    
+      .card-title2{
+        background: var(--secondary_color);
+        height: 3rem;
+        margin-top: -77px;
+        width: 332px;
+        margin-left: 0rem;
+      }
+    
+      .card-title h5{
+        color: var(--text_color);
+        font-size: 16px;
+        margin-top: 15px;
+        text-align: center;
+        font-weight: bold;
+        font-family: var(--text_font);
+      }
+    
+      .card-title2 h5{
+        color: var(--text_color);
+        font-size: 16px;
+        margin-top: 15px;
+        text-align: center;
+        font-weight: bold;
+        font-family: var(--text_font);
+      }
+    
+      .card-text{
+        background: var(--secondary_color);
+        height: 7rem;
+        margin-top: -12px;
+        width: 335px;
+        margin-left: 0rem;
+      }
+    
+      .card-text2{
+        background: var(--secondary_color);
+        height: 7.5rem;
+        width: 335px;
+        margin-left: 0rem;
+      }
+      .card-text p{
+        color: var(--text_color);
+        font-size: 14px;
+        margin-top: 20px;
+        text-align: center;
+        padding-right: 1.5rem;
+        padding-left: 1rem;
+        font-family: var(--text_font);
+      }
+      .card-text2 p{
+        color: var(--text_color);
+        font-size: 14px;
+        margin-top: 20px;
+        text-align: center;
+        padding-right: 1.5rem;
+        padding-left: 1rem;
+        font-family: var(--text_font);
+      }
+      .card-link{
+        background: var(--primary_color);
+        height: 3rem;
+        margin-top: -12px;
+        width: 335.5px;
+        margin-left: 0rem;
+      }
+      .card-link2{
+        background: var(--primary_color);
+        height: 3rem;
+        margin-top: -12px;
+        width: 335px;
+        margin-left: 0rem;
+      }
+      .card-link a{
+        color: var(--text_color);
+        font-size: 18px;
+        text-align: center;
+        font-family: var(--text_font);
+      }
+      .card-link2 a{
+        color: var(--text_color);
+        font-size: 18px;
+        text-align: center;
+        font-family: var(--text_font);
+      }
+    
+      .login_links{
+        padding-right: 1rem;
+        margin-bottom: 2rem;
+      }
+      
+    .signup_links{
+      padding-left: 4rem;
+    }
+    .signup_question {
+      margin-bottom: 2rem;
+    }
+    
+    .signup_question a{
+      padding-left: 2rem;
+    }
+    
+    #footer .footer-info, #footer .footer-contact{
+      padding-left: 2rem;
+      margin-left: 2rem;
+    }
+    
+    #footer .footer_link_menu{
+      padding-left: 1.4rem;
+      margin-left: 1.4rem;
+    }
+    
+    #footer{
+      margin-bottom: 3rem;
+    }
+    #footer .footer-top .social-links a {
+      font-size: 18px;
+      display: inline-block;
+      color: var(--primary_color);
+      line-height: 1;
+      padding: 8px 0;
+      margin-right: 4px;
+      border-radius: 50%;
+      text-align: center;
+      width: 36px;
+      height: 36px;
+      transition: 0.3s;
+    }
+    
+    #footer .copyright{
+     padding-left: 3rem;
+     margin-top: 1rem;
+    }
+/* ===================================
+  END OF LANDING PAGE MEDIA QUERY
+=================================== */
+ 
+/* ===================================
+  DASHBOARD PAGE
+=================================== */
+
+#dashboard_logo img{
+  width: 60%;
+  margin-left: 4rem;
+  margin-top: 0.5rem 
+}
+
+.dashboard-form-inline .input-group {
+  width: 150px;
+  margin-top: 15px;
+  padding-left: 210px;
+  margin-left: 0;
+
+}
   .mobile_card{
     margin-left: 2rem;
     margin-top: 1rem;
@@ -1644,7 +2004,6 @@ td{
     width: 18rem;
     border-radius: 15px;
     display: flex;
-    
     align-content: center;
   }
 
@@ -1664,6 +2023,7 @@ td{
     margin-right: 1rem;
     cursor: pointer;
   }
+
   .mobile_social-links span{
     font-size: 10px;
     font-weight: bold;
@@ -1681,7 +2041,7 @@ td{
     width: 7.5rem;
     height: 7rem;
    border-top: 1px solid  #DFDFDF;
-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 10px;
     margin-left: 3rem;
     margin-bottom: 0.5rem;
@@ -1713,425 +2073,12 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     bottom: 15px;
   }
   
-  #header {
-    background: transparent;
-  }
-  
-  #nav-menu-container {
-    display: none;
-  }
-  
-  #mobile-nav-toggle {
-    display: inline;
-  }
-  .fa.fa-bars::before{
-    border-radius: 25%; 
-    border: 2px solid var(--secondary_color);
-    padding: 10px;
-    margin-right: 1rem;
-  }
-  #logo img{
-    width: 80%;
-    margin-left: 4rem;
-    margin-top: 0.5rem;
-  } 
-  #dashboard_logo img{
-    width: 60%;
-    margin-left: 4rem;
-    margin-top: 0.5rem 
-  } 
-
-  /* .fa-times{
-    padding-left: 90rem;
-  } */
- 
-   .home_login{
+  .home_login{
     margin-left: 150px;
     margin-top: -10px;
   }
 
-  .dashboard-form-inline .input-group {
-    width: 150px;
-    margin-top: 15px;
-    padding-left: 210px;
-    margin-left: 0;
 
-  }
-  .search-box input {
-border-color: none;
-    border-radius: 20px !important;
-box-shadow: none;
-background:transparent;
-min-width: 110px;
-border: none;
-margin-left: 0;
-
-}
-.search-box input:focus{
-  background: transparent;
-  outline: transparent;
-  border: none;
-}
-.search-box .input-group-addon {
-  min-width: 50px;
-  border: none;
-  background: transparent;
-  position: absolute;
-  left: 285px;
-  z-index: 9;
-  padding: 7px;
-  height: 100%;
-}
-.balance{
-  background: var(--primary_color);
-  border: none;
-  font-family: var(--text_font);
-  color: var(--text_font);
-  font-style: 8px;
-}
-.details_btn .balance_sm{
-  margin-right: 0;
-}
-.balance_1{
-  width:45px;
-  border-radius: 100px;
-  padding: 0px 5px 0px;
-  border: none;
-}
-.balance_1::placeholder {
-  color:var(--secondary_color);
-  font-weight: bolder;
-  padding-left:8px;
-  font-size: 12px;
-}
-.details_btn{
-    margin-left: 2rem;
-    margin-top: 1rem;
-  }
-  #hero{
-    height: 100vh;
-    background-size: cover;
-    position: relative;
-    margin-top: 20% !important;
-    margin-right: 0.5rem;
-  }
- 
-   #hero p{
-    color: #fff;
-    font-family:var(--text_font);
-    font-size: 14px;
-    font-style: italic;
-    padding-right: 0;
-  }
-  .home_inner_card{
-    margin-top: -20rem;
-    margin-left: 6%;
-   margin-bottom: 2rem;
-   
-  }
-  .home_card{
-    /* z-index: 9999; */
-    cursor: pointer;
-
-  }
-
-  .home_inner_card .card{
-    /* z-index: 9999; */
-    height: 20vh;
-    width: 20vh;
-    border-radius: 10px;  
-    background: var(--secondary_color);
-    }
-
-    .home_mobile {
-      margin-top: 2rem;
-    }
-
-
-   .section_header_why {
-    /* margin-bottom: 60px; */
-    position: relative;
-    padding-bottom: 3px;
-  }
-  
-  .section_header_why::before {
-    content: '';
-    position: absolute;
-    display: block;
-    width: 150px;
-    height: 3px;
-    background: var(--primary_color);
-    bottom: 0;
-    left: 3%;
-  }
-
-  #why_choose h3, #faq h3{
-    color: var(--secondary_color);
-    font-weight: bolder;
-    font-size: 25px;
-    text-align: center;
-  }
-
-  .why_choose_icon{
-    padding-left: 0;
-    text-align: center;
-  }
- 
-  #faq .faq_main_card{
-    padding-left:1rem;
-  }
-  .bg-no-overlay .row h1{
-  
-    font-size: 28px;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 5rem;
-  }
-
-  #faq{
- 
-    background-image:url("../assets/images/img/Union\ 1.png"); 
-    height: 240vh;
-    position: flex;
-    margin-top: -30rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 20rem;
-  }
-  .app_download h5{
-    color: var(--primary_color);
-    font-weight: bold;
-    font-family: var(--header_font);
-    font-size: 14px;
-  }
-  #faq .owl-dot {
-    top: 2rem;
-    display: inline-block;
-    margin: 0 5px;
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background-color:transparent;
-    border: 1px solid #fff;
-    color: var(--primary_color);
-    position: relative;
-    /* left: 3%; */
-    z-index: 9999;
-  }
-  #faq .owl-dot.active {
-    background-color:var(--secondary_color);
-  }
-
-  .faq_phone img{
-    width: 60%;
-    margin-right: 8rem;
-  }
-  
-  .faq_play_store{
-    padding-top: 5rem;
-    padding-left: 0rem;
-  }
-  .app_download img{
-    width: 70%;
-  }
-  .app_download{
-    padding-top: 0;
-    margin-top: -6rem;
-    margin-left: 10rem;
-  }
-  .login_bg{
-  height: 50vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  overflow: hidden;
-  position: relative;
-  }
-  .login_btn{
-    background: var(--primary_color);
-    border: none;
-    padding: 5px 40px 10px;
-    color: var(--text_color);
-    font-family: var(--text_font);
-    margin-right: 1.5rem;
-  }
-
-  .forgot_password{
-    padding-left: 2rem;
-  }
-
-  .login_logo p{
-    padding-left: 2rem;
-    font-size: 12px;
-  }
-
-  #why_choose{
-    padding-top: 10rem;
-    padding-bottom: 5rem;
-      }
-
-  .why_choose_img{
-    padding-left: 10px; 
-  }
-  .mobile_why{
-    padding-left: 3rem;
-  }
-  .section_header_why::before {
-    content: '';
-    position: absolute;
-    display: block;
-    width: 150px;
-    height: 3px;
-    background: var(--primary_color);
-    bottom: 0;
-    left: 15%;
-  }
-
-  .section_header_why h3{
-    padding-top: 2rem;
-  }
-
-  
-  .card-title{
-    background: var(--secondary_color);
-    height: 3rem;
-    margin-top: -155px;
-    width: 335px;
-    margin-left: 0rem;
-  }
-
-  .card-title2{
-    background: var(--secondary_color);
-    height: 3rem;
-    margin-top: -77px;
-    width: 332px;
-    margin-left: 0rem;
-  }
-
-  .card-title h5{
-    color: var(--text_color);
-    font-size: 16px;
-    margin-top: 15px;
-    text-align: center;
-    font-weight: bold;
-    font-family: var(--text_font);
-  }
-
-  .card-title2 h5{
-    color: var(--text_color);
-    font-size: 16px;
-    margin-top: 15px;
-    text-align: center;
-    font-weight: bold;
-    font-family: var(--text_font);
-  }
-
-  .card-text{
-    background: var(--secondary_color);
-    height: 7rem;
-    margin-top: -12px;
-    width: 335px;
-    margin-left: 0rem;
-  }
-
-  .card-text2{
-    background: var(--secondary_color);
-    height: 7.5rem;
-    width: 335px;
-    margin-left: 0rem;
-  }
-  .card-text p{
-    color: var(--text_color);
-    font-size: 14px;
-    margin-top: 20px;
-    text-align: center;
-    padding-right: 1.5rem;
-    padding-left: 1rem;
-    font-family: var(--text_font);
-  }
-  .card-text2 p{
-    color: var(--text_color);
-    font-size: 14px;
-    margin-top: 20px;
-    text-align: center;
-    padding-right: 1.5rem;
-    padding-left: 1rem;
-    font-family: var(--text_font);
-  }
-  .card-link{
-    background: var(--primary_color);
-    height: 3rem;
-    margin-top: -12px;
-    width: 335.5px;
-    margin-left: 0rem;
-  }
-  .card-link2{
-    background: var(--primary_color);
-    height: 3rem;
-    margin-top: -12px;
-    width: 335px;
-    margin-left: 0rem;
-  }
-  .card-link a{
-    color: var(--text_color);
-    font-size: 18px;
-    text-align: center;
-    font-family: var(--text_font);
-  }
-  .card-link2 a{
-    color: var(--text_color);
-    font-size: 18px;
-    text-align: center;
-    font-family: var(--text_font);
-  }
-
-  .login_links{
-    padding-right: 1rem;
-    margin-bottom: 2rem;
-  }
-  
-.signup_links{
-  padding-left: 4rem;
-}
-.signup_question {
-  margin-bottom: 2rem;
-}
-
-.signup_question a{
-  padding-left: 2rem;
-}
-
-#footer .footer-info, #footer .footer-contact{
-  padding-left: 2rem;
-  margin-left: 2rem;
-}
-
-#footer .footer_link_menu{
-  padding-left: 1.4rem;
-  margin-left: 1.4rem;
-}
-
-#footer{
-  margin-bottom: 3rem;
-}
-#footer .footer-top .social-links a {
-  font-size: 18px;
-  display: inline-block;
-  color: var(--primary_color);
-  line-height: 1;
-  padding: 8px 0;
-  margin-right: 4px;
-  border-radius: 50%;
-  text-align: center;
-  width: 36px;
-  height: 36px;
-  transition: 0.3s;
-}
-
-#footer .copyright{
- padding-left: 3rem;
- margin-top: 1rem;
-}
 
 /* ===================================
    SUPPORT PAGE STYLING
@@ -2313,6 +2260,42 @@ margin-left: 0;
   td{
     color: var(--secondary_color);
   }
+
+  /* ===================================
+  ACCOUNT AUTHORIZATION PAGE STYLING
+=================================== */
+
+.authorization_4{
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+
+.authorization_card{
+  background-color: #fff;
+  border-bottom: 3px solid #F3F2F2;
+  border-top: 3px solid #F3F2F2;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  min-width: 20rem;
+  min-height: 4rem;
+  text-align: center;
+  font-weight: bold;
+  font-family: var(--text_font);
+}
+
+.authorization_card2{
+  background: var(--secondary_color);
+  cursor: pointer;
+  min-width: 20rem;
+  min-height: 4rem;
+  text-align: center;
+  font-family: var(--text_font);
+  color: var(--text_color);
+}
+.authorization_table{
+  padding-left: 1rem;
+}
 }
 
 /*media query for dashboard pages*/
