@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invites - Rechargepro</title>
+
+
+    <!-- Libraries -->
+    <link rel="stylesheet" href="assets/lib/bootstrap/css/bootstrap.min.css">
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="assets/lib/font-awesome/css/font-awesome.min.css">
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Monoton|Nunito|Roboto+Mono&display=swap" rel="stylesheet">
+
+    <!-- main stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+    
+    
+    <!-- ===================================
+                  NAVBAR
+    =================================== -->
+    <header id="header" class="dashboard_header"> 
+        <div class="container-fluid ml-4 ">
+            <div id="dashboard_logo" class="pull-left">
+                <a href="index.html" class="scrollto"><img src="assets/images/img/logo.png"></a>
+            </div>
+    
+            <nav id="nav-menu-container" class="mr-5">
+                <form class="navbar-form form-inline mr-5 d-none d-sm-block">
+                    <div class="input-group search-box">								
+                        <input type="text" id="search" class="form-control">
+                        <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                    </div>
+                </form>
+                <div class="large_screen_button mr-5 d-none d-sm-block">
+                    <button class="btn balance balance_sm"><span class="mr-3"> Balance</span><input class="balance_1" placeholder="5000" disabled></button>
+                    <button class="btn balance"> <span class="mr-3">Profit</span><input class="balance_1" placeholder="2000" disabled></button>
+                </div>
+                
+                <ul class="nav-menu dashboard_nav_menu">
+                    <div class="side_nav_content d-lg-none">
+                        <ul>
+                            <li class="menu-active">
+                                <img src="assets/images/icons/Icon Home.png" alt=""><a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <img src="assets/images/icons/icon_dashboard.png" alt=""><a href="dashboard.html">dashboard</a>
+                            </li>
+                            <li>
+                                <img src="assets/images/icons/icon_Authorisation.png" alt=""><a href="withdraw.html">Authorisation</a>
+                            </li>
+                            <li>
+                                <img src="assets/images/icons/icon_support.png" alt=""><a href="support.html">Support</a>
+                            </li>
+                            <li>
+                                <img src="assets/images/icons/icon_developer.png" alt=""><a href="developer.html">Developer</a>
+                            </li>
+                            <li>
+                                <img src="assets/images/icons/icon_developer.png" alt=""><a href="user.html">Logout</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <li class="ml-5 pl-5 dash_auth d-none d-sm-block">
+                        <a href="#"><img src="assets/images/icons/icon_Authorisation.png"></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- ===================================
+                 END OF NAVBAR
+    =================================== -->
+
+    
+    <!-- ===================================
+            SIDE NAVIGATON
+    =================================== -->
+    <aside>
+
+        <div class="side_nav">
+            
+            <div class="side_nav_content">
+                <ul>
+                    <li class="menu-active">
+                        <img src="assets/images/icons/Icon Home.png" alt=""><a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <img src="assets/images/icons/icon_dashboard.png" alt=""><a href="dashboard.html">dashboard</a>
+                    </li>
+                    <li>
+                        <img src="assets/images/icons/icon_Authorisation.png" alt=""><a href="#">Authorisation</a>
+                    </li>
+                    <li>
+                        <img src="assets/images/icons/icon_support.png" alt=""><a href="support.html">Support</a>
+                    </li>
+                    <li>
+                        <img src="assets/images/icons/icon_developer.png" alt=""><a href="developer.html">Developer</a>
+                    </li>
+                    <li>
+                        <img src="assets/images/icons/icon_developer.png" alt=""><a href="#">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </aside>
+
+
+    <!-- ===================================
+            SIDE NAVIGATON
+    =================================== -->
+
+
+    <!-- ===================================
+                 END OF  NAVBAR
+    =================================== -->
+
+    <div class="developer_screen_btn mr-5 ml-5 d-lg-none">
+        <button class="btn balance balance_sm"><span class="mr-3"> Balance</span><input class="balance_1" placeholder="5000" disabled></button>
+        <button class="btn balance"> <span class="mr-3">Profit</span><input class="balance_1" placeholder="2000" disabled></button>
+    </div>
+
+
+    <div class="container invites">
+        <h5>My Invites</h5>
+        <div class="invites_content">
+            <div class="invites_input pt-2">
+                <input type="text"  placeholder="name">
+                <button class="btn btn_invites">Invites Friends</button>
+            </div>
+            
+        </div>
+        <p class="mt-3">Invite your friends and earn commision on every transaction performed</p>
+
+        <button class="btn btn_import_contact">Import Contacts</button>
+        <div class="table-responsive">
+        <table class="table table-bordered table-fixed mt-3">
+            <thead>
+              <tr>
+                
+                <th scope="col">First</th>
+                <th scope="col">Email</th>
+                <th scope="col">Phone Number</th>
+              </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Daniel Preye Johnson</td>
+                <td>danieljohnson619@gmail.com</td>
+                <td>(+234) 8012345678</td>
+            </tr>
+            
+            </tbody>
+          </table>
+        </div>
+          
+    </div>
+
+
+
+
+
+
+      <!-- Javascript Libraries -->
+      <script src="assets/lib/jquery/jquery.min.js"></script>
+      <script src="assets/lib/bootstrap/js/bootstrap.min.js"></script>
+  
+    
+      <!-- main js -->
+      <script src="js/main.js"></script>
+  
+  
+  </body>
+  </html>
