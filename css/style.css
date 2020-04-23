@@ -1002,8 +1002,29 @@ color: var(--text_color);
 
 .signup_form_item input {
   border: none;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid gray;
   width: 65%;
+  padding: 3px;
+  transition: all 0.6s ease-in-out;
+  background: transparent;
+  font-size: 17px;
+  outline: none;
+}
+.signup_form_item3 input {
+  border: none;
+  border-bottom: 1px solid gray;
+  width: 80%;
+  padding: 3px;
+  transition: all 0.6s ease-in-out;
+  background: transparent;
+  font-size: 17px;
+  outline: none;
+}
+
+.signup_form_item2 input {
+  border: none;
+  border-bottom: 1px solid gray;
+  width: 85%;
   padding: 3px;
   transition: all 0.6s ease-in-out;
   background: transparent;
@@ -1040,11 +1061,11 @@ color: var(--text_color);
 }
 
 .signup_btn{
-  background: #fff;
+  background:var(--white_bg);
   border: none;
   padding: 5px 40px 10px;
   color: var(--primary_color);
-  box-shadow: 1px 1px 1px 1px grey;
+  /* box-shadow: 1px 1px 1px 1px grey; */
   font-family: var(--text_font);
   font-size: 16px;
 }
