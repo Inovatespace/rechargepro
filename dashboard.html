@@ -43,6 +43,7 @@
                     <button class="btn balance balance_sm"><span class="mr-3"> Balance</span><input class="balance_1" placeholder="5000" disabled></button>
                     <button class="btn balance"> <span class="mr-3">Profit</span><input class="balance_1" placeholder="2000" disabled></button>
                 </div>
+              
                 
                 <ul class="nav-menu dashboard_nav_menu">
                     <div class="side_nav_content d-lg-none">
@@ -67,11 +68,20 @@
                             </li>
                         </ul>
                     </div>
-                    <li class="ml-5 pl-5 dash_auth d-none d-sm-block">
-                        <a href="#"><img src="assets/images/icons/icon_Authorisation.png"></a>
+
+                    <li class="dropdown">
+                        <img src="assets/images/icons/icon_Authorisation.png">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="username">Maduke James Paul</span> <span class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">MY Profile</a></li>
+                            <li><a href="#">Logout</a></li>
+                        </ul>
                     </li>
+                   
                 </ul>
             </nav>
+        </div>
+        
         </div>
     </header>
 
@@ -171,7 +181,7 @@
                     <div class="card-heading">
                     <p>Transaction History</p> 
                     </div>
-                    <div class="mt-4 ml-3">
+                    <div class="mt-4 ml-3 transaction_card_btn">
                             <button class="mr-3">
                                 <img class="mt-4 pb-2" src="assets/images/icons/Group 72.png" alt="" width="50%">
                                 <div>
@@ -192,7 +202,7 @@
                     <div class="card-heading">
                     <p>Authorisation</p> 
                     </div>
-                    <div class="mt-4 ml-3">
+                    <div class="mt-4 ml-3 transaction_card_btn">
                         <button class="mr-3">
                             <img class="mt-4 pb-2" src="assets/images/icons/Group 71.png" alt="" width="40%">
                             <div>
@@ -213,7 +223,7 @@
                     <div class="card-heading">
                     <p>Referral</p> 
                     </div>
-                    <div class="mt-4 ml-3">
+                    <div class="mt-4 ml-3 transaction_card_btn">
                         <button class="mr-3">
                             <img class="mt-4 pb-2" src="assets/images/icons/Group 74.png" alt="" width="50%">
                             <div>
@@ -235,7 +245,7 @@
                 <div class="card mt-3" id="recurrent_transaction_card2">
                    <div class="inner_card mt-2 ml-2">
                         <p>Recents Transaction</p>
-                        <div class="ml-5 pl-3 mt-4">
+                        <div class="mt-4">
                             <img src="assets/images/icons/Group 78.png" alt="" width="90px">
                         </div>
                     </div>
@@ -246,7 +256,7 @@
                 <div class="card" id="transaction_card2">
                     <div class="inner_card2 mt-2 ml-2">
                         <p class="mt-2">Sales Agent</p>
-                        <div class="ml-5 pl-3 mt-4">
+                        <div class="mt-4">
                             <img src="assets/images/icons/Group 80.png" alt="" width="90px">
                         </div>
                     </div>
@@ -257,9 +267,9 @@
                 <div class="card" id="transaction_card2">
                     <div class="inner_card2 mt-2 ml-2">
                         <p class="mt-2">Fund</p>
-                        <div class="ml-3 pl-3 mt-4">
-                            <img src="assets/images/icons/Group 77.png" alt="" width="70px">
-                            <img src="assets/images/icons/Group 79.png" alt="" width="70px">
+                        <div class="mt-4">
+                            <img src="assets/images/icons/Group 77.png" alt="" width="70px" class="fund mb-2">
+                            <img src="assets/images/icons/Group 79.png" alt="" width="70px" class="fund">
                         </div>
                     </div>
                     
@@ -278,25 +288,25 @@
     MOBILE VIEW REPONSIVENESS LAYOUT
     ========================================== -->
 
-    <form class="navbar-form dashboard-form-inline mr-5 d-lg-none">
+    <form class="navbar-form dashboard-form-inline mr-5 d-md-none d-lg-none">
         <div class="input-group search-box">								
             <input type="text" id="search" class="form-control">
             <span class="input-group-addon"><i class="fa fa-search"></i></span>
         </div>
     </form>
 
-    <div class="small_screen_btn mr-5 ml-5 d-lg-none">
+    <div class="small_screen_btn d-md-none d-lg-none">
         <button class="btn balance balance_sm"><span class="mr-3"> Balance</span><input class="balance_1" placeholder="5000" disabled></button>
         <button class="btn balance"> <span class="mr-3">Profit</span><input class="balance_1" placeholder="2000" disabled></button>
     </div>
 
-    <div class="mb-2 d-lg-none">
+    <div class="mb-2 d-md-none d-lg-none text-center">
         <div class="card mobile_card">
 
         </div>
     </div>
 
-    <div class="text-center mobile_social-links d-lg-none">
+    <div class="text-center mobile_social-links d-md-none d-lg-none">
 
         <a href="" class="twitter" data-toggle="tooltip" data-placement="top" title="Add Funds">
           <img src="assets/images/icons/Group 79.png" alt="add-funds"  width="45%">
@@ -319,7 +329,7 @@
          
     </div>
 
-    <div class="container d-lg-none">
+    <div class="container d-md-none d-lg-none">
         <div class="row utility">
             <div class="mobile_airtime_card">
                 <button class="btn btn-lg" data-toggle="modal" data-target="#airtimeModal">
@@ -337,7 +347,7 @@
         </div>
     </div>
 
-    <div class="container pr-3 mr-3 d-lg-none">
+    <div class="container pr-3 mr-3 d-md-none d-lg-none">
         <div class="row utility">
             <div class="mobile_airtime_card">
                 <button class="btn btn-lg">
@@ -355,7 +365,7 @@
         </div>
     </div>
 
-    <div class="mobile_footer d-lg-none">
+    <div class="mobile_footer d-md-none d-lg-none">
         <div class="footer_mobile_links">
             <a href="https://twitter.com/startupsouthng" class="twitter" data-toggle="tooltip" data-placement="top"
               title="Twitter">
@@ -406,15 +416,15 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <select name="" id="" class="form-control" placeholder="Select Airtime/Data">
-                                        <option value="" selected>Select Airtime/Data</option>
+                                    <select name="" id=""  placeholder="Select Airtime/Data">
+                                        <option value="" disabled selected>Select Airtime/Data</option>
                                         <option value="">Airtime</option>
                                         <option value="">Data</option>
                                     </select>
 
                                     <br>
 
-                                    <select name="" id="" class="form-control">
+                                    <select name="" id="">
                                         <option value="" selected>Select Network</option>
                                         <option value="">MTN</option>
                                         <option value="">AIRTEL</option>
@@ -424,7 +434,7 @@
 
                                     <br>
 
-                                    <input class="form-control" type="number" name="" value="" placeholder="Enter Amount">
+                                    <input type="number" name="" value="" placeholder="Enter Amount">
 
                                     <p>Token/Receipt will be sent to the email/phone entered above</p>
 
@@ -432,10 +442,10 @@
                                 </div>
 
                                 <div class="col-md-6 mobile_modal">
-                                    <input class="form-control" type="number" name="" value="" placeholder="Enter Phone/Account Number"> 
+                                    <input type="number" name="" value="" placeholder="Enter Phone/Account Number"> 
 
                                     <br>
-                                    <input class="form-control" type="number" name="" value="" placeholder="Email Address no compulsory"> 
+                                    <input type="number" name="" value="" placeholder="Email Address no compulsory"> 
                                 </div>
                             </div>
                         </div>
@@ -467,7 +477,7 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <select name="" id="" class="form-control" placeholder="Select Airtime/Data">
+                                    <select name="" id=""  placeholder="Select Airtime/Data">
                                         <option value="" selected>Select Airtime/Data</option>
                                         <option value="">Airtime</option>
                                         <option value="">Data</option>
@@ -475,11 +485,11 @@
 
                                     <br>
 
-                                    <input class="form-control" type="number" name="" value="" placeholder="Enter Amount"> 
+                                    <input  type="number" name="" value="" placeholder="Enter Amount"> 
 
                                     <br>
 
-                                    <input class="form-control" type="number" name="" value="" placeholder="Email Address no compulsory">
+                                    <input  type="number" name="" value="" placeholder="Email Address no compulsory">
 
                                     <p>Token/Receipt will be sent to the email/phone entered above</p>
 
@@ -487,10 +497,10 @@
                                 </div>
 
                                 <div class="col-md-6">
-                                    <input class="form-control" type="number" name="" value="" placeholder="Enter Meter Number"> 
+                                    <input type="number" name="" value="" placeholder="Enter Meter Number"> 
 
                                     <br>
-                                    <input class="form-control" type="number" name="" value="" placeholder="Email Phone Number"> 
+                                    <input type="number" name="" value="" placeholder="Email Phone Number"> 
                                 </div>
                             </div>
                         </div>
@@ -521,7 +531,7 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <select name="" id="" class="form-control" placeholder="Select Airtime/Data">
+                                    <select name="" id="" placeholder="Select Airtime/Data">
                                         <option value="" selected>Select Airtime/Data</option>
                                         <option value="">Airtime</option>
                                         <option value="">Data</option>
@@ -529,11 +539,11 @@
 
                                     <br>
 
-                                    <input class="form-control" type="number" name="" value="" placeholder="Enter Amount"> 
+                                    <input type="number" name="" value="" placeholder="Enter Amount"> 
 
                                     <br>
 
-                                    <input class="form-control" type="number" name="" value="" placeholder="Email Address no compulsory">
+                                    <input type="number" name="" value="" placeholder="Email Address no compulsory">
 
                                     <p>Token/Receipt will be sent to the email/phone entered above</p>
 
@@ -541,10 +551,10 @@
                                 </div>
 
                                 <div class="col-md-6">
-                                    <input class="form-control" type="number" name="" value="" placeholder="Enter Smart Card Number"> 
+                                    <input type="number" name="" value="" placeholder="Enter Smart Card Number"> 
 
                                     <br>
-                                    <input class="form-control" type="number" name="" value="" placeholder="Enter Phone Number"> 
+                                    <input type="number" name="" value="" placeholder="Enter Phone Number"> 
                                 </div>
                             </div>
                         </div>
@@ -575,7 +585,7 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <select name="" id="" class="form-control" placeholder="Select Airtime/Data">
+                                    <select name="" id="" placeholder="Select Airtime/Data">
                                         <option value="" selected>Select Bills</option>
                                         <option value="">Airtime</option>
                                         <option value="">Data</option>
@@ -583,7 +593,7 @@
 
                                     <br>
 
-                                    <input class="form-control" type="number" name="" value="" placeholder="Enter Amount"> 
+                                    <input type="number" name="" value="" placeholder="Enter Amount"> 
 
                                     <br>
 
@@ -595,10 +605,10 @@
                                 </div>
 
                                 <div class="col-md-6">
-                                    <input class="form-control" type="number" name="" value="" placeholder="Enter Phone Number"> 
+                                    <input type="number" name="" value="" placeholder="Enter Phone Number"> 
 
                                     <br>
-                                    <input class="form-control" type="number" name="" value="" placeholder="Email Address no compulsory"> 
+                                    <input type="number" name="" value="" placeholder="Email Address no compulsory"> 
                                 </div>
                             </div>
                         </div>
@@ -616,11 +626,10 @@
 
 
 
-
-
     <!-- Javascript Libraries -->
     <script src="assets/lib/jquery/jquery.min.js"></script>
     <script src="assets/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/lib/bootstrap/js/bootstrap.js"></script>
 
   
     <!-- main js -->

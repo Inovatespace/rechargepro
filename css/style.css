@@ -323,7 +323,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 20px !important;
   box-shadow: none;
   background: #fff;
-  min-width: 400px;
+  min-width: 200px;
   margin-left: 10px;
   }
   
@@ -332,7 +332,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: none;
   background: transparent;
   position: absolute;
-  left: 360px;
+  left: 160px;
   z-index: 9;
   padding: 7px;
   height: 100%;
@@ -349,16 +349,45 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .dashboard_header .dashboard_nav_menu{
   margin-top: -2rem;
-  margin-left: 800px;
+  margin-left: 750px;
 }
 
 .large_screen_button{
-  margin-left: 450px;
+  margin-left: 330px;
     margin-top: -2rem;
 }
+.dropdown-menu{
+  background-color: var(--text_color);
+  margin-top: 0.5rem;
+  
+}
+.dropdown-menu li a{
+  color: var(--secondary_color);
+ padding-left: 2rem;
+ font-family: var(--text_font);
+ font-size: 16px;
+}
+.dropdown-menu{
+  margin-left: 3rem;
+}
+
+
+.dropdown a .username{
+  color: var(--secondary_color);
+  font-family: var(--text_font);
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.dropdown-toggle{
+  color: var(--secondary_color);
+}
+
+
 
 .small_screen_btn{
-  margin-left: 450px;
+  margin-left: 50px;
   margin-top: 1.9rem;
 }
 .developer_screen_btn{
@@ -960,7 +989,7 @@ color: var(--text_color);
 
 .login_bg{
   background-image: linear-gradient(rgba(211, 27, 35, 0.7), rgba(211, 27, 35, 0.7)), url("../assets/images/img/home_img.png");
-  height: 97vh;
+  height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1014,7 +1043,17 @@ color: var(--text_color);
 .signup_form_item3 input {
   border: none;
    border-bottom: 1px solid #ccc;
-  width: 80%;
+  width: 60%;
+  padding: 3px;
+  transition: all 0.6s ease-in-out;
+  background: transparent;
+  font-size: 17px;
+  outline: none;
+}
+.signup_form_item4 input {
+  border: none;
+   border-bottom: 1px solid #ccc;
+  width: 70%;
   padding: 3px;
   transition: all 0.6s ease-in-out;
   background: transparent;
@@ -1059,6 +1098,7 @@ color: var(--text_color);
   color: var(--text_color);
   font-family: var(--text_font);
   margin-right: 6.5rem;
+  font-size: 16px;
 }
 
 .signup_btn{
@@ -1066,7 +1106,7 @@ color: var(--text_color);
   border: none;
   padding: 5px 40px 10px;
   color: black;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
   font-family: var(--text_font);
   font-size: 16px;
 }
@@ -1079,6 +1119,20 @@ color: var(--text_color);
   font-family: var(--text_font);
   font-size: 16px;
 }
+/* .main_sigup_holder{
+  padding-left: 5rem;
+} */
+
+.main_signup_btn{
+  background: var(--primary_color);
+  border: none;
+  padding: 5px 40px 10px;
+  color: var(--text_color);
+  font-family: var(--text_font);
+  margin-right: 6.5rem;
+  font-size: 16px;
+  border-radius: 0.2rem;
+}
 
 .signup_links{
   padding-left: 8rem;
@@ -1086,7 +1140,7 @@ color: var(--text_color);
 
 .signup_question a{
   text-decoration: underline;
-  padding-left: 5rem;
+  padding-left: 8rem;
 }
 
 /* ===================================
@@ -1385,18 +1439,32 @@ aside {
 }
 
 .modal-content select,.modal-content input{
-  border-radius:80px;
-  padding: 25px;
+
+  width: 20rem;
+  margin-right: 0.5rem;
+  border-radius:60px;
+  padding: 15px;
   margin-bottom: 1rem;
   margin-top: 1rem;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
 }
+/* .modal-content select::before,.modal-content input:before{
+  padding: 5px 20px 10px 0px;
+  width: 15rem;
+  margin-right: 0.5rem;
+  border-radius:80px;
+  padding: 20px 10px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+} */
 
-.modal-content option::before{
+/* .modal-content option::before{
   border-radius:80px;
   padding: 25px;
   border-radius: 1px solid;
   box-shadow: 2px 2px 2px 2px grey;
-}
+} */
 
 .btn-primary{
   border-radius:80px;
@@ -1656,6 +1724,42 @@ td{
     width: 90px;
   }
 }
+@media (min-width: 411px) and (max-width:731px){
+  #mobile-nav-toggle {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 999;
+    margin: 15px 15px 0 0;
+    border: 0;
+    background: none;
+    font-size: 20px;
+    display: none;
+    transition: all 0.4s;
+    outline: none;
+    cursor: pointer;
+    padding-top: 7px;
+    padding-right: 310px;
+  }
+
+  .small_screen_btn{
+    margin-left: 80px;
+    margin-top: 1.9rem;
+  }
+  .mobile_card{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    background: var(--secondary_color);
+    height: 6rem;
+    width: 8rem;
+    border-radius: 15px;
+   
+  }
+
+
+ 
+}
 
 @media (max-width: 768px){
 
@@ -1672,11 +1776,331 @@ td{
   }
 }
 
-@media (min-width: 300px) and (max-width: 767.98px){
+
+@media (min-width: 768px) and (max-width:1024px){
+
+
+  .navbar-form .input-group {
+    width: 30%;
+    
+  }
+ 
+ 
+  .dashboard_header .search-box input {
+    border-color: none;
+    border-radius: 20px !important;
+    box-shadow: none;
+    background: #fff;
+    min-width: 30px;
+   
+    }
+    
+  .search-box .input-group-addon {
+    min-width: 50px;
+    border: none;
+    background: transparent;
+    position: absolute;
+    left: 110px;
+    z-index: 9;
+    padding: 7px;
+    height: 100%;
+    }
+
+    .large_screen_button{
+      margin-left: 100px;
+      padding-left: 5rem;
+        margin-top: -2rem;
+    }
+
+    #dashboard_logo img{
+      width: 50%;
+      margin-left: 2rem;
+      margin-top: 0.5rem 
+    }
+    
+    .dashboard_header #nav-menu-container {
+      padding-left: 175px;
+      margin: 0;
+      padding-top: 0.5rem;
+    }
+    
+    
+   
+
+    .airtime_btn,
+.electricity_btn,
+.cable_btn,
+.bills_btn {
+  left: 7%;
+  top: 8%;
+  z-index: 9999;
+  position: absolute;
+}
+.electricity_btn{
+  top: 20%;
+}
+
+.electricity_btn img{
+  width: 35px;
+}
+
+.cable_btn{
+  top: 32%;
+}
+
+
+
+.bills_btn{
+  top: 45%;
+}
+.utility_card{
+  padding-left: 23%;
+  padding-top: 12%;
+}
+.utility_card2{
+  padding-left: 23%;
+  padding-top: 13%;
+}
+
+.transaction_card_btn{
+  padding-left: 1.5rem;
+}
+
+#recurrent_transaction_card2{
+  background-color: var(--secondary_color);
+  height: 11rem;
+}
+
+
+#recurrent_transaction_card2 img{
+  width: 50%;
+  margin-left: 2rem;
+}
+#transaction_card2 img{
+  width: 50%;
+  margin-left: 2rem;
+}
+#transaction_card2 .fund{
+  width: 30%;
+  margin-left: 3rem;
+}
+
+#transaction_card2{
+  background-color: var(--secondary_color);
+  height: 12rem;
+}
+
+.card-heading{
+  background: var(--primary_color);
+  color: var(--text_color);
+  text-align: center;
+  max-height: 3rem;
+  padding-top: 1rem;
+  font-size: 16px;
+  font-weight: bolder;
+  font-family: var(--text_font);
+}
+
+.inner_card {
+  border: 1px solid var(--primary_color);
+  background:transparent;
+  z-index: 99999;
+  height: 10rem;
+  width: 8.9rem;
+  color: #fff;  
+}
+
+.inner_card2 {
+  border: 1px solid var(--primary_color);
+  background:transparent;
+  z-index: 99999;
+  height: 11rem;
+  width: 8.9rem;
+  color: #fff;  
+}
+
+.inner_card p, .inner_card2 p{
+  text-align: center;
+}
+
+  
+.login_logo p{
+  font-size: 14px;
+  color: red;
+
+  
+}
+.signup_form_item input {
+  width: 85%;
+}
+.signup_form_item3 input {
+  width: 85%;
+}
+
+.signup_form_item2 input {
+
+  width: 85%;
+
+}
+.main_sigup_holder{
+  padding-left: 4rem;
+}
+
+.signup_question a{
+  text-decoration: underline;
+  padding-left: 1rem;
+}
+
+
+}
+@media only screen and (max-width: 1024px){
+.login_logo p{
+  font-size: 14px;
+ padding-left: 9rem;
+}
+  .signup_form_item input {
+    width: 85%;
+  }
+  .signup_form_item3 input {
+    width: 85%;
+  }
+  
+  .signup_form_item2 input {
+ 
+    width: 85%;
+ 
+  }
+  .signup_question a{
+    text-decoration: underline;
+    padding-left: 5rem;
+  }
+
+
+ aside{
+   width: 250px;
+   padding-left: 1.5rem;
+ }
+ .utility_card{
+  padding-left: 42%;
+  padding-top: 9%;
+}
+.utility_card2{
+  padding-left: 42%;
+  padding-top: 9%;
+}
+
+.airtime_btn,
+.electricity_btn,
+.cable_btn,
+.bills_btn {
+  left: 28%;
+  top: 5.5%;
+  z-index: 9999;
+  position: absolute;
+}
+
+.airtime_btn img{
+  width: 40px;
+}
+
+.electricity_btn{
+  top: 15%;
+}
+
+.electricity_btn img{
+  width: 60px;
+}
+
+.cable_btn{
+  top: 25%;
+}
+
+.cable_btn img{
+ width: 60px;
+ padding-bottom: 0.5rem;
+}
+
+.bills_btn{
+  top: 35%;
+}
+
+.bills_btn img{
+  width: 80px;
+}
+ 
+}
+
+
+
+@media only screen and (max-width: 320px) {
+
+  #mobile-nav-toggle {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 999;
+    margin: 15px 15px 0 0;
+    border: 0;
+    background: none;
+    font-size: 20px;
+    display: none;
+    transition: all 0.4s;
+    outline: none;
+    cursor: pointer;
+    padding-top: 7px;
+    padding-right: 230px;
+  }
+.login_logo p{
+  font-size: 16px;
+color:red;
+ margin-right: 1rem;
+ 
+  
+
+}
+.login_btn{
+  background: var(--primary_color);
+  border: none;
+  padding: 2px 10px 10px;
+  color: var(--text_color);
+  font-family: var(--text_font);
+  margin-right: 6.5rem;
+}
+
+.signup_btn{
+  background: #fff;
+  border: none;
+  padding: 5px 40px 10px;
+  color: black;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+  font-family: var(--text_font);
+  font-size: 16px;
+}
+.login_links{
+  padding-right: 0;
+  margin-bottom: 0;
+}
+
+
+/* .utility{
+  margin-right:auto;
+  margin-left: auto;
+} */
+
+
+
+}
+
+
+
+@media only screen and (max-width: 600px){
 
 /* ===================================
   LANDING PAGE MEDIA QUERY
 =================================== */
+aside{
+  display: none;
+}
 
 #header {
   background: transparent;
@@ -1910,8 +2334,20 @@ td{
       }
     
       .login_logo p{
-        padding-left: 2rem;
+        padding-left: 5rem;
         font-size: 12px;
+      }
+      .signup_form_item input {
+        width: 85%;
+      }
+      .signup_form_item3 input {
+        width: 85%;
+      }
+      
+      .signup_form_item2 input {
+     
+        width: 85%;
+     
       }
     
       #why_choose{
@@ -2038,6 +2474,10 @@ td{
         padding-right: 1rem;
         margin-bottom: 2rem;
       }
+
+      .main_sigup_holder{
+        padding-left: 3rem;
+      }
       
     .signup_links{
       padding-left: 4rem;
@@ -2103,15 +2543,15 @@ td{
 
 }
   .mobile_card{
-    margin-left: 2rem;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 1rem;
     background: var(--secondary_color);
     height: 6rem;
     width: 18rem;
     border-radius: 15px;
-    display: flex;
-    align-content: center;
-  }
+    
+   }
 
   .mobile_social-links a {
     font-size: 18px;
@@ -2184,8 +2624,27 @@ td{
     margin-top: -10px;
   }
 
+ 
+/* ===================================
+   DASHBOARD-2
+=================================== */
 
+.dashboard-2{
+  padding-left: 0rem;
+  padding-top: 7rem;
+}
 
+.dashboard-2-content{
+  min-width: 13rem;
+  min-height: 30rem;
+  border: 1px solid #ABABAB;
+}
+.dashboard-2-sub{
+  background: var(--secondary_color);
+  min-width:13rem;
+  min-height:1.5rem;
+  border:none;
+}
 /* ===================================
    SUPPORT PAGE STYLING
 =================================== */
@@ -2404,49 +2863,7 @@ td{
 }
 }
 
-/*media query for dashboard pages*/
-@media screen and (max-width: 960px) {
 
- 
-  aside {
-      display: none;
-  }
-  
-  .main_content,
-  .main {
-      margin: 0;
-  }
-
-  .nav-tabs {
-      display: block !important;
-  }
-
-  .nav-tabs li {
-      font-size: 20px;
-      margin-top: 10px;
-  }
-
- 
-
-  /* .mobile_logo,
-  .open_btn_alt,
-  .alt_menu_icon {
-      display: block !important;
-  } */
-  .open_btn_alt {
-    margin-right: 10px;
-    margin-top: -140px;
-    color: black;
-    float: right;
-    font-size: 25px;
-  }
-  .close_btn {
-    display: block;
-    margin-top: -32px;
-    margin-right: 10px;
-    color: #EA0000;
-    float: right;
-}
 
 /* ===================================
   MODAL STYLING
