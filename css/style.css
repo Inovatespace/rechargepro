@@ -968,6 +968,7 @@ color: var(--text_color);
   position: relative;
 }
 
+
 .login_logo h3{
   padding-top:20%;
   padding-left: 25%;
@@ -1002,7 +1003,7 @@ color: var(--text_color);
 
 .signup_form_item input {
   border: none;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid #ccc;
   width: 65%;
   padding: 3px;
   transition: all 0.6s ease-in-out;
@@ -1012,7 +1013,7 @@ color: var(--text_color);
 }
 .signup_form_item3 input {
   border: none;
-  border-bottom: 1px solid gray;
+   border-bottom: 1px solid #ccc;
   width: 80%;
   padding: 3px;
   transition: all 0.6s ease-in-out;
@@ -1023,7 +1024,7 @@ color: var(--text_color);
 
 .signup_form_item2 input {
   border: none;
-  border-bottom: 1px solid gray;
+   border-bottom: 1px solid #ccc;
   width: 85%;
   padding: 3px;
   transition: all 0.6s ease-in-out;
@@ -1061,11 +1062,20 @@ color: var(--text_color);
 }
 
 .signup_btn{
-  background:var(--white_bg);
+  background: #fff;
   border: none;
   padding: 5px 40px 10px;
-  color: var(--primary_color);
-  /* box-shadow: 1px 1px 1px 1px grey; */
+  color: black;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  font-family: var(--text_font);
+  font-size: 16px;
+}
+.signup_btn:hover{
+  background: var(--primary_color);
+  border: none;
+  padding: 5px 40px 10px;
+  color: var(--text_color);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
   font-family: var(--text_font);
   font-size: 16px;
 }
@@ -1268,6 +1278,81 @@ aside {
   text-align: center;
 }
 
+/* ===================================
+ DASHBOARD-2 STYLING
+=================================== */
+
+.dashboard-2{
+  padding-left: 14rem;
+  padding-top: 7rem;
+}
+
+.dashboard-2-content{
+  min-width: 63rem;
+  min-height: 30rem;
+  border: 1px solid #ABABAB;
+}
+
+.dashboard-2-sub{
+  background: var(--secondary_color);
+  min-width:63rem;
+  min-height:1.5rem;
+  border:none;
+}
+
+ .custom_select1{
+  padding: 5px 20px 10px 0px;
+  width: 15rem;
+  margin-right: 0.5rem;
+}
+
+ .custom_select2{
+  padding: 5px 20px 10px 0px;
+  width: 7rem;
+  margin-right: 3rem;
+}
+
+.custom_select3{
+  padding: 5px 20px 7px 0px;
+  width: 7rem;
+  margin-right: 0.5rem;
+}
+.custom_select3_2{
+  padding: 5px 20px 7px 0px;
+  width: 7rem;
+  margin-right: 5rem;
+}
+
+.custom_select4{
+  padding: 5px 20px 7px 0px;
+  width: 15rem;
+  
+}
+
+.dashboard-2-content i.fa.fa-search::before{
+  margin-left: -1.8rem;
+  color: #797979;
+}
+
+.all_transaction_details{
+  background-color: #F1F1F1;
+  height: 3rem;
+  width: 20rem;
+  margin-top: -25rem;
+  margin-left: 0.5rem;
+  /* border: 1px solid #C9C9C9; */
+  box-shadow: 1px 1px 1px 1px #C9C9C9;
+  margin-right: 3rem;
+}
+.all_transaction_details2{
+  background-color: red;
+  height: 3rem;
+  min-width: 15.5rem;
+  margin-top: -1rem;
+  /* margin-left: 19rem; */
+  /* border: 1px solid #C9C9C9; */
+  box-shadow: 1px 1px 1px 1px #C9C9C9;
+}
 
 /* ===================================
   MODAL STYLING
@@ -1666,7 +1751,7 @@ td{
       color:var(--secondary_color);
       font-weight: bolder;
       padding-left:8px;
-      font-size: 12px;
+      font-size: 10px;
     }
     .details_btn{
         margin-left: 2rem;
