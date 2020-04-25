@@ -1404,6 +1404,45 @@ aside {
   margin-left: -1.8rem;
   color: #797979;
 }
+.dashboard-2-maincard{
+  margin-left: 1rem;
+}
+.dashboard-2-card{
+  background: #F1F1F1;
+ border-bottom: none;
+ box-shadow: 1px 1px 2px 2px #C9C9C9;
+ color: var(--secondary_color); 
+ min-height: 3rem;
+
+
+}
+.dashboard-2-card1{
+ min-width: 15rem;
+
+}
+.dashboard-2-card2{
+ min-width: 9rem;
+
+}
+.dashboard-2-card3{
+ min-width: 10rem;
+
+}
+.dashboard-2-card4{
+ min-width: 10rem;
+
+}
+.dashboard-2-card5{
+ min-width: 17rem;
+
+}
+
+.dashboard-2 th{
+ background: #F1F1F1;
+ border-bottom: none;
+ box-shadow: 1px 1px 1px 1px #C9C9C9;
+ color: var(--secondary_color);
+}
 
 .all_transaction_details{
   background-color: #F1F1F1;
@@ -1696,7 +1735,7 @@ padding-left:13rem;
   color: var(--text_color);
 }
 
-.table th{
+.dashboard-4-table th{
   background: var(--secondary_color);
   color: var(--text_color);
 }
@@ -2170,7 +2209,53 @@ td{
       font-family: var(--text_font);
       color: var(--text_color);
     }
+
+    .dashboard-2{
+      padding-left: 15rem;
+      padding-top: 7rem;
+    }
     
+    .dashboard-2-content{
+      min-width: 12rem;
+      min-height: 30rem;
+      border: 1px solid #ABABAB;
+    }
+    .dashboard-2-sub{
+      background: var(--secondary_color);
+      min-width:7rem;
+      min-height:1.5rem;
+      border:none;
+    
+    }
+
+    .custom_select1{
+      padding: 5px 20px 10px 0px;
+      width: 10rem;
+      margin-right: 0.5rem;
+    }
+    
+     .custom_select2{
+      padding: 5px 20px 10px 0px;
+      width: 7rem;
+      margin-right: 3rem;
+    }
+    
+    .custom_select3{
+      padding: 5px 20px 7px 0px;
+      width: 7rem;
+      margin-right: 0.5rem;
+    }
+    .custom_select3_2{
+      padding: 5px 20px 7px 0px;
+      width: 7rem;
+      margin-right: 3rem;
+    }
+    
+    .custom_select4{
+      padding: 5px 20px 7px 0px;
+      width: 5rem;
+      
+    }
  
 }
 
