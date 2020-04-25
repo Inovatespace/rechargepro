@@ -1,0 +1,18 @@
+.auth-input
+    input
+        border: none
+            bottom: 1px solid #ddd
+        padding: 8px
+        margin: 10px 0
+        min-width: 300px
+        outline: none
+        transition:
+            duration: .8s
+            property: border-bottom-color
+        &:focus
+            border-bottom-color: #888
+        &.half
+            min-width: 130px
+            width: calc(50% - 20px)
+        font:
+            size: .7rem

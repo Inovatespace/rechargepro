@@ -1474,6 +1474,8 @@ margin-left: 4rem;
 margin-left: 1.5rem;
 }
 
+
+
 /* ===================================
   MODAL STYLING
 =================================== */
@@ -1776,8 +1778,59 @@ td{
   font-family: var(--text_font);
   color: var(--text_color);
 }
+/* ===================================
+ DASHBOARD-3
+=================================== */
+
+.dashboard-3main{
+  padding-left: 10rem;
+  padding-top: 3rem;
+  border-radius: 0;
+}
+
+.generate_btn{
+  background: #2F95FB;
+  font-size: 10px;
+  color: #fff;
+}
+.dashboard_generate{
+  padding-left: 50rem;
+}
+
+.dashboard3_authorization_4{
+  padding-top: 5rem;
+  padding-left: 11.7rem;
+}
+
+.dashboard3_authorization_4 .authorization_card2{
+  background-color: #fff;
+  border-bottom: 3px solid #F3F2F2;
+  border-top: 3px solid #F3F2F2;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  min-width: 35rem;
+  min-height: 4rem;
+  text-align: center;
+  font-weight: bold;
+  font-family: var(--text_font);
+  color: var(--secondary_color);
+}
+
+.dashboard3_authorization_4 .authorization_card{
+  background: var(--secondary_color);
+  cursor: pointer;
+  min-width: 35rem;
+  min-height: 4rem;
+  text-align: center;
+  font-family: var(--text_font);
+  color: var(--text_color);
+}
 .authorization_table{
   padding-left: 15rem;
+}
+.dashboard-4-table .dashboard-4-name{
+  padding-right: 15rem;
 }
 
 

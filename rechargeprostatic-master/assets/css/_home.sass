@@ -1,0 +1,228 @@
+$background: '../img/massivebackground.png'
+$agent: '../img/agent.jpg'
+$bannerBackground: '../img/home_img.png'
+#home
+    .capped-header
+        text-transform: uppercase
+        color: #212020
+        font-weight: 700
+        position: relative
+        display: inline-block
+        &::after
+            content: ''
+            position: absolute
+            top: 110%
+            left: 0
+            width: 80%
+            height: 5px
+            background-color: $theme
+        @media screen and (max-width: 1006px)
+            font-size: 2.2rem
+        @media screen and (max-width: 894px)
+            font-size: 2rem
+        @media screen and (max-width: 821px)
+            font-size: 1.9rem
+    .svgs
+        img
+            width: 100%
+        h2
+            color: $theme
+            margin-bottom: 1.3rem
+            line-height: 150%
+            font-size: 2.1rem
+            margin-bottom: 4rem
+            margin-top: 6rem
+            position: relative
+            &::after
+                content: ''
+                position: absolute
+                top: calc(100% + 5px)
+                left: 0
+                width: 60%
+                height: 5px
+                background-color: #202020
+        p
+            font-size: 1.25rem
+            line-height: 180%
+    .partners
+        background-color: #F3F2F2
+        display: flex
+        flex-direction: column
+        align-items: center
+        padding: 10vh 5vw
+        margin-bottom: 3rem
+        img
+            width: 80%
+        h1
+            font:
+                weight: bold
+            color: $theme
+            margin-bottom: 1rem
+        p
+            font-size: 1.2rem
+            margin-bottom: 1rem
+        .partner-container
+            display: grid
+            width: 80%
+            margin: 0 auto
+                left: 10%
+            grid:
+                //template-columns: repeat(auto-fill, minmax(200px, 1fr))
+                template-columns: repeat(4, 1fr)
+                auto-rows: minmax(50px, auto)
+            row-gap: 0
+            & > div
+                background-color: white
+                border: .5px solid $theme
+                padding: 15px 0
+
+                & > div
+                    display: flex
+                    align-items: center
+                    justify-content: center
+                    width: 100%
+                    height: 100%
+
+            
+    .secure
+        display: flex
+        justify-content: center
+        align-items: center
+        margin:
+            top: 3rem
+            bottom: 4rem
+        div
+            img
+                width: 200px
+                @media screen and (max-width: 849px)
+                    width: 150px
+                @media screen and (max-width: 511px)
+                    width: 120px
+                @media screen and (max-width: 380px)
+                    width: 100px
+            display: flex
+            align-items: center
+            @media screen and (max-width: 511px)
+                flex-direction: column
+            h2
+                width: 40vw
+                font-size: 2.3rem
+                line-height: 160%
+                @media screen and (max-width: 1273px)
+                    width: 50vw
+                @media screen and (max-width: 1018px)
+                    width: 60vw
+                @media screen and (max-width: 849px)
+                    font-size: 2.1rem
+                @media screen and (max-width: 511px)
+                    text-align: center
+                    font-size: 2rem
+                    width: 85vw
+                @media screen and (max-width: 380px)
+                    font-size: 1.8rem
+    .agent-section
+        background-color: $theme
+        color: white
+        display: flex
+        margin:
+            top: 2rem
+            bottom: 2rem
+        @media screen and (max-width: 990px)
+            background-color: rgba(245, 56, 64, .8)
+            position: relative
+            &::after
+               content: ''
+               position: absolute
+               top: 0
+               left: 0
+               width: 100%
+               height: 100%
+               z-index: -1
+               background:
+                    image: url('~#{$agent}')
+                    size: cover
+                    position: center
+                    repeat: no-repeat
+        .background
+            @media screen and (max-width: 1170px)
+                background:
+                    image: url('~#{$agent}')
+                    size: cover
+                    position: center
+                    repeat: no-repeat   
+            @media screen and (max-width: 990px) 
+                display: none
+        div
+            width: 50%
+            @media screen and (max-width: 990px)
+                width: 100%
+            img 
+                width: 100%
+                @media screen and (max-width: 1170px)
+                    display: none
+        .text
+            padding: 5vw
+            h2
+                font-size: 2.2rem
+                margin-bottom: 2rem
+            p   
+                font-size: 1.4rem
+                line-height: 180%
+                margin-bottom: 2rem
+            a
+                display: inline-block
+                color: $theme
+                background-color: white
+                padding: 10px 40px
+                min-width: 120px
+                text-align: center
+                font-size: 1.2rem
+                font-weight: 400
+                text-decoration: none
+                box-shadow: 0 3px 8px rgba(0,0,0,.3)
+    .feedback
+        display: flex
+        flex-direction: column
+        align-items: center
+        h2
+            font-weight: 400
+            text-align: center
+            line-height: 160%
+            color: $theme
+            @media only screen and (max-width: 454px)
+                font-size: 1.8rem
+            @media only screen and (max-width: 400px)
+                font-size: 1.6rem
+        .icons
+            display: flex
+            font-size: 3rem
+            color: $theme
+            *
+                margin: 0 1rem
+            img
+                height: 3rem
+            @media only screen and (max-width: 725px)
+                font-size: 2rem
+                img
+                    height: 2rem
+    
+    .sticky
+        position: fixed
+        bottom: 4vh
+        right: 5vw
+        background-color: white
+        display: flex
+        align-items: center
+        justify-content: center
+        border-radius: 50%
+        height: 4.5rem
+        width: 4.5rem
+        border: 1px solid #efefef
+        box-shadow: 0 3px 11px rgba(0,0,0,.25)
+        z-index: 999999999
+        img
+            height: 2rem
+
+
+
+   

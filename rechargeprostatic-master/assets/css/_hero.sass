@@ -1,0 +1,48 @@
+$heroUrl: '../img/heroupdate.png'
+#hero
+    padding: 20vh 0
+    min-height: 100vh
+    background:
+        color: white
+    @media only screen and (max-width: 1090px)
+        background-size: 90%
+    @media only screen and (max-width: 972px)
+        background-size: 98%
+    @media only screen and (max-width: 877px)
+        background-size: 105%
+    @media only screen and (max-width: 833px)
+        background-size: 120%
+    @media only screen and (max-width: 680px)
+        background-size: cover
+    @media only screen and (min-height: 700px) and (orientation: portrait)
+        background-size: 170% 
+    h2
+        font-weight: 600
+        font-size: 2.3rem
+        margin-top: .8rem
+        @media only screen and (max-width: 972px)
+            font-size: 2rem
+    p
+        margin-top: 15px
+        font: 
+            size: 1.55rem
+        @media only screen and (max-width: 972px)
+            font-size: 1.2rem
+    a
+        display: inline-block
+        color: $theme
+        background-color: white
+        font:
+            size: 1.15rem
+            weight: 400
+        padding: .9rem 1.8rem
+        margin-top: 1rem
+        text-decoration: none
+        box-shadow: 0 3px 8px rgba(0,0,0,.3)
+    .icon-container
+        display: flex
+        justify-content: center
+        &:not(:first-of-type)
+            margin-top: 2rem
+        @media only screen and (max-width: 767px)
+            display: none

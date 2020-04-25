@@ -1,0 +1,79 @@
+nav
+    background-color: #fff
+    display: flex !important
+    padding: 1.2rem 3rem
+    align-items: center
+    position: relative
+    box-shadow: 0 0 9px rgba(0,0,0,.3)
+    .dropdown
+        position: absolute
+        top: 100%
+        left: 0
+        width: 300px
+        transition:
+            duration: .9s
+            property: height
+        .drop-content
+            display: flex
+            flex-direction: column
+            background-color: #f2f1f1
+            border-radius: 0 0 4px 0 
+            transition:
+                duration: .9s
+                property: height
+            a
+                padding: 10px 20px
+                color: #333
+                font-weight: 500
+                text-decoration: none
+                &:hover
+                    background-color: #cfcfcf
+                &.login
+                    color: $theme
+        &.hidden
+            display: none
+            height: 0
+            .drop-content
+                height: 0
+
+        
+
+    .menu
+        i
+            font-size: 1.5rem
+            margin-right: 30px
+        @media only screen and (min-width: 506px)
+            display: none
+    img
+        height: 40px
+        margin-right: auto
+    .actions
+        a
+            text-decoration: none
+            display: inline-flex
+            height: 40px
+            font:
+                weight: bold
+                size: 13px
+            padding: 1rem 2rem
+            align-items: center
+            border: 1px solid $theme
+                radius: 90000px
+            box-shadow: 0 2px 6px rgba(0,0,0,.25)
+            &:first-child
+                margin-right: 5px
+                color: $theme
+                background-color: white
+            &.login
+                background-color: $theme
+                color: white
+    @media only screen and (max-width: 550px)   
+        padding: 1.2rem 2rem             
+        .actions
+            a
+                padding: .8rem 1.7rem
+    @media only screen and (max-width: 505px)
+        .actions
+            display: none
+
+

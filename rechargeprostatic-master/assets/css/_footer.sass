@@ -1,0 +1,81 @@
+.footer
+    width: 100%
+    padding: 3rem 0
+    background-color: #212020
+    color: white
+    .download-icon
+        width: 65%
+        @media screen and (max-width: 575px)
+            width: 100px
+            display: block
+    .link-wrapper
+        display: flex
+        @media only screen and (min-width: 768px)
+            justify-content: center
+        @media only screen and (max-width: 767px)
+            padding-bottom: 2rem
+    i
+        color: $theme
+    p
+        font-size: .8rem
+        font-weight: 500
+    .header
+        color: $theme
+        font-size: 1.6rem
+        font-weight: bold
+        position: relative
+        display: inline-block
+
+        &::after
+            content: ''
+            position: absolute
+            left: 0
+            width: 52%
+            top: calc(100% - 2px)
+            background-color: white
+            height: 1px
+    .links
+        display: flex
+        flex-direction: column
+        padding-top: 1.5rem
+        a
+            display: inline-block
+            text-align: left
+            color: white
+            font-size: .8rem
+            font-weight: 500
+            margin-bottom: 5px
+            position: relative
+            text-decoration: none
+            &::after
+                content: ''
+                position: absolute
+                left: 0
+                width: 25%
+                top: calc(100% - 2px)
+                background-color: $theme
+                height: 1px
+                transition:
+                    duration: .9s
+                    property: width
+            &:hover
+                &::after
+                    width: 70%
+    .socials
+        a
+            margin: 0 5px
+    .list
+        display: flex
+        flex-direction: column
+        & > a
+            text-decoration: none
+            font-size: .8rem
+            font-weight: 500
+            color: white
+            margin-bottom: 5px
+            i
+                margin-right: 5px
+.sub-footer
+    background-color: #000      
+    height: 10vh     
+

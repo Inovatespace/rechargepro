@@ -1,0 +1,17 @@
+.checkbox
+    &.custom-checkbox .custom-control-input:checked~.custom-control-label::before
+        background-color: $theme
+        border-color: $theme
+    &.custom-checkbox .custom-control-input:focus~.custom-control-label::before
+        box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(150, 41, 41, 0.2)
+        border-color: $theme
+    display: flex
+    align-items: center
+    label
+        color: #666
+        padding-top: .3rem
+        a
+            color: $theme
+            font-weight: bold
+        input
+            margin-right: 10px
