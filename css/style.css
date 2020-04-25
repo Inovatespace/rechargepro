@@ -1799,7 +1799,7 @@ td{
 
 .dashboard3_authorization_4{
   padding-top: 5rem;
-  padding-left: 11.7rem;
+  padding-left: 12.2rem;
 }
 
 .dashboard3_authorization_4 .authorization_card2{
@@ -1831,6 +1831,110 @@ td{
 }
 .dashboard-4-table .dashboard-4-name{
   padding-right: 15rem;
+}
+.dashboard-4-table .dashboard-3-th1{
+  padding-right: 1.5rem;
+}
+
+
+.dashboard-3-maincard{
+  margin-left: 0.1rem;
+}
+.dashboard-3-maincard p{
+  font-size: 12px;
+  font-weight: bold;
+}
+.dashboard-3-card{
+  background: #F1F1F1;
+ border-bottom: none;
+ box-shadow: 1px 1px 2px 2px #C9C9C9;
+ color: var(--secondary_color); 
+ min-height: 3rem;
+border-radius: 0;
+
+}
+.dashboard-3-card1{
+ min-width: 3.4rem;
+ border-right: 1px solid red;
+ 
+
+}
+.dashboard-3-card2{
+ min-width: 22rem;
+ border-right: 1px solid red;
+ padding-top: 1rem;
+ padding-left: 1rem;
+}
+.dashboard-3-card3{
+ min-width: 3.5rem;
+ border-right: 1px solid red;
+ padding-top: 1rem;
+ padding-left: 1rem;
+}
+.dashboard-3-card4{
+ min-width: 10.5rem;
+}
+.dashboard-3-card5{
+ min-width: 6.5rem;
+ padding-top: 0.5rem;
+}
+.dashboard-3-card6{
+ min-width: 9.2rem;
+ padding-top: 1rem;
+ padding-left: 1rem;
+
+}
+.remove_delete{
+  background: #2F95FB;
+  font-size: 10px;
+  color: #fff;
+  border-radius: 0;
+}
+.text span{
+  color: var(--secondary_color);
+  font-weight: bold;
+}
+
+.text .rem{
+  padding-left: 2rem;
+  padding-right: 0.5rem;
+}
+.text .no{
+  background: var(--primary_color);
+  padding-right: 0.5rem;
+  color: #fff;
+}
+.text p{
+  font-weight: bold;
+  padding-right: 5rem;
+ 
+  color: var(--primary_color);
+}
+
+.dashboard-3-note{
+  background: #79BB75;
+  min-width: 57rem;
+  min-height: 5rem;
+}
+.dashboard-3-note p{
+  color: #fff;
+  line-height: 1.4rem;
+  margin-top: 0.8rem;
+  margin-left: 0.5rem;
+  padding-right: 3.5rem;
+}
+.dashboard-3-note span{
+  color: var(--primary_color);
+  font-weight: bold;
+}
+.square {
+  height: 20px;
+  width: 20px;
+  background-color: #C4C1C1;
+  margin-right: 0.8rem;
+}
+.active{
+  background: #1492E6;
 }
 
 
