@@ -20,7 +20,10 @@
 </head>
 <body>
 
- <!-- ===================================
+
+    
+    
+    <!-- ===================================
                   NAVBAR
     =================================== -->
     <header id="header" class="dashboard_header"> 
@@ -115,6 +118,14 @@
                     <li>
                         <img src="assets/images/icons/icon_developer.png" alt=""><a href="#">Logout</a>
                     </li>
+                    <!-- <li class="dropdown">
+                        <img src="assets/images/icons/icon_Authorisation.png">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="username">Maduke James Paul</span> <span class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">MY Profile</a></li>
+                            <li><a href="#">Logout</a></li>
+                        </ul>
+                    </li> -->
                 </ul>
             </div>
         </div>
@@ -131,145 +142,120 @@
                  END OF  NAVBAR
     =================================== -->
 
-    <div class="developer_screen_btn mr-5 ml-5 d-lg-none">
-        <button class="btn balance balance_sm"><span class="mr-3"> Balance</span><input class="balance_1" placeholder="5000" disabled></button>
-        <button class="btn balance"> <span class="mr-3">Profit</span><input class="balance_1" placeholder="2000" disabled></button>
-    </div>
 
-    <div class="container dashboard3_authorization_4">
+    
+    <div class="container profile_page">
         <div class="row">
-            <div class="col-lg-6">
-                <a href="#" style="color: black;">
-                <div class="card authorization_card">
-                    <p class="mt-3">Account Authorization</p>
-                </div>
-            </a>
-            </div>
-            <div class="col-lg-6">
-                <a href="#">
-                <div class="card authorization_card2">
-                    <p class="mt-3">Account Read Access</p>
-                </div>
-            </a>
+            <div class="mainprofile">
+                <h3>profile</h3>
+
             </div>
         </div>
     </div>
 
-
-
-    <div class="container dashboard-3main">
+    <div class="container user_details">
         <div class="row">
-            <div class="dashboard_generate">
-                <button class="btn btn-lg generate_btn">Generate Authentication Code</button>
+            <div class="col-md-4">
+                <div class="section">
+                    <h5>User Information</h5>
+                </div>
+                <div class="user-input">
+                    <label for="">First name</label>
+                    <br>
+                    <input type="text" />
+                </div>
+                <div class="user-input">
+                    <label for="">Last name</label>
+                    <br>
+                    <input type="text" />
+                </div>
+                <div class="user-input">
+                    <label for="">Email</label>
+                    <br>
+                    <input type="email" />
+                </div>
+                <div class="user-input">
+                    <label for=""><b>Phone Number</b></label>
+                    <br>
+                    <input type="text" />
+                </div>
+                <div class="user-input">
+                    <label for="">Address</label>
+                    <br>
+                    <input type="text" />
+                </div>
+                <div class="user-input">
+                    <label for="">State</label>
+                    <br>
+                    <input type="text" />
+                </div>
+                <div class="user-input">
+                    <label for="">LGA</label>
+                    <br>
+                    <input type="text" />
+                </div>
+                <div class="btn_update_holder">
+                    <button class="btn btn-sm btn_update">update</button>
+                </div>
             </div>
-        </div>
-    </div>
+            <div class="col-md-4">
+                <div class="section">
+                    <h6>Bank Account Details</h6>
+                </div>
+                <div class="user-input">
+                    <label for=""><b>Bank name</b></label>
+                    <br>
+                    <input type="text" />
+                </div>
+                <div class="user-input">
+                    <label for="">Account name</label>
+                    <br>
+                    <input type="text" />
+                </div>
+                <div class="user-input">
+                    <label for="">Account number</label>
+                    <br>
+                    <input type="text" />
+                </div>
+                <div class="user-input">
+                    <label for="">Phone number</label>
+                    <br>
+                    <input type="text" />
+                </div>
+                <div class="btn_update_holder">
+                    <button class="btn btn-sm btn_update">save</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="section">
+                    <h6>Password</h6>
+                </div>
+                <div class="user-input">
+                    <label for="">New password</label>
+                    <br>
+                    <input type="password" />
+                </div>
+                <div class="user-input">
+                    <label for="">Repeat password</label>
+                    <br>
+                    <input type="password" />
+                </div>
+                <div class="btn_update_holder">
+                    <button class="btn btn-sm btn_update">change</button>
+                </div>
 
-    <div class="container authorization_table">
-        <div class="table-responsive">
-            <table class="table dashboard-4-table table-bordered table-fixed mt-3">
-                <thead>
-                    <tr>
+                <div class="become_agent_holder">
+                    <div class="card agent-card">
+                        <div class="circle">
+                            <img src="assets/images/icons/Group 80.png" class="be_an_agent" alt="">
+                        </div>
+                       
+                            <h6>Become an agent</h6>
                         
-                        <th class="dashboard-3-th1" scope="col">#</th>
-                        <th class="dashboard-4-name" scope="col">Name</th>
-                        <th scope="col">OS</th>
-                        <th scope="col">SET PASSWORD</th>
-                        <th scope="col">REMOVE</th>
-                        <th scope="col">DATE ADDED</th>
-                      
-                    </tr>
-                </thead>
-            
-            </table>
-        </div>
 
-        <div class="container mt-2 dashboard-3-maincard">
-            <div class="row">
-                <div class="card dashboard-3-card dashboard-3-card1">
-                    
-                </div>
-                <div class="card dashboard-3-card dashboard-3-card2">
-                    <p class="">web</p>
-                </div>
-                <div class="card dashboard-3-card dashboard-3-card3">
-                    <p class="">web</p>
-                </div>
-                <div class="card dashboard-3-card dashboard-3-card4">
-
-                </div>
-                <div class="card dashboard-3-card dashboard-3-card5">
-                    <button class="btn btn-lg remove_delete">Delete</button>
-                </div>
-                <div class="card dashboard-3-card dashboard-3-card6">
-                    <p class="">2020-04-06 12:50:33</p>
+                    </div>
                 </div>
             </div>
-        </div>
-
-        <div class="container mt-3 dashboard-3-maincard">
-            <div class="row">
-                <div class="card dashboard-3-card dashboard-3-card1">
-                    
-                </div>
-                <div class="card dashboard-3-card dashboard-3-card2">
-                
-                </div>
-                <div class="card dashboard-3-card dashboard-3-card3">
-                 
-                </div>
-                <div class="card dashboard-3-card dashboard-3-card4">
-
-                </div>
-                <div class="card dashboard-3-card dashboard-3-card5">
-                    
-                </div>
-                <div class="card dashboard-3-card dashboard-3-card6">
-                   
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="row">
-                <div class="text mt-4">
-                  <span>Maximum Device-3</span>
-                  <span class="rem">Remaning</span><b class="no"> 2</b>
-                  <p class="mt-3">You are permitted to register a maximum of three devices.
-                      You can add and remove any deviceat anytime
-                  </p>
-                  
-                </div>
-            </div>
-        </div>
-
-        <div class="conatiner">
-            <div class="row">
-                <div class="dashboard-3-note">
-                    <p>You can by pass security on any of the platform below,<br>
-                    <span>NOTE:</span>This is not recommmended, this feature
-                    is only useful in a large super market/mall where a <cashier>
-                    <operator>is allowed to swtich till/pay at anytime</operator></p>
-
-                </div>
-            </div>
-
-        </div>
-
-        <div class="conatiner mt-3 mb-5 ml-5">
-            <div class="row">
-                <div class="square active"></div>NONE
-            </div>
-            <div class="row">
-                <div class="square"></div>WINDOWS
-            </div>
-            <div class="row">
-                <div class="square"></div>IOS
-            </div>
-            <div class="row">
-                <div class="square"></div>ANDRIOD
-            </div>
-
             
         </div>
     </div>
@@ -278,17 +264,15 @@
 
 
     
+    <!-- Javascript Libraries -->
+    <script src="assets/lib/jquery/jquery.min.js"></script>
+    <script src="assets/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/lib/bootstrap/js/bootstrap.js"></script>
+
+  
+    <!-- main js -->
+    <script src="js/main.js"></script>
 
 
-        <!-- Javascript Libraries -->
-        <script src="assets/lib/jquery/jquery.min.js"></script>
-        <script src="assets/lib/bootstrap/js/bootstrap.min.js"></script>
-        <script src="assets/lib/bootstrap/js/bootstrap.js"></script>
-    
-      
-        <!-- main js -->
-        <script src="js/main.js"></script>
-    
-    
-    </body>
-    </html>
+</body>
+</html>

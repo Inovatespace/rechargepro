@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Rechargepro</title>
+
+
+    <!-- Libraries -->
+    <link rel="stylesheet" href="assets/lib/bootstrap/css/bootstrap.min.css">
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="assets/lib/font-awesome/css/font-awesome.min.css">
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Monoton|Nunito|Roboto+Mono&display=swap" rel="stylesheet">
+
+    <!-- main stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+ <!-- ===================================
+                  NAVBAR
+    =================================== -->
+    <header id="header" class="dashboard_header"> 
+        <div class="container-fluid ml-4 ">
+            <div id="dashboard_logo" class="pull-left">
+                <a href="index.html" class="scrollto"><img src="assets/images/img/logo.png"></a>
+            </div>
+    
+            <nav id="nav-menu-container" class="mr-5">
+                <form class="navbar-form form-inline mr-5 d-none d-sm-block">
+                    <div class="input-group search-box">								
+                        <input type="text" id="search" class="form-control">
+                        <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                    </div>
+                </form>
+                <div class="large_screen_button mr-5 d-none d-sm-block">
+                    <button class="btn balance balance_sm"><span class="mr-3"> Balance</span><input class="balance_1" placeholder="5000" disabled></button>
+                    <button class="btn balance"> <span class="mr-3">Profit</span><input class="balance_1" placeholder="2000" disabled></button>
+                </div>
+              
+                
+                <ul class="nav-menu dashboard_nav_menu">
+                    <div class="side_nav_content d-lg-none">
+                        <ul>
+                            <li class="menu-active">
+                                <img src="assets/images/icons/Icon Home.png" alt=""><a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <img src="assets/images/icons/icon_dashboard.png" alt=""><a href="dashboard.html">dashboard</a>
+                            </li>
+                            <li>
+                                <img src="assets/images/icons/icon_Authorisation.png" alt=""><a href="withdraw.html">Authorisation</a>
+                            </li>
+                            <li>
+                                <img src="assets/images/icons/icon_support.png" alt=""><a href="support.html">Support</a>
+                            </li>
+                            <li>
+                                <img src="assets/images/icons/icon_developer.png" alt=""><a href="developer.html">Developer</a>
+                            </li>
+                            <li>
+                                <img src="assets/images/icons/icon_developer.png" alt=""><a href="user.html">Logout</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <li class="dropdown">
+                        <img src="assets/images/icons/icon_Authorisation.png">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="username">Maduke James Paul</span> <span class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">MY Profile</a></li>
+                            <li><a href="#">Logout</a></li>
+                        </ul>
+                    </li>
+                   
+                </ul>
+            </nav>
+        </div>
+        
+        </div>
+    </header>
+
+
+    <!-- ===================================
+                 END OF NAVBAR
+    =================================== -->
+
+    
+    <!-- ===================================
+            SIDE NAVIGATON
+    =================================== -->
+    <aside>
+
+        <div class="side_nav">
+            
+            <div class="side_nav_content">
+                <ul>
+                    <li class="menu-active">
+                        <img src="assets/images/icons/Icon Home.png" alt=""><a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <img src="assets/images/icons/icon_dashboard.png" alt=""><a href="dashboard.html">dashboard</a>
+                    </li>
+                    <li>
+                        <img src="assets/images/icons/icon_Authorisation.png" alt=""><a href="#">Authorisation</a>
+                    </li>
+                    <li>
+                        <img src="assets/images/icons/icon_support.png" alt=""><a href="support.html">Support</a>
+                    </li>
+                    <li>
+                        <img src="assets/images/icons/icon_developer.png" alt=""><a href="developer.html">Developer</a>
+                    </li>
+                    <li>
+                        <img src="assets/images/icons/icon_developer.png" alt=""><a href="#">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </aside>
+
+
+    <!-- ===================================
+            SIDE NAVIGATON
+    =================================== -->
+
+
+    <!-- ===================================
+                 END OF  NAVBAR
+    =================================== -->
+
+    <div class="developer_screen_btn mr-5 ml-5 d-lg-none">
+        <button class="btn balance balance_sm"><span class="mr-3"> Balance</span><input class="balance_1" placeholder="5000" disabled></button>
+        <button class="btn balance"> <span class="mr-3">Profit</span><input class="balance_1" placeholder="2000" disabled></button>
+    </div>
+
+    <div class="container dashboard3_authorization_4">
+        <div class="row">
+            <div class="col-lg-6">
+                <a href="#" style="color: black;">
+                <div class="card authorization_card">
+                    <p class="mt-3">Account Authorization</p>
+                </div>
+            </a>
+            </div>
+            <div class="col-lg-6">
+                <a href="#">
+                <div class="card authorization_card2">
+                    <p class="mt-3">Account Read Access</p>
+                </div>
+            </a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container dashboard-3main">
+        <div class="row">
+            <div class="dashboard_generate">
+                <button class="btn btn-lg generate_btn">Generate Authentication Code</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container authorization_table">
+        <div class="table-responsive">
+            <table class="table dashboard-4-table table-bordered table-fixed mt-3">
+                <thead>
+                    <tr>
+                        
+                        <th class="dashboard-3-th1" scope="col">#</th>
+                        <th class="dashboard-4-name" scope="col">Name</th>
+                        <th scope="col">OS</th>
+                        <th scope="col">SET PASSWORD</th>
+                        <th scope="col">REMOVE</th>
+                        <th scope="col">DATE ADDED</th>
+                      
+                    </tr>
+                </thead>
+            
+            </table>
+        </div>
+
+        <div class="container mt-1 dashboard-3-maincard">
+            <div class="row">
+                <div class="card dashboard-3-card dashboard-3-card1">
+                    
+                </div>
+                <div class="card dashboard-3-card dashboard-3-card2">
+                    <p class="">web</p>
+                </div>
+                <div class="card dashboard-3-card dashboard-3-card3">
+                    <p class="">web</p>
+                </div>
+                <div class="card dashboard-3-card dashboard-3-card4">
+
+                </div>
+                <div class="card dashboard-3-card dashboard-3-card5">
+                    <button class="btn btn-lg remove_delete">Delete</button>
+                </div>
+                <div class="card dashboard-3-card dashboard-3-card6">
+                    <p class="">2020-04-06 12:50:33</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-1 dashboard-3-maincard">
+            <div class="row">
+                <div class="card dashboard-3-card dashboard-3-card1">
+                    
+                </div>
+                <div class="card dashboard-3-card dashboard-3-card2">
+                
+                </div>
+                <div class="card dashboard-3-card dashboard-3-card3">
+                 
+                </div>
+                <div class="card dashboard-3-card dashboard-3-card4">
+
+                </div>
+                <div class="card dashboard-3-card dashboard-3-card5">
+                    
+                </div>
+                <div class="card dashboard-3-card dashboard-3-card6">
+                   
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="text mt-1">
+                  <span>Maximum Device-3</span>
+                  <span class="rem">Remaning</span><b class="no"> 2</b>
+                  <p class="mt-1">You are permitted to register a maximum of three devices.
+                      You can add and remove any deviceat anytime
+                  </p>
+                  
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="dashboard-3-note">
+                    <p>You can by pass security on any of the platform below,<br>
+                    <span>NOTE:</span>This is not recommmended, this feature
+                    is only useful in a large super market/mall where a <cashier>
+                    <operator>is allowed to swtich till/pay at anytime</operator></p>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container mt-3 mb-5 ml-5 mb-5">
+            <div class="row">
+                <div class="square active"></div>NONE
+            </div>
+            <div class="row">
+                <div class="square"></div>WINDOWS
+            </div>
+            <div class="row">
+                <div class="square"></div>IOS
+            </div>
+            <div class="row">
+                <div class="square"></div>ANDRIOD
+            </div>
+
+            
+        </div>
+    </div>
+
+
+
+
+    
+
+
+        <!-- Javascript Libraries -->
+        <script src="assets/lib/jquery/jquery.min.js"></script>
+        <script src="assets/lib/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/lib/bootstrap/js/bootstrap.js"></script>
+    
+      
+        <!-- main js -->
+        <script src="js/main.js"></script>
+    
+    
+    </body>
+    </html>

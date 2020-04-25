@@ -1890,6 +1890,9 @@ border-radius: 0;
   color: #fff;
   border-radius: 0;
 }
+.text{
+ padding-top: 0.5rem;
+}
 .text span{
   color: var(--secondary_color);
   font-weight: bold;
@@ -1907,7 +1910,7 @@ border-radius: 0;
 .text p{
   font-weight: bold;
   padding-right: 5rem;
- 
+ padding-top: 1.5rem;
   color: var(--primary_color);
 }
 
@@ -1937,6 +1940,131 @@ border-radius: 0;
   background: #1492E6;
 }
 
+
+/* ===================================
+   PROFILE PAGE STYLING
+=================================== */
+.profile_page{
+  padding-top: 5rem;
+  padding-left: 15rem;
+}
+.user_details{
+  padding-top: 2rem;
+  padding-left: 14rem; 
+}
+.section h5{
+  color: #F53B43;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.section h6{
+  color: #F53B43;
+  font-size: 13px;
+  font-weight: bold;
+}
+.user_details .section {
+  /* margin-bottom: 60px; */
+  position: relative;
+  padding-bottom: 3px;
+  
+}
+
+.user-input label{
+  font-size:14px;
+  padding-top: 1.5rem;
+  line-height: 0.2rem;
+  padding-left: 0.2rem;
+  font-weight: lighter;
+  font-family: var(--text_font);
+}
+
+.user-input input{
+border-radius: 20px;
+background: var(--white_bg);
+border: 1px solid grey;
+width: 80%;
+padding: 5px;
+}
+.user_details .section::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 250px;
+  height: 2px;
+  background: #F53B43;
+  bottom: 0;
+  /* left: 3%; */
+}
+.btn_update_holder{
+  margin-top: 1.5rem;
+  margin-left: 3.5rem;
+  margin-bottom: 2rem;
+}
+.btn_update{
+  background: var(--primary_color);
+  border-radius: 20px;
+  color: #FFF;
+  padding: 5px;
+  width: 50%;
+}
+.btn_update:hover{
+  background: var(--primary_color);
+  border-radius: 20px;
+  color: #FFF;
+  padding: 5px;
+  width: 50%;
+}
+.mainprofile h3{
+  text-transform: uppercase;
+  color: #D2D2D2;
+  font-size: 30px;
+  
+}
+
+.agent-card{
+  border-radius: 15px;
+  height: 6.5rem;
+  box-shadow: 0px 1px 2px 2px rgba(243, 242, 242, 2.0);
+  background-color: #FFFFFF;
+  cursor: pointer;
+}
+.circle {
+ margin-top: 1rem;
+ margin-left: 0.5rem;
+  height: 70px;
+  width: 70px;
+  background-color:transparent;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.be_an_agent{
+  width: 80%;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+}
+.agent-card h6{
+  padding-left: -5rem;
+}
+
+.upload_file button{
+  background: var(--primary_color);
+  border-radius: 20px;
+  color: #FFF;
+  padding: 4.5px;
+  width: 20%;
+  margin-left: -5.5rem;
+  margin-top: -0.1rem;
+}
+.upload_file2 button{
+  background: var(--primary_color);
+  border-radius: 20px;
+  color: #FFF;
+  padding: 4.5px;
+  width: 20%;
+  margin-left: -5.5rem;
+  margin-top: -0.1rem;
+}
 
 /* ===================================
    MEDIA QUERY
@@ -1979,6 +2107,37 @@ border-radius: 0;
     border-radius: 15px;
    
   }
+  .dashboard-3-card1{
+    min-width: 3rem;
+    border-right: 1px solid red;
+    
+   
+   }
+   .dashboard-3-card2{
+    min-width: 12rem;
+    border-right: 1px solid red;
+    padding-top: 1rem;
+    padding-left: 1rem;
+   }
+   .dashboard-3-card3{
+    min-width: 3rem;
+    border-right: 1px solid red;
+    padding-top: 1rem;
+    padding-left: 1rem;
+   }
+   .dashboard-3-card4{
+    min-width: 15rem;
+   }
+   .dashboard-3-card5{
+    min-width: 7.5rem;
+    padding-top: 0.5rem;
+   }
+   .dashboard-3-card6{
+    min-width: 9.2rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+   
+   }
 
 
  
@@ -2434,6 +2593,246 @@ border-radius: 0;
       min-width: 9rem;
      
      }
+
+     /* ===================================
+  DASHBOARD-3 STYLING
+=================================== */
+.dashboard-3main{
+  padding-left: 3rem;
+  padding-top: 0.5rem;
+  border-radius: 0;
+}
+
+.generate_btn{
+  background: #2F95FB;
+  font-size: 8px;
+  color: #fff;
+  width: 10rem;
+}
+.dashboard_generate{
+  padding-left: 49rem;
+}
+
+.dashboard3_authorization_4{
+  padding-top: 3.5rem;
+  padding-left: 13.7rem;
+}
+
+.dashboard3_authorization_4 .authorization_card2{
+  background-color: #fff;
+  border-bottom: 3px solid #F3F2F2;
+  border-top: 3px solid #F3F2F2;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  min-width: 15rem;
+  min-height: 4rem;
+  text-align: center;
+  font-weight: bold;
+  font-family: var(--text_font);
+  color: var(--secondary_color);
+}
+
+.dashboard3_authorization_4 .authorization_card{
+  background: var(--secondary_color);
+  cursor: pointer;
+  min-width: 15rem;
+  min-height: 4rem;
+  text-align: center;
+  font-family: var(--text_font);
+  color: var(--text_color);
+}
+.authorization_table{
+  padding-left: 14rem;
+}
+.dashboard-4-table .dashboard-4-name{
+  padding-right: 3rem;
+}
+.dashboard-4-table .dashboard-3-th1{
+  padding-right: 2;
+}
+
+
+.dashboard-3-maincard{
+  margin-left: 0.1rem;
+}
+.dashboard-3-maincard p{
+  font-size: 12px;
+  font-weight: bold;
+}
+.dashboard-3-card{
+  background: #F1F1F1;
+ border-bottom: none;
+ box-shadow: 1px 1px 2px 2px #C9C9C9;
+ color: var(--secondary_color); 
+ min-height: 3rem;
+border-radius: 0;
+
+}
+.dashboard-3-card1{
+ min-width: 3rem;
+ border-right: 1px solid red;
+ 
+
+}
+.dashboard-3-card2{
+ min-width: 7rem;
+ border-right: 1px solid red;
+ padding-top: 1rem;
+ padding-left: 1rem;
+}
+.dashboard-3-card3{
+ min-width: 3rem;
+ border-right: 1px solid red;
+ padding-top: 1rem;
+ padding-left: 1rem;
+}
+.dashboard-3-card4{
+ min-width: 8rem;
+}
+.dashboard-3-card5{
+ min-width: 7.5rem;
+ padding-top: 0.5rem;
+}
+.dashboard-3-card6{
+ min-width: 9.2rem;
+ padding-top: 1rem;
+ padding-left: 1rem;
+
+}
+.remove_delete{
+  background: #2F95FB;
+  font-size: 10px;
+  color: #fff;
+  border-radius: 0;
+}
+.text span{
+  color: var(--secondary_color);
+  font-weight: bold;
+  padding-left: 1rem;
+}
+
+.text .rem{
+  padding-left: 2rem;
+  padding-right: 0.5rem;
+}
+.text .no{
+  background: var(--primary_color);
+  padding-right: 0.5rem;
+  color: #fff;
+}
+.text p{
+  font-weight: bold;
+  padding-right: 0;
+  padding-left: 1rem;
+ 
+  color: var(--primary_color);
+}
+
+.dashboard-3-note{
+  background: #79BB75;
+  min-width: 17rem;
+  min-height: 0;
+}
+.dashboard-3-note p{
+  color: #fff;
+  line-height: 1.4rem;
+  margin-top: 0.8rem;
+  margin-left: 1rem;
+  padding-left: 1rem;
+  padding-right: 2rem;
+  font-size: 12px;
+  padding-top: 0;
+}
+.dashboard-3-note span{
+  color: var(--primary_color);
+  font-weight: bold;
+}
+.square {
+  height: 20px;
+  width: 20px;
+  background-color: #C4C1C1;
+  margin-right: 0.8rem;
+}
+.active{
+  background: #1492E6;
+}
+/* ===================================
+   PROFILE PAGE STYLING
+=================================== */
+.profile_page{
+  padding-top: 4rem;
+  padding-left: 16rem;
+}
+.user_details{
+  padding-top: 0.5rem;
+  padding-left: 15em; 
+}
+.section h5{
+  color: #F53B43;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.section h6{
+  color: #F53B43;
+  font-size: 13px;
+  font-weight: bold;
+}
+.user_details .section {
+  /* margin-bottom: 60px; */
+  position: relative;
+  padding-bottom: 3px;
+  
+}
+
+.user-input label{
+  font-size:14px;
+  padding-top: 1.5rem;
+  line-height: 0.2rem;
+  padding-left: 0.2rem;
+  font-weight: lighter;
+  font-family: var(--text_font);
+}
+
+.user-input input{
+border-radius: 20px;
+background: var(--white_bg);
+border: 1px solid grey;
+width: 80%;
+padding: 5px;
+}
+.user_details .section::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 180px;
+  height: 2px;
+  background: #F53B43;
+  bottom: 0;
+  /* left: 3%; */
+}
+
+.upload_file button{
+  background: var(--primary_color);
+  border-radius: 20px;
+  color: #FFF;
+  padding: 4.5px;
+  width: 20%;
+  margin-left: -4rem;
+  margin-top: -0.1rem;
+}
+.upload_file2 button{
+  background: var(--primary_color);
+  border-radius: 20px;
+  color: #FFF;
+  padding: 4.5px;
+  width: 20%;
+  margin-left: -4rem;
+  margin-top: -0.1rem;
+}
+
+     
  
 }
 
@@ -3332,6 +3731,247 @@ aside{
 .authorization_table{
   padding-left: 1rem;
 }
+
+
+/* ===================================
+  DASHBOARD-3 STYLING
+=================================== */
+.dashboard-3main{
+  padding-left: 3rem;
+  padding-top: 3rem;
+  border-radius: 0;
+}
+
+.generate_btn{
+  background: #2F95FB;
+  font-size: 8px;
+  color: #fff;
+  width: 10rem;
+}
+.dashboard_generate{
+  padding-left: 9rem;
+}
+
+.dashboard3_authorization_4{
+  padding-top: 2rem;
+  padding-left: 0;
+}
+
+.dashboard3_authorization_4 .authorization_card2{
+  background-color: #fff;
+  border-bottom: 3px solid #F3F2F2;
+  border-top: 3px solid #F3F2F2;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  min-width: 15rem;
+  min-height: 4rem;
+  text-align: center;
+  font-weight: bold;
+  font-family: var(--text_font);
+  color: var(--secondary_color);
+}
+
+.dashboard3_authorization_4 .authorization_card{
+  background: var(--secondary_color);
+  cursor: pointer;
+  min-width: 15rem;
+  min-height: 4rem;
+  text-align: center;
+  font-family: var(--text_font);
+  color: var(--text_color);
+}
+.authorization_table{
+  padding-left: 0;
+}
+.dashboard-4-table .dashboard-4-name{
+  padding-right: 3rem;
+}
+.dashboard-4-table .dashboard-3-th1{
+  padding-right: 2;
+}
+
+
+.dashboard-3-maincard{
+  margin-left: 0.1rem;
+}
+.dashboard-3-maincard p{
+  font-size: 12px;
+  font-weight: bold;
+}
+.dashboard-3-card{
+  background: #F1F1F1;
+ border-bottom: none;
+ box-shadow: 1px 1px 2px 2px #C9C9C9;
+ color: var(--secondary_color); 
+ min-height: 3rem;
+border-radius: 0;
+
+}
+.dashboard-3-card1{
+ min-width: 3rem;
+ border-right: 1px solid red;
+ 
+
+}
+.dashboard-3-card2{
+ min-width: 7rem;
+ border-right: 1px solid red;
+ padding-top: 1rem;
+ padding-left: 1rem;
+}
+.dashboard-3-card3{
+ min-width: 3rem;
+ border-right: 1px solid red;
+ padding-top: 1rem;
+ padding-left: 1rem;
+}
+.dashboard-3-card4{
+ min-width: 8rem;
+}
+.dashboard-3-card5{
+ min-width: 7.5rem;
+ padding-top: 0.5rem;
+}
+.dashboard-3-card6{
+ min-width: 9.2rem;
+ padding-top: 1rem;
+ padding-left: 1rem;
+
+}
+.remove_delete{
+  background: #2F95FB;
+  font-size: 10px;
+  color: #fff;
+  border-radius: 0;
+}
+.text span{
+  color: var(--secondary_color);
+  font-weight: bold;
+  padding-left: 1rem;
+}
+
+.text .rem{
+  padding-left: 2rem;
+  padding-right: 0.5rem;
+}
+.text .no{
+  background: var(--primary_color);
+  padding-right: 0.5rem;
+  color: #fff;
+}
+.text p{
+  font-weight: bold;
+  padding-right: 0;
+  padding-left: 1rem;
+ 
+  color: var(--primary_color);
+}
+
+.dashboard-3-note{
+  background: #79BB75;
+  min-width: 15rem;
+  min-height: 5rem;
+}
+.dashboard-3-note p{
+  color: #fff;
+  line-height: 1.4rem;
+  margin-top: 0.8rem;
+  margin-left: 1rem;
+  padding-left: 1rem;
+  padding-right: 2rem;
+  font-size: 11px;
+}
+.dashboard-3-note span{
+  color: var(--primary_color);
+  font-weight: bold;
+}
+.square {
+  height: 20px;
+  width: 20px;
+  background-color: #C4C1C1;
+  margin-right: 0.8rem;
+}
+.active{
+  background: #1492E6;
+}
+/* ===================================
+   PROFILE PAGE STYLING
+=================================== */
+.profile_page{
+  padding-top: 5rem;
+  padding-left: 3rem;
+}
+.user_details{
+  padding-top: 2rem;
+  padding-left: 2rem; 
+}
+.section h5{
+  color: #F53B43;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.section h6{
+  color: #F53B43;
+  font-size: 13px;
+  font-weight: bold;
+}
+.user_details .section {
+  /* margin-bottom: 60px; */
+  position: relative;
+  padding-bottom: 3px;
+  
+}
+
+.user-input label{
+  font-size:14px;
+  padding-top: 1.5rem;
+  line-height: 0.2rem;
+  padding-left: 0.2rem;
+  font-weight: lighter;
+  font-family: var(--text_font);
+}
+
+.user-input input{
+border-radius: 20px;
+background: var(--white_bg);
+border: 1px solid grey;
+width: 80%;
+padding: 5px;
+}
+.user_details .section::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 250px;
+  height: 2px;
+  background: #F53B43;
+  bottom: 0;
+  /* left: 3%; */
+}
+
+.upload_file button{
+  background: var(--primary_color);
+  border-radius: 20px;
+  color: #FFF;
+  padding: 4.5px;
+  width: 20%;
+  margin-left: -4rem;
+  margin-top: -0.1rem;
+}
+.upload_file2 button{
+  background: var(--primary_color);
+  border-radius: 20px;
+  color: #FFF;
+  padding: 4.5px;
+  width: 20%;
+  margin-left: -4rem;
+  margin-top: -0.1rem;
+}
+
+
+
 
 
 
