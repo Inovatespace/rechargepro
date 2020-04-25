@@ -2212,7 +2212,7 @@ td{
 
     .dashboard-2{
       padding-left: 15rem;
-      padding-top: 7rem;
+      padding-top: 5rem;
     }
     
     .dashboard-2-content{
@@ -2256,6 +2256,27 @@ td{
       width: 5rem;
       
     }
+
+    .dashboard-2-card1{
+      min-width: 10rem;
+     
+     }
+     .dashboard-2-card2{
+      min-width: 8rem;
+     
+     }
+     .dashboard-2-card3{
+      min-width: 10rem;
+     
+     }
+     .dashboard-2-card4{
+      min-width: 6rem;
+     
+     }
+     .dashboard-2-card5{
+      min-width: 9rem;
+     
+     }
  
 }
 
@@ -2852,6 +2873,7 @@ aside{
     margin-left: 150px;
     margin-top: -10px;
   }
+ 
 
  
 /* ===================================
@@ -2860,7 +2882,7 @@ aside{
 
 .dashboard-2{
   padding-left: 0rem;
-  padding-top: 7rem;
+  padding-top: 2rem;
 }
 
 .dashboard-2-content{
@@ -2874,6 +2896,69 @@ aside{
   min-height:1.5rem;
   border:none;
 }
+.dashboard-2-sub{
+  background: var(--secondary_color);
+  min-width:10rem;
+  min-height:1.5rem;
+  border:none;
+}
+.dashboard-2-maincard{
+  margin-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.dashboard-2-card1{
+  min-width: 12rem;
+ 
+ }
+ .dashboard-2-card2{
+  min-width: 9rem;
+ 
+ }
+ .dashboard-2-card3{
+  min-width: 6rem;
+ 
+ }
+ .dashboard-2-card4{
+  min-width: 6rem;
+ 
+ }
+ .dashboard-2-card5{
+  min-width: 9rem;
+ 
+ }
+
+ .custom_select1{
+  padding: 5px 20px 10px 0px;
+  width: 11rem;
+  margin-right: 1rem;
+}
+
+ .custom_select2{
+  padding: 5px 20px 10px 0px;
+  width: 9rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.custom_select3{
+  padding: 5px 20px 7px 0px;
+  width: 5rem;
+  margin-right: 0.5rem;
+
+}
+.custom_select3_2{
+  padding: 5px 20px 7px 0px;
+  width: 5rem;
+  margin-right: 2rem;
+}
+
+.custom_select4{
+  padding: 5px 20px 7px 0px;
+  width: 8.3rem;
+  
+}
+
+
 /* ===================================
    SUPPORT PAGE STYLING
 =================================== */
