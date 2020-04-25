@@ -23,7 +23,7 @@
 
     
     
-    <!-- ===================================
+   <!-- ===================================
                   NAVBAR
     =================================== -->
     <header id="header" class="dashboard_header"> 
@@ -43,6 +43,7 @@
                     <button class="btn balance balance_sm"><span class="mr-3"> Balance</span><input class="balance_1" placeholder="5000" disabled></button>
                     <button class="btn balance"> <span class="mr-3">Profit</span><input class="balance_1" placeholder="2000" disabled></button>
                 </div>
+              
                 
                 <ul class="nav-menu dashboard_nav_menu">
                     <div class="side_nav_content d-lg-none">
@@ -67,13 +68,27 @@
                             </li>
                         </ul>
                     </div>
-                    <li class="ml-5 pl-5 dash_auth d-none d-sm-block">
-                        <a href="#"><img src="assets/images/icons/icon_Authorisation.png"></a>
+
+                    <li class="dropdown">
+                        <img src="assets/images/icons/icon_Authorisation.png">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="username">Maduke James Paul</span> <span class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">MY Profile</a></li>
+                            <li><a href="#">Logout</a></li>
+                        </ul>
                     </li>
+                   
                 </ul>
             </nav>
         </div>
+        
+        </div>
     </header>
+
+
+    <!-- ===================================
+                 END OF NAVBAR
+    =================================== -->
 
 
     <!-- ===================================

@@ -1030,6 +1030,16 @@ color: var(--text_color);
   color: var(--primary_color);
 }
 
+.forgot_password .signup_form_item input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 80%;
+  padding: 3px;
+  transition: all 0.6s ease-in-out;
+  background: transparent;
+  font-size: 17px;
+  outline: none;
+}
 .signup_form_item input {
   border: none;
   border-bottom: 1px solid #ccc;
@@ -1183,6 +1193,13 @@ aside {
 }
 
 .side_nav_content ul li a {
+    color: #fff;
+    font-size: 16px;
+    transition: all 0.3s ease-in;
+    text-transform: uppercase;
+}
+.side_nav_content ul li span,
+.side_nav_content ul li .username {
     color: #fff;
     font-size: 16px;
     transition: all 0.3s ease-in;
@@ -1406,6 +1423,16 @@ aside {
   /* margin-left: 19rem; */
   /* border: 1px solid #C9C9C9; */
   box-shadow: 1px 1px 1px 1px #C9C9C9;
+}
+
+#recurrent_transaction_card2 img{
+margin-left: 4rem;
+}
+#transaction_card2 .sale_img{
+margin-left: 4rem;
+}
+#transaction_card2 img{
+margin-left: 1.5rem;
 }
 
 /* ===================================
@@ -1777,7 +1804,7 @@ td{
 }
 
 
-@media (min-width: 768px) and (max-width:1024px){
+@media  (min-width: 768px) and (max-width:1024px){
 
 
   .navbar-form .input-group {
@@ -1954,6 +1981,44 @@ td{
 
 }
 @media only screen and (max-width: 1024px){
+  .navbar-form .input-group {
+    width: 30%;
+    
+  }
+ 
+ 
+  .dashboard_header .search-box input {
+    border-color: none;
+    border-radius: 20px !important;
+    box-shadow: none;
+    background: #fff;
+    min-width: 30px;
+   
+    }
+    
+  .search-box .input-group-addon {
+    min-width: 50px;
+    border: none;
+    background: transparent;
+    position: absolute;
+    left: 180px;
+    z-index: 9;
+    padding: 7px;
+    height: 100%;
+    }
+
+    .large_screen_button{
+      margin-left: 200px;
+      padding-left: 5rem;
+        margin-top: -2rem;
+    }
+    .developer_balance{
+      margin-left: 250px;
+    }
+    /* .dropdown{
+      display: none;
+    } */
+
 .login_logo p{
   font-size: 14px;
  padding-left: 9rem;
@@ -2027,6 +2092,85 @@ td{
 .bills_btn img{
   width: 80px;
 }
+.dropdown-menu{
+  margin-left: 3rem;
+}
+.dashboard_header .dashboard_nav_menu{
+  margin-top: -2rem;
+  margin-left: 580px;
+}
+.developer_username{
+  margin-left: 5rem;
+}
+#recurrent_transaction_card2 img{
+  margin-left: 2rem;
+  }
+  #transaction_card2 .sale_img{
+  margin-left: 2rem;
+  }
+  #transaction_card2 img{
+  margin-left: 0;
+  }
+
+  .support_card{
+    padding-left: 25%;
+    padding-top: 8%;
+  }
+  
+  .support_card h5{
+    text-align: center;
+    color: var(--primary_color);
+    padding-left: 30rem;
+  }
+
+  .support-heading p{
+    margin-left: 3rem;
+   }
+   
+   .support-heading .tracking_text{
+   margin-right: 3rem;
+   }
+   
+   .support-heading .subject_text{
+    margin-right: 20.5rem;
+   }
+   .invites{
+    padding-left:15rem;
+    }
+    .invites_input input[type=text]{
+      margin-left: -1.5rem;
+    
+      margin-right: 12rem;
+    }
+
+    .authorization_4{
+      padding-top: 5rem;
+      padding-left: 14rem;
+    }
+    .authorization_card{
+      background-color: #fff;
+      border-bottom: 3px solid #F3F2F2;
+      border-top: 3px solid #F3F2F2;
+      cursor: pointer;
+      margin: 0;
+      padding: 0;
+      min-width: 20rem;
+      min-height: 4rem;
+      text-align: center;
+      font-weight: bold;
+      font-family: var(--text_font);
+    }
+    
+    .authorization_card2{
+      background: var(--secondary_color);
+      cursor: pointer;
+      min-width: 10rem;
+      min-height: 4rem;
+      text-align: center;
+      font-family: var(--text_font);
+      color: var(--text_color);
+    }
+    
  
 }
 
@@ -2861,7 +3005,7 @@ aside{
 .authorization_table{
   padding-left: 1rem;
 }
-}
+
 
 
 
@@ -2898,10 +3042,14 @@ aside{
 }
 
 .modal-content select,.modal-content input{
-  border-radius:80px;
-  padding: 25px;
-  /* margin-bottom: 1rem; */
+
+  width: 15rem;
+  margin-right: 0.5rem;
+  border-radius:60px;
+  padding: 15px;
+  margin-bottom: 1rem;
   margin-top: 1rem;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
 }
 .modal-content option::before{
   border-radius:80px;
@@ -2926,7 +3074,4 @@ aside{
 /* ===================================
   END OF MODAL STYLING
 =================================== */
-
-
-
 }
