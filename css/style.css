@@ -6,7 +6,7 @@
   --white_bg: #F3F2F2;
   --text_color: #F1F1F1;
   --header_font: 'Roboto Mono', monospace;
-  --text_font: 'Nunito', sans-serif;
+  --text_font: 'Poppins', sans-serif;
 }
 
 /* END OF RESUABLE */
@@ -313,7 +313,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }	
 
 .dashboard_header #nav-menu-container {
-  padding-left: 300px;
+  padding-left: 280px;
   margin: 0;
   padding-top: 0.5rem;
 }
@@ -323,8 +323,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 20px !important;
   box-shadow: none;
   background: #fff;
-  min-width: 200px;
-  margin-left: 10px;
+  min-width: 500px;
+ 
   }
   
 .search-box .input-group-addon {
@@ -332,7 +332,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: none;
   background: transparent;
   position: absolute;
-  left: 160px;
+  left: 450px;
   z-index: 9;
   padding: 7px;
   height: 100%;
@@ -353,7 +353,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .large_screen_button{
-  margin-left: 330px;
+  margin-left: 590px;
     margin-top: -2rem;
 }
 .dropdown-menu{
@@ -418,7 +418,7 @@ button span{
 }
 
 .balance_1{
-    width:65px;
+    width:70px;
     border-radius: 100px;
     padding: 0px 5px 0px;
     border: none;
@@ -1163,12 +1163,44 @@ END OF LOGIN AND SIGNUP PAGE STYLING
 =================================== */
 
 aside {
-    width: 300px;
+    width: 250px;
     position: fixed;
     background: var(--secondary_color);
     margin-top: 3rem;
     padding-top: 2rem;
 }
+/* .user-circle {
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+   height: 110px;
+   width: 110px;
+   background-color:#fff;
+   border-radius: 50%;
+   border: 1px solid black;
+ } */
+
+ .welcome_user{
+   margin-left: 1.5rem;
+   font-size: 13px;
+ }
+ .welcome_name{
+   font-size: 13px;
+ }
+
+ .avatar-holder{
+   margin-bottom: 1rem;
+ }
+ .avatar{
+   padding-top: 2rem;
+  vertical-align: middle;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background: #fff;
+  margin-left: 2rem;
+  cursor: pointer;
+  z-index: -1rem;
+ }
 
 .side_nav_content {
     padding-bottom: 0;
@@ -1184,7 +1216,7 @@ aside {
 }
 
 .side_nav_content ul li {
-    padding: 30px 50px 10px 0px;
+    padding: 20px 50px 10px 20px;
     text-align: justify;
 }
 .side_nav_content ul li img{
@@ -1194,9 +1226,10 @@ aside {
 
 .side_nav_content ul li a {
     color: #fff;
-    font-size: 16px;
+    font-size: 14px;
     transition: all 0.3s ease-in;
     text-transform: uppercase;
+    font-family: var(--text_font);
 }
 .side_nav_content ul li span,
 .side_nav_content ul li .username {
@@ -1283,11 +1316,12 @@ aside {
 .utility_card{
   padding-left: 32%;
   padding-top: 12%;
+  padding-bottom: 0.5rem;
 }
 
 .utility_card button{
  background: var(--secondary_color);
- border-radius: 10px;
+ border-radius: 20px;
  height: 6rem;
  width: 5.5rem;
 }
@@ -1300,21 +1334,46 @@ aside {
 #transaction_card{
   background-color: #fff;
   height: 13rem;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
 }
 
 #transaction_card p{
   color: #fff;
-  font-size: 10px
+  font-size: 10px;
+}
+#transaction_card .card_heading_text{
+  color: #fff;
+  font-size: 14px;
 }
 #transaction_card2{
   background-color: var(--secondary_color);
-  height: 13rem;
+  height: 14rem;
+  cursor: pointer;
 }
 
 #recurrent_transaction_card2{
   background-color: var(--secondary_color);
-  height: 11rem;;
+  height: 13rem;
+  width: 13rem;
+margin-left: 0.5rem;
+cursor: pointer;
 }
+
+.transfer_fund{
+  padding-right: 1rem;
+  padding-left: 1rem;
+  font-size: 14px;
+}
+
+/* .add_fund{
+  margin-left: 3rem;
+
+} */
+/* #recurrent_transaction_card2 p{
+  font-size: 14px;
+  font-weight: bolder;
+
+} */
 
 .card-heading{
   background: var(--primary_color);
@@ -1331,8 +1390,8 @@ aside {
   border: 1px solid var(--primary_color);
   background:transparent;
   z-index: 99999;
-  height: 10rem;
-  width: 13.6rem;
+  height: 12rem;
+  width: 12rem;
   color: #fff;  
 }
 
@@ -1340,13 +1399,15 @@ aside {
   border: 1px solid var(--primary_color);
   background:transparent;
   z-index: 99999;
-  height: 12rem;
+  height: 13rem;
   width: 13.6rem;
   color: #fff;  
 }
 
 .inner_card p, .inner_card2 p{
   text-align: center;
+  font-size: 16px;
+  font-weight: bolder;
 }
 
 /* ===================================
@@ -1465,7 +1526,7 @@ aside {
 }
 
 #recurrent_transaction_card2 img{
-margin-left: 4rem;
+margin-left: 2.8rem;
 }
 #transaction_card2 .sale_img{
 margin-left: 4rem;
