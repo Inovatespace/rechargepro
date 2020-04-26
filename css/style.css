@@ -1274,6 +1274,8 @@ aside {
   top: 20%;
   z-index: 9999;
   position: absolute;
+  animation-duration: 3s;
+ 
 }
 
 .airtime_btn img{
@@ -1536,6 +1538,18 @@ margin-left: 1.5rem;
 }
 
 
+
+/* ===================================
+  TRANSACTION PAGE STYLING
+=================================== */
+.transaction_done{
+  padding-top: 100px;
+  padding-left: 350px;
+}
+.transaction_done_bg img{
+  width: 350%;
+  opacity: 60%;
+}
 
 /* ===================================
   MODAL STYLING
