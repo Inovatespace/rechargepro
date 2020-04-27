@@ -76,7 +76,7 @@
       sizes="16x16"
       href="assets/images/img/favicon/favicon-16x16.png"
     />
-    <title>Support - Rechargepro</title>
+    <title>Dashboard-2 - Rechargepro</title>
 
 
     <!-- Libraries -->
@@ -87,6 +87,10 @@
 
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Monoton|Nunito|Roboto+Mono&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+    <!-- Animate css -->
+    <link rel="stylesheet" href="css/animate.css">
 
     <!-- main stylesheet -->
     <link rel="stylesheet" href="css/style.css">
@@ -94,6 +98,8 @@
 <body>
 
 
+    
+    
     <!-- ===================================
                   NAVBAR
     =================================== -->
@@ -111,22 +117,22 @@
                     </div>
                 </form>
                 <div class="large_screen_button mr-5 d-none d-sm-block">
-                    <button class="btn balance balance_sm"><span class="mr-3"> Balance</span><input class="balance_1" placeholder="5000" disabled></button>
-                    <button class="btn balance"> <span class="mr-3">Profit</span><input class="balance_1" placeholder="2000" disabled></button>
+                    <button class="btn balance balance_sm"><span class="mr-3"> Balance</span><input class="balance_1" placeholder="50000" disabled></button>
+                    <button class="btn balance ml-5"> <span class="mr-3">Profit</span><input class="balance_1" placeholder="2000" disabled></button>
                 </div>
               
                 
                 <ul class="nav-menu dashboard_nav_menu">
                     <div class="side_nav_content d-lg-none">
                         <ul>
-                            <li class="menu-active">
+                            <li>
                                 <img src="assets/images/icons/Icon Home.png" alt=""><a href="index.html">Home</a>
                             </li>
                             <li>
                                 <img src="assets/images/icons/icon_dashboard.png" alt=""><a href="dashboard.html">dashboard</a>
                             </li>
                             <li>
-                                <img src="assets/images/icons/icon_Authorisation.png" alt=""><a href="withdraw.html">Authorisation</a>
+                                <img src="assets/images/icons/icon_Authorisation.png" alt=""><a href="account-authorisation.html">Authorisation</a>
                             </li>
                             <li>
                                 <img src="assets/images/icons/icon_support.png" alt=""><a href="support.html">Support</a>
@@ -135,12 +141,14 @@
                                 <img src="assets/images/icons/icon_developer.png" alt=""><a href="developer.html">Developer</a>
                             </li>
                             <li>
-                                <img src="assets/images/icons/icon_developer.png" alt=""><a href="user.html">Logout</a>
+                                <img  src="assets/images/icons/LOG OUT.svg" alt=""><a href="#">Logout</a>
                             </li>
                         </ul>
                     </div>
 
-                    <!-- <li class="dropdown">
+                    
+                        <!-- I want to ask tee if it should be on mobile view instead of that large avatar -->
+                        <!-- <li class="dropdown">
                         <img src="assets/images/icons/icon_Authorisation.png">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="username">Maduke James Paul</span> <span class="caret"></b></a>
                         <ul class="dropdown-menu">
@@ -161,12 +169,6 @@
                  END OF NAVBAR
     =================================== -->
 
-
-
-    <!-- ===================================
-                 END OF NAVBAR
-    =================================== -->
-
     
     <!-- ===================================
             SIDE NAVIGATON
@@ -177,14 +179,24 @@
             
             <div class="side_nav_content">
                 <ul>
-                    <li class="menu-active">
+                    
+                            <!-- <li> -->
+                                <div class="avatar-holder">
+                                    <a href="profilepage.html"><img class="avatar" src="assets/images/icons/user.svg" alt=""></a>
+                                    <i class="fa fa-plus-circle"></i>
+                                    <br>
+                                    <span class="welcome_user" style="color: #E8363E;">Welcome</span><span class="welcome_name" style="color: #fff;">, Frst name</span>
+                                </div>
+                                
+                            <!-- </li> -->
+                    <li>
                         <img src="assets/images/icons/Icon Home.png" alt=""><a href="index.html">Home</a>
                     </li>
                     <li>
                         <img src="assets/images/icons/icon_dashboard.png" alt=""><a href="dashboard.html">dashboard</a>
                     </li>
                     <li>
-                        <img src="assets/images/icons/icon_Authorisation.png" alt=""><a href="#">Authorisation</a>
+                        <img src="assets/images/icons/icon_Authorisation.png" alt=""><a href="account-authorisation.html">Authorisation</a>
                     </li>
                     <li>
                         <img src="assets/images/icons/icon_support.png" alt=""><a href="support.html">Support</a>
@@ -192,9 +204,17 @@
                     <li>
                         <img src="assets/images/icons/icon_developer.png" alt=""><a href="developer.html">Developer</a>
                     </li>
-                    <li>
-                        <img src="assets/images/icons/icon_developer.png" alt=""><a href="#">Logout</a>
+                    <li class="mt-5">
+                        <img src="assets/images/icons/iconmonstr-log-out-2.png" alt=""><a href="#">Logout</a>
                     </li>
+                    <!-- <li class="dropdown">
+                        <img src="assets/images/icons/icon_Authorisation.png">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="username">Maduke James Paul</span> <span class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">MY Profile</a></li>
+                            <li><a href="#">Logout</a></li>
+                        </ul>
+                    </li> -->
                 </ul>
             </div>
         </div>
@@ -210,90 +230,55 @@
     <!-- ===================================
                  END OF  NAVBAR
     =================================== -->
+
     <div class="developer_screen_btn mr-5 ml-5 d-lg-none">
         <button class="btn balance balance_sm"><span class="mr-3"> Balance</span><input class="balance_1" placeholder="5000" disabled></button>
         <button class="btn balance"> <span class="mr-3">Profit</span><input class="balance_1" placeholder="2000" disabled></button>
     </div>
 
-
-
-    <div class="container">
-        <div class="row support_card">
-            <div class="col-md-3">
-                <div class="card" id="support_card_inner">
-                    <div class="mt-1 text-center">
-                    <p><span>0</span>All Ticket</p> 
-                </div>
-                    
+    <div class="container amount_paid_section d-none d-sm-block">
+        <div class="row making_payment_section">
+            <div class="col-md-3 ussd_row">
+                <div class="ussd_section">
+                    <a href="" class="ussd"><h6>ussd</h6></a> 
                 </div>
             </div>
-            <div class="col-md-3">
-                <div class="card" id="support_card_inner">
-                    <div class="mt-1 text-center">
-                    <p><span>0</span>Unresolved</p>
-                </div>
-                   
-                    
-                </div>
+            <div class="col-md-3 bank_transfer_row">
+                <div class="bank_transfer_section">
+                    <a href="" class="bank_transfer"><h6>Bank transfer</h6></a>
+                </div> 
             </div>
             <div class="col-md-3">
-                <div class="card" id="support_card_inner">
-                    <div class="mt-1 text-center">
-                    <p><span>0</span>Unread</p> 
-                </div>
-                   
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card" id="support_card_inner">
-                    <div class="mt-1 text-center">
-                    <p><span>0</span>Closing</p>
-                    </div>
-                    
-                </div>
+                <div class="debit_card_section">
+                    <a href="" class="debit_card"><h6>Debit card</h6></a>
+                </div> 
             </div>
         </div>
+
     </div>
 
 
 
-    <div class="container mb-5">
-       
-        <div class="row support_card">
-            <h5>Create New Ticket</h5>
-            <div class="card support_tracking">
-                
-                <div class="support-heading">
-                    
-                    <div class="row">
-                        <div class="tracking_text">
-                            <p>TRACKING ID</p>
-                        </div>
-
-                        <div class="subject_text">
-                            <p>SUBJECT</p>
-                        </div>
-                        
-                        <div class="last_activity_text">
-                            <p>LAST ACTIVITY</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card support_inner mt-4">
-                    <p>No Support Ticket Found</p>
-
-                </div>
-
-            </div>
+<!-- ===================================
+        MOBILE_RESPONSIVENESS
+    =================================== -->
+    <div class="container mt-4 d-md-none d-lg-none">
+        <div class="row ml-4 pt-4 mobile_payment">
+            <a href="" class="mobile_ussd"><h6>ussd</h6></a> 
+            <a href="" class="mobile_bank_transfer"><h6>Bank transfer</h6></a>
+            <a href="" class="mobile_debit_card"><h6>Debit card</h6></a>
+                 
+            
         </div>
+
     </div>
 
 
 
 
 
-<!--Start of Tawk.to Script-->
+
+    <!--Start of Tawk.to Script-->
 <script type="text/javascript">
     var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
     (function(){
@@ -310,8 +295,12 @@
     <!-- Javascript Libraries -->
     <script src="assets/lib/jquery/jquery.min.js"></script>
     <script src="assets/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/lib/bootstrap/js/bootstrap.js"></script>
 
+  
     <!-- main js -->
     <script src="js/main.js"></script>
+
+
 </body>
 </html>

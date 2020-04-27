@@ -1413,6 +1413,191 @@ cursor: pointer;
 }
 
 /* ===================================
+ DASHBOARD-1 STYLING
+=================================== */
+.amount_paid_section{
+  padding-top: 7rem;
+  padding-left: 13rem;
+}
+
+.amount_paid_sectionheader{
+  color: var(--primary_color);
+  font-family: var(--text_font);
+}
+
+.amount_paid_section .amount_paid_sectionheader {
+  /* margin-bottom: 60px; */
+  position: relative;
+  padding-bottom: 0.3px;
+  
+}
+
+.amount_paid_section .amount_paid_sectionheader::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 950px;
+  height: 1px;
+  background: #F53B43;
+  bottom: 0;
+  /* left: 3%; */
+}
+
+.enter_amount{
+  padding-left: 2rem;
+}
+
+.enter_amount input{
+  border-radius: 30px;
+  width: 920px;
+  background: #F1F1F1;
+  border: none;
+  padding: 15px;
+}
+
+.proceed_amount{
+  padding-left: 15rem;
+  padding-top: 2rem;
+}
+
+.proceed{
+  background-color: #F53840;
+  color: #fff;
+  font-family: var(--text_font);
+  font-size: 12px;
+  border-radius: 30px;
+  width: 250px;
+  padding: 10px;
+  transition: all 0.3s ease-in;
+}
+
+.proceed:hover{
+color: #FFF;
+}
+
+/* ===================================================
+ DASHBOARD-2 ussd, banktransfer and debit card STYLING
+================================================== */
+.making_payment_section{
+
+  padding-left: 5rem;
+}
+.making_payment_section .ussd_section .ussd h6{
+  color: var(--primary_color);
+  font-family: var(--text_font);
+  font-weight: bolder;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.making_payment_section .bank_transfer h6,
+.making_payment_section .debit_card h6{
+  font-family: var(--text_font);
+  color: var(--secondary_color);
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.making_payment_section .ussd_row{
+  margin-right: 7rem;
+}
+
+.making_payment_section .bank_transfer_row{
+  margin-right: 6rem;
+}
+
+.making_payment_section .ussd_section {
+  /* margin-bottom: 60px; */
+  position: relative;
+  padding-bottom: 0.3px;
+  
+}
+
+.making_payment_section .ussd_section::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 250px;
+  height: 5px;
+  background: #F53B43;
+  bottom: 0;
+  margin-left: -5rem;
+}
+
+.making_payment_section .bank_transfer_section {
+  /* margin-bottom: 60px; */
+  position: relative;
+  padding-bottom: 0.3px;
+  
+}
+
+.making_payment_section .bank_transfer_section::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 700px;
+  height: 5px;
+  background: var(--secondary_color);
+  bottom: 0;
+  margin-left: -11rem;
+}
+
+.mobile_payment a h6{
+font-family: var(--text_font);
+font-weight: bold;
+}
+
+.mobile_payment .mobile_ussd{
+  color: var(--primary_color);
+  margin-right: 1.5rem;
+  
+}
+
+.mobile_payment .mobile_ussd {
+  /* margin-bottom: 60px; */
+  position: relative;
+  padding-bottom: 0.3px;
+  
+}
+
+.mobile_payment .mobile_ussd::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 70px;
+  height: 5px;
+  background: var(--primary_color);
+  bottom: 0;
+  margin-left: -1rem;
+}
+
+.mobile_payment .mobile_bank_transfer,
+.mobile_payment .mobile_debit_card{
+  color: var(--secondary_color);
+  margin-right: 1.5rem;
+}
+
+.mobile_payment .mobile_bank_transfer {
+  /* margin-bottom: 60px; */
+  position: relative;
+  padding-bottom: 0.3px;
+  
+}
+
+.mobile_payment .mobile_bank_transfer::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 250px;
+  height: 5px;
+  background: var(--secondary_color);
+  bottom: 0;
+  margin-left: -1rem;
+}
+
+
+
+/* ===================================
  DASHBOARD-2 STYLING
 =================================== */
 
@@ -2098,17 +2283,38 @@ padding: 5px;
 }
 
 .agent-card{
-  border-radius: 15px;
+  border-radius: 20px;
   height: 6.5rem;
-  box-shadow: 0px 1px 2px 2px rgba(243, 242, 242, 2.0);
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.2);
   background-color: #FFFFFF;
   cursor: pointer;
+}
+
+.agent-card h6{
+  color: var(--primary_color);
+  font-weight: bold;
+  font-size: var(--text_font);
+  margin-left: 5rem;
+  margin-top: -3.5rem;
+}
+
+.agent-card p{
+  font-size: 10px;
+  padding-right: 3rem;
+  margin-left: 5rem;
+}
+
+.agent-card a{
+  color: #6FBCF0;
+  font-size: 10px;
+  margin-left: 5rem;
+  margin-top: -0.5rem;
 }
 .circle {
  margin-top: 1rem;
  margin-left: 0.5rem;
-  height: 70px;
-  width: 70px;
+  height: 60px;
+  width: 60px;
   background-color:transparent;
   border-radius: 50%;
   border: 1px solid black;
@@ -2679,6 +2885,131 @@ padding: 5px;
       color: var(--text_color);
     }
 
+    /* ===================================
+ DASHBOARD-1 STYLING
+=================================== */
+.amount_paid_section{
+  padding-top: 8rem;
+  padding-left: 18rem;
+}
+
+.amount_paid_sectionheader{
+  color: var(--primary_color);
+  font-family: var(--text_font);
+}
+
+.amount_paid_section .amount_paid_sectionheader {
+  /* margin-bottom: 60px; */
+  position: relative;
+  padding-bottom: 0.3px;
+  
+}
+
+.amount_paid_section .amount_paid_sectionheader::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 670px;
+  height: 1px;
+  background: #F53B43;
+  bottom: 0;
+  /* left: 3%; */
+}
+
+.enter_amount{
+  padding-left: 1rem;
+}
+
+.enter_amount input{
+  border-radius: 30px;
+  width: 920px;
+  background: #F1F1F1;
+  border: none;
+  padding: 15px;
+}
+
+.proceed_amount{
+  padding-left: 13rem;
+  padding-top: 2rem;
+}
+
+.proceed{
+  background-color: #F53840;
+  color: #fff;
+  font-family: var(--text_font);
+  font-size: 12px;
+  border-radius: 30px;
+  width: 250px;
+  padding: 10px;
+  transition: all 0.3s ease-in;
+}
+/* ===================================================
+ DASHBOARD-2 ussd, banktransfer and debit card STYLING
+================================================== */
+.making_payment_section{
+
+  padding-left: 5rem;
+}
+.making_payment_section .ussd_section .ussd h6{
+  color: var(--primary_color);
+  font-family: var(--text_font);
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+.making_payment_section .bank_transfer h6,
+.making_payment_section .debit_card h6{
+  font-family: var(--text_font);
+  color: var(--secondary_color);
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.making_payment_section .ussd_row{
+  margin-right: 3rem;
+}
+
+.making_payment_section .bank_transfer_row{
+  margin-right: 3rem;
+}
+
+.making_payment_section .ussd_section {
+  /* margin-bottom: 60px; */
+  position: relative;
+  padding-bottom: 0.3px;
+  
+}
+
+.making_payment_section .ussd_section::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 350px;
+  height: 5px;
+  background: #F53B43;
+  bottom: 0;
+  margin-left: -5rem;
+}
+
+.making_payment_section .bank_transfer_section {
+  /* margin-bottom: 60px; */
+  position: relative;
+  padding-bottom: 0.3px;
+  
+}
+
+.making_payment_section .bank_transfer_section::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 500px;
+  height: 5px;
+  background: var(--secondary_color);
+  bottom: 0;
+  margin-left: -6rem;
+}
+
+
     .dashboard-2{
       padding-left: 15rem;
       padding-top: 5rem;
@@ -2983,6 +3314,51 @@ padding: 5px;
   width: 20%;
   margin-left: -4rem;
   margin-top: -0.1rem;
+}
+.agent-card{
+  border-radius: 20px;
+  height: 6.5rem;
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.2);
+  background-color: #FFFFFF;
+  cursor: pointer;
+}
+
+.agent-card h6{
+  color: var(--primary_color);
+  font-weight: bold;
+  font-size: var(--text_font);
+  margin-left: 5rem;
+  margin-top: -4.3rem;
+}
+
+.agent-card p{
+  font-size: 10px;
+  padding-right: 1.5rem;
+  margin-left: 5rem;
+}
+
+.agent-card a{
+  color: #6FBCF0;
+  font-size: 10px;
+  margin-left: 5rem;
+  margin-top: -1rem;
+}
+.circle {
+ margin-top: 1.5rem;
+ margin-left: 0.5rem;
+  height: 65px;
+  width: 65px;
+  background-color:transparent;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.be_an_agent{
+  width: 80%;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+}
+.agent-card h6{
+  padding-left: -5rem;
 }
 
      
@@ -3665,6 +4041,61 @@ aside{
   padding: 5px 20px 7px 0px;
   width: 8.3rem;
   
+}
+/* ===================================
+ DASHBOARD-1 STYLING
+=================================== */
+.amount_paid_section{
+  padding-top: 4rem;
+  padding-left: 4rem;
+}
+
+
+
+.amount_paid_section .amount_paid_sectionheader {
+  /* margin-bottom: 60px; */
+  position: relative;
+  padding-bottom: 0.3px;
+  
+}
+
+.amount_paid_section .amount_paid_sectionheader::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 250px;
+  height: 1px;
+  background: #F53B43;
+  bottom: 0;
+  /* left: 3%; */
+}
+
+.enter_amount{
+  padding-left: 0;
+}
+
+.enter_amount input{
+  border-radius: 30px;
+  width: 250px;
+  background: #F1F1F1;
+  border: none;
+  padding: 15px;
+}
+
+.proceed_amount{
+  padding-left: 3rem;
+  padding-top: 2rem;
+}
+
+.proceed{
+  background-color: #F53840;
+  color: #fff;
+  font-family: var(--text_font);
+  font-size: 12px;
+  border-radius: 30px;
+  width: 150px;
+  padding: 10px;
+  transition: all 0.3s ease-in;
 }
 
 
