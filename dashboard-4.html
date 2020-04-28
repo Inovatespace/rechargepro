@@ -76,7 +76,7 @@
       sizes="16x16"
       href="assets/images/img/favicon/favicon-16x16.png"
     />
-    <title>Become An Agent - Rechargepro</title>
+    <title>Dashboard-7 - Rechargepro</title>
 
 
     <!-- Libraries -->
@@ -87,6 +87,10 @@
 
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Monoton|Nunito|Roboto+Mono&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+    <!-- Animate css -->
+    <link rel="stylesheet" href="css/animate.css">
 
     <!-- main stylesheet -->
     <link rel="stylesheet" href="css/style.css">
@@ -96,7 +100,7 @@
 
     
     
-   <!-- ===================================
+    <!-- ===================================
                   NAVBAR
     =================================== -->
     <header id="header" class="dashboard_header"> 
@@ -200,8 +204,8 @@
                     <li>
                         <img src="assets/images/icons/icon_developer.png" alt=""><a href="developer.html">Developer</a>
                     </li>
-                    <li style="color: red;" class="mt-5">
-                        <img  src="assets/images/icons/LOG OUT.svg" alt=""><a href="#">Logout</a>
+                    <li class="mt-5">
+                        <img src="assets/images/icons/iconmonstr-log-out-2.png" alt=""><a href="#">Logout</a>
                     </li>
                     <!-- <li class="dropdown">
                         <img src="assets/images/icons/icon_Authorisation.png">
@@ -227,85 +231,40 @@
                  END OF  NAVBAR
     =================================== -->
 
-    
-    <div class="container profile_page">
-        <div class="row">
-            <div class="mainprofile mt-3">
-                <h3>become an agent</h3>
-
-            </div>
-        </div>
+    <div class="developer_screen_btn mr-5 ml-5 d-lg-none">
+        <button class="btn balance balance_sm"><span class="mr-3"> Balance</span><input class="balance_1" placeholder="5000" disabled></button>
+        <button class="btn balance"> <span class="mr-3">Profit</span><input class="balance_1" placeholder="2000" disabled></button>
     </div>
 
-    <div class="container user_details">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="section">
-                    <h5>Agent Information</h5>
-                </div>
-                <div class="user-input">
-                    <label for="">First name</label>
-                    <br>
-                    <input type="text" />
-                </div>
-                <div class="user-input">
-                    <label for="">Last name</label>
-                    <br>
-                    <input type="text" />
-                </div>
-                <div class="user-input">
-                    <label for="">Email</label>
-                    <br>
-                    <input type="email" />
-                </div>
-                <div class="user-input">
-                    <label for=""><b>Phone Number</b></label>
-                    <br>
-                    <input type="text" />
-                </div>
-                <div class="user-input">
-                    <label for="">Address</label>
-                    <br>
-                    <input type="text" />
-                </div>
-                <div class="user-input">
-                    <label for="">State</label>
-                    <br>
-                    <input type="text" />
-                </div>
-                <div class="user-input">
-                    <label for="">LGA</label>
-                    <br>
-                    <input type="text" />
-                </div>
+    <div class="container amount_paid_section2">
+        
+        <div class="mt-5">
+            <div class="banktransfer_details ussd_details">
+                <img src="assets/images/icons/ussd.png" alt="">
+                <h6 style="text-transform: uppercase; font-weight: bolder; font-size: 35px;">ussd</h6>
+                <p>1. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias qui aliquid dolor excepturi. Repellendus rem maiores et quod a aut illum totam ab, assumenda itaque officia nisi error labore? Voluptates.</p>
+                <p>2. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias qui aliquid dolor excepturi. Repellendus rem maiores et quod a aut illum totam ab, assumenda itaque officia nisi error labore? Voluptates.</p>
+                <p>3. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias qui aliquid dolor excepturi. Repellendus rem maiores et quod a aut illum totam ab, assumenda itaque officia nisi error labore? Voluptates.</p>
+                <p>4. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias qui aliquid dolor excepturi. Repellendus rem maiores et quod a aut illum totam ab, assumenda itaque officia nisi error labore? Voluptates.</p>
                 
-            </div>
-            <div class="col-md-6 mt-5">
-                <div class="section">
-                    <h5>Files</h5>
-                </div>
-                <div class="user-input upload_file">
-                    <label for="">Upload a valid Card</label>
-                    <br>
-                    <input type="text" /><button class="btn btn-sm" type="submit" value="Add file">Add file</button>
-                </div>
-                <div class="user-input upload_file2">
-                    <label for="">Upload Agent form</label>
-                    <br>
-                    <input type="text" /><button class="btn btn-sm" type="submit" value="Add file">Add file</button>
-                </div>
-                
-                <div class="btn_update_holder">
-                    <button class="btn btn-sm btn_update">save</button>
+                <div class="text-center mt-3 mb-3">
+                    <button class="btn btn-lg sent_funds">I have sent the funds</button>
                 </div>
             </div>
         </div>
-            
+
     </div>
-</div>
+   
 
 
-<!--Start of Tawk.to Script-->
+
+
+
+
+
+
+
+    <!--Start of Tawk.to Script-->
 <script type="text/javascript">
     var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
     (function(){
@@ -319,15 +278,14 @@
     </script>
     <!--End of Tawk.to Script-->
 
+    <!-- Javascript Libraries -->
+    <script src="assets/lib/jquery/jquery.min.js"></script>
+    <script src="assets/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/lib/bootstrap/js/bootstrap.js"></script>
 
-<!-- Javascript Libraries -->
-<script src="assets/lib/jquery/jquery.min.js"></script>
-<script src="assets/lib/bootstrap/js/bootstrap.min.js"></script>
-<script src="assets/lib/bootstrap/js/bootstrap.js"></script>
-
-
-<!-- main js -->
-<script src="js/main.js"></script>
+  
+    <!-- main js -->
+    <script src="js/main.js"></script>
 
 
 </body>
