@@ -2075,9 +2075,16 @@ padding-left:13rem;
   background:#2F95FB;
   font-family: var(--text_font);
   color: var(--text_color);
+  border-radius: 0;
+}
+.btn_import_contact:hover{
+  background:#2F95FB;
+  font-family: var(--text_font);
+  color: var(--text_color);
+  border-radius: 0;
 }
 
-.dashboard-4-table th{
+.table_invite th{
   background: var(--secondary_color);
   color: var(--text_color);
 }
@@ -4367,6 +4374,7 @@ aside{
     background:#2F95FB;
     font-family: var(--text_font);
     color: var(--text_color);
+    transition: all 0.3s ease-in;
   }
   .table th{
     background: var(--secondary_color);
