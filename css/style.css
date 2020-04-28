@@ -1338,8 +1338,14 @@ aside {
   height: 13rem;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
 }
+#transaction_card4{
+  background-color: #fff;
+  height: 15rem;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
 
-#transaction_card p{
+#transaction_card p,
+#transaction_card4 p{
   color: #fff;
   font-size: 10px;
 }

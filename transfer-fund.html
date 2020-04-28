@@ -76,7 +76,7 @@
       sizes="16x16"
       href="assets/images/img/favicon/favicon-16x16.png"
     />
-    <title>Support - Rechargepro</title>
+    <title>Dashboard-2 - Rechargepro</title>
 
 
     <!-- Libraries -->
@@ -87,6 +87,10 @@
 
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Monoton|Nunito|Roboto+Mono&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+    <!-- Animate css -->
+    <link rel="stylesheet" href="css/animate.css">
 
     <!-- main stylesheet -->
     <link rel="stylesheet" href="css/style.css">
@@ -94,7 +98,9 @@
 <body>
 
 
-<!-- ===================================
+    
+    
+    <!-- ===================================
                   NAVBAR
     =================================== -->
     <header id="header" class="dashboard_header"> 
@@ -135,7 +141,7 @@
                                 <img src="assets/images/icons/icon_developer.png" alt=""><a href="developer.html">Developer</a>
                             </li>
                             <li>
-                                <img src="assets/images/icons/iconmonstr-log-out-2.png" alt=""><a href="#">Logout</a>
+                                <img  src="assets/images/icons/LOG OUT.svg" alt=""><a href="#">Logout</a>
                             </li>
                         </ul>
                     </div>
@@ -224,90 +230,96 @@
     <!-- ===================================
                  END OF  NAVBAR
     =================================== -->
+
     <div class="developer_screen_btn mr-5 ml-5 d-lg-none">
         <button class="btn balance balance_sm"><span class="mr-3"> Balance</span><input class="balance_1" placeholder="5000" disabled></button>
         <button class="btn balance"> <span class="mr-3">Profit</span><input class="balance_1" placeholder="2000" disabled></button>
     </div>
 
-
-
-    <div class="container">
-        <div class="row support_card">
-            <div class="col-md-3">
-                <div class="card" id="support_card_inner">
-                    <div class="mt-1 text-center">
-                    <p><span>0</span>All Ticket</p> 
-                </div>
-                    
-                </div>
+    <div class="container amount_paid_section">
+        <div class="row making_payment_section mt-5">
+            <div class="col-md-6 mb-5">
+                <div class="card bank_transfer_card">
+                    <img src="assets/images/icons/banking-svgrepo-com (1).png" alt="" width="25%">
+                    <a href="dashboard-3.html" class="bank_transfer" data-toggle="modal" data-target="#exampleModal">Wallet to Wallet</a>
+                </div> 
             </div>
-            <div class="col-md-3">
-                <div class="card" id="support_card_inner">
-                    <div class="mt-1 text-center">
-                    <p><span>0</span>Unresolved</p>
-                </div>
-                   
-                    
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card" id="support_card_inner">
-                    <div class="mt-1 text-center">
-                    <p><span>0</span>Unread</p> 
-                </div>
-                   
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card" id="support_card_inner">
-                    <div class="mt-1 text-center">
-                    <p><span>0</span>Closed</p>
-                    </div>
-                    
+            <div class="col-md-6 mb-5">
+                <div class="card ussd_card">
+                    <img src="assets/images/icons/ussd.png" alt="" width="25%">
+                    <a href="dashboard-4.html" class="ussd" data-toggle="modal" data-target="#walletToBankModal">Wallet to Bank</a> 
                 </div>
             </div>
         </div>
-    </div>
 
-
-
-    <div class="container mb-5">
        
-        <div class="row support_card">
-            <h5>Create New Ticket</h5>
-            <div class="card support_tracking">
-                
-                <div class="support-heading">
-                    
-                    <div class="row">
-                        <div class="tracking_text">
-                            <p>TRACKING ID</p>
-                        </div>
 
-                        <div class="subject_text">
-                            <p>SUBJECT</p>
-                        </div>
-                        
-                        <div class="last_activity_text">
-                            <p>LAST ACTIVITY</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card support_inner mt-4">
-                    <p>No Support Ticket Found</p>
-
-                </div>
-
-            </div>
-        </div>
     </div>
+    
+
+
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content modal-sm">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Wallet to Wallet Transfer</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <input type="text" placeholder="User-Id"/>
+              <br>
+              <input type="text" placeholder="Enter Amount">
+              <br>
+              <button type="button" class="btn btn-primary">Transfer</button>
+            </div>
+            <div class="modal-footer">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Wallet to Bank Modal -->
+<div class="modal fade" id="walletToBankModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content modal-sm">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Wallet to Bnk Transfer</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <input type="text" placeholder="Enter Account Number"/>
+              <br>
+              <input type="text" placeholder="Enter Account name">
+              <br>
+              <input type="text" placeholder="Enter Bank name">
+              <br>
+              <input type="text" placeholder="Enter Amount">
+              <br>
+              <button type="button" class="btn btn-primary">Transfer</button>
+            </div>
+            <div class="modal-footer">
+              
+            </div>
+          </div>
+        </div>
+      </div>
 
 
 
 
 
-<!--Start of Tawk.to Script-->
+
+
+
+
+    <!--Start of Tawk.to Script-->
 <script type="text/javascript">
     var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
     (function(){
@@ -324,8 +336,12 @@
     <!-- Javascript Libraries -->
     <script src="assets/lib/jquery/jquery.min.js"></script>
     <script src="assets/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/lib/bootstrap/js/bootstrap.js"></script>
 
+  
     <!-- main js -->
     <script src="js/main.js"></script>
+
+
 </body>
 </html>
