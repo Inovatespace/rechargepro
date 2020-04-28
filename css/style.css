@@ -1736,16 +1736,29 @@ color: #FFF;
  min-width: 17rem;
 
 }
+
+.table_history_responsive{
+  padding-right: 2rem;
+}
 .table-history{
   margin-left: 1rem;
-  margin-right: 15rem;
+  
+}
+.table-history { 
+  border-collapse:separate; 
+  border-spacing:0 15px; 
+}
+
+.table_history_content{
+ width: 25%;
 }
 
 .table-history td{
   background: #F1F1F1;
-  box-shadow: 1px 1px 1px 1px #C9C9C9;
+  box-shadow: 0.1em 0.3em 0.3em #C9C9C9; 
   border: none;
   border-right: 1px solid #C9C9C9;
+  padding: 20px;
 }
 
 .table-history tr{
