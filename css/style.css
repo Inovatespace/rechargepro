@@ -1262,8 +1262,10 @@ aside {
 }
 
 .utility p{
-  font-size: 13px;
-  font-weight: bolder;
+  font-size: 12px;
+  font-weight: bold;
+  color: var(--secondary_color);
+  font-family: var(--text_font);
 }
 
 .airtime_btn,
@@ -1335,11 +1337,22 @@ aside {
 
 #transaction_card{
   background-color: #fff;
-  height: 13rem;
+  min-height: 11rem;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+#transaction_card .referal_btn{
+  margin-left: 5rem;
+  margin-top:1.5rem
+}
+
+#transaction_card4{
+  background-color: #fff;
+  min-height: 11rem;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
 }
 
-#transaction_card p{
+#transaction_card p,
+#transaction_card4 p{
   color: #fff;
   font-size: 10px;
 }
@@ -1367,15 +1380,6 @@ cursor: pointer;
   font-size: 14px;
 }
 
-/* .add_fund{
-  margin-left: 3rem;
-
-} */
-/* #recurrent_transaction_card2 p{
-  font-size: 14px;
-  font-weight: bolder;
-
-} */
 
 .card-heading{
   background: var(--primary_color);
@@ -1817,36 +1821,38 @@ margin-left: 1.5rem;
 }
 
 /* ===================================
-  MODAL STYLING
+  MODAL FOR AIRTIME/DATA
 =================================== */
-.modal{
+.modal_airtime_data{
   z-index: 99999;
   padding-left: 114px;
   padding-top: 20px;
- 
-}
-.modal-body{
-  min-height: 20rem;
 }
 
-.modal-body p{
+
+.modal_airtime_data .modal-body{
+  min-height: 25rem;
+  background: #F1F1F1;
+}
+
+.modal_airtime_data .modal-body p{
   font-size: 12px;
   font-weight: bold;
   font-family: var(--text_font);
 }
 
-.modal-content{
-  min-width: 47.5rem;
+.modal_airtime_data .modal-content{
+  min-width: 50rem;
   
 }
 
-.modal-content button span{
+.modal_airtime_data .modal-content button span{
   color: var(--secondary_color);
   font-size: 50px;
   padding-left: 40rem;
 }
 
-.modal-content select,.modal-content input{
+.modal_airtime_data .modal-content select,.modal_airtime_data .modal-content input{
 
   width: 20rem;
   margin-right: 0.5rem;
@@ -1854,36 +1860,293 @@ margin-left: 1.5rem;
   padding: 15px;
   margin-bottom: 1rem;
   margin-top: 1rem;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
+  border: none;
 }
-/* .modal-content select::before,.modal-content input:before{
-  padding: 5px 20px 10px 0px;
-  width: 15rem;
-  margin-right: 0.5rem;
-  border-radius:80px;
-  padding: 20px 10px;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
-} */
 
-/* .modal-content option::before{
-  border-radius:80px;
-  padding: 25px;
-  border-radius: 1px solid;
-  box-shadow: 2px 2px 2px 2px grey;
-} */
+.modal_airtime_data .modal-content select:focus{
+  border: 0 !important;
+  color: none !important;
+}
 
-.btn-primary{
+
+
+.modal_airtime_data .btn-primary{
   border-radius:80px;
-  padding: 5px;
+  padding: 12px;
   width: 21rem;
   text-transform: uppercase;
+  background: var(--primary_color);
+  border:none;
 }
 
 /* ===================================
-  END OF MODAL STYLING
+  END OF MODAL FOR AIRTIME/DATA
 =================================== */
+
+
+/* ===================================
+  MODAL FOR MODAL FOR ELECTRICITY
+=================================== */
+.modal_electricity{
+  z-index: 99999;
+  padding-left: 114px;
+  padding-top: 20px;
+}
+
+
+.modal_electricity .modal-body{
+  min-height: 25rem;
+  background: #F1F1F1;
+}
+
+.modal_electricity .modal-body p{
+  font-size: 12px;
+  font-weight: bold;
+  font-family: var(--text_font);
+}
+
+.modal_electricity .modal-content{
+  min-width: 50rem;
+  
+}
+
+.modal_electricity .modal-content button span{
+  color: var(--secondary_color);
+  font-size: 50px;
+  padding-left: 40rem;
+}
+
+.modal_electricity .modal-content select,.modal_electricity .modal-content input{
+
+  width: 20rem;
+  margin-right: 0.5rem;
+  border-radius:60px;
+  padding: 15px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
+  border: none;
+}
+
+.modal_electricity .modal-content select:focus{
+  border: 0 !important;
+  color: none !important;
+}
+
+
+
+.modal_electricity .btn-primary{
+  border-radius:80px;
+  padding: 12px;
+  width: 21rem;
+  text-transform: uppercase;
+  background: var(--primary_color);
+  border:none;
+}
+
+/* ===================================
+  END OF MODAL FOR ELECTRICITY
+=================================== */
+
+
+/* ===================================
+  MODAL FOR MODAL FOR CABLE
+=================================== */
+.modal_cable{
+  z-index: 99999;
+  padding-left: 114px;
+  padding-top: 20px;
+}
+
+
+.modal_cable .modal-body{
+  min-height: 25rem;
+  background: #F1F1F1;
+}
+
+.modal_cable .modal-body p{
+  font-size: 12px;
+  font-weight: bold;
+  font-family: var(--text_font);
+}
+
+.modal_cable .modal-content{
+  min-width: 50rem;
+  
+}
+
+.modal_cable .modal-content button span{
+  color: var(--secondary_color);
+  font-size: 50px;
+  padding-left: 40rem;
+}
+
+.modal_cable .modal-content select,.modal_cable .modal-content input{
+
+  width: 20rem;
+  margin-right: 0.5rem;
+  border-radius:60px;
+  padding: 15px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
+  border: none;
+}
+
+.modal_cable .modal-content select:focus{
+  border: 0 !important;
+  color: none !important;
+}
+
+
+
+.modal_cable .btn-primary{
+  border-radius:80px;
+  padding: 12px;
+  width: 21rem;
+  text-transform: uppercase;
+  background: var(--primary_color);
+  border:none;
+}
+
+/* ===================================
+  END OF MODAL FOR CABLE
+=================================== */
+
+
+/* ===================================
+  MODAL FOR MODAL FOR BILL
+=================================== */
+.modal_bill{
+  z-index: 99999;
+  padding-left: 114px;
+  padding-top: 20px;
+}
+
+
+.modal_bill .modal-body{
+  min-height: 25rem;
+  background: #F1F1F1;
+}
+
+.modal_bill .modal-body p{
+  font-size: 12px;
+  font-weight: bold;
+  font-family: var(--text_font);
+}
+
+.modal_bill .modal-content{
+  min-width: 50rem;
+  
+}
+
+.modal_bill .modal-content button span{
+  color: var(--secondary_color);
+  font-size: 50px;
+  padding-left: 40rem;
+}
+
+.modal_bill .modal-content select,.modal_bill .modal-content input{
+
+  width: 20rem;
+  margin-right: 0.5rem;
+  border-radius:60px;
+  padding: 15px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
+  border: none;
+}
+
+.modal_bill .modal-content select:focus{
+  border: 0 !important;
+  color: none !important;
+}
+
+
+
+.modal_bill .btn-primary{
+  border-radius:80px;
+  padding: 12px;
+  width: 21rem;
+  text-transform: uppercase;
+  background: var(--primary_color);
+  border:none;
+}
+
+/* ===================================
+  END OF MODAL FOR BILL
+=================================== */
+
+
+/* ===================================
+  MODAL FOR MODAL FOR REPRINT
+=================================== */
+.reprint_modal{
+  z-index: 99999;
+  padding-left: 114px;
+  padding-top: 80px;
+  
+}
+
+
+.reprint_modal .modal-body{
+  background: #F1F1F1;
+  height: 9rem;
+}
+
+.reprint_modal .modal-body p{
+  font-size: 12px;
+  font-weight: bold;
+  font-family: var(--text_font);
+  line-height: 0.5rem;
+}
+
+.reprint_modal .modal-header h6{
+  text-align: center;
+}
+
+
+.reprint_modal .modal-content button span{
+  color: var(--secondary_color);
+  font-size: 15px;
+}
+
+.reprint_modal .modal-content input{
+
+  width: 15rem;
+  margin-right: 0.5rem;
+  
+  padding: 5px;
+  margin-bottom: 1rem;
+  /* margin-top: 1rem; */
+  box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
+  border: none;
+}
+
+.reprint_modal .modal-content select:focus{
+  border: 0 !important;
+  color: none !important;
+}
+
+
+
+.reprint_modal .btn-primary{
+  border-radius:80px;
+  padding: 3px;
+  width: 9rem;
+  background: var(--primary_color);
+  border:none;
+  margin-left: 3rem;
+}
+
+/* ===================================
+  END OF MODAL FOR REPRINT
+=================================== */
+
+
+
 
 /* ===================================
    END OF  DASHBOARD STYLING
@@ -2839,10 +3102,21 @@ padding: 5px;
     height: 17rem;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
   }
+
+  #transaction_card .referal_btn{
+    margin-left: 1rem;
+    margin-top:3rem
+  }
+
   
   #transaction_card p{
     color: #fff;
     font-size: 10px;
+  }
+
+  #transaction_card4{
+    margin-left: 1rem;
+    padding-left: 0;
   }
   #transaction_card .card_heading_text{
     color: #fff;
@@ -2867,16 +3141,7 @@ padding: 5px;
     padding-left: 1rem;
     font-size: 14px;
   }
-  
-  /* .add_fund{
-    margin-left: 3rem;
-  
-  } */
-  /* #recurrent_transaction_card2 p{
-    font-size: 14px;
-    font-weight: bolder;
-  
-  } */
+
   
   .card-heading{
     background: var(--primary_color);
@@ -2971,7 +3236,331 @@ padding: 5px;
       font-family: var(--text_font);
       color: var(--text_color);
     }
+    
+    /* ===================================
+  MODAL FOR AIRTIME/DATA
+=================================== */
+.modal_airtime_data{
+  z-index: 99999;
+  padding-left: 114px;
+  padding-top: 0;
+  margin-top: 0;
+}
 
+
+.modal_airtime_data .modal-body{
+  min-height: 25rem;
+  background: #F1F1F1;
+}
+
+.modal_airtime_data .modal-body p{
+  font-size: 12px;
+  font-weight: bold;
+  font-family: var(--text_font);
+}
+
+.modal_airtime_data .modal-content{
+  min-width: 35rem;
+  
+}
+
+.modal_airtime_data .modal-content button span{
+  color: var(--secondary_color);
+  font-size: 50px;
+  padding-left: 20rem;
+}
+
+.modal_airtime_data .modal-content select,.modal_airtime_data .modal-content input{
+
+  width: 10rem;
+  margin-right: 0.5rem;
+  border-radius:60px;
+  padding: 15px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
+  border: none;
+}
+
+.modal_airtime_data .modal-content select:focus{
+  border: 0 !important;
+  color: none !important;
+}
+
+
+
+.modal_airtime_data .btn-primary{
+  border-radius:80px;
+  padding: 12px;
+  width: 21rem;
+  text-transform: uppercase;
+  background: var(--primary_color);
+  border:none;
+}
+
+/* ===================================
+  END OF MODAL FOR AIRTIME/DATA
+=================================== */
+
+
+/* ===================================
+  MODAL FOR MODAL FOR ELECTRICITY
+=================================== */
+.modal_electricity{
+  z-index: 99999;
+  padding-left: 114px;
+  padding-top: 20px;
+}
+
+
+.modal_electricity .modal-body{
+  min-height: 25rem;
+  background: #F1F1F1;
+}
+
+.modal_electricity .modal-body p{
+  font-size: 12px;
+  font-weight: bold;
+  font-family: var(--text_font);
+}
+
+.modal_electricity .modal-content{
+  min-width: 50rem;
+  
+}
+
+.modal_electricity .modal-content button span{
+  color: var(--secondary_color);
+  font-size: 50px;
+  padding-left: 40rem;
+}
+
+.modal_electricity .modal-content select,.modal_electricity .modal-content input{
+
+  width: 20rem;
+  margin-right: 0.5rem;
+  border-radius:60px;
+  padding: 15px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
+  border: none;
+}
+
+.modal_electricity .modal-content select:focus{
+  border: 0 !important;
+  color: none !important;
+}
+
+
+
+.modal_electricity .btn-primary{
+  border-radius:80px;
+  padding: 12px;
+  width: 21rem;
+  text-transform: uppercase;
+  background: var(--primary_color);
+  border:none;
+}
+
+/* ===================================
+  END OF MODAL FOR ELECTRICITY
+=================================== */
+
+
+/* ===================================
+  MODAL FOR MODAL FOR CABLE
+=================================== */
+.modal_cable{
+  z-index: 99999;
+  padding-left: 114px;
+  padding-top: 20px;
+}
+
+
+.modal_cable .modal-body{
+  min-height: 25rem;
+  background: #F1F1F1;
+}
+
+.modal_cable .modal-body p{
+  font-size: 12px;
+  font-weight: bold;
+  font-family: var(--text_font);
+}
+
+.modal_cable .modal-content{
+  min-width: 50rem;
+  
+}
+
+.modal_cable .modal-content button span{
+  color: var(--secondary_color);
+  font-size: 50px;
+  padding-left: 40rem;
+}
+
+.modal_cable .modal-content select,.modal_cable .modal-content input{
+
+  width: 20rem;
+  margin-right: 0.5rem;
+  border-radius:60px;
+  padding: 15px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
+  border: none;
+}
+
+.modal_cable .modal-content select:focus{
+  border: 0 !important;
+  color: none !important;
+}
+
+
+
+.modal_cable .btn-primary{
+  border-radius:80px;
+  padding: 12px;
+  width: 21rem;
+  text-transform: uppercase;
+  background: var(--primary_color);
+  border:none;
+}
+
+/* ===================================
+  END OF MODAL FOR CABLE
+=================================== */
+
+
+/* ===================================
+  MODAL FOR MODAL FOR BILL
+=================================== */
+.modal_bill{
+  z-index: 99999;
+  padding-left: 114px;
+  padding-top: 20px;
+}
+
+
+.modal_bill .modal-body{
+  min-height: 25rem;
+  background: #F1F1F1;
+}
+
+.modal_bill .modal-body p{
+  font-size: 12px;
+  font-weight: bold;
+  font-family: var(--text_font);
+}
+
+.modal_bill .modal-content{
+  min-width: 50rem;
+  
+}
+
+.modal_bill .modal-content button span{
+  color: var(--secondary_color);
+  font-size: 50px;
+  padding-left: 40rem;
+}
+
+.modal_bill .modal-content select,.modal_bill .modal-content input{
+
+  width: 20rem;
+  margin-right: 0.5rem;
+  border-radius:60px;
+  padding: 15px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
+  border: none;
+}
+
+.modal_bill .modal-content select:focus{
+  border: 0 !important;
+  color: none !important;
+}
+
+
+
+.modal_bill .btn-primary{
+  border-radius:80px;
+  padding: 12px;
+  width: 21rem;
+  text-transform: uppercase;
+  background: var(--primary_color);
+  border:none;
+}
+
+/* ===================================
+  END OF MODAL FOR BILL
+=================================== */
+
+
+/* ===================================
+  MODAL FOR MODAL FOR REPRINT
+=================================== */
+.reprint_modal{
+  z-index: 99999;
+  padding-left: 114px;
+  padding-top: 80px;
+}
+
+
+.reprint_modal .modal-body{
+  background: #F1F1F1;
+}
+
+.reprint_modal .modal-body p{
+  font-size: 12px;
+  font-weight: bold;
+  font-family: var(--text_font);
+}
+
+/* .reprint_modal .modal-content{
+  min-width: 50rem;
+  
+} */
+
+.reprint_modal .modal-content button span{
+  color: var(--secondary_color);
+  font-size: 50px;
+}
+
+.reprint_modal .modal-content select,.reprint_modal .modal-content input{
+
+  width: 15rem;
+  margin-right: 0.5rem;
+  border-radius:60px;
+  padding: 15px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
+  border: none;
+}
+
+.reprint_modal .modal-content select:focus{
+  border: 0 !important;
+  color: none !important;
+}
+
+
+
+.reprint_modal .btn-primary{
+  border-radius:80px;
+  padding: 9px;
+  width: 9rem;
+  text-transform: uppercase;
+  background: var(--primary_color);
+  border:none;
+  margin-left: 3rem;
+}
+
+/* ===================================
+  END OF MODAL FOR REPRINT
+=================================== */
+}
     /* ===================================
  DASHBOARD-1 STYLING
 =================================== */
@@ -4729,76 +5318,4 @@ padding: 5px;
   margin-left: -4rem;
   margin-top: -0.1rem;
 }
-
-
-
-
-
-
-
-/* ===================================
-  MODAL STYLING
-=================================== */
-.modal{
-  z-index: 99999;
-  padding-left: 4px;
-  /* padding-top: 7px; */
-  margin-bottom: 2rem;
- 
-}
-.modal-body{
-  min-height: 20rem;
-}
-
-.modal-body p{
-  font-size: 12px;
-  font-weight: bold;
-  font-family: var(--text_font);
-  margin-top: 15rem;
-}
-
-.modal-content{
-  min-width: 20.5rem;
-  
-}
-
-.modal-content button span{
-  color: var(--secondary_color);
-  font-size: 50px;
-  padding-left: 40rem;
-}
-
-.modal-content select,.modal-content input{
-
-  width: 15rem;
-  margin-right: 0.5rem;
-  border-radius:60px;
-  padding: 15px;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
-}
-.modal-content option::before{
-  border-radius:80px;
-  padding: 25px;
-  border-radius: 1px solid;
-  box-shadow: 2px 2px 2px 2px grey;
-}
-
-.btn-primary{
-  border-radius:80px;
-  padding: 5px;
-  width: 15rem;
-  text-transform: uppercase;
-  /* margin-top: 10rem; */
-}
-
-.mobile_modal{
-  margin-top: -19rem;
-}
-
-
-/* ===================================
-  END OF MODAL STYLING
-=================================== */
 }

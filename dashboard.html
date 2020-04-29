@@ -245,7 +245,7 @@
     <div class="container d-none d-sm-block">
         <div class="row utility">
             <div class="airtime_btn animated zoomIn">
-                <button class="btn btn-lg airtime" data-toggle="modal" data-target="#airtimeModal">
+                <button class="btn btn-lg airtime" id="airtime_data" data-toggle="modal" data-target="#airtimeModal">
                     <img src="assets/images/icons/airtime.png" alt="">
                     <p class="mt-2">Airtime/Data</p>
                 </button>
@@ -279,7 +279,7 @@
                         <p class="card_heading_text">Transaction History</p> 
                     </div>
                     <div class="mt-4 ml-3 transaction_card_btn">
-                            <button class="mr-3">
+                            <button class="mr-3" data-toggle="modal" data-target="#reprintModal">
                                 <img class="mt-4 pb-2" src="assets/images/icons/Group 72.png" alt="" width="50%">
                                 <div>
                                     <p>Re-print</p>
@@ -300,15 +300,15 @@
                         <p class="card_heading_text">Authorisation</p> 
                     </div>
                     <div class="mt-4 ml-3 transaction_card_btn">
-                        <button class="mr-3">
+                        <a href="account-authorisation.html"><button class="mr-3">
                             <img class="mt-4 pb-2" src="assets/images/icons/Group 71.png" alt="" width="40%">
                             <div>
                                 <p>Account</p>
                             </div>
-                        </button>
+                        </button></a>
                         <button>
                             <img class="mt-4 pb-2" src="assets/images/icons/Group 74.png" alt="" width="55%">
-                            <div class="mt-1">
+                            <div class="">
                                 <p>API</p>
                             </div>
                         </button>
@@ -316,11 +316,11 @@
                 </div>
             </div>
             <div class="col-md-4 animated zoomIn">
-                <div class="card" id="transaction_card">
+                <div class="card " id="transaction_card">
                     <div class="card-heading">
                         <p class="card_heading_text">Referral</p> 
                     </div>
-                    <div class="text-center mt-4 ml-3 transaction_card_btn">
+                    <div class="referal_btn transaction_card_btn">
                         <a href="invites.html"><button>
                             <img class="mt-4 pb-2" src="assets/images/icons/1390477.png" alt="" width="50%">
                             <div>
@@ -357,18 +357,20 @@
             <div class="col-md-4">
                 <div class="card utility_card animated zoomIn" id="transaction_card4">
 
-                        <div class="ml-3 transaction_card_btn">
-                                <a href="dashboard-1.html"><button class="mr-3">
-                                    <img class="mt-2 pb-2" src="assets/images/icons/Group 79.png" alt="" width="50%">
-                                    <div>
-                                        <p>Add Funds</p>
-                                    </div>
-                                </button></a>
-                                <br>
+                        <div class="ml-1 transaction_card_btn">
+                                
+                                
                                 <a href="transfer-fund.html"><button class="">
                                     <img class="mt-2 pb-2" src="assets/images/icons/Group 77.png" alt="" width="50%">
                                     <div>
                                         <p>Transfer Fund</p>
+                                    </div>
+                                </button></a>
+                                <br>
+                                <a href="dashboard-1.html"><button class="mr-3">
+                                    <img class="mt-2 pb-2" src="assets/images/icons/Group 79.png" alt="" width="50%">
+                                    <div>
+                                        <p>Add Funds</p>
                                     </div>
                                 </button></a>
                         </div>
@@ -512,10 +514,10 @@
     <!-- ==========================================
      MODAL FOR AIRTIME/DATA
     ========================================== -->
-     <div class="modal fade" id="airtimeModal" tabindex="-1" role="dialog" aria-labelledby="airtimeModal" aria-hidden="true">
+     <div class="modal modal_airtime_data fade" id="airtimeModal" tabindex="-1" role="dialog" aria-labelledby="airtimeModal" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <button style="background: #F1F1F1;" type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
        
@@ -543,7 +545,7 @@
 
                                     <br>
 
-                                    <input type="number" name="" value="" placeholder="Enter Amount">
+                                    <input type="text" name="" value="" placeholder="Enter Amount">
 
                                     <p>Token/Receipt will be sent to the email/phone entered above</p>
 
@@ -551,10 +553,10 @@
                                 </div>
 
                                 <div class="col-md-6 mobile_modal">
-                                    <input type="number" name="" value="" placeholder="Enter Phone/Account Number"> 
+                                    <input type="text" name="" value="" placeholder="Enter Phone/Account Number"> 
 
                                     <br>
-                                    <input type="number" name="" value="" placeholder="Email Address no compulsory"> 
+                                    <input type="text" name="" value="" placeholder="Email Address no compulsory"> 
                                 </div>
                             </div>
                         </div>
@@ -573,7 +575,7 @@
     <!-- ==========================================
      MODAL FOR ELECTRICITY
     ========================================== -->
-    <div class="modal fade" id="electricityModal" tabindex="-1" role="dialog" aria-labelledby="electricityModal" aria-hidden="true">
+    <div class="modal modal_electricity fade" id="electricityModal" tabindex="-1" role="dialog" aria-labelledby="electricityModal" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -627,7 +629,7 @@
     <!-- ==========================================
      MODAL FOR CABLE
     ========================================== -->
-    <div class="modal fade" id="cableModal" tabindex="-1" role="dialog" aria-labelledby="cableModal" aria-hidden="true">
+    <div class="modal modal_cable fade" id="cableModal" tabindex="-1" role="dialog" aria-labelledby="cableModal" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -681,7 +683,7 @@
      <!-- ==========================================
      MODAL FOR BILLS
     ========================================== -->
-    <div class="modal fade" id="billsModal" tabindex="-1" role="dialog" aria-labelledby="billsModal" aria-hidden="true">
+    <div class="modal modal_bill fade" id="billsModal" tabindex="-1" role="dialog" aria-labelledby="billsModal" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -731,16 +733,36 @@
       END OF MODAL FOR BILLS
     ========================================== -->
 
-    <!-- Small modal -->
-<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-sm">Small modal</button>
 
-<div class="modal-small fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-sm">
-    <div class="modal-content">
-      ...
+<!-- ===================================
+    MODAL FOR REPRINT
+ ===================================  -->
+<div class="modal reprint_modal fade" id="reprintModal" tabindex="-1" role="dialog" aria-labelledby="reprintModal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content modal-sm">
+            <div class="modal-header" style="background: #F1F1F1;">
+               <h6 class="modal-title" id="exampleModalLabel">Reprint Receipt</h6>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>e.g 10187619</p>
+                <form action="">
+                <input type="text" placeholder="Invoice number"/>
+                <br>
+               
+               <button type="button" class="btn btn-primary">print</button>
+            </form>
+            </div>
+             
+        </div>
     </div>
-  </div>
-</div> -->
+</div>
+ 
+   <!-- /* ===================================
+   END OF MODAL FOR REPRINT
+ =================================== */ -->
 
 
 
