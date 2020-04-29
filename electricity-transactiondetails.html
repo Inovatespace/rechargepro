@@ -76,7 +76,7 @@
       sizes="16x16"
       href="assets/images/img/favicon/favicon-16x16.png"
     />
-    <title>Invites - Rechargepro</title>
+    <title>Dashboard - Rechargepro</title>
 
 
     <!-- Libraries -->
@@ -87,6 +87,10 @@
 
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Monoton|Nunito|Roboto+Mono&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+    <!-- Animate css -->
+    <link rel="stylesheet" href="css/animate.css">
 
     <!-- main stylesheet -->
     <link rel="stylesheet" href="css/style.css">
@@ -96,7 +100,7 @@
 
     
     
-<!-- ===================================
+    <!-- ===================================
                   NAVBAR
     =================================== -->
     <header id="header" class="dashboard_header"> 
@@ -227,55 +231,55 @@
                  END OF  NAVBAR
     =================================== -->
 
+
     <div class="developer_screen_btn mr-5 ml-5 d-lg-none">
         <button class="btn balance balance_sm"><span class="mr-3"> Balance</span><input class="balance_1" placeholder="5000" disabled></button>
         <button class="btn balance"> <span class="mr-3">Profit</span><input class="balance_1" placeholder="2000" disabled></button>
     </div>
 
-
-    <div class="container invites">
-        <h5>My Invites</h5>
-        <div class="invites_content">
-            <div class="invites_input pt-2">
-                <input type="text"  placeholder="name">
-                <button class="btn btn_invites">Invites Friends</button>
+    <div class="container transaction_details_holder">
+        <div class="row">
+            <div class="transaction_details_sectionheader">
+                <h5>Confirm Your Transaction Details below</h5>
             </div>
-            
         </div>
-        <p class="mt-3">Invite your friends and earn commision on every transaction performed</p>
 
-        <button class="btn btn_import_contact">Import Contacts</button>
-        <div class="table-responsive">
-<<<<<<< HEAD
-        <table class="table table-bordered table-fixed table_invite mt-3">
-=======
-        <table class="table table-bordered table-fixed table-invites mt-3">
->>>>>>> 5b2b7303370089ac65ecca4037e3be2b4e9f62c1
-            <thead>
-              <tr>
-                
-                <th scope="col">First</th>
-                <th scope="col">Email</th>
-                <th scope="col">Phone Number</th>
-              </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>Daniel Preye Johnson</td>
-                <td>danieljohnson619@gmail.com</td>
-                <td>(+234) 8012345678</td>
-            </tr>
-            
-            </tbody>
-          </table>
+        <div class="row mt-4">
+            <div class="transaction_details">
+           <label for="">Product</label><input type="text" placeholder="AEDC PREPAID">
+           <hr class="hr_transaction">
+           <label for="">Customer name</label><input type="text" placeholder="Indaboski">
+           <hr class="hr_transaction">
+           <label for="">Address</label><input type="text" placeholder="Vertis Technologies Ltd.">
+           <hr class="hr_transaction">
+           <label for="">Meter number</label><input type="text" placeholder="01234567892">
+           <hr class="hr_transaction">
+           <label for="" class="transaction_details_uppercase">Sub Total</label><input type="text" placeholder="20,000">
+           <hr class="hr_transaction">
+           <label for="" class="transaction_details_uppercase">Services charge</label><input type="text" placeholder="200">
+           <hr class="hr_transaction">
+           <label for="" class="transaction_details_uppercase">Total</label><input type="text" placeholder="20100">
+           <hr class="hr_transaction">
+           <p class="mt-2">Choose payment method</p>
+               <div class="payment_img text-center">
+               <img src="assets/images/icons/Download-Mastercard-PNG-Clipart.png" alt="" width="17%">
+               <img src="assets/images/icons/visa-card-logo-9.png" alt="" width="15%" class="mr-3">
+               <img src="assets/images/icons/Verve_Image.png" alt="" width="15%">
+               <br>
+               <button type="button" class="btn btn-lg btn-primary">Pay</button>
+            </div>
+
         </div>
-          
+        </div>
     </div>
 
 
 
 
-<!--Start of Tawk.to Script-->
+
+
+
+    <!--Start of Tawk.to Script-->
 <script type="text/javascript">
     var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
     (function(){
@@ -289,14 +293,15 @@
     </script>
     <!--End of Tawk.to Script-->
 
-      <!-- Javascript Libraries -->
-      <script src="assets/lib/jquery/jquery.min.js"></script>
-      <script src="assets/lib/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Javascript Libraries -->
+    <script src="assets/lib/jquery/jquery.min.js"></script>
+    <script src="assets/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/lib/bootstrap/js/bootstrap.js"></script>
+
   
-    
-      <!-- main js -->
-      <script src="js/main.js"></script>
-  
-  
-  </body>
-  </html>
+    <!-- main js -->
+    <script src="js/main.js"></script>
+
+
+</body>
+</html>
