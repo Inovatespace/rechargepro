@@ -237,17 +237,19 @@
     </div>
 
     <div class="container amount_paid_section">
+      <i class="fa fa-chevron-left"></i></a> 
         <div class="row making_payment_section mt-5">
             <div class="col-md-6 mb-5">
-                <div class="card bank_transfer_card">
-                    <img src="assets/images/icons/banking-svgrepo-com (1).png" alt="" width="25%">
-                    <a href="dashboard-3.html" class="bank_transfer" data-toggle="modal" data-target="#exampleModal">Wallet to Wallet</a>
+                <div class="card rechargeproWallet">
+                    <img class="img_rechargeprowallet" src="assets/images/img/Group 249.png" alt="" width="55%">
+                    <a href="dashboard-3.html" class="bank_transfer" data-toggle="modal" data-target="#exampleModal">Rechargepro Wallet <br>
+                      <span>to</span><br> Rechargepro Wallet Transfer</a>
                 </div> 
             </div>
             <div class="col-md-6 mb-5">
-                <div class="card ussd_card">
-                    <img src="assets/images/icons/ussd.png" alt="" width="25%">
-                    <a href="dashboard-4.html" class="ussd" data-toggle="modal" data-target="#walletToBankModal">Wallet to Bank</a> 
+                <div class="card rechargeprobank">
+                    <img class="img_rechargeprobank" src="assets/images/icons/ussd.png" alt="" width="20%">
+                    <a href="dashboard-4.html" class="ussd" data-toggle="modal" data-target="#walletToBankModal">Rechargepro Wallet<br> <span>to</span><br> Bank</a> 
                 </div>
             </div>
         </div>
@@ -258,12 +260,12 @@
     
 
 
-    <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <!-- Wallet to Wallet -->
+<div class="modal modal_wallet2wallet_transfer fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content modal-sm">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Wallet to Wallet Transfer</h5>
+              <!-- <h5 class="modal-title" id="exampleModalLabel">Wallet to Wallet Transfer</h5> -->
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -272,6 +274,8 @@
               <input type="text" placeholder="User-Id"/>
               <br>
               <input type="text" placeholder="Enter Amount">
+              <br>
+              <input type="text" placeholder="Description">
               <br>
               <button type="button" class="btn btn-primary">Transfer</button>
             </div>
@@ -284,11 +288,11 @@
 
 
       <!-- Wallet to Bank Modal -->
-<div class="modal fade" id="walletToBankModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal modal_wallet2bank_transfer fade" id="walletToBankModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content modal-sm">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Wallet to Bnk Transfer</h5>
+              <!-- <h5 class="modal-title" id="exampleModalLabel">Wallet to Bank Transfer</h5> -->
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>

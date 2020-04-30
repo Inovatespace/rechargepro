@@ -284,6 +284,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 =================================== */
 #dashboard_logo img{
   height: 40px;
+  margin-left: 2rem;
 }
 
 .dashboard_header .form-control {
@@ -1504,6 +1505,26 @@ font-weight: bolder;
 /* ===================================
  DASHBOARD-1 STYLING
 =================================== */
+.fa-chevron-left {
+  font-size: 30px;
+  color: var(--secondary_color);
+  cursor: pointer;
+  z-index: 9999;
+}
+.developer_chevron{
+  margin-left: -5rem;
+}
+.myinvite_chevron{
+  margin-left: -2rem;
+}
+.support_chevron{
+  margin-left: -4rem;
+  margin-right: 2.5rem;
+}
+.history_chevron{
+  margin-left: -5rem;
+  margin-right: 3rem;
+}
 .amount_paid_section{
   padding-top: 7rem;
   padding-left: 13rem;
@@ -1583,18 +1604,68 @@ color: #FFF;
   padding-right: 1rem;
 }
 
-.making_payment_section img{
+.making_payment_section .img_banktransfer{
   cursor: pointer;
-  margin-left: 4rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-left: 5.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
+.making_payment_section .ussd_banktransfer{
+  cursor: pointer;
+  margin-left: 5.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+.making_payment_section .debitcard_banktransfer{
+  cursor: pointer;
+  margin-left: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+.making_payment_section .img_rechargeprowallet{
+  cursor: pointer;
+  margin-left: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.rechargeproWallet a{
+  font-size: 15px;
+  text-align: center;
+  font-family: var(--text_font);
+}
+.rechargeproWallet span{
+  color: var(--primary_color);
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: var(--text_font);
+}
+.making_payment_section .img_rechargeprobank{
+  cursor: pointer;
+  margin-left: 6rem;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.rechargeprobank a{
+  font-size: 15px;
+  text-align: center;
+  font-family: var(--text_font);
+}
+.rechargeprobank span{
+  color: var(--primary_color);
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: var(--text_font);
+}
+
+
 
 .making_payment_section  .card{
   background: #fff;
-  height: 8rem;
+  height: 12rem;
   box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
-  width: 11rem;
+  width: 15rem;
 }
 
 /* ===================================================
@@ -1753,7 +1824,7 @@ color: #FFF;
 
 .dashboard-2{
   padding-left: 14rem;
-  padding-top: 7rem;
+  padding-top: 6rem;
 }
 
 .dashboard-2-content{
@@ -2180,15 +2251,16 @@ margin-left: 1.5rem;
 =================================== */
 .reprint_modal{
   z-index: 99999;
-  padding-left: 114px;
-  padding-top: 80px;
+  padding-left: 550px;
+  padding-top: 100px;
   
 }
 
 
 .reprint_modal .modal-body{
   background: #F1F1F1;
-  height: 9rem;
+  height: 11rem;
+  padding-top: 2rem;
 }
 
 .reprint_modal .modal-body p{
@@ -2205,7 +2277,7 @@ margin-left: 1.5rem;
 
 .reprint_modal .modal-content button span{
   color: var(--secondary_color);
-  font-size: 15px;
+  font-size: 25px;
 }
 
 .reprint_modal .modal-content input{
@@ -2241,6 +2313,136 @@ margin-left: 1.5rem;
 =================================== */
 
 
+/* ===================================
+  Wallet to bank modal
+=================================== */
+
+.modal_wallet2bank_transfer{
+  z-index: 99999;
+  padding-left:300px;
+  padding-top: 80px;
+}
+
+
+.modal_wallet2bank_transfer .modal-body{
+  background: #F1F1F1;
+}
+
+.modal_wallet2bank_transfer .modal-body p{
+  font-size: 12px;
+  font-weight: bold;
+  font-family: var(--text_font);
+}
+
+/* .reprint_modal .modal-content{
+  min-width: 50rem;
+  
+} */
+
+.modal_wallet2bank_transfer .modal-content button span{
+  color: var(--secondary_color);
+  font-size: 30px;
+}
+
+.modal_wallet2bank_transfer .modal-content select,.modal_wallet2bank_transfer .modal-content input{
+
+  width: 15rem;
+  margin-right: 0.5rem;
+  border-radius:60px;
+  padding: 15px;
+  margin-bottom: 0.5rem;
+  margin-top: 0.3rem;
+  box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
+  border-radius: 10rem;
+  border: none;
+}
+
+.modal_wallet2bank_transfer .modal-content select:focus{
+  border: 0 !important;
+  color: none !important;
+}
+
+
+
+.modal_wallet2bank_transfer .btn-primary{
+  border-radius:80px;
+  padding: 9px;
+  width: 9rem;
+  text-transform: uppercase;
+  background: var(--primary_color);
+  border:none;
+  margin-left: 3rem;
+}
+/* ===================================
+   END OF   Wallet to bank modal
+=================================== */
+
+
+/* ===================================
+  Wallet to wallet modal
+=================================== */
+
+.modal_wallet2wallet_transfer{
+  z-index: 99999;
+  padding-left:300px;
+  padding-top: 80px;
+}
+
+
+.modal_wallet2wallet_transfer .modal-body{
+  background: #F1F1F1;
+}
+
+.modal_wallet2wallet_transfer .modal-body p{
+  font-size: 12px;
+  font-weight: bold;
+  font-family: var(--text_font);
+}
+
+/* .reprint_modal .modal-content{
+  min-width: 50rem;
+  
+} */
+
+.modal_wallet2wallet_transfer .modal-content button span{
+  color: var(--secondary_color);
+  font-size: 30px;
+}
+
+.modal_wallet2wallet_transfer .modal-content select,.modal_wallet2wallet_transfer .modal-content input{
+
+  width: 15rem;
+  margin-right: 0.5rem;
+  border-radius:60px;
+  padding: 15px;
+  margin-bottom: 0.5rem;
+  margin-top: 0.3rem;
+  box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
+  border-radius: 10rem;
+  border: none;
+}
+
+.modal_wallet2wallet_transfer .modal-content select:focus{
+  border: 0 !important;
+  color: none !important;
+}
+
+
+
+.modal_wallet2wallet_transfer .btn-primary{
+  border-radius:80px;
+  padding: 9px;
+  width: 9rem;
+  text-transform: uppercase;
+  background: var(--primary_color);
+  border:none;
+  margin-left: 3rem;
+}
+/* ===================================
+   END OF   Wallet to walletmodal
+=================================== */
+
+
 
 
 /* ===================================
@@ -2268,6 +2470,7 @@ margin-left: 1.5rem;
   background-color: #fff;
   height: 3rem;
   box-shadow: 1px 1px 1px 1px gray;
+  border: none;
 }
 
 #support_card_inner span{
@@ -2410,10 +2613,15 @@ padding-left:13rem;
   min-height: 3rem;
  padding-left: 2rem;
 }
+.table-invites th{
+  background: var(--secondary_color);
+  color: #fff;
+}
 
 .invites p{
   font-family: var(--text_font);
   color: var(--primary_color);
+  font-weight: bolder;
 }
 
 .invites_input input[type=text]{
@@ -2423,6 +2631,12 @@ padding-left:13rem;
 }
 
 .btn_invites{
+  background:#2F95FB;
+  border-radius: 20px;
+  font-family: var(--text_font);
+  color: var(--text_color);
+}
+.btn_invites:hover{
   background:#2F95FB;
   border-radius: 20px;
   font-family: var(--text_font);
@@ -2495,44 +2709,152 @@ td{
 
 .generate_btn{
   background: #2F95FB;
-  font-size: 10px;
+  font-size: 14px;
   color: #fff;
+  border-radius: 0;
 }
+.generate_btn:hover{
+  background: #2F95FB;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 0;
+}
+
 .dashboard_generate{
-  padding-left: 50rem;
+  padding-left: 45.5rem;
 }
 
 .dashboard3_authorization_4{
-  padding-top: 5rem;
+  padding-top: 3rem;
   padding-left: 12.2rem;
 }
 
-.dashboard3_authorization_4 .authorization_card2{
+.authorisation{
+  background: var(--secondary_color);
+  cursor: pointer;
+  min-width: 35rem;
+  min-height: 5.5rem;
+  text-align: center;
+  font-family: var(--text_font);
+  color: var(--text_color);
+  margin-left: -5rem;
+  border-radius: 0;
+}
+.authorisation:hover{
+  background: var(--secondary_color);
+  cursor: pointer;
+  min-width: 35rem;
+  min-height: 5.5rem;
+  text-align: center;
+  font-family: var(--text_font);
+  color: var(--text_color);
+  margin-left: -5rem;
+  border-radius: 0;
+}
+
+.read_access{
   background-color: #fff;
   border-bottom: 3px solid #F3F2F2;
   border-top: 3px solid #F3F2F2;
   cursor: pointer;
   margin: 0;
   padding: 0;
-  min-width: 35rem;
-  min-height: 4rem;
+  min-width: 39rem;
+  min-height: 5.5rem;
   text-align: center;
   font-weight: bold;
   font-family: var(--text_font);
   color: var(--secondary_color);
+  border: none;
+  border-radius: 0;
+  border-bottom: 0.5px solid black;
+  margin-left: -3.4rem;
 }
 
-.dashboard3_authorization_4 .authorization_card{
+.read_access:hover{
+  background-color: #fff;
+  border-bottom: 3px solid #F3F2F2;
+  border-top: 3px solid #F3F2F2;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  min-width: 39rem;
+  min-height: 5.5rem;
+  text-align: center;
+  font-weight: bold;
+  font-family: var(--text_font);
+  color: var(--secondary_color);
+  border: none;
+  border-radius: 0;
+  border-bottom: 0.5px solid black;
+  margin-left: -3.4rem;
+}
+.read_access2{
   background: var(--secondary_color);
   cursor: pointer;
-  min-width: 35rem;
-  min-height: 4rem;
+  min-width: 36rem;
+  min-height: 5.5rem;
   text-align: center;
   font-family: var(--text_font);
   color: var(--text_color);
+  border-radius: 0;
 }
+.read_access2:hover{
+  background: var(--secondary_color);
+  cursor: pointer;
+  min-width: 36rem;
+  min-height: 5.5rem;
+  text-align: center;
+  font-family: var(--text_font);
+  color: var(--text_color);
+  border-radius: 0;
+}
+
+.authorisation2{
+  background-color: #fff;
+  border-bottom: 3px solid #F3F2F2;
+  border-top: 3px solid #F3F2F2;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  min-width: 34rem;
+  min-height: 5.5rem;
+  text-align: center;
+  font-weight: bold;
+  font-family: var(--text_font);
+  color: var(--secondary_color);
+  border-radius: 0; 
+  border: none;
+  border-bottom: 0.5px solid black;
+  margin-left: -3.4rem;
+}
+
+.authorisation2:hover{
+  background-color: #fff;
+  border-bottom: 3px solid #F3F2F2;
+  border-top: 3px solid #F3F2F2;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  min-width: 34rem;
+  min-height: 5.5rem;
+  text-align: center;
+  font-weight: bold;
+  font-family: var(--text_font);
+  color: var(--secondary_color);
+  border-radius: 0; 
+  border: none;
+  border-bottom: 0.5px solid black;
+  margin-left: -3.4rem;
+}
+
+
 .authorization_table{
   padding-left: 15rem;
+}
+.dashboard-4-table th{
+  background: var(--secondary_color);
+  color: #fff;
 }
 .dashboard-4-table .dashboard-4-name{
   padding-right: 15rem;
@@ -2541,11 +2863,52 @@ td{
   padding-right: 1.5rem;
 }
 
+.table_account { 
+  border-collapse:separate; 
+  border-spacing:0 15px; 
+}
 
+.table_account_content{
+ width: 8%;
+}
+.table_account_content1{
+ width: 40%;
+}
+.table_account_content2{
+  width: 5%;
+}
+.table_account_content3{
+  width: 20%;
+}
+.table_account_content4{
+  width: 20%;
+}
+.table_account_content5{
+  width: 70%;
+}
+
+.table_account td{
+  background: #F1F1F1;
+  box-shadow: 0.1em 0.3em 0.3em #C9C9C9; 
+  border: none;
+  border-right: 1px solid #C9C9C9;
+  padding: 20px;
+}
+
+.table_account tr{
+  padding-bottom: 3rem;
+}
+
+.dashboard-2 th{
+ background: #F1F1F1;
+ border-bottom: none;
+ box-shadow: 1px 1px 1px 1px #C9C9C9;
+ color: var(--secondary_color);
+}
 .dashboard-3-maincard{
   margin-left: 0.1rem;
 }
-.dashboard-3-maincard p{
+.table_account p{
   font-size: 12px;
   font-weight: bold;
 }
@@ -2887,7 +3250,26 @@ padding: 5px;
 
 @media  (min-width: 768px) and (max-width:1024px){
 
-
+  .fa-chevron-left {
+    font-size: 30px;
+    color: var(--secondary_color);
+    cursor: pointer;
+    z-index: 9999;
+  }
+  .developer_chevron{
+    margin-left: -5rem;
+  }
+  .myinvite_chevron{
+    margin-left: -2rem;
+  }
+  .support_chevron{
+    margin-left: -4rem;
+    margin-right: 2.5rem;
+  }
+  .history_chevron{
+    margin-left: 1rem;
+    margin-right: 3rem;
+  }
   .navbar-form .input-group {
     width: 30%;
     
@@ -3062,10 +3444,31 @@ padding: 5px;
 
 }
 @media only screen and (max-width: 1024px){
+
+  .fa-chevron-left {
+    font-size: 30px;
+    color: var(--secondary_color);
+    cursor: pointer;
+    z-index: 9999;
+  }
+  .developer_chevron{
+    margin-left: -5rem;
+  }
+  .myinvite_chevron{
+    margin-left: 0rem;
+  }
+  .support_chevron{
+    margin-left: -1rem;
+    margin-right: -0.8rem;
+    font-size: 30px;
+  }
+  .history_chevron{
+    margin-left: 0;
+    margin-right: -2rem;
+  }
   .navbar-form .input-group {
     width: 40%;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 4rem;
     
   }
  
@@ -3091,16 +3494,13 @@ padding: 5px;
     }
 
     .large_screen_button{
-      margin-left: 280px;
-      padding-left: 5rem;
+      margin-left: 290px;
         margin-top: -2rem;
     }
     .developer_balance{
       margin-left: 250px;
     }
-    /* .dropdown{
-      display: none;
-    } */
+  
 
 .login_logo p{
   font-size: 14px;
@@ -3333,6 +3733,72 @@ padding: 5px;
       font-family: var(--text_font);
       color: var(--text_color);
     }
+
+    /* ===================================
+  MODAL FOR MODAL FOR REPRINT
+=================================== */
+.reprint_modal{
+  z-index: 99999;
+  padding-left: 500px;
+  padding-top: 100px;
+  
+}
+
+
+.reprint_modal .modal-body{
+  background: #F1F1F1;
+  height: 11rem;
+  padding-top: 2rem;
+}
+
+.reprint_modal .modal-body p{
+  font-size: 12px;
+  font-weight: bold;
+  font-family: var(--text_font);
+  line-height: 0.5rem;
+}
+
+.reprint_modal .modal-header h6{
+  text-align: center;
+}
+
+
+.reprint_modal .modal-content button span{
+  color: var(--secondary_color);
+  font-size: 25px;
+}
+
+.reprint_modal .modal-content input{
+
+  width: 15rem;
+  margin-right: 0.5rem;
+  
+  padding: 5px;
+  margin-bottom: 1rem;
+  /* margin-top: 1rem; */
+  box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
+  border: none;
+}
+
+.reprint_modal .modal-content select:focus{
+  border: 0 !important;
+  color: none !important;
+}
+
+
+
+.reprint_modal .btn-primary{
+  border-radius:80px;
+  padding: 3px;
+  width: 9rem;
+  background: var(--primary_color);
+  border:none;
+  margin-left: 3rem;
+}
+
+/* ===================================
+  END OF MODAL FOR REPRINT
+=================================== */
     
     /* ===================================
   MODAL FOR AIRTIME/DATA
@@ -3595,69 +4061,8 @@ padding: 5px;
 =================================== */
 
 
-/* ===================================
-  MODAL FOR MODAL FOR REPRINT
-=================================== */
-.reprint_modal{
-  z-index: 99999;
-  padding-left: 114px;
-  padding-top: 80px;
-}
 
 
-.reprint_modal .modal-body{
-  background: #F1F1F1;
-}
-
-.reprint_modal .modal-body p{
-  font-size: 12px;
-  font-weight: bold;
-  font-family: var(--text_font);
-}
-
-/* .reprint_modal .modal-content{
-  min-width: 50rem;
-  
-} */
-
-.reprint_modal .modal-content button span{
-  color: var(--secondary_color);
-  font-size: 50px;
-}
-
-.reprint_modal .modal-content select,.reprint_modal .modal-content input{
-
-  width: 15rem;
-  margin-right: 0.5rem;
-  border-radius:60px;
-  padding: 15px;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-  box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
-  border: none;
-}
-
-.reprint_modal .modal-content select:focus{
-  border: 0 !important;
-  color: none !important;
-}
-
-
-
-.reprint_modal .btn-primary{
-  border-radius:80px;
-  padding: 9px;
-  width: 9rem;
-  text-transform: uppercase;
-  background: var(--primary_color);
-  border:none;
-  margin-left: 3rem;
-}
-
-/* ===================================
-  END OF MODAL FOR REPRINT
-=================================== */
-}
     /* ===================================
  DASHBOARD-1 STYLING
 =================================== */
@@ -3669,6 +4074,7 @@ padding: 5px;
 .amount_paid_sectionheader{
   color: var(--primary_color);
   font-family: var(--text_font);
+  margin-left: 5rem;
 }
 
 .amount_paid_section .amount_paid_sectionheader {
@@ -3695,10 +4101,11 @@ padding: 5px;
 
 .enter_amount input{
   border-radius: 30px;
-  width: 920px;
+  width: 620px;
   background: #F1F1F1;
   border: none;
   padding: 15px;
+  margin-left: 5rem;
 }
 
 .proceed_amount{
@@ -3785,9 +4192,15 @@ font-weight: bolder;
 /* ===================================================
  DASHBOARD-2 ussd, banktransfer and debit card STYLING
 ================================================== */
+.ipadpro{
+  margin-left: 5rem;
+}
+.ipadpro2{
+  margin-left: 9rem;
+}
 .amount_paid_section{
-  padding-top: 7rem;
-  padding-left: 12rem;
+  padding-top: 5rem;
+  padding-left: 15rem;
 }
 
 /* ===================================================
@@ -3883,7 +4296,8 @@ font-weight: bolder;
   width: 10rem;
 }
 .dashboard_generate{
-  padding-left: 49rem;
+  padding-left: 46.5rem;
+  margin-bottom: -65rem;
 }
 
 .dashboard3_authorization_4{
@@ -4092,7 +4506,7 @@ padding: 5px;
   color: #FFF;
   padding: 4.5px;
   width: 20%;
-  margin-left: -4rem;
+  margin-left: -4.3rem;
   margin-top: -0.1rem;
 }
 .upload_file2 button{
@@ -4101,7 +4515,7 @@ padding: 5px;
   color: #FFF;
   padding: 4.5px;
   width: 20%;
-  margin-left: -4rem;
+  margin-left: -4.3rem;
   margin-top: -0.1rem;
 }
 .agent-card{
@@ -4149,6 +4563,57 @@ padding: 5px;
 .agent-card h6{
   padding-left: -5rem;
 }
+/* ===================================
+   DEVELOPER PAGE STYLING
+=================================== */
+.developer_main{
+  padding-left: 20rem;
+}
+
+.developer_main .developer_card{
+  background: #fff;
+  min-height: 8rem;
+  min-width: 20rem;
+  padding-right: 15rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.content h5{
+  color: var(--primary_color);
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bolder;
+  line-height: 0.5;
+}
+/* .content{
+  margin-right: 1rem;
+} */
+.content2{
+  padding-left: 1rem;
+}
+.developer_tool{
+  background: var(--secondary_color);
+  min-height: 30rem;
+  width: 18rem;
+  margin-right: 0;
+  padding-bottom: 3rem;
+  padding-right: 0;
+  padding-left: 2rem;
+}
+.developer_tool h5{
+  background: var(--primary_color);
+  color: var(--text_color);
+  font-size: 16px;
+  width: 8rem;
+  font-family: var(--header_font);
+}
+.developer_tool p{
+  color: var(--text_color);
+  line-height: 0;
+  font-size: 10px;
+  font-family: var(--text_font);
+}
+
+
 
      
  
@@ -4222,6 +4687,33 @@ color:red;
 /* ===================================
   LANDING PAGE MEDIA QUERY
 =================================== */
+
+.fa-chevron-left {
+  font-size: 30px;
+  color: var(--secondary_color);
+  cursor: pointer;
+  z-index: 9999;
+}
+.developer_chevron{
+  margin-left: -5rem;
+}
+.myinvite_chevron{
+  margin-left: 0;
+}
+.support_chevron{
+  margin-left: -4rem;
+  margin-right: 2.5rem;
+}
+.history_chevron{
+  margin-left: 2rem;
+  margin-right: -3.9rem;
+}
+.ipadpro{
+  margin-left: 0rem;
+}
+.ipadpro2{
+  margin-left: 0rem;
+}
 aside{
   display: none;
 }
@@ -4759,7 +5251,7 @@ TRANSACTION DETAILS STYLING
 
 .transaction_details_sectionheader h5{
 margin-left: 1.5rem;
-  font-size: 16px;
+  font-size: 12px;
 }
 
 
@@ -4823,6 +5315,9 @@ font-weight: bolder;
 /* ===================================
    DASHBOARD-2
 =================================== */
+.making_payment_section {
+  padding-left: 0rem;
+}
 
 .dashboard-2{
   padding-left: 0rem;
@@ -4907,6 +5402,7 @@ font-weight: bolder;
 .amount_paid_section{
   padding-top: 4rem;
   padding-left: 4rem;
+  
 }
 
 
@@ -4915,6 +5411,7 @@ font-weight: bolder;
   /* margin-bottom: 60px; */
   position: relative;
   padding-bottom: 0.3px;
+  margin-left: 0;
   
 }
 
@@ -4939,6 +5436,7 @@ font-weight: bolder;
   background: #F1F1F1;
   border: none;
   padding: 15px;
+  margin-left: 0;
 }
 
 .proceed_amount{
@@ -5040,7 +5538,7 @@ font-weight: bolder;
 .support-heading p{
   font-size: 12px;
  
-  margin-left: 3rem;
+  margin-left: 1.5rem;
 }
 .support-heading .tracking_text{
  
@@ -5215,29 +5713,68 @@ font-weight: bolder;
   padding-left: 1rem;
 }
 
-.authorization_card{
+.authorisation{
+  background: var(--secondary_color);
+  cursor: pointer;
+  min-width: 26.5rem;
+  min-height: 5.5rem;
+  text-align: center;
+  font-family: var(--text_font);
+  color: var(--text_color);
+  margin-left: -5rem;
+  border-radius: 0;
+}
+
+.read_access{
   background-color: #fff;
   border-bottom: 3px solid #F3F2F2;
   border-top: 3px solid #F3F2F2;
   cursor: pointer;
   margin: 0;
   padding: 0;
-  min-width: 20rem;
-  min-height: 4rem;
+  min-width: 24rem;
+  min-height: 5.5rem;
   text-align: center;
   font-weight: bold;
   font-family: var(--text_font);
+  color: var(--secondary_color);
+  border: none;
+  border-radius: 0;
+  border-bottom: 0.5px solid black;
+  margin-left: -3.4rem;
 }
 
-.authorization_card2{
+
+.read_access2{
   background: var(--secondary_color);
   cursor: pointer;
-  min-width: 20rem;
-  min-height: 4rem;
+  min-width: 22rem;
+  min-height: 5.5rem;
   text-align: center;
   font-family: var(--text_font);
   color: var(--text_color);
+  border-radius: 0;
 }
+
+.authorisation2{
+  background-color: #fff;
+  border-bottom: 3px solid #F3F2F2;
+  border-top: 3px solid #F3F2F2;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  min-width: 25.5rem;
+  min-height: 5.5rem;
+  text-align: center;
+  font-weight: bold;
+  font-family: var(--text_font);
+  color: var(--secondary_color);
+  border-radius: 0; 
+  border: none;
+  border-top: 0.5px solid black;
+  margin-left: -3.4rem;
+}
+
 .authorization_table{
   padding-left: 1rem;
 }
@@ -5488,6 +6025,9 @@ border-radius: 0;
   padding-top: 2rem;
   padding-left: 2rem; 
 }
+.mainprofile h3{
+font-size: 25px;
+}
 .section h5{
   color: #F53B43;
   font-size: 13px;
@@ -5538,8 +6078,8 @@ padding: 5px;
   border-radius: 20px;
   color: #FFF;
   padding: 4.5px;
-  width: 20%;
-  margin-left: -4rem;
+  width: 22%;
+  margin-left: -4.5rem;
   margin-top: -0.1rem;
 }
 .upload_file2 button{
@@ -5547,8 +6087,8 @@ padding: 5px;
   border-radius: 20px;
   color: #FFF;
   padding: 4.5px;
-  width: 20%;
-  margin-left: -4rem;
+  width: 22%;
+  margin-left: -4.5rem;
   margin-top: -0.1rem;
 }
 }
