@@ -283,7 +283,7 @@ body.mobile-nav-active #mobile-nav-toggle {
           NAVBAR FOR DASHBOARD
 =================================== */
 #dashboard_logo img{
-  height: 40px;
+  height: 55px;
   margin-left: 2rem;
 }
 
@@ -3446,7 +3446,7 @@ padding: 5px;
 
 
 }
-@media only screen and (max-width: 1024px){
+@media  (min-width: 1024px) and (max-width:1200px){
 
   .fa-chevron-left {
     font-size: 30px;
