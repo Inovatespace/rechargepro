@@ -45,6 +45,14 @@ a:hover {
   text-decoration: none;
 }
 
+button,
+input{
+  outline: none !important;
+}
+
+.flex{
+  display: flex;
+}
 
 
 /*--------------------------
@@ -287,6 +295,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .slim {
   width: 80px;
   overflow: hidden;
+  transition: all 0.4s ease-in-out;
 }
 
 .slim .side_nav_content li a,
@@ -615,6 +624,9 @@ button span {
 .card {
   background: transparent;
   border: none;
+  min-width: 100%;
+  min-height: 30vh;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
 }
 
 .card-title {
@@ -1304,10 +1316,10 @@ aside {
   padding: 1em;
 }
 
-.utility p {
+.main_content p {
   font-size: 12px;
   font-weight: bold;
-  color: var(--secondary_color);
+  color: #fff
   font-family: var(--text_font);
 }
 
@@ -1315,10 +1327,8 @@ aside {
 .electricity_btn,
 .cable_btn,
 .bills_btn {
-  left: 25%;
-  top: 20%;
   z-index: 9999;
-  position: absolute;
+
   animation-duration: 3s;
 
 }
@@ -1327,16 +1337,9 @@ aside {
   width: 40px;
 }
 
-.electricity_btn {
-  top: 38%;
-}
 
 .electricity_btn img {
   width: 60px;
-}
-
-.cable_btn {
-  top: 57%;
 }
 
 .cable_btn img {
@@ -1344,9 +1347,6 @@ aside {
   padding-bottom: 0.5rem;
 }
 
-.bills_btn {
-  top: 76%;
-}
 
 .bills_btn img {
   width: 80px;
@@ -1360,25 +1360,41 @@ aside {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.utility_card {
-  padding-left: 32%;
-  padding-top: 12%;
-  padding-bottom: 0.5rem;
+.main_content{
+  padding-left: 250px;
+  padding-top: 60px;
+  min-height: 100vh;
 }
 
-.utility_card button {
+.utility_holder{
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.utility_card2{
+  display: flex;
+  align-items: center;
+  min-height: 55vh;
+}
+
+.referal_btn{
+  margin: 0 auto;
+}
+
+.utility_holder_alt button,
+#transaction_card4 button {
   background: var(--secondary_color);
   border-radius: 20px;
   height: 6rem;
   width: 5.5rem;
 }
 
-.utility_card2 {
-  padding-left: 32%;
-  padding-top: 3%;
+.zero_padding{
+  padding-left: 50px;
+  transition: all 0.4s ease-in-out;
 }
 
-#transaction_card {
+/* #transaction_card {
   background-color: #fff;
   min-height: 11rem;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
@@ -1387,12 +1403,18 @@ aside {
 #transaction_card .referal_btn {
   margin-left: 5rem;
   margin-top: 1.5rem
-}
+} */
 
 #transaction_card4 {
   background-color: #fff;
   min-height: 11rem;
+  padding: 0.5em 2em;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.transaction_card_btn{
+  margin: 0 auto;
+  width: fit-content;
 }
 
 #transaction_card p,
@@ -1452,7 +1474,7 @@ aside {
   background: transparent;
   z-index: 99999;
   height: 13rem;
-  width: 13.6rem;
+  width: 11.3rem;
   color: #fff;
 }
 
@@ -3296,6 +3318,13 @@ td {
 }
 
 @media screen and (max-width:731px) {
+  .main_content{
+    display: none;
+  }
+
+  .mobile_dashboard{
+    display: block;
+  }
   .open_btn {
     display: none;
   }
