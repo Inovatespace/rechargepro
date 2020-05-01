@@ -3266,6 +3266,9 @@ padding: 5px;
     margin-left: -4rem;
     margin-right: 2.5rem;
   }
+  .history_ipadpro_chevron{
+       margin-right: 18rem;
+  }
   .history_chevron{
     margin-left: 1rem;
     margin-right: 3rem;
@@ -3710,7 +3713,7 @@ padding: 5px;
       padding-top: 5rem;
       padding-left: 14rem;
     }
-    .authorization_card{
+    /* .authorization_card{
       background-color: #fff;
       border-bottom: 3px solid #F3F2F2;
       border-top: 3px solid #F3F2F2;
@@ -3732,7 +3735,7 @@ padding: 5px;
       text-align: center;
       font-family: var(--text_font);
       color: var(--text_color);
-    }
+    } */
 
     /* ===================================
   MODAL FOR MODAL FOR REPRINT
@@ -3800,14 +3803,16 @@ padding: 5px;
   END OF MODAL FOR REPRINT
 =================================== */
     
-    /* ===================================
-  MODAL FOR AIRTIME/DATA
+/* ===================================
+  ALL MODAL FOR DASHBOARD IPADPRO 
+  RESPONSIVENESS
 =================================== */
-.modal_airtime_data{
+.modal_airtime_data, .modal_electricity,
+.modal_cable,
+.modal_bill{
   z-index: 99999;
-  padding-left: 114px;
-  padding-top: 0;
-  margin-top: 0;
+  padding-left: 350px;
+  margin-top: -370px;
 }
 
 
@@ -3822,20 +3827,31 @@ padding: 5px;
   font-family: var(--text_font);
 }
 
-.modal_airtime_data .modal-content{
+.modal_airtime_data .modal-content,
+.modal_electricity .modal-content,
+.modal_cable .modal-content,
+.modal_bill .modal-content{
   min-width: 35rem;
   
 }
 
-.modal_airtime_data .modal-content button span{
+.modal_airtime_data .modal-content button span,
+.modal_electricity .modal-content button span,
+.modal_cable .modal-content button span,
+.modal_bill .modal-content button span
+{
   color: var(--secondary_color);
   font-size: 50px;
-  padding-left: 20rem;
+  padding-left: 30rem;
 }
 
-.modal_airtime_data .modal-content select,.modal_airtime_data .modal-content input{
+.modal_airtime_data .modal-content select,.modal_airtime_data .modal-content input,
+.modal_electricity .modal-content select,.modal_electricity .modal-content input,
+.modal_cable .modal-content select, .modal_cable .modal-content input,
+.modal_bill .modal-content select, .modal_bill .modal-content input
+{
 
-  width: 10rem;
+  width: 15rem;
   margin-right: 0.5rem;
   border-radius:60px;
   padding: 15px;
@@ -3862,203 +3878,16 @@ padding: 5px;
 }
 
 /* ===================================
-  END OF MODAL FOR AIRTIME/DATA
+  END OF ALL MODAL FOR DASHBOARD IPADPRO 
+  RESPONSIVENESS
 =================================== */
 
 
-/* ===================================
-  MODAL FOR MODAL FOR ELECTRICITY
-=================================== */
-.modal_electricity{
-  z-index: 99999;
-  padding-left: 114px;
-  padding-top: 20px;
-}
-
-
-.modal_electricity .modal-body{
-  min-height: 25rem;
-  background: #F1F1F1;
-}
-
-.modal_electricity .modal-body p{
-  font-size: 12px;
-  font-weight: bold;
-  font-family: var(--text_font);
-}
-
-.modal_electricity .modal-content{
-  min-width: 50rem;
-  
-}
-
-.modal_electricity .modal-content button span{
-  color: var(--secondary_color);
-  font-size: 50px;
-  padding-left: 40rem;
-}
-
-.modal_electricity .modal-content select,.modal_electricity .modal-content input{
-
-  width: 20rem;
-  margin-right: 0.5rem;
-  border-radius:60px;
-  padding: 15px;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-  box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
-  border: none;
-}
-
-.modal_electricity .modal-content select:focus{
-  border: 0 !important;
-  color: none !important;
-}
 
 
 
-.modal_electricity .btn-primary{
-  border-radius:80px;
-  padding: 12px;
-  width: 21rem;
-  text-transform: uppercase;
-  background: var(--primary_color);
-  border:none;
-}
-
-/* ===================================
-  END OF MODAL FOR ELECTRICITY
-=================================== */
 
 
-/* ===================================
-  MODAL FOR MODAL FOR CABLE
-=================================== */
-.modal_cable{
-  z-index: 99999;
-  padding-left: 114px;
-  padding-top: 20px;
-}
-
-
-.modal_cable .modal-body{
-  min-height: 25rem;
-  background: #F1F1F1;
-}
-
-.modal_cable .modal-body p{
-  font-size: 12px;
-  font-weight: bold;
-  font-family: var(--text_font);
-}
-
-.modal_cable .modal-content{
-  min-width: 50rem;
-  
-}
-
-.modal_cable .modal-content button span{
-  color: var(--secondary_color);
-  font-size: 50px;
-  padding-left: 40rem;
-}
-
-.modal_cable .modal-content select,.modal_cable .modal-content input{
-
-  width: 20rem;
-  margin-right: 0.5rem;
-  border-radius:60px;
-  padding: 15px;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-  box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
-  border: none;
-}
-
-.modal_cable .modal-content select:focus{
-  border: 0 !important;
-  color: none !important;
-}
-
-
-
-.modal_cable .btn-primary{
-  border-radius:80px;
-  padding: 12px;
-  width: 21rem;
-  text-transform: uppercase;
-  background: var(--primary_color);
-  border:none;
-}
-
-/* ===================================
-  END OF MODAL FOR CABLE
-=================================== */
-
-
-/* ===================================
-  MODAL FOR MODAL FOR BILL
-=================================== */
-.modal_bill{
-  z-index: 99999;
-  padding-left: 114px;
-  padding-top: 20px;
-}
-
-
-.modal_bill .modal-body{
-  min-height: 25rem;
-  background: #F1F1F1;
-}
-
-.modal_bill .modal-body p{
-  font-size: 12px;
-  font-weight: bold;
-  font-family: var(--text_font);
-}
-
-.modal_bill .modal-content{
-  min-width: 50rem;
-  
-}
-
-.modal_bill .modal-content button span{
-  color: var(--secondary_color);
-  font-size: 50px;
-  padding-left: 40rem;
-}
-
-.modal_bill .modal-content select,.modal_bill .modal-content input{
-
-  width: 20rem;
-  margin-right: 0.5rem;
-  border-radius:60px;
-  padding: 15px;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-  box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
-  border: none;
-}
-
-.modal_bill .modal-content select:focus{
-  border: 0 !important;
-  color: none !important;
-}
-
-
-
-.modal_bill .btn-primary{
-  border-radius:80px;
-  padding: 12px;
-  width: 21rem;
-  text-transform: uppercase;
-  background: var(--primary_color);
-  border:none;
-}
-
-/* ===================================
-  END OF MODAL FOR BILL
-=================================== */
 
 
 
@@ -4068,7 +3897,7 @@ padding: 5px;
 =================================== */
 .amount_paid_section{
   padding-top: 8rem;
-  padding-left: 18rem;
+  padding-left: 10rem;
 }
 
 .amount_paid_sectionheader{
@@ -4200,7 +4029,10 @@ font-weight: bolder;
 }
 .amount_paid_section{
   padding-top: 5rem;
-  padding-left: 15rem;
+  padding-left: 10rem;
+}
+.making_payment_section {
+  padding-left: 10rem;
 }
 
 /* ===================================================
@@ -4300,34 +4132,129 @@ font-weight: bolder;
   margin-bottom: -65rem;
 }
 
+
 .dashboard3_authorization_4{
-  padding-top: 3.5rem;
-  padding-left: 13.7rem;
+  padding-top: 3rem;
+  padding-left: 17.5rem;
 }
 
-.dashboard3_authorization_4 .authorization_card2{
+.authorisation{
+  background: var(--secondary_color);
+  cursor: pointer;
+  min-width: 27rem;
+  min-height: 5.5rem;
+  text-align: center;
+  font-family: var(--text_font);
+  color: var(--text_color);
+  margin-left: -5rem;
+  border-radius: 0;
+}
+.authorisation:hover{
+  background: var(--secondary_color);
+  cursor: pointer;
+  min-width: 27rem;
+  min-height: 5.5rem;
+  text-align: center;
+  font-family: var(--text_font);
+  color: var(--text_color);
+  margin-left: -5rem;
+  border-radius: 0;
+}
+
+.read_access{
   background-color: #fff;
   border-bottom: 3px solid #F3F2F2;
   border-top: 3px solid #F3F2F2;
   cursor: pointer;
   margin: 0;
   padding: 0;
-  min-width: 15rem;
-  min-height: 4rem;
+  min-width: 26rem;
+  min-height: 5.5rem;
   text-align: center;
   font-weight: bold;
   font-family: var(--text_font);
   color: var(--secondary_color);
+  border: none;
+  border-radius: 0;
+  border-bottom: 0.5px solid black;
+  margin-left: -3.4rem;
 }
 
-.dashboard3_authorization_4 .authorization_card{
+.read_access:hover{
+  background-color: #fff;
+  border-bottom: 3px solid #F3F2F2;
+  border-top: 3px solid #F3F2F2;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  min-width: 26rem;
+  min-height: 5.5rem;
+  text-align: center;
+  font-weight: bold;
+  font-family: var(--text_font);
+  color: var(--secondary_color);
+  border: none;
+  border-radius: 0;
+  border-bottom: 0.5px solid black;
+  margin-left: -3.4rem;
+}
+.read_access2{
   background: var(--secondary_color);
   cursor: pointer;
-  min-width: 15rem;
-  min-height: 4rem;
+  min-width: 22.5rem;
+  min-height: 5.5rem;
   text-align: center;
   font-family: var(--text_font);
   color: var(--text_color);
+  border-radius: 0;
+}
+.read_access2:hover{
+  background: var(--secondary_color);
+  cursor: pointer;
+  min-width: 22.5rem;
+  min-height: 5.5rem;
+  text-align: center;
+  font-family: var(--text_font);
+  color: var(--text_color);
+  border-radius: 0;
+}
+
+.authorisation2{
+  background-color: #fff;
+  border-bottom: 3px solid #F3F2F2;
+  border-top: 3px solid #F3F2F2;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  min-width: 26rem;
+  min-height: 5.5rem;
+  text-align: center;
+  font-weight: bold;
+  font-family: var(--text_font);
+  color: var(--secondary_color);
+  border-radius: 0; 
+  border: none;
+  border-bottom: 0.5px solid black;
+  margin-left: -3.4rem;
+}
+
+.authorisation2:hover{
+  background-color: #fff;
+  border-bottom: 3px solid #F3F2F2;
+  border-top: 3px solid #F3F2F2;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  min-width: 26rem;
+  min-height: 5.5rem;
+  text-align: center;
+  font-weight: bold;
+  font-family: var(--text_font);
+  color: var(--secondary_color);
+  border-radius: 0; 
+  border: none;
+  border-bottom: 0.5px solid black;
+  margin-left: -3.4rem;
 }
 .authorization_table{
   padding-left: 14rem;
@@ -4707,6 +4634,9 @@ color:red;
 .history_chevron{
   margin-left: 2rem;
   margin-right: -3.9rem;
+}
+.history_ipadpro_chevron{
+  margin-right: 6rem;
 }
 .ipadpro{
   margin-left: 0rem;
@@ -6091,4 +6021,146 @@ padding: 5px;
   margin-left: -4.5rem;
   margin-top: -0.1rem;
 }
+
+
+
+/* ===================================
+  ALL MODAL FOR DASHBOARD 
+  MOBILE RESPONSIVENESS
+=================================== */
+.modal_electricity,
+.modal_airtime_data,
+.modal_cable,
+.modal_bill{
+  z-index: 99999;
+  padding-left: 1px;
+  margin-top: 20px;
+}
+
+
+.modal_electricity .modal-body{
+  min-height: 25rem;
+  background: #F1F1F1;
+}
+
+.modal_electricity .modal-body .mobile_modalairtime_text,
+.modal_airtime_data .modal-body .mobile_modalairtime_text,
+.modal_cable .modal-body .mobile_modalairtime_text,
+.modal_bill .modal-body .mobile_modalairtime_text
+{
+  font-size: 10px;
+  font-weight: bold;
+  font-family: var(--text_font);
+  margin-left: 0.5rem;
+}
+
+.modal_electricity .modal-content,
+.modal_airtime_data .modal-content,
+.modal_cable .modal-content,
+.modal_bill .modal-content
+{
+  width: 5rem;
+  
+}
+
+.modal_electricity .modal-content button span,
+.modal_airtime_data .modal-content button span,
+.modal_cable .modal-content button span,
+.modal_bill .modal-content button span
+{
+  color: var(--secondary_color);
+  font-size: 50px;
+  padding-left: 1.5rem;
+}
+
+.modal_electricity .modal-content select,.modal_electricity .modal-content input,
+.modal_airtime_data .modal-content select,.modal_airtime_data .modal-content input,
+.modal_cable .modal-content select,.modal_cable .modal-content input,
+.modal_bill .modal-content select,.modal_bill .modal-content input
+{
+
+  width: 18rem;
+  margin-right: 0.5rem;
+  border-radius:60px;
+  padding: 15px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
+  border: none;
+}
+
+
+
+
+.modal_electricity .btn-primary,
+.modal_airtime_data .btn-primary,
+.modal_cable .btn-primary,
+.modal_bill .btn-primary
+{
+  border-radius:60px;
+  padding: 9px;
+  width: 17rem;
+  text-transform: uppercase;
+  background: var(--primary_color);
+  border:none;
+  margin-left: 2rem;
+}
+
+/* ===================================
+  END OF ALL MODAL FOR DASHBOARD 
+  MOBILE RESPONSIVENESS
+=================================== */
+
+
+
+
+
+/* ===================================
+  Wallet to wallet modal
+=================================== */
+
+.modal_wallet2wallet_transfer,
+.modal_wallet2bank_transfer{
+  z-index: 99999;
+  padding-left:0;
+  padding-top: 150px;
+}
+
+
+
+.modal_wallet2wallet_transfer .modal-content select,.modal_wallet2wallet_transfer .modal-content input,
+.modal_wallet2bank_transfer .modal-content select,.modal_wallet2bank_transfer .modal-content input
+{
+
+  width: 15rem;
+  margin-right: 0.5rem;
+  margin-left: 2rem;
+  border-radius:60px;
+  padding: 15px;
+  margin-bottom: 0.5rem;
+  margin-top: 0.3rem;
+  box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
+  border-radius: 10rem;
+  border: none;
+}
+
+
+
+
+
+.modal_wallet2wallet_transfer .btn-primary,
+.modal_wallet2bank_transfer .btn-primary
+{
+  border-radius:80px;
+  padding: 9px;
+  width: 9rem;
+  text-transform: uppercase;
+  background: var(--primary_color);
+  border:none;
+  margin-left: 5rem;
+}
+/* ===================================
+   END OF   Wallet to walletmodal
+=================================== */
+
 }

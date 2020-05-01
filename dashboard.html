@@ -321,7 +321,7 @@
                         <p class="card_heading_text">Referral</p> 
                     </div>
                     <div class="referal_btn transaction_card_btn">
-                        <a href="invites.html"><button>
+                        <a href="My-Invites.html"><button>
                             <img class="mt-4 pb-2" src="assets/images/icons/1390477.png" alt="" width="50%">
                             <div>
                                 <p>My invite</p>
@@ -419,15 +419,15 @@
 
     <div class="text-center mobile_social-links d-md-none d-lg-none animated zoomIn">
 
-        <a href="" class="twitter" data-toggle="tooltip" data-placement="top" title="Add Funds">
+        <a href="dashboard-1.html" class="twitter" data-toggle="tooltip" data-placement="top" title="Add Funds">
           <img src="assets/images/icons/Group 79.png" alt="add-funds"  width="45%">
         </a>
         
-        <a href="" class="facebook" data-toggle="tooltip" data-placement="top" title="">
+        <a href="transfer-fund.html" class="facebook" data-toggle="tooltip" data-placement="top" title="">
           <img src="assets/images/icons/Group 77.png" alt="add-funds" class="mt-1"  width="45%">
         </a>
 
-        <a href="" class="instagram" data-toggle="tooltip" data-placement="top" title="">
+        <a href="account-authorisation.html" class="instagram" data-toggle="tooltip" data-placement="top" title="">
           <img src="assets/images/icons/Group 71.png" alt="add-funds" class="mt-1" width="40%">
         </a>
 
@@ -461,14 +461,14 @@
     <div class="container pr-3 mr-3 d-md-none d-lg-none">
         <div class="row utility">
             <div class="mobile_airtime_card animated zoomIn">
-                <button class="btn btn-lg">
+                <button class="btn btn-lg" data-toggle="modal" data-target="#cableModal">
                     <img src="assets/images/icons/cable.png" alt="" width="70%">
                     <p class="mt-2">Cable</p>
                 </button>
             </div>
            
             <div class="mobile_airtime_card animated zoomIn">
-                <button class="btn btn-lg">
+                <button class="btn btn-lg" data-toggle="modal" data-target="#billsModal">
                     <img src="assets/images/icons/bills.png" alt="" width="70%">
                     <p class="mt-2">Bills</p>
                 </button>
@@ -478,16 +478,16 @@
 
     <div class="mobile_footer d-md-none d-lg-none">
         <div class="footer_mobile_links">
-            <a href="https://twitter.com/startupsouthng" class="twitter" data-toggle="tooltip" data-placement="top"
-              title="Twitter">
+            <a href="My-Invites.html" class="twitter" data-toggle="tooltip" data-placement="top"
+              title="Invite Page">
               <img src="assets/images/icons/1390477.png" alt="add-funds"  width="45%">
             </a>
             
-            <a href="https://facebook.com/startupsouthng" class="facebook" data-toggle="tooltip" data-placement="top" title="Facebook">
+            <a href="history.html" class="facebook" data-toggle="tooltip" data-placement="top" title="History Page">
               <img src="assets/images/icons/Group 75.png" alt="add-funds" class="mt-1"  width="45%">
             </a>
 
-            <a href="https://facebook.com/startupsouthng" class="facebook" data-toggle="tooltip" data-placement="top" title="Facebook">
+            <a href="rechargeprostatic-master/index.html" class="facebook" data-toggle="tooltip" data-placement="top" title="Home">
               <img src="assets/images/icons/Icon Home.png" alt="add-funds" class="mt-1"  width="45%">
             </a>
 
@@ -547,9 +547,9 @@
 
                                     <input type="text" name="" value="" placeholder="Enter Amount">
 
-                                    <p>Token/Receipt will be sent to the email/phone entered above</p>
+                                    <p class="d-none d-sm-block">Token/Receipt will be sent to the email/phone entered above</p>
 
-                                    <button type="button" class="btn btn-lg btn-primary">Pay</button>
+                                    <button type="button" class="btn btn-lg btn-primary d-none d-sm-block">Pay</button>
                                 </div>
 
                                 <div class="col-md-6 mobile_modal">
@@ -558,6 +558,12 @@
                                     <br>
                                     <input type="text" name="" value="" placeholder="Email Address no compulsory"> 
                                 </div>
+
+
+                                <!-- mobile view responsiveness text -->
+                                <p class="d-md-none d-lg-none mobile_modalairtime_text">Token/Receipt will be sent to the email/phone entered above</p>
+
+                                <button type="button" class="btn btn-lg btn-primary d-md-none d-lg-none">Pay</button>
                             </div>
                         </div>
                     </form>
@@ -589,9 +595,9 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <select name="" id=""  placeholder="Select Airtime/Data">
-                                        <option value="" selected>Select Airtime/Data</option>
-                                        <option value="">Airtime</option>
-                                        <option value="">Data</option>
+                                        <option value="" selected>Select Provider</option>
+                                        <option value="">PHED</option>
+                                        <option value="">AECD</option>
                                     </select>
 
                                     <br>
@@ -602,9 +608,9 @@
 
                                     <input  type="number" name="" value="" placeholder="Email Address no compulsory">
 
-                                    <p>Token/Receipt will be sent to the email/phone entered above</p>
+                                    <p class="d-none d-sm-block">Token/Receipt will be sent to the email/phone entered above</p>
 
-                                    <button type="button" class="btn btn-lg btn-primary">Pay</button>
+                                    <button type="button" class="btn btn-lg btn-primary d-none d-sm-block">Pay</button>
                                 </div>
 
                                 <div class="col-md-6">
@@ -613,6 +619,11 @@
                                     <br>
                                     <input type="number" name="" value="" placeholder="Email Phone Number"> 
                                 </div>
+
+                                <!-- mobile view responsiveness text -->
+                                <p class="d-md-none d-lg-none mobile_modalairtime_text">Token/Receipt will be sent to the email/phone entered above</p>
+
+                                    <button type="button" class="btn btn-lg btn-primary d-md-none d-lg-none">Pay</button>
                             </div>
                         </div>
                     </form>
@@ -643,7 +654,7 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <select name="" id="" placeholder="Select Airtime/Data">
-                                        <option value="" selected>Select Airtime/Data</option>
+                                        <option value="" selected>Select Provide</option>
                                         <option value="">Airtime</option>
                                         <option value="">Data</option>
                                     </select>
@@ -656,9 +667,9 @@
 
                                     <input type="number" name="" value="" placeholder="Email Address no compulsory">
 
-                                    <p>Token/Receipt will be sent to the email/phone entered above</p>
+                                    <p class="d-none d-sm-block">Token/Receipt will be sent to the email/phone entered above</p>
 
-                                    <button type="button" class="btn btn-lg btn-primary">Pay</button>
+                                    <button type="button" class="btn btn-lg btn-primary d-none d-sm-block">Pay</button>
                                 </div>
 
                                 <div class="col-md-6">
@@ -667,6 +678,10 @@
                                     <br>
                                     <input type="number" name="" value="" placeholder="Enter Phone Number"> 
                                 </div>
+                                <!-- mobile view responsiveness text -->
+                                <p class="d-md-none d-lg-none mobile_modalairtime_text">Token/Receipt will be sent to the email/phone entered above</p>
+
+                                <button type="button" class="btn btn-lg btn-primary d-md-none d-lg-none">Pay</button>
                             </div>
                         </div>
                     </form>
@@ -710,9 +725,9 @@
 
                                     
 
-                                    <p>Token/Receipt will be sent to the email/phone entered above</p>
+                                    <p class="d-none d-sm-block">Token/Receipt will be sent to the email/phone entered above</p>
 
-                                    <button type="button" class="btn btn-lg btn-primary">Pay</button>
+                                    <button type="button" class="btn btn-lg btn-primary d-none d-sm-block">Pay</button>
                                 </div>
 
                                 <div class="col-md-6">
@@ -721,6 +736,10 @@
                                     <br>
                                     <input type="number" name="" value="" placeholder="Email Address no compulsory"> 
                                 </div>
+                                <!-- mobile view responsiveness text -->
+                                <p class="d-md-none d-lg-none mobile_modalairtime_text">Token/Receipt will be sent to the email/phone entered above</p>
+
+                                <button type="button" class="btn btn-lg btn-primary d-md-none d-lg-none">Pay</button>
                             </div>
                         </div>
                     </form>
