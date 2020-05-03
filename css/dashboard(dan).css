@@ -202,6 +202,22 @@ aside {
     padding-top: 100px;
 }
 
+
+/* I added background color to card */
+.utility_holder_alt button{
+    background-color: var(--secondary_color);
+    border-radius: 10px;
+}
+
+/* i added to color to p tag */
+.utility_holder_alt p{
+    color:#fff;
+}
+#transaction_card4 button{
+    background-color: var(--secondary_color);
+    border-radius: 10px;
+}
+
 .utility_holder {
     width: fit-content;
     margin: 0 auto;
