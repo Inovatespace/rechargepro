@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Monoton|Nunito|Roboto+Mono&display=swap" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link rel="stylesheet" href="css/dashboard(dan).css">
+    <link rel="stylesheet" href="css/animate.css">
 </head>
 
 <body>
@@ -27,7 +28,7 @@
             <form>
                 <div class="search_form_element">
                     <input type="text" id="search" class="form-control">
-                    <span class="input-group-addon"><i class="fa fa-search pt-2"></i></span>
+                    <button type="submit" class="input-group-addon"><i class="fa fa-search pt-2"></i></button>
                 </div>
             </form>
         </div>
@@ -67,21 +68,21 @@
                     </li>
                     <li>
                         <div class="">
-                             <img src="assets/images/icons/icon_dashboard.png" alt="">
+                            <img src="assets/images/icons/icon_dashboard.png" alt="">
                         </div>
-                       <a href="dashboard.html">dashboard</a>
+                        <a href="dashboard.html">dashboard</a>
                     </li>
                     <li>
                         <div class="">
                             <img src="assets/images/icons/icon_Authorisation.png" alt="">
                         </div>
-                           <a href="account-authorisation.html">Authorisation</a>
+                        <a href="account-authorisation.html">Authorisation</a>
                     </li>
                     <li>
                         <div class="">
-                             <img src="assets/images/icons/icon_support.png" alt="">
+                            <img src="assets/images/icons/icon_support.png" alt="">
                         </div>
-                       <a href="support.html">Support</a>
+                        <a href="support.html">Support</a>
                     </li>
                     <li>
                         <div class="">
@@ -107,9 +108,439 @@
 
     </aside>
 
+    <!--main content-->
+    <div class="container main_content pb-4">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="utility_holder">
+                    <div class="airtime_btn animated zoomIn pt-3">
+                        <button class="btn btn-lg card_shadow w-100" id="airtime_data" data-toggle="modal"
+                            data-target="#airtimeModal">
+                            <img src="assets/images/icons/airtime.png" alt="">
+                            <p class="mt-2">Airtime/Data</p>
+                        </button>
+                    </div>
+                    <div class="electricity_btn animated zoomIn pt-3">
+                        <button class="btn btn-lg card_shadow w-100" data-toggle="modal" data-target="#electricityModal">
+                            <img src="assets/images/icons/electricity.png" alt="">
+                            <p class="mt-2">Electricity</p>
+                        </button>
+                    </div>
+                    <div class="cable_btn animated zoomIn pt-3">
+                        <button class="btn btn-lg card_shadow w-100" data-toggle="modal" data-target="#cableModal">
+                            <img src="assets/images/icons/cable.png" alt="">
+                            <p class="mt-2">Cable</p>
+                        </button>
+                    </div>
+                    <div class="bills_btn animated zoomIn pt-3">
+                        <button class="btn btn-lg card_shadow w-100" data-toggle="modal" data-target="#billsModal">
+                            <img src="assets/images/icons/bills.png" alt="">
+                            <p class="mt-2">Bills</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="row utility_holder_alt">
+                    <div class="col-md-4">
+                        <div class="card animated zoomIn" id="transaction_card">
+                            <div class="card-heading">
+                                <p class="card_heading_text">Transaction History</p>
+                            </div>
+                            <div class="mt-4 transaction_card_btn flex">
+                                <button class="mr-2" data-toggle="modal" data-target="#reprintModal">
+                                    <img class="mt-4 pb-2" src="assets/images/icons/Group 72.png" alt="" width="50%">
+                                    <div>
+                                        <p>Re-print</p>
+                                    </div>
+                                </button>
+                                <a href="history.html"><button class="">
+                                        <img class="mt-4 pb-2" src="assets/images/icons/Group 75.png" alt=""
+                                            width="50%">
+                                        <div>
+                                            <p>History</p>
+                                        </div>
+                                    </button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card animated zoomIn" id="transaction_card">
+                            <div class="card-heading">
+                                <p class="card_heading_text">Authorisation</p>
+                            </div>
+                            <div class="mt-4 transaction_card_btn flex">
+                                <a href="account-authorisation.html"><button class="mr-2">
+                                        <img class="mt-4 pb-2" src="assets/images/icons/Group 71.png" alt=""
+                                            width="40%">
+                                        <div>
+                                            <p>Account</p>
+                                        </div>
+                                    </button></a>
+                                <button>
+                                    <img class="mt-4 pb-2" src="assets/images/icons/Group 74.png" alt="" width="55%">
+                                    <div class="">
+                                        <p>API</p>
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 animated zoomIn">
+                        <div class="card " id="transaction_card">
+                            <div class="card-heading">
+                                <p class="card_heading_text">Referral</p>
+                            </div>
+                            <div class="referal_btn transaction_card_btn mt-4">
+                                <a href="My-Invites.html"><button>
+                                        <img class="mt-4 pb-2" src="assets/images/icons/1390477.png" alt="" width="50%">
+                                        <div>
+                                            <p>My invite</p>
+                                        </div>
+                                    </button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row utility_card2">
+                    <div class="col-md-4">
+                        <div class="card mt-3 animated zoomIn" id="recurrent_transaction_card2">
+                            <div class="inner_card mt-2 ml-2">
+                                <p>Recents Transaction</p>
+                                <div class="mt-4">
+                                    <a href="history.html"><img src="assets/images/icons/Group 78.png" alt=""
+                                            width="90px"></a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card animated zoomIn" id="transaction_card2">
+                            <div class="inner_card2 mt-2 ml-2">
+                                <p class="mt-2">Sales Agent</p>
+                                <div class="mt-4">
+                                    <a href="#"><img src="assets/images/icons/Group 80.png" class="sale_img" alt=""
+                                            width="90px"></a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card utility_card animated zoomIn" id="transaction_card4">
+
+                            <div class="transaction_card_btn">
+
+
+                                <a href="transfer-fund.html"><button class="transaction_btn">
+                                        <img class="mt-2 pb-2" src="assets/images/icons/Group 77.png" alt=""
+                                            width="50%">
+                                        <div>
+                                            <p>Transfer Fund</p>
+                                        </div>
+                                    </button></a>
+                                <br>
+                                <a href="dashboard-1.html"><button class="transaction_btn">
+                                        <img class="mt-2 pb-2" src="assets/images/icons/Group 79.png" alt=""
+                                            width="50%">
+                                        <div>
+                                            <p>Add Funds</p>
+                                        </div>
+                                    </button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--modals-->
+    <div class="modal modal_airtime_data fade" id="airtimeModal" tabindex="-1" role="dialog"
+        aria-labelledby="airtimeModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <button style="background: #F1F1F1;" type="button" class="close" data-dismiss="modal"
+                    aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+
+                <div class="modal-body">
+
+                    <form action="">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <select name="" id="" placeholder="Select Airtime/Data">
+                                        <option value="" disabled selected>Select Airtime/Data</option>
+                                        <option value="">Airtime</option>
+                                        <option value="">Data</option>
+                                    </select>
+
+                                    <br>
+
+                                    <select name="" id="">
+                                        <option value="" selected>Select Network</option>
+                                        <option value="">MTN</option>
+                                        <option value="">AIRTEL</option>
+                                        <option value="">GLO</option>
+                                        <option value="">9MOBILE</option>
+                                    </select>
+
+                                    <br>
+
+                                    <input type="text" name="" value="" placeholder="Enter Amount">
+
+                                    <p class="d-none d-sm-block">Token/Receipt will be sent to the
+                                        email/phone entered above</p>
+
+                                    <button type="button" class="btn btn-lg btn-primary d-none d-sm-block">Pay</button>
+                                </div>
+
+                                <div class="col-md-6 mobile_modal">
+                                    <input type="text" name="" value="" placeholder="Enter Phone/Account Number">
+
+                                    <br>
+                                    <input type="text" name="" value="" placeholder="Email Address no compulsory">
+                                </div>
+
+
+                                <!-- mobile view responsiveness text -->
+                                <p class="d-md-none d-lg-none mobile_modalairtime_text">Token/Receipt will
+                                    be sent to the email/phone entered above</p>
+
+                                <button type="button" class="btn btn-lg btn-primary d-md-none d-lg-none">Pay</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==========================================
+      END OF MODAL FOR AIRTIME/DATA
+    ========================================== -->
+
+
+
+    <!-- ==========================================
+     MODAL FOR ELECTRICITY
+    ========================================== -->
+    <div class="modal modal_electricity fade" id="electricityModal" tabindex="-1" role="dialog"
+        aria-labelledby="electricityModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+
+                <div class="modal-body">
+
+                    <form action="">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <select name="" id="" placeholder="Select Airtime/Data">
+                                        <option value="" selected>Select Provider</option>
+                                        <option value="">PHED</option>
+                                        <option value="">AECD</option>
+                                    </select>
+
+                                    <br>
+
+                                    <input type="number" name="" value="" placeholder="Enter Amount">
+
+                                    <br>
+
+                                    <input type="number" name="" value="" placeholder="Email Address no compulsory">
+
+                                    <p class="d-none d-sm-block">Token/Receipt will be sent to the
+                                        email/phone entered above</p>
+
+                                    <button type="button" class="btn btn-lg btn-primary d-none d-sm-block">Pay</button>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <input type="number" name="" value="" placeholder="Enter Meter Number">
+
+                                    <br>
+                                    <input type="number" name="" value="" placeholder="Email Phone Number">
+                                </div>
+
+                                <!-- mobile view responsiveness text -->
+                                <p class="d-md-none d-lg-none mobile_modalairtime_text">Token/Receipt will
+                                    be sent to the email/phone entered above</p>
+
+                                <button type="button" class="btn btn-lg btn-primary d-md-none d-lg-none">Pay</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==========================================
+      END OF MODAL FOR ELECTRICITY
+    ========================================== -->
+
+
+    <!-- ==========================================
+     MODAL FOR CABLE
+    ========================================== -->
+    <div class="modal modal_cable fade" id="cableModal" tabindex="-1" role="dialog" aria-labelledby="cableModal"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+
+                <div class="modal-body">
+
+                    <form action="">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <select name="" id="" placeholder="Select Airtime/Data">
+                                        <option value="" selected>Select Provide</option>
+                                        <option value="">Airtime</option>
+                                        <option value="">Data</option>
+                                    </select>
+
+                                    <br>
+
+                                    <input type="number" name="" value="" placeholder="Enter Amount">
+
+                                    <br>
+
+                                    <input type="number" name="" value="" placeholder="Email Address no compulsory">
+
+                                    <p class="d-none d-sm-block">Token/Receipt will be sent to the
+                                        email/phone entered above</p>
+
+                                    <button type="button" class="btn btn-lg btn-primary d-none d-sm-block">Pay</button>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <input type="number" name="" value="" placeholder="Enter Smart Card Number">
+
+                                    <br>
+                                    <input type="number" name="" value="" placeholder="Enter Phone Number">
+                                </div>
+                                <!-- mobile view responsiveness text -->
+                                <p class="d-md-none d-lg-none mobile_modalairtime_text">Token/Receipt will
+                                    be sent to the email/phone entered above</p>
+
+                                <button type="button" class="btn btn-lg btn-primary d-md-none d-lg-none">Pay</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==========================================
+      END OF MODAL FOR CABLE
+    ========================================== -->
+
+
+    <!-- ==========================================
+     MODAL FOR BILLS
+    ========================================== -->
+    <div class="modal modal_bill fade" id="billsModal" tabindex="-1" role="dialog" aria-labelledby="billsModal"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+
+                <div class="modal-body">
+
+                    <form action="">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <select name="" id="" placeholder="Select Airtime/Data">
+                                        <option value="" selected>Select Bills</option>
+                                        <option value="">Airtime</option>
+                                        <option value="">Data</option>
+                                    </select>
+
+                                    <br>
+
+                                    <input type="number" name="" value="" placeholder="Enter Amount">
+
+                                    <br>
+
+
+
+                                    <p class="d-none d-sm-block">Token/Receipt will be sent to the
+                                        email/phone entered above</p>
+
+                                    <button type="button" class="btn btn-lg btn-primary d-none d-sm-block">Pay</button>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <input type="number" name="" value="" placeholder="Enter Phone Number">
+
+                                    <br>
+                                    <input type="number" name="" value="" placeholder="Email Address no compulsory">
+                                </div>
+                                <!-- mobile view responsiveness text -->
+                                <p class="d-md-none d-lg-none mobile_modalairtime_text">Token/Receipt will
+                                    be sent to the email/phone entered above</p>
+
+                                <button type="button" class="btn btn-lg btn-primary d-md-none d-lg-none">Pay</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==========================================
+      END OF MODAL FOR BILLS
+    ========================================== -->
+
+
+    <!-- ===================================
+    MODAL FOR REPRINT
+ ===================================  -->
+    <div class="modal reprint_modal fade" id="reprintModal" tabindex="-1" role="dialog" aria-labelledby="reprintModal"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content modal-sm">
+                <div class="modal-header" style="background: #F1F1F1;">
+                    <h6 class="modal-title" id="exampleModalLabel">Reprint Receipt</h6>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>e.g 10187619</p>
+                    <form action="">
+                        <input type="text" placeholder="Invoice number" />
+                        <br>
+
+                        <button type="button" class="btn btn-primary">Print</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
 
 </body>
 <script src="assets/lib/jquery/jquery.min.js"></script>
+<script src="assets/lib/bootstrap/js/bootstrap.min.js"></script>
 <script src="js/main.js"></script>
 
 </html>

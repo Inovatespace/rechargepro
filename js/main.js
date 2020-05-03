@@ -155,5 +155,5 @@ for (i = 0; i < acc.length; i++) {
 $('.open_btn').on('click', function(){
   $('aside').toggleClass('slim_side');
   $('.header').toggleClass('slim');
-  $('.main_content').toggleClass('zero_padding');
+  $('.main_content').toggleClass('no_padding');
 });
