@@ -1319,7 +1319,7 @@ aside {
 .main_content p {
   font-size: 12px;
   font-weight: bold;
-  color: #fff
+  color: #fff;
   font-family: var(--text_font);
 }
 
