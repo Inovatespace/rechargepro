@@ -97,77 +97,81 @@
 </head>
 <body>
 
-
-    
-    
-    <!-- ===================================
-                  NAVBAR
-    =================================== -->
-    <header id="header" class="dashboard_header"> 
-        <div class="container-fluid ml-4 ">
-            <div id="dashboard_logo" class="pull-left">
-              <a href="index.html" class="scrollto"><img src="assets/images/icons/logo_sm.png"></a>
-            </div>
-    
-            <nav id="nav-menu-container" class="mr-5">
-                <form class="navbar-form form-inline mr-5 d-none d-sm-block">
-                    <div class="input-group search-box">								
-                        <input type="text" id="search" class="form-control">
-                        <span class="input-group-addon"><i class="fa fa-search"></i></span>
-                    </div>
-                </form>
-                <div class="large_screen_button mr-5 d-none d-sm-block">
-                    <button class="btn balance balance_sm"><span class="mr-3"> Balance</span><input class="balance_1" placeholder="50000" disabled></button>
-                    <button class="btn balance ml-5"> <span class="mr-3">Profit</span><input class="balance_1" placeholder="2000" disabled></button>
-                </div>
-              
-                
-                <ul class="nav-menu dashboard_nav_menu">
-                    <div class="side_nav_content d-lg-none">
-                        <ul>
-                            <li>
-                                <img src="assets/images/icons/Icon Home.png" alt=""><a href="rechargeprostatic-master/index.html">Home</a>
-                            </li>
-                            <li>
-                                <img src="assets/images/icons/icon_dashboard.png" alt=""><a href="dashboard.html">dashboard</a>
-                            </li>
-                            <li>
-                                <img src="assets/images/icons/icon_Authorisation.png" alt=""><a href="account-authorisation.html">Authorisation</a>
-                            </li>
-                            <li>
-                                <img src="assets/images/icons/icon_support.png" alt=""><a href="support.html">Support</a>
-                            </li>
-                            <li>
-                                <img src="assets/images/icons/icon_developer.png" alt=""><a href="developer.html">Developer</a>
-                            </li>
-                            <li>
-                                <img  src="assets/images/icons/LOG OUT.svg" alt=""><a href="#">Logout</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    
-                        <!-- I want to ask tee if it should be on mobile view instead of that large avatar -->
-                        <!-- <li class="dropdown">
-                        <img src="assets/images/icons/icon_Authorisation.png">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="username">Maduke James Paul</span> <span class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">MY Profile</a></li>
-                            <li><a href="#">Logout</a></li>
-                        </ul>
-                    </li> -->
-                   
-                </ul>
-            </nav>
-        </div>
-        
-        </div>
-    </header>
-
-
-    <!-- ===================================
-                 END OF NAVBAR
-    =================================== -->
+  <!DOCTYPE html>
+  <html lang="en">
+  
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no" />
+  
+      <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicon/apple-icon-57x57.png" />
+      <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicon/apple-icon-60x60.png" />
+      <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicon/apple-icon-72x72.png" />
+      <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicon/apple-icon-76x76.png" />
+      <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicon/apple-icon-114x114.png" />
+      <link rel="apple-touch-icon" sizes="120x120" href="assets/images/img/favicon/apple-icon-120x120.png" />
+      <link rel="apple-touch-icon" sizes="144x144" href="assets/images/img/favicon/apple-icon-144x144.png" />
+      <link rel="apple-touch-icon" sizes="152x152" href="assets/images/img/favicon/apple-icon-152x152.png" />
+      <link rel="apple-touch-icon" sizes="180x180" href="assets/images/img/favicon/apple-icon-180x180.png" />
+      <link rel="icon" type="image/png" sizes="192x192" href="assets/images/img/favicon/android-icon-192x192.png" />
+      <link rel="icon" type="image/png" sizes="32x32" href="assets/images/img/favicon/favicon-32x32.png" />
+      <link rel="icon" type="image/png" sizes="96x96" href="assets/images/img/favicon/favicon-96x96.png" />
+      <link rel="icon" type="image/png" sizes="16x16" href="assets/images/img/favicon/favicon-16x16.png" />
+      <title>Dashboard - Rechargepro</title>
+  
+  
+      <!-- Libraries -->
+      <link rel="stylesheet" href="assets/lib/bootstrap/css/bootstrap.min.css">
+  
+      <!-- font-awesome -->
+      <link rel="stylesheet" href="assets/lib/font-awesome/css/font-awesome.min.css">
+      <link rel="stylesheet" href="assets/lib/themify-icons-font/themify-icons/themify-icons.css">
+  
+      <!-- Google fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Monoton|Nunito|Roboto+Mono&display=swap" rel="stylesheet">
+       <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  
+      <!-- Animate css -->
+      <link rel="stylesheet" href="css/animate.css">
+  
+      <!-- main stylesheet -->
+      <link rel="stylesheet" href="css/style.css">
+  </head>
+  
+  <body>
+  
+  
+  
+  
+      <nav class="header container-fluid">
+          <div class="logo_holder">
+              <div class="dashboard_logo" class="pull-left">
+                  <a href="index.html" class="scrollto"><img src="assets/images/icons/logo_sm.png"></a>
+              </div>
+              <span class="ti-menu open_btn pt-3"></span>
+              <span class="ti-menu open_btn_alt"></span>
+          </div>
+  
+          <div class="search_form_holder pt-2 d-none d-sm-block">
+              <form>
+                  <div class="search_form_element">
+                      <input type="text" id="search" class="form-control">
+                      <button type="submit" class="input-group-addon"><i class="fa fa-search pt-2"></i></button>
+                  </div>
+              </form>
+          </div>
+  
+          <div class="nav_button_holder pt-1 d-none d-sm-block">
+              <button class="ml-2"><span class=""> Balance</span><input class="ml-2" placeholder="50000"
+                      disabled></button>
+              <button class="ml-2"> <span class="">Profit</span><input class="ml-2" placeholder="2000" disabled></button>
+          </div>
+      </nav>
+  
+  
+      <!-- ===================================
+                   END OF NAVBAR
+      =================================== -->
 
     
     <!-- ===================================
@@ -240,16 +244,18 @@
       <a onClick="javascript:history.go(-1)"><i class="fa fa-chevron-left"></i></a> 
         <div class="row making_payment_section mt-5">
             <div class="col-md-6 mb-5">
-                <div class="card rechargeproWallet">
+                <div class="rechargeproWallet">
                     <img class="img_rechargeprowallet" src="assets/images/img/Group 249.png" alt="" width="55%">
-                    <a href="dashboard-3.html" class="bank_transfer" data-toggle="modal" data-target="#exampleModal">Rechargepro Wallet <br>
+                    <br>
+                    <a data-toggle="modal" data-target="#exampleModal">Rechargepro Wallet <br>
                       <span>to</span><br> Rechargepro Wallet Transfer</a>
                 </div> 
             </div>
             <div class="col-md-6 mb-5">
-                <div class="card rechargeprobank">
+                <div class="rechargeprobank">
                     <img class="img_rechargeprobank" src="assets/images/icons/ussd.png" alt="" width="20%">
-                    <a href="dashboard-4.html" class="ussd" data-toggle="modal" data-target="#walletToBankModal">Rechargepro Wallet<br> <span>to</span><br> Bank</a> 
+                    <br>
+                    <a  data-toggle="modal" data-target="#walletToBankModal">Rechargepro Wallet<br> <span>to</span><br> Bank</a> 
                 </div>
             </div>
         </div>

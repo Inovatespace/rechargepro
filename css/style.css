@@ -46,8 +46,9 @@ a:hover {
 }
 
 button,
-input{
-  outline: none !important;
+input {
+    outline: none !important;
+    border: none;
 }
 
 .flex{
@@ -58,406 +59,89 @@ input{
 /*--------------------------
    Header
 ---------------------------*/
-#header {
-  height: 60px;
-  padding: 10px 0;
-  position: fixed;
-  left: 0;
-  top: 0;
-  right: 0;
-  transition: all 0.5s;
-  z-index: 997;
-  background: var(--white_bg);
-  padding-bottom: 10px;
-}
-
-#header.header-scrolled,
-#header.header-fixed {
-  background: var(--white_bg);
-  height: 70px;
-  padding: 15px 0;
-  transition: all 0.5s;
-}
-
-.nav-menu,
-.nav-menu * {
-  margin: 0;
+.header {
   padding: 0;
-  list-style: none;
-  cursor: pointer;
-}
-
-.nav-menu ul {
-  position: absolute;
-  display: none;
-  top: 100%;
-  left: 0;
-  z-index: 99;
-}
-
-.nav-menu li {
-  position: relative;
-}
-
-.nav-menu>li {
-  float: left;
-}
-
-.nav-menu li:hover>ul,
-.nav-menu li.sfHover>ul {
-  display: block;
-}
-
-/* Nav Meu Container */
-
-#nav-menu-container {
-  /* float: right; */
-  padding-left: 1000px;
-  margin: 0;
-  padding-top: 0.5rem;
-}
-
-.nav-menu li.signup a {
-  color: var(--primary_color);
-  background: white;
-  padding: 7px 22px;
-  border: 1px solid var(--primary_color);
-  transition: all ease-in-out 0.3s;
-  font-weight: 500;
-  margin-left: 8px;
-  margin-top: 2px;
-  line-height: 1;
-  font-size: 13px;
-}
-
-.nav-menu li.signup a:hover {
-  color: white;
-  background: var(--primary_color);
-  padding: 7px 22px;
-  border: 1px solid var(--primary_color);
-  transition: all ease-in-out 0.3s;
-  font-weight: 500;
-  margin-left: 8px;
-  margin-top: 2px;
-  line-height: 1;
-  font-size: 13px;
-}
-
-.nav-menu li.login a {
-  color: var(--text_color);
-  background: var(--primary_color);
-  padding: 7px 22px;
-  border: 1px solid var(--primary_color);
-  transition: all ease-in-out 0.3s;
-  font-weight: 500;
-  margin-left: 8px;
-  margin-top: 2px;
-  line-height: 1;
-  font-size: 13px;
-}
-
-.nav-menu li.login a:hover {
-  color: var(--primary_color);
-  background: var(--text_color);
-  padding: 7px 22px;
-  border: 1px solid var(--primary_color);
-  transition: all ease-in-out 0.3s;
-  font-weight: 500;
-  margin-left: 8px;
-  margin-top: 2px;
-  line-height: 1;
-  font-size: 13px;
-}
-
-
-
-/* Mobile Nav Toggle */
-#mobile-nav header {
-  background-color: var(--white_bg);
-}
-
-.open_btn_alt {
-display: none;
-}
-
-/* Mobile Nav Styling */
-
-#mobile-nav {
+  display: flex !important;
+  background: #f2f1f1;
+  height: 8vh;
   position: fixed;
-  top: 0;
-  padding-top: 90px;
-  bottom: 0;
-  z-index: 9999;
-  background: var(--white_bg);
-  left: -460px;
-  width: 400px;
-  /* changes to still be made concering the mobile view background */
-  overflow-y: auto;
-  transition: 0.4s;
-}
-
-#mobile-nav ul {
-  margin: 0;
-  list-style: none;
-}
-
-#mobile-nav ul li {
-  position: relative;
-}
-
-#mobile-nav ul li {
-  position: relative;
-  padding-bottom: 2rem;
-}
-
-#mobile-nav ul li a {
-  color: var(--secondary_color);
-}
-
-#mobile-nav>ul li.signup a {
-  color: var(--primary_color);
-  background: white;
-  padding: 7px 22px;
-  border: 1px solid var(--primary_color);
-  transition: all ease-in-out 0.3s;
-  font-weight: 500;
-  margin-top: 2px;
-  line-height: 1;
-  font-size: 13px;
-  margin-left: 6rem;
-  margin-bottom: 31rem;
-}
-
-#mobile-nav>ul li.login a {
-  color: var(--text_color);
-  background: var(--primary_color);
-  padding: 7px 24px;
-  border: 1px solid var(--primary_color);
-  transition: all ease-in-out 0.3s;
-  font-weight: 500;
-  margin-left: 3.5rem;
-  top: 12px;
-  font-size: 16px;
-  line-height: 1;
-}
-
-#mobile-body-overly {
-  width: 100%;
-  height: 100%;
-  z-index: 997;
-  top: 0;
-  left: 0;
-  position: fixed;
-  background: rgba(252, 243, 211, .8);
-  display: none;
-}
-
-/* Mobile Nav body classes */
-
-body.mobile-nav-active {
-  overflow: hidden;
-}
-
-body.mobile-nav-active #mobile-nav {
-  left: 0;
-}
-
-body.mobile-nav-active #mobile-nav-toggle {
-  color: #fff;
-}
-
-/* ===================================
-    END OF HEADER FOR LANDING PAGE
-=================================== */
-
-
-
-/* ===================================
-          NAVBAR FOR DASHBOARD
-=================================== */
-#dashboard_logo img {
-  height: 55px;
+  z-index: 999;
 }
 
 .logo_holder {
+  background: #fff;
   width: fit-content;
-  float: left;
+  display: flex;
+  padding: 0 20px;
 }
 
-.open_btn {
-  font-size: 25px;
+.dashboard_logo {
+  width: 200px;
+}
+.dashboard_logo img{
+  width: 100%;
+}
+
+.search_form_holder {
   position: relative;
-  top: 12px;
-  left: 5px;
+  width: 30%;
+  left: 40px;
+}
+
+.search_form_element {
+  background: #fff;
+  border: none;
+  border-radius: 30px;
+  display: flex;
+  padding: 0 10px;
+}
+
+.search_form_element input {
+  border: 0;
+  outline: none;
+  padding: 0.3em;
+  border-radius: 30px;
+}
+
+.search_form_element button {
+  background: transparent;
+}
+
+.nav_button_holder {
+  position: relative;
+  left: 10%;
+  display: flex;
+  padding: 10px;
+}
+
+.open_btn,
+.open_btn_alt {
+  font-size: 20px;
   cursor: pointer;
 }
 
-.slim {
-  width: 80px;
-  overflow: hidden;
-  transition: all 0.4s ease-in-out;
-}
-
-.slim .side_nav_content li a,
-.slim .avatar-holder {
+.open_btn_alt {
   display: none;
 }
 
-
-.dashboard_header .form-control {
-  box-shadow: none;
-  font-weight: normal;
-  font-size: 13px;
-}
-
-.dashboard_header .form-control:focus {
-  border-color: var(--white_bg);
-}
-
-.dashboard_header {
-  background: var(--white_bg);
-  padding-left: 16px;
-  padding-right: 16px;
-  border-bottom: 1px solid #dfe3e8;
-  border-radius: 0;
-}
-
-.dashboard_header .form-inline {
-  display: block;
-}
-
-.dashboard_header .nav-menu {
-  position: absolute;
-}
-
-.search-box {
-  position: relative;
-}
-
-.dashboard_header #nav-menu-container {
-  padding-left: 280px;
-  margin: 0;
-  padding-top: 0.5rem;
-}
-
-.search-box input {
-  border-color: none;
-  border-radius: 20px !important;
-  box-shadow: none;
-  background: #fff;
-  min-width: 500px;
-
-}
-
-.search-box .input-group-addon {
-  min-width: 50px;
-  border: none;
-  background: transparent;
-  position: absolute;
-  left: 450px;
-  z-index: 9;
-  padding: 7px;
-  height: 100%;
-
-}
-
-.search-box i {
-  font-size: 18px;
-}
-
-.fa-search:before {
-  content: "\f002";
-  color: grey;
-}
-
-.dashboard_header .dashboard_nav_menu {
-  margin-top: -2rem;
-  margin-left: 750px;
-}
-
-.large_screen_button {
-  margin-left: 590px;
-  margin-top: -2.2rem;
-
-}
-
-
-.dropdown-menu {
-  background-color: var(--text_color);
-  margin-top: 0.5rem;
-
-}
-
-.dropdown-menu li a {
-  color: var(--secondary_color);
-  padding-left: 2rem;
-  font-family: var(--text_font);
-  font-size: 16px;
-}
-
-.dropdown-menu {
-  margin-left: 3rem;
-}
-
-
-.dropdown a .username {
-  color: var(--secondary_color);
-  font-family: var(--text_font);
-  font-size: 16px;
-  font-weight: bold;
-  margin-top: 1rem;
-  margin-left: 1rem;
-}
-
-.dropdown-toggle {
-  color: var(--secondary_color);
-}
-
-
-
-.small_screen_btn {
-  margin-left: 50px;
-  margin-top: 1.9rem;
-}
-
-.developer_screen_btn {
-  margin-left: 450px;
-  margin-top: 5rem;
-}
-
-.home_login {
-  margin-left: 550px;
-}
-
-button span {
-  font-size: 12px;
-  color: #fff;
-  font-family: var(--text_font);
-}
-
-.details_btn .balance_sm {
-  margin-right: 1rem;
-}
-
-.balance {
+.nav_button_holder button {
   background: var(--primary_color);
-  border: none;
-  font-family: var(--text_font);
-  color: var(--text_font);
-  font-style: 10px;
+  color: #f5f5f5;
+  font-size: 13px;
+  padding: 0.3em;
+  width: 40%;
 }
 
-.balance_1 {
-  width: 70px;
-  border-radius: 100px;
-  padding: 0px 5px 0px;
-  border: none;
+.nav_button_holder input {
+  background: #fff;
+  width: 40%;
+  border-radius: 30px;
+  padding: 2px 3px;
 }
-
-.balance_1::placeholder {
-  color: var(--secondary_color);
-  font-weight: bolder;
-  padding-left: 8px;
+.nav_button_holder input::placeholder {
+color: var(--secondary_color);
+font-weight: bolder;
+padding-left: 0.5rem;
 }
 
 /* ===================================
@@ -1205,22 +889,13 @@ END OF LOGIN AND SIGNUP PAGE STYLING
 =================================== */
 
 aside {
-  width: 250px;
+  width: 261px;
   position: fixed;
   background: var(--secondary_color);
-  margin-top: 3rem;
+  margin-top: 3.4em;
   padding-top: 2rem;
 }
 
-/* .user-circle {
-  margin-top: 1rem;
-  margin-left: 1.5rem;
-   height: 110px;
-   width: 110px;
-   background-color:#fff;
-   border-radius: 50%;
-   border: 1px solid black;
- } */
 
 .welcome_user {
   margin-left: 1.5rem;
@@ -1294,12 +969,6 @@ aside {
   text-transform: uppercase;
 }
 
-/* .menu-active {
-  border-bottom: 4px solid  #038BB4;
-  background: var(--text_color);
-  padding-right: 20px;
-
-} */
 
 .side_nav_content_alt {
   color: #fff;
@@ -1319,7 +988,7 @@ aside {
 .main_content p {
   font-size: 12px;
   font-weight: bold;
-  color: #fff;
+  color: black;
   font-family: var(--text_font);
 }
 
@@ -1482,6 +1151,36 @@ aside {
   text-align: center;
   font-size: 16px;
   font-weight: bolder;
+  color: #fff;
+}
+
+/***slim classes***/
+.slim_side {
+    width: 80px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.slim_side .side_nav_content li a,
+.slim_side .avatar-holder {
+    display: none;
+}
+
+.slim .logo_holder {
+    width: 80px;
+}
+
+.slim .dashboard_logo {
+    width: 0;
+}
+
+.slim .search_form_holder {
+    width: 45%;
+}
+
+.no_padding {
+    padding-left: 0;
+    transition: all 0.3s ease;
 }
 
 /* ===================================
@@ -1697,17 +1396,20 @@ TRANSACTION DETAILS STYLING
   margin-bottom: 3rem;
 }
 
+
 .making_payment_section .img_rechargeprowallet {
   cursor: pointer;
-  margin-left: 3rem;
+  
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
 .rechargeproWallet a {
   font-size: 15px;
-  text-align: center;
+  /* text-align: center; */
   font-family: var(--text_font);
+  /* padding-left: 5rem; */
+  cursor: pointer;
 }
 
 .rechargeproWallet span {
@@ -1715,19 +1417,22 @@ TRANSACTION DETAILS STYLING
   font-size: 18px;
   text-transform: uppercase;
   font-family: var(--text_font);
+  /* padding-left: 9rem; */
 }
 
 .making_payment_section .img_rechargeprobank {
   cursor: pointer;
-  margin-left: 6rem;
+
   margin-top: 2rem;
   margin-bottom: 1.5rem;
 }
 
 .rechargeprobank a {
   font-size: 15px;
-  text-align: center;
+  /* text-align: center; */
   font-family: var(--text_font);
+  cursor: pointer;
+  /* padding-left: 5rem; */
 }
 
 .rechargeprobank span {
@@ -1735,15 +1440,17 @@ TRANSACTION DETAILS STYLING
   font-size: 18px;
   text-transform: uppercase;
   font-family: var(--text_font);
+  /* padding-left: 9rem; */
 }
 
 
 
-.making_payment_section .card {
+.rechargeproWallet, .rechargeprobank {
   background: #fff;
-  height: 12rem;
+  height: 15rem;
   box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
-  width: 15rem;
+  width: 20rem;
+  text-align: center;
 }
 
 /* ===================================================
@@ -2013,13 +1720,12 @@ TRANSACTION DETAILS STYLING
 
 .table_history_content {
   width: 25%;
+  border-right: 0.5px solid black;
 }
 
 .table-history td {
-  background: #F1F1F1;
-  box-shadow: 0.1em 0.3em 0.3em #C9C9C9;
-  border: none;
-  border-right: 1px solid #C9C9C9;
+border: 0.5px solid black;
+border-right: 0.2px solid black;
   padding: 20px;
 }
 
@@ -2077,11 +1783,32 @@ TRANSACTION DETAILS STYLING
   padding-left: 350px;
 }
 
-.transaction_done_bg img {
-  width: 350%;
-  opacity: 60%;
+.transaction_done_bg{
+ padding-top: 10rem;
+ padding-left: 5rem;
+}
+.transaction_successful{
+  background: transparent;
+  border: 0.5px solid black;
+  min-width: 25rem;
+  min-height: 15rem;
 }
 
+.fa-check-circle{
+  font-size: 80px;
+  text-align: center;
+  padding-top: 3rem;
+  color: var(--primary_color);
+}
+
+.transaction_successful p{
+  color: var(--primary_color);
+  font-family: var(--text_font);
+  font-size: 19px;
+  text-align: center;
+  padding-top: 1rem;
+  font-weight: bolder;
+}
 /* ===================================
   MODAL FOR AIRTIME/DATA
 =================================== */
@@ -3008,10 +2735,7 @@ td {
 }
 
 .table_account td {
-  background: #F1F1F1;
-  box-shadow: 0.1em 0.3em 0.3em #C9C9C9;
-  border: none;
-  border-right: 1px solid #C9C9C9;
+border: 0.5px solid black;
   padding: 20px;
 }
 
@@ -3310,11 +3034,65 @@ td {
    MEDIA QUERY
 =================================== */
 
-@media (min-width: 1200px) {
-  .form-inline .input-group {
-    width: 90px;
+@media screen and (max-width: 988px) {
+  .dashboard_logo {
+      width: 0;
+  }
+
+  .slim .logo_holder {
+      width: 32%;
+  }
+
+  .slim .dashboard_logo {
+      width: 200px;
+  }
+  .main_content{
+      padding-left: 0;
+  }
+
+  .no_padding{
+      padding-left: 250px;
+  }
+
+  .side_nav_content li a,
+  .avatar-holder {
+      display: none;
+  }
+
+  aside {
+      width: 61px;
+  }
+
+
+  .slim_side {
+      width: 250px;
+      z-index: 999;
+  }
+
+  .slim_side .side_nav_content li a,
+  .slim_side .avatar-holder {
+      display: block;
+  }
+
+  .nav_button_holder button {
+      width: 40%;
+      height: 70%;
+      margin-top: 4px;
+  }
+
+
+  .utility_holder {
+      display: flex;
+  }
+
+  .electricity_btn,
+  .cable_btn,
+  .bills_btn{
+      margin-left: 20px;
   }
 }
+
+
 
 @media screen and (max-width:731px) {
   .main_content{
@@ -3488,11 +3266,7 @@ td {
     margin-top: -2rem;
   }
 
-  #dashboard_logo img {
-    /* width: 10%; */
-    margin-left: 2rem;
-    margin-top: 0.5rem
-  }
+
 
   .dashboard_header #nav-menu-container {
     padding-left: 175px;
@@ -3544,6 +3318,10 @@ td {
   .transaction_card_btn {
     padding-left: 1.5rem;
   }
+
+  /* .transaction_card{
+    margin-left: 2rem;
+  } */
 
   #recurrent_transaction_card2 {
     background-color: var(--secondary_color);
@@ -3667,32 +3445,7 @@ td {
     margin-right: -2rem;
   }
 
-  .navbar-form .input-group {
-    width: 40%;
-    margin-left: 4rem;
-
-  }
-
-
-  .dashboard_header .search-box input {
-    border-color: none;
-    border-radius: 20px !important;
-    box-shadow: none;
-    background: #fff;
-    min-width: 30px;
-
-  }
-
-  .search-box .input-group-addon {
-    min-width: 50px;
-    border: none;
-    background: transparent;
-    position: absolute;
-    left: 230px;
-    z-index: 9;
-    padding: 7px;
-    height: 100%;
-  }
+  
 
   .large_screen_button {
     margin-left: 290px;
@@ -3728,13 +3481,40 @@ td {
     padding-left: 5rem;
   }
 
+  .header{
+    height: 5vh;
+  }
+  
+.logo_holder {
+  background: #fff;
+  width: fit-content;
+  display: flex;
+  padding: 0 15px;
+ 
+}
+
+
+.nav_button_holder button {
+  width: 32%;
+  height: 70%;
+  margin-top: 4px;
+}
+
 
   aside {
     width: 250px;
     padding-left: 1.5rem;
+    padding-top: -40rem;
   }
 
-  .utility_card {
+  
+/* .main_content{
+  padding-left: 230px;
+  padding-top: 60px;
+  min-height: 100vh;
+} */
+
+  /* .utility_card {
     padding-left: 42%;
     padding-top: 9%;
   }
@@ -3781,16 +3561,16 @@ td {
 
   .bills_btn img {
     width: 80px;
-  }
+  } */
 
-  .dropdown-menu {
+  /* .dropdown-menu {
     margin-left: 3rem;
   }
 
   .dashboard_header .dashboard_nav_menu {
     margin-top: -2rem;
     margin-left: 580px;
-  }
+  } */
 
   .developer_username {
     margin-left: 5rem;
@@ -3810,8 +3590,9 @@ td {
 
   #transaction_card {
     background-color: #fff;
-    height: 17rem;
+    height: 11rem;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    width: fit-content;
   }
 
   #transaction_card .referal_btn {
@@ -3929,6 +3710,7 @@ td {
     padding-top: 5rem;
     padding-left: 14rem;
   }
+  
 
   /* .authorization_card{
       background-color: #fff;
@@ -4891,6 +4673,9 @@ TRANSACTION DETAILS STYLING
   /* ===================================
   LANDING PAGE MEDIA QUERY
 =================================== */
+.open_btn, .open_btn_alt{
+  display: none;
+} 
 
   .fa-chevron-left {
     font-size: 30px;
@@ -5563,6 +5348,38 @@ TRANSACTION DETAILS STYLING
     margin-left: 0;
   }
 
+
+  .transaction_done {
+    padding-top: 30px;
+    padding-left: 9px;
+  }
+  
+  .transaction_done_bg{
+   padding-top: 10rem;
+   padding-left: 2.5rem;
+  }
+  .transaction_successful{
+    background: transparent;
+    border: 0.5px solid black;
+    min-width: 18rem;
+    min-height: 15rem;
+  }
+  
+  .fa-check-circle{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 3.5rem;
+    color: var(--primary_color);
+  }
+  
+  .transaction_successful p{
+    color: var(--primary_color);
+    font-family: var(--text_font);
+    font-size: 19px;
+    text-align: center;
+    padding-top: 1rem;
+    font-weight: bolder;
+  }
 
 
   /* ===================================
