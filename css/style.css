@@ -986,8 +986,8 @@ aside {
 }
 
 .main_content p {
-  font-size: 12px;
-  font-weight: bold;
+  font-size: 13px;
+  font-weight: bolder;
   color: black;
   font-family: var(--text_font);
 }
@@ -1057,6 +1057,10 @@ aside {
   width: 5.5rem;
 }
 
+#transaction_card4 button {
+margin-bottom: 0.3rem;
+}
+
 .zero_padding{
   padding-left: 50px;
   transition: all 0.4s ease-in-out;
@@ -1066,6 +1070,7 @@ aside {
   background-color: #fff;
   min-height: 11rem;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+
 }
 /* 
 #transaction_card .referal_btn {
@@ -1075,9 +1080,10 @@ aside {
 
 #transaction_card4 {
   background-color: #fff;
-  min-height: 11rem;
+  min-height: 14rem;
   padding: 0.5em 2em;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+  padding-top: 1rem;
 }
 
 .transaction_card_btn{
@@ -1111,7 +1117,7 @@ aside {
   bottom: 0;
   left: 0;
   right: 0;
-  box-shadow: inset 0 0 0px 2px red;
+  box-shadow: inset 0 0 0px 1px red;
   z-index:1;
   border: solid 10px transparent;
 }
@@ -1153,22 +1159,7 @@ aside {
   color: #fff;
 }
 
-.inner_card2 {
-  border: 1px solid var(--primary_color);
-  background: transparent;
-  z-index: 99999;
-  height: 13rem;
-  width: 11.3rem;
-  color: #fff;
-}
 
-.inner_card p,
-.inner_card2 p {
-  text-align: center;
-  font-size: 16px;
-  font-weight: bolder;
-  color: #fff;
-}
 
 /***slim classes***/
 .slim_side {
@@ -3527,11 +3518,21 @@ border: 0.5px solid black;
   }
 
   
-/* .main_content{
-  padding-left: 230px;
-  padding-top: 60px;
-  min-height: 100vh;
-} */
+.main_content{
+  padding-left: 250px;
+  min-height: 50vh;
+  
+}
+
+.utility_holder_alt{
+  flex-wrap: nowrap;
+  max-width: 100%;
+}
+
+.no_padding {
+  padding-left: 70px;
+  transition: all 0.3s ease;
+}
 
   /* .utility_card {
     padding-left: 42%;
@@ -3637,7 +3638,7 @@ border: 0.5px solid black;
 
   #transaction_card2 {
     background-color: var(--secondary_color);
-    height: 13rem;
+    height: 8rem;
     cursor: pointer;
   }
 
@@ -3667,30 +3668,7 @@ border: 0.5px solid black;
     font-family: var(--text_font);
   }
 
-  .inner_card {
-    border: 1px solid var(--primary_color);
-    background: transparent;
-    z-index: 99999;
-    height: 10rem;
-    width: 10rem;
-    color: #fff;
-  }
-
-  .inner_card2 {
-    border: 1px solid var(--primary_color);
-    background: transparent;
-    z-index: 99999;
-    height: 12rem;
-    width: 9rem;
-    color: #fff;
-  }
-
-  .inner_card p,
-  .inner_card2 p {
-    text-align: center;
-    font-size: 16px;
-    font-weight: bolder;
-  }
+  
 
   .support_card {
     padding-left: 25%;
@@ -4692,9 +4670,9 @@ TRANSACTION DETAILS STYLING
   /* ===================================
   LANDING PAGE MEDIA QUERY
 =================================== */
-.open_btn, .open_btn_alt{
+/* .open_btn, .open_btn_alt{
   display: none;
-} 
+}  */
 
   .fa-chevron-left {
     font-size: 30px;
@@ -4737,23 +4715,23 @@ TRANSACTION DETAILS STYLING
     display: none;
   }
 
-  #header {
+  .header {
     background: transparent;
   }
 
-  #nav-menu-container {
+  /* #nav-menu-container {
     display: none;
-  }
+  } */
 
-  #logo img {
+  .dashboard_logo img {
     width: 80%;
     margin-left: 4rem;
     margin-top: 0.5rem;
   }
 
-  #mobile-nav-toggle {
+  /* #mobile-nav-toggle {
     display: inline;
-  }
+  } */
 
   .fa.fa-bars::before {
     border-radius: 25%;
