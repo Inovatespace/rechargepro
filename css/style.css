@@ -1062,12 +1062,12 @@ aside {
   transition: all 0.4s ease-in-out;
 }
 
-/* #transaction_card {
+#transaction_card {
   background-color: #fff;
   min-height: 11rem;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
 }
-
+/* 
 #transaction_card .referal_btn {
   margin-left: 5rem;
   margin-top: 1.5rem
@@ -1102,13 +1102,29 @@ aside {
   cursor: pointer;
 }
 
-#recurrent_transaction_card2 {
-  background-color: var(--secondary_color);
-  height: 13rem;
-  width: 13rem;
-  margin-left: 0.5rem;
-  cursor: pointer;
+
+
+#transaction_card2:before {
+  content:"";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: inset 0 0 0px 2px red;
+  z-index:1;
+  border: solid 10px transparent;
 }
+
+#transaction_card2 p{
+  color:#fff;
+  font-family: var(--text_font);
+  text-align: center;
+  padding-top: 1rem;
+}
+
+
+
 
 .transfer_fund {
   padding-right: 1rem;
@@ -1165,6 +1181,7 @@ aside {
 .slim_side .avatar-holder {
     display: none;
 }
+
 
 .slim .logo_holder {
     width: 80px;
@@ -3038,6 +3055,8 @@ border: 0.5px solid black;
   .dashboard_logo {
       width: 0;
   }
+
+  
 
   .slim .logo_holder {
       width: 32%;
