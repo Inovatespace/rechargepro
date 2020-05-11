@@ -84,81 +84,49 @@
 
     <!-- font-awesome -->
     <link rel="stylesheet" href="assets/lib/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/lib/themify-icons-font/themify-icons/themify-icons.css">
 
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Monoton|Nunito|Roboto+Mono&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+    <!-- Animate css -->
+    <link rel="stylesheet" href="css/animate.css">
 
     <!-- main stylesheet -->
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
 
-    
-    
-<!-- ===================================
-                  NAVBAR
-    =================================== -->
-    <header id="header" class="dashboard_header"> 
-        <div class="container-fluid ml-4 ">
-            <div id="dashboard_logo" class="pull-left">
-                <a href="rechargeprostatic-master/index.html" class="scrollto"><img src="assets/images/icons/logo_sm.png"></a>
-            </div>
-    
-            <nav id="nav-menu-container" class="mr-5">
-                <form class="navbar-form form-inline mr-5 d-none d-sm-block">
-                    <div class="input-group search-box">								
-                        <input type="text" id="search" class="form-control">
-                        <span class="input-group-addon"><i class="fa fa-search"></i></span>
-                    </div>
-                </form>
-                <div class="large_screen_button mr-5 d-none d-sm-block">
-                    <button class="btn balance balance_sm"><span class="mr-3"> Balance</span><input class="balance_1" placeholder="50000" disabled></button>
-                    <button class="btn balance ml-5"> <span class="mr-3">Profit</span><input class="balance_1" placeholder="2000" disabled></button>
-                </div>
-              
-                
-                <ul class="nav-menu dashboard_nav_menu">
-                    <div class="side_nav_content d-lg-none">
-                        <ul>
-                            <li>
-                                <img src="assets/images/icons/Icon Home.png" alt=""><a href="rechargeprostatic-master/index.html">Home</a>
-                            </li>
-                            <li>
-                                <img src="assets/images/icons/icon_dashboard.png" alt=""><a href="dashboard.html">dashboard</a>
-                            </li>
-                            <li>
-                                <img src="assets/images/icons/icon_Authorisation.png" alt=""><a href="account-authorisation.html">Authorisation</a>
-                            </li>
-                            <li>
-                                <img src="assets/images/icons/icon_support.png" alt=""><a href="support.html">Support</a>
-                            </li>
-                            <li>
-                                <img src="assets/images/icons/icon_developer.png" alt=""><a href="developer.html">Developer</a>
-                            </li>
-                            <li>
-                                <img src="assets/images/icons/iconmonstr-log-out-2.png" alt=""><a href="#">Logout</a>
-                            </li>
-                        </ul>
-                    </div>
 
-                    
-                        <!-- I want to ask tee if it should be on mobile view instead of that large avatar -->
-                        <!-- <li class="dropdown">
-                        <img src="assets/images/icons/icon_Authorisation.png">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="username">Maduke James Paul</span> <span class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">MY Profile</a></li>
-                            <li><a href="#">Logout</a></li>
-                        </ul>
-                    </li> -->
-                   
-                </ul>
-            </nav>
+
+    <nav class="header container-fluid">
+        <div class="logo_holder">
+            <div class="dashboard_logo" class="pull-left">
+                <a href="rechargeprostatic-master/index.html" class="scrollto"><img
+                        src="assets/images/icons/logo_sm.png"></a>
+            </div>
+            <span class="ti-menu open_btn pt-3"></span>
+            <span class="ti-menu open_btn_alt"></span>
         </div>
-        
+
+        <div class="search_form_holder pt-2 d-none d-sm-block">
+            <form>
+                <div class="search_form_element">
+                    <input type="text" id="search" class="form-control">
+                    <button type="submit" class="input-group-addon"><i class="fa fa-search pt-2"></i></button>
+                </div>
+            </form>
         </div>
-    </header>
+
+        <div class="nav_button_holder pt-1 d-none d-sm-block">
+            <button class="ml-2"><span class=""> Balance</span><input class="ml-2" placeholder="50000"
+                    disabled></button>
+            <button class="ml-2"> <span class="">Profit</span><input class="ml-2" placeholder="2000" disabled></button>
+        </div>
+    </nav>
 
 
     <!-- ===================================
@@ -226,6 +194,68 @@
     <!-- ===================================
                  END OF  NAVBAR
     =================================== -->
+    <div class="small_screen_btn pt-5 d-md-none d-lg-none">
+        <button class="btn balance balance_sm"><span class="mr-3"> Balance</span><input class="balance_1"
+                placeholder="5000" disabled></button>
+        <button class="btn balance"> <span class="mr-3">Profit</span><input class="balance_1" placeholder="2000"
+                disabled></button>
+    </div>
+    
+    <div class="mobile_slide_out d-md-none d-lg-none">
+        <div class="mobile_slide_out_content">
+            <div class="user_area">
+                <div class="profile_pic_holder"></div>
+                <span>User</span>
+            </div>
+            <div class="w-100">
+                <ul>
+                    <li>
+                        <div class="">
+                            <img src="assets/images/icons/Icon Home.png" class="slide_content_icon" alt="">
+                        </div>
+                        <a href="account-authorisation.html">Home</a>
+                    </li>
+                    <li>
+                        <div class="">
+                            <img src="assets/images/icons/Group 80.png" class="slide_content_icon" alt="">
+                        </div>
+                        <a href="account-authorisation.html">Find an agent</a>
+                    </li>
+                    <li>
+                        <div class="">
+                            <img src="assets/images/icons/electricity.png" class="slide_content_icon" alt="">
+                        </div>
+                        <a href="account-authorisation.html">Electricity</a>
+                    </li>
+                    <li>
+                        <div class="">
+                            <img src="assets/images/icons/airtime.png" class="slide_content_icon" alt="">
+                        </div>
+                        <a href="account-authorisation.html">Airtime</a>
+                    </li>
+                    <li>
+                        <div class="">
+                            <img src="assets/images/icons/cable.png" class="slide_content_icon" alt="">
+                        </div>
+                        <a href="account-authorisation.html">Cable/Tv</a>
+                    </li>
+                    <li>
+                        <div class="">
+                            <img src="assets/images/icons/bills.png" class="slide_content_icon" alt="">
+                        </div>
+                        <a href="account-authorisation.html">Pay Bills</a>
+                    </li>
+                    <li class="mt-5">
+                        <div class="">
+                            <img src="assets/images/icons/icon_Authorisation.png" alt="">
+                        </div>
+                        <a href="account-authorisation.html">Logout</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
 
 
     
@@ -346,6 +376,7 @@
             
         </div>
     </div>
+    
 
 
 
