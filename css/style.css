@@ -63,7 +63,7 @@ input {
   padding: 0;
   display: flex !important;
   background: #f2f1f1;
-  height: 8vh;
+  /* height: 8vh; */
   position: fixed;
   z-index: 999;
 }
@@ -995,8 +995,19 @@ aside {
   padding: 1em;
 }
 
+/* utility button styling on dashboard*/
+.airtime {
+  border-radius: 20px;
+  background: #fff;
+  /* changed both the height and width from 7rem to 6rem, might reduce it to the normal size later depending howw it look */
+  height: 6rem;
+  width: 6rem;
+   /* changed both the height and width from 7rem to 6rem, might reduce it to the normal size later depending howw it look */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .main_content p {
-  font-size: 13px;
+  font-size: 11px;
   font-weight: bolder;
   color: black;
   font-family: var(--text_font);
@@ -1011,32 +1022,30 @@ aside {
 
 }
 
+/* resizing of img icons inside utility button on dashboard */
 .airtime_btn img {
-  width: 40px;
+  width: 30px;
 }
 
 
 .electricity_btn img {
-  width: 60px;
+  width: 50px;
 }
 
 .cable_btn img {
-  width: 60px;
-  padding-bottom: 0.5rem;
+  width: 50px;
+  /* padding-bottom: 0.5rem; */
 }
 
 
 .bills_btn img {
-  width: 80px;
+  width: 60px;
 }
+/* resizing of img icons inside utility button on dashboard */
 
-.airtime {
-  border-radius: 30px;
-  background: #fff;
-  height: 7rem;
-  width: 7rem;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+/*end of utility button styling */
+
+
 
 
 /* commented it out when i was trying the media query of 992 for wrapper .content */
@@ -3098,7 +3107,7 @@ border: 0.5px solid black;
       width: 200px;
   }
 
-  /*added .wrapper here it was only .main_content bfr */
+  /*changed it from main_content to content */
   .content{
       padding-left: 0;
   }
@@ -3129,7 +3138,7 @@ border: 0.5px solid black;
 
   .nav_button_holder button {
       width: 40%;
-      height: 70%;
+      height: 90%;
       margin-top: 4px;
   }
 
