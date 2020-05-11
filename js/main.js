@@ -157,3 +157,8 @@ $('.open_btn').on('click', function(){
   $('.header').toggleClass('slim');
   $('.main_content').toggleClass('no_padding');
 });
+
+$('.open_btn_alt').on('click', function(){
+  $('.mobile_slide_out').toggleClass('mobile_slim');
+  // $('.mobile_dashboard').toggleClass('darker');
+})
