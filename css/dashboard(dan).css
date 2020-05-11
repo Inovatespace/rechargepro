@@ -923,9 +923,24 @@ TRANSACTION DETAILS STYLING
     margin-left: 3rem;
 }
 
+.mobile_slide_out{
+    position: sticky;
+    width: 50%;
+    height: 100%;
+    background: #0000;
+}
+
 
 
 @media screen and (max-width: 988px) {
+    .mobile_slide_out {
+        position: sticky;
+        width: 50%;
+        height: 80vh;
+        background: #0000;
+        z
+    }
+
     .dashboard_logo {
         width: 0;
     }
