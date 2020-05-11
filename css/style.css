@@ -1859,6 +1859,10 @@ border-right: 0.2px solid black;
   color: #f5f5f5;
 }
 
+.modal_button p{
+  font-size: 16px;
+}
+
 .modal_airtime_data {
   z-index: 99999;
   padding-left: 114px;
