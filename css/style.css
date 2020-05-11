@@ -3164,6 +3164,7 @@ border: 0.5px solid black;
 
   .mobile_dashboard{
     display: block;
+    min-height: 100vh;
   }
   .open_btn {
     display: none;
@@ -3174,7 +3175,6 @@ border: 0.5px solid black;
     left: 0;
     top: 0;
     z-index: 999;
-    margin: 15px 15px 0 0;
     border: 0;
     background: none;
     font-size: 20px;
@@ -3187,9 +3187,17 @@ border: 0.5px solid black;
     padding-left: 13px;
   }
 
+  .mobile_nav{
+    background-color: #f2f1f1;
+    padding: 0 1em;
+    position: relative;
+    top: 0;
+  }
+
   .small_screen_btn {
-    margin-left: 80px;
-    margin-top: 1.9rem;
+    width: fit-content;
+    margin: 0 auto;
+    padding-top: 15px;
   }
 
   .mobile_card {
@@ -4665,7 +4673,7 @@ TRANSACTION DETAILS STYLING
   }
 
   .header {
-    background: transparent;
+    display: none;
   }
 
   /* #nav-menu-container {
