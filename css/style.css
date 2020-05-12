@@ -1859,16 +1859,6 @@ border-right: 0.2px solid black;
 /* ===================================
   MODAL FOR AIRTIME/DATA
 =================================== */
-
-.airtime:focus{
-  background-color: var(--primary_color) !important;
-  color: #f5f5f5;
-}
-
-.modal_button p{
-  font-size: 16px;
-}
-
 .modal_airtime_data {
   z-index: 99999;
   padding-left: 114px;
@@ -4771,6 +4761,8 @@ TRANSACTION DETAILS STYLING
   display: none;
 }  */
 
+
+
   .fa-chevron-left {
     font-size: 30px;
     color: var(--secondary_color);
@@ -5268,19 +5260,38 @@ TRANSACTION DETAILS STYLING
   DASHBOARD PAGE
 =================================== */
 
-  #dashboard_logo img {
-    /* width: 60%; */
+  /* #dashboard_logo img {
+    width: 60%;
     margin-left: 4rem;
     margin-top: 0.5rem
-  }
-
+  } */
+/* 
   .dashboard-form-inline .input-group {
     width: 150px;
     margin-top: 15px;
     padding-left: 210px;
     margin-left: 0;
 
+  } */
+
+  /* .balance{
+    font-size: 14px;
+  } */
+
+  .balance_1 {
+    width: 65px;
+    border-radius: 100px;
+    padding: 0px 5px 0px;
+    border: none;
   }
+
+  .balance_1::placeholder {
+    color: var(--secondary_color);
+    font-weight: bolder;
+    padding-left: 8px;
+    font-size: 12px;
+  }
+
 
   .mobile_card {
     margin-left: auto;
@@ -5322,6 +5333,7 @@ TRANSACTION DETAILS STYLING
     color: #fff;
   }
 
+
   .mobile_airtime_card {
     background-color: #ffffff;
     width: 7.5rem;
@@ -5336,9 +5348,17 @@ TRANSACTION DETAILS STYLING
     z-index: 9999;
   }
 
+  .mobile_airtime_card p {
+    font-size: 14px;
+    font-weight: bolder;
+    color: black;
+    font-family: var(--text_font);
+  
+  }
+
   .mobile_footer {
     background: var(--secondary_color);
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
   }
 
@@ -6332,7 +6352,7 @@ TRANSACTION DETAILS STYLING
   .modal_bill {
     z-index: 99999;
     padding-left: 1px;
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
 
@@ -6365,7 +6385,8 @@ TRANSACTION DETAILS STYLING
   .modal_bill .modal-content button span {
     color: var(--secondary_color);
     font-size: 50px;
-    padding-left: 1.5rem;
+    padding-left: -0.2rem;
+    margin-left: -50rem;
   }
 
   .modal_electricity .modal-content select,
@@ -6373,18 +6394,28 @@ TRANSACTION DETAILS STYLING
   .modal_airtime_data .modal-content select,
   .modal_airtime_data .modal-content input,
   .modal_cable .modal-content select,
-  .modal_cable .modal-content input,
-  .modal_bill .modal-content select,
-  .modal_bill .modal-content input {
+  .modal_cable .modal-content input
+   {
 
     width: 18rem;
     margin-right: 0.5rem;
     border-radius: 60px;
-    padding: 15px;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
+    padding: 10px;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
     box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
     border: none;
+   
+  }
+
+  .modal_bill .modal-content select,
+  .modal_bill .modal-content input {
+    width: 18rem;
+    margin-right: 0.5rem;
+    border-radius: 60px;
+    padding: 10px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
   }
 
 
@@ -6396,11 +6427,12 @@ TRANSACTION DETAILS STYLING
   .modal_bill .btn-primary {
     border-radius: 60px;
     padding: 9px;
-    width: 17rem;
+    width: 10rem;
     text-transform: uppercase;
     background: var(--primary_color);
     border: none;
-    margin-left: 2rem;
+    margin-left: -15rem;
+    margin-top: 1.5rem;
   }
 
   /* ===================================
