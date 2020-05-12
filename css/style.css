@@ -1060,7 +1060,7 @@ aside {
   /* width: fit-content;
   margin: 0 auto; */
  
-    display: grid;
+    /* display: grid; */
     height: 200px;
     grid-template-columns: 200px;
     grid-template-rows: repeat(3, 1fr);
@@ -3315,7 +3315,7 @@ border: 0.5px solid black;
 
 }
 
-@media (min-width: 600px) and (max-width:766px){
+/* @media (min-width: 600px) and (max-width:766px){
   .utility_holder{
     display: flex;
     justify-content: center;
@@ -3349,7 +3349,7 @@ border: 0.5px solid black;
   .sale_img{
     margin-left: 0;
   }
-}
+} */
 
 /* @media (max-width: 768px) {
 
@@ -3368,10 +3368,249 @@ border: 0.5px solid black;
   }
 } */
 
+/* media query for IPAD only*/
+
+
+
+@media only screen and (max-width: 768px) {
+/* .main_content p {
+  font-size: 11px;
+  font-weight: bolder;
+  color: red;
+  font-family: var(--text_font);
+} */
+
+.utility_holder{
+  margin-top: 1rem;
+}
+
+.wrapper .content {
+  margin-left: 2.5rem;
+}
+.utility_holder_alt button,
+   #transaction_card4 button {
+     background: var(--secondary_color);
+  
+     border-radius: 15px;
+     height: 5rem;
+     width: 4rem;
+   }
+
+   #transaction_card{
+     width: 11rem;
+   }
+   #transaction_card2 {
+    background-color: var(--secondary_color);
+    height: 12rem;
+    cursor: pointer;
+    width: 12rem;
+}
+#transaction_card4 {
+  background-color: #fff;
+  min-height: 12rem;
+  padding: 0.5em 2em;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+  padding-top: 1rem;
+  width: 11rem;
+}
+
+/* utility button styling on dashboard*/
+.airtime {
+  border-radius: 10px;
+  background: #fff;
+  /* changed both the height and width from 7rem to 6rem, might reduce it to the normal size later depending howw it look */
+  height: 5rem;
+  width: 5rem;
+   /* changed both the height and width from 7rem to 6rem, might reduce it to the normal size later depending howw it look */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.main_content p {
+  font-size: 9px;
+  font-weight: bolder;
+  color: black;
+  font-family: var(--text_font);
+}
+
+
+/* resizing of img icons inside utility button on dashboard */
+.airtime_btn img {
+  width: 25px;
+}
+
+
+.electricity_btn img {
+  width: 50px;
+}
+
+.cable_btn img {
+  width: 35px;
+  /* padding-bottom: 0.5rem; */
+}
+
+
+.bills_btn img {
+  width: 45px;
+}
+/* resizing of img icons inside utility button on dashboard */
+
+/*end of utility button styling */
+
+/* ===================================
+  MODAL FOR MODAL FOR REPRINT
+=================================== */
+  .reprint_modal {
+    z-index: 99999;
+    padding-left: 300px;
+    padding-top: 100px;
+
+  }
+
+
+  .reprint_modal .modal-body {
+    background: #F1F1F1;
+    height: 11rem;
+    padding-top: 2rem;
+  }
+
+  .reprint_modal .modal-body p {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: var(--text_font);
+    line-height: 0.5rem;
+  }
+
+  .reprint_modal .modal-header h6 {
+    text-align: center;
+  }
+
+
+  .reprint_modal .modal-content button span {
+    color: var(--secondary_color);
+    font-size: 25px;
+  }
+
+  .reprint_modal .modal-content input {
+
+    width: 15rem;
+    margin-right: 0.5rem;
+
+    padding: 5px;
+    margin-bottom: 1rem;
+    /* margin-top: 1rem; */
+    box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
+    border: none;
+  }
+
+  .reprint_modal .modal-content select:focus {
+    border: 0 !important;
+    color: none !important;
+  }
+
+
+
+  .reprint_modal .btn-primary {
+    border-radius: 80px;
+    padding: 3px;
+    width: 9rem;
+    background: var(--primary_color);
+    border: none;
+    margin-left: 3rem;
+  }
+
+  /* ===================================
+  END OF MODAL FOR REPRINT
+=================================== */
+
+  /* ===================================
+  ALL MODAL FOR DASHBOARD IPADPRO 
+  RESPONSIVENESS
+=================================== */
+  .modal_airtime_data,
+  .modal_electricity,
+  .modal_cable,
+  .modal_bill {
+    z-index: 99999;
+    padding-left: 100px;
+    margin-top: -200px;
+  }
+
+
+  .modal_airtime_data .modal-body {
+    min-height: 25rem;
+    background: #F1F1F1;
+  }
+
+  .modal_airtime_data .modal-body p {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: var(--text_font);
+  }
+
+  .modal_airtime_data .modal-content,
+  .modal_electricity .modal-content,
+  .modal_cable .modal-content,
+  .modal_bill .modal-content {
+    min-width: 35rem;
+
+  }
+
+  .modal_airtime_data .modal-content button span,
+  .modal_electricity .modal-content button span,
+  .modal_cable .modal-content button span,
+  .modal_bill .modal-content button span {
+    color: var(--secondary_color);
+    font-size: 50px;
+    padding-left: 30rem;
+  }
+
+  .modal_airtime_data .modal-content select,
+  .modal_airtime_data .modal-content input,
+  .modal_electricity .modal-content select,
+  .modal_electricity .modal-content input,
+  .modal_cable .modal-content select,
+  .modal_cable .modal-content input,
+  .modal_bill .modal-content select,
+  .modal_bill .modal-content input {
+
+    width: 15rem;
+    margin-right: 0.5rem;
+    border-radius: 60px;
+    padding: 15px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
+    border: none;
+  }
+
+  .modal_airtime_data .modal-content select:focus {
+    border: 0 !important;
+    color: none !important;
+  }
+
+
+
+  .modal_airtime_data .btn-primary {
+    border-radius: 80px;
+    padding: 12px;
+    width: 21rem;
+    text-transform: uppercase;
+    background: var(--primary_color);
+    border: none;
+  }
+
+  /* ===================================
+  END OF ALL MODAL FOR DASHBOARD IPADPRO 
+  RESPONSIVENESS
+=================================== */
+}
+
+/* end of media query for IPAD only/
+
 
 @media (min-width: 768px) and (max-width:1024px) {
 
-   .utility_holder_alt button,
+   /* .utility_holder_alt button,
    #transaction_card4 button {
      background: var(--secondary_color);
      border-radius: 20px;
@@ -3381,7 +3620,7 @@ border: 0.5px solid black;
 
    #transaction_card{
      width: 12em;
-   }
+   } */
 
    .airtime_btn,
    .electricity_btn,
