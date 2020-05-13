@@ -3099,9 +3099,19 @@ border: 0.5px solid black;
 }
 
 @media screen and (max-width: 990px) {
+
   .dashboard_logo {
       width: 0;
   }
+  .wrapper .content {
+    margin-left: 2.5rem;
+  }
+  .main_content p {
+    font-size: 9px;
+    font-weight: bolder;
+    color: black;
+    font-family: var(--text_font);
+  } 
 
   
 
@@ -3159,6 +3169,153 @@ border: 0.5px solid black;
   .bills_btn{
       margin-left: 20px;
   }
+  /* ===================================
+  MODAL FOR MODAL FOR REPRINT
+=================================== */
+.reprint_modal {
+  z-index: 99999;
+  padding-left: 300px;
+  padding-top: 100px;
+
+}
+
+
+.reprint_modal .modal-body {
+  background: #F1F1F1;
+  height: 11rem;
+  padding-top: 2rem;
+}
+
+.reprint_modal .modal-body p {
+  font-size: 12px;
+  font-weight: bold;
+  font-family: var(--text_font);
+  line-height: 0.5rem;
+}
+
+.reprint_modal .modal-header h6 {
+  text-align: center;
+}
+
+
+.reprint_modal .modal-content button span {
+  color: var(--secondary_color);
+  font-size: 25px;
+}
+
+.reprint_modal .modal-content input {
+
+  width: 15rem;
+  margin-right: 0.5rem;
+
+  padding: 5px;
+  margin-bottom: 1rem;
+  /* margin-top: 1rem; */
+  box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
+  border: none;
+}
+
+.reprint_modal .modal-content select:focus {
+  border: 0 !important;
+  color: none !important;
+}
+
+
+
+.reprint_modal .btn-primary {
+  border-radius: 80px;
+  padding: 3px;
+  width: 9rem;
+  background: var(--primary_color);
+  border: none;
+  margin-left: 3rem;
+}
+
+/* ===================================
+END OF MODAL FOR REPRINT
+=================================== */
+
+/* ===================================
+ALL MODAL FOR DASHBOARD IPADPRO 
+RESPONSIVENESS
+=================================== */
+.modal_airtime_data,
+.modal_electricity,
+.modal_cable,
+.modal_bill {
+  z-index: 99999;
+  padding-left: 100px;
+  margin-top: -20px;
+}
+
+
+.modal_airtime_data .modal-body {
+  min-height: 25rem;
+  background: #F1F1F1;
+}
+
+.modal_airtime_data .modal-body p {
+  font-size: 12px;
+  font-weight: bold;
+  font-family: var(--text_font);
+}
+
+.modal_airtime_data .modal-content,
+.modal_electricity .modal-content,
+.modal_cable .modal-content,
+.modal_bill .modal-content {
+  min-width: 35rem;
+
+}
+
+.modal_airtime_data .modal-content button span,
+.modal_electricity .modal-content button span,
+.modal_cable .modal-content button span,
+.modal_bill .modal-content button span {
+  color: var(--secondary_color);
+  font-size: 50px;
+  padding-left: 30rem;
+}
+
+.modal_airtime_data .modal-content select,
+.modal_airtime_data .modal-content input,
+.modal_electricity .modal-content select,
+.modal_electricity .modal-content input,
+.modal_cable .modal-content select,
+.modal_cable .modal-content input,
+.modal_bill .modal-content select,
+.modal_bill .modal-content input {
+
+  width: 15rem;
+  margin-right: 0.5rem;
+  border-radius: 60px;
+  padding: 15px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
+  border: none;
+}
+
+.modal_airtime_data .modal-content select:focus {
+  border: 0 !important;
+  color: none !important;
+}
+
+
+
+.modal_airtime_data .btn-primary {
+  border-radius: 80px;
+  padding: 12px;
+  width: 21rem;
+  text-transform: uppercase;
+  background: var(--primary_color);
+  border: none;
+}
+
+/* ===================================
+END OF ALL MODAL FOR DASHBOARD IPADPRO 
+RESPONSIVENESS
+=================================== */
 }
 
 
@@ -6591,7 +6748,7 @@ TRANSACTION DETAILS STYLING
   .modal_bill {
     z-index: 99999;
     padding-left: 1px;
-    margin-top: 10px;
+    margin-top: 5px;
   }
 
 
@@ -6625,7 +6782,7 @@ TRANSACTION DETAILS STYLING
     color: var(--secondary_color);
     font-size: 50px;
     padding-left: -0.2rem;
-    margin-left: -50rem;
+    margin-left: -25rem;
   }
 
   .modal_electricity .modal-content select,
