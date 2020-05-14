@@ -47,11 +47,11 @@ a:hover {
 
 button,
 input {
-    outline: none !important;
-    border: none;
+  outline: none !important;
+  border: none;
 }
 
-.flex{
+.flex {
   display: flex;
 }
 
@@ -70,7 +70,8 @@ input {
 
 .logo_holder {
   background: #fff;
- width: auto;  /* change the width from fit-content to auto on 10/05/2010 trying to fix the card responsiveness */
+  width: auto;
+  /* change the width from fit-content to auto on 10/05/2010 trying to fix the card responsiveness */
   display: flex;
   padding: 0 20px;
 }
@@ -86,7 +87,8 @@ input {
 .dashboard_logo {
   width: 200px;
 }
-.dashboard_logo img{
+
+.dashboard_logo img {
   width: 100%;
 }
 
@@ -146,10 +148,11 @@ input {
   border-radius: 30px;
   padding: 2px 3px;
 }
+
 .nav_button_holder input::placeholder {
-color: var(--secondary_color);
-font-weight: bolder;
-padding-left: 0.5rem;
+  color: var(--secondary_color);
+  font-weight: bolder;
+  padding-left: 0.5rem;
 }
 
 /* ===================================
@@ -899,7 +902,8 @@ END OF LOGIN AND SIGNUP PAGE STYLING
 =================================== */
 
 aside {
-  width: 261px;  /*change tthe width from 261px to auto trying to fix the card responsiveness */
+  width: 261px;
+  /*change tthe width from 261px to auto trying to fix the card responsiveness */
   position: fixed;
   background: var(--secondary_color);
   margin-top: 3.4em;
@@ -1003,7 +1007,7 @@ aside {
   /* changed both the height and width from 7rem to 6rem, might reduce it to the normal size later depending howw it look */
   height: 6rem;
   width: 6rem;
-   /* changed both the height and width from 7rem to 6rem, might reduce it to the normal size later depending howw it look */
+  /* changed both the height and width from 7rem to 6rem, might reduce it to the normal size later depending howw it look */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -1042,6 +1046,7 @@ aside {
 .bills_btn img {
   width: 60px;
 }
+
 /* resizing of img icons inside utility button on dashboard */
 
 /*end of utility button styling */
@@ -1056,15 +1061,15 @@ aside {
   min-height: 100vh;
 } */
 
-.utility_holder{
+.utility_holder {
   /* width: fit-content;
   margin: 0 auto; */
- 
-    /* display: grid; */
-    height: 200px;
-    grid-template-columns: 200px;
-    grid-template-rows: repeat(3, 1fr);
-    row-gap: 10px;
+
+  /* display: grid; */
+  height: 200px;
+  grid-template-columns: 200px;
+  grid-template-rows: repeat(3, 1fr);
+  row-gap: 10px;
 
 }
 
@@ -1076,7 +1081,7 @@ aside {
   min-height: 55vh;
 } */
 
-.referal_btn{
+.referal_btn {
   margin: 0 auto;
 }
 
@@ -1089,10 +1094,10 @@ aside {
 }
 
 #transaction_card4 button {
-margin-bottom: 0.3rem;
+  margin-bottom: 0.3rem;
 }
 
-.zero_padding{
+.zero_padding {
   padding-left: 50px;
   transition: all 0.4s ease-in-out;
 }
@@ -1104,6 +1109,7 @@ margin-bottom: 0.3rem;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
 
 }
+
 /* 
 #transaction_card .referal_btn {
   margin-left: 5rem;
@@ -1119,7 +1125,7 @@ margin-bottom: 0.3rem;
   width: 13rem;
 }
 
-.transaction_card_btn{
+.transaction_card_btn {
   margin: 0 auto;
   width: fit-content;
 }
@@ -1145,19 +1151,19 @@ margin-bottom: 0.3rem;
 
 
 #transaction_card2:before {
-  content:"";
+  content: "";
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   box-shadow: inset 0 0 0px 1px red;
-  z-index:1;
+  z-index: 1;
   border: solid 10px transparent;
 }
 
-#transaction_card2 p{
-  color:#fff;
+#transaction_card2 p {
+  color: #fff;
   font-family: var(--text_font);
   text-align: center;
   padding-top: 1rem;
@@ -1193,7 +1199,7 @@ margin-bottom: 0.3rem;
   color: #fff;
 }
 
-.mobile_dashboard{
+.mobile_dashboard {
   display: none;
 }
 
@@ -1201,32 +1207,32 @@ margin-bottom: 0.3rem;
 
 /***slim classes***/
 .slim_side {
-    width: 80px;
-    overflow: hidden;
-    transition: all 0.3s ease-in-out;
+  width: 80px;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
 }
 
 .slim_side .side_nav_content li a,
 .slim_side .avatar-holder {
-    display: none;
+  display: none;
 }
 
 
 .slim .logo_holder {
-    width: 80px;
+  width: 80px;
 }
 
 .slim .dashboard_logo {
-    width: 0;
+  width: 0;
 }
 
 .slim .search_form_holder {
-    width: 45%;
+  width: 45%;
 }
 
 .no_padding {
-    padding-left: 0;
-    transition: all 0.3s ease;
+  padding-left: 0;
+  transition: all 0.3s ease;
 }
 
 /* ===================================
@@ -1445,7 +1451,7 @@ TRANSACTION DETAILS STYLING
 
 .making_payment_section .img_rechargeprowallet {
   cursor: pointer;
-  
+
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
@@ -1491,7 +1497,8 @@ TRANSACTION DETAILS STYLING
 
 
 
-.rechargeproWallet, .rechargeprobank {
+.rechargeproWallet,
+.rechargeprobank {
   background: #fff;
   height: 15rem;
   box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
@@ -1770,8 +1777,8 @@ TRANSACTION DETAILS STYLING
 }
 
 .table-history td {
-border: 0.5px solid black;
-border-right: 0.2px solid black;
+  border: 0.5px solid black;
+  border-right: 0.2px solid black;
   padding: 20px;
 }
 
@@ -1830,25 +1837,26 @@ border-right: 0.2px solid black;
   padding-left: 350px;
 }
 
-.transaction_done_bg{
- padding-top: 10rem;
- padding-left: 5rem;
+.transaction_done_bg {
+  padding-top: 10rem;
+  padding-left: 5rem;
 }
-.transaction_successful{
+
+.transaction_successful {
   background: transparent;
   border: 0.5px solid black;
   min-width: 25rem;
   min-height: 15rem;
 }
 
-.fa-check-circle{
+.fa-check-circle {
   font-size: 80px;
   text-align: center;
   padding-top: 3rem;
   color: var(--primary_color);
 }
 
-.transaction_successful p{
+.transaction_successful p {
   color: var(--primary_color);
   font-family: var(--text_font);
   font-size: 19px;
@@ -1856,6 +1864,7 @@ border-right: 0.2px solid black;
   padding-top: 1rem;
   font-weight: bolder;
 }
+
 /* ===================================
   MODAL FOR AIRTIME/DATA
 =================================== */
@@ -2782,7 +2791,7 @@ td {
 }
 
 .table_account td {
-border: 0.5px solid black;
+  border: 0.5px solid black;
   padding: 20px;
 }
 
@@ -3084,78 +3093,81 @@ border: 0.5px solid black;
 /* just added this media query when trying to fix the new class of content */
 
 @media (min-width: 992px) {
-  
+
   .wrapper .content {
     margin-left: 15.5rem;
   }
 
-  .main_content{
+  .main_content {
     padding-top: 2rem;
   }
 
-  #transaction_card2{
+  #transaction_card2 {
     margin-right: 12px;
   }
+
 }
 
 @media screen and (max-width: 990px) {
 
   .dashboard_logo {
-      width: 0;
+    width: 0;
   }
+
   .wrapper .content {
     margin-left: 2.5rem;
   }
+
   .main_content p {
     font-size: 9px;
     font-weight: bolder;
     color: black;
     font-family: var(--text_font);
-  } 
+  }
 
-  
+
 
   .slim .logo_holder {
-      width: 32%;
+    width: 32%;
   }
 
   .slim .dashboard_logo {
-      width: 200px;
+    width: 200px;
   }
 
   /*changed it from main_content to content */
-  .content{
-      padding-left: 0;
+  .content {
+    padding-left: 0;
   }
 
-  .no_padding{
-      padding-left: 250px;
+  .no_padding {
+    padding-left: 250px;
   }
 
   .side_nav_content li a,
   .avatar-holder {
-      display: none;
+    display: none;
   }
 
   aside {
-      width: 61px;
+    width: 61px;
   }
 
 
   .slim_side {
-      width: 250px;
-      z-index: 999;
+    width: 250px;
+    z-index: 999;
   }
 
   .slim_side .side_nav_content li a,
   .slim_side .avatar-holder {
-      display: block;
+    display: block;
   }
 
   .nav_button_holder button {
-      width: 40%;
-      height: 90%;
-      margin-top: 4px;
+    width: 40%;
+    height: 90%;
+    margin-top: 4px;
   }
 
 
@@ -3166,171 +3178,248 @@ border: 0.5px solid black;
 
   .electricity_btn,
   .cable_btn,
-  .bills_btn{
-      margin-left: 20px;
+  .bills_btn {
+    margin-left: 20px;
   }
+
   /* ===================================
   MODAL FOR MODAL FOR REPRINT
 =================================== */
-.reprint_modal {
-  z-index: 99999;
-  padding-left: 300px;
-  padding-top: 100px;
+  .reprint_modal {
+    z-index: 99999;
+    padding-left: 300px;
+    padding-top: 100px;
 
-}
-
-
-.reprint_modal .modal-body {
-  background: #F1F1F1;
-  height: 11rem;
-  padding-top: 2rem;
-}
-
-.reprint_modal .modal-body p {
-  font-size: 12px;
-  font-weight: bold;
-  font-family: var(--text_font);
-  line-height: 0.5rem;
-}
-
-.reprint_modal .modal-header h6 {
-  text-align: center;
-}
+  }
 
 
-.reprint_modal .modal-content button span {
-  color: var(--secondary_color);
-  font-size: 25px;
-}
+  .reprint_modal .modal-body {
+    background: #F1F1F1;
+    height: 11rem;
+    padding-top: 2rem;
+  }
 
-.reprint_modal .modal-content input {
+  .reprint_modal .modal-body p {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: var(--text_font);
+    line-height: 0.5rem;
+  }
 
-  width: 15rem;
-  margin-right: 0.5rem;
-
-  padding: 5px;
-  margin-bottom: 1rem;
-  /* margin-top: 1rem; */
-  box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
-  border: none;
-}
-
-.reprint_modal .modal-content select:focus {
-  border: 0 !important;
-  color: none !important;
-}
+  .reprint_modal .modal-header h6 {
+    text-align: center;
+  }
 
 
+  .reprint_modal .modal-content button span {
+    color: var(--secondary_color);
+    font-size: 25px;
+  }
 
-.reprint_modal .btn-primary {
-  border-radius: 80px;
-  padding: 3px;
-  width: 9rem;
-  background: var(--primary_color);
-  border: none;
-  margin-left: 3rem;
-}
+  .reprint_modal .modal-content input {
 
-/* ===================================
+    width: 15rem;
+    margin-right: 0.5rem;
+
+    padding: 5px;
+    margin-bottom: 1rem;
+    /* margin-top: 1rem; */
+    box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
+    border: none;
+  }
+
+  .reprint_modal .modal-content select:focus {
+    border: 0 !important;
+    color: none !important;
+  }
+
+
+
+  .reprint_modal .btn-primary {
+    border-radius: 80px;
+    padding: 3px;
+    width: 9rem;
+    background: var(--primary_color);
+    border: none;
+    margin-left: 3rem;
+  }
+
+  /* ===================================
 END OF MODAL FOR REPRINT
 =================================== */
 
-/* ===================================
+  /* ===================================
 ALL MODAL FOR DASHBOARD IPADPRO 
 RESPONSIVENESS
 =================================== */
-.modal_airtime_data,
-.modal_electricity,
-.modal_cable,
-.modal_bill {
-  z-index: 99999;
-  padding-left: 100px;
-  margin-top: -20px;
-}
+  .modal_airtime_data,
+  .modal_electricity,
+  .modal_cable,
+  .modal_bill {
+    z-index: 99999;
+    padding-left: 100px;
+    margin-top: -20px;
+  }
 
 
-.modal_airtime_data .modal-body {
-  min-height: 25rem;
-  background: #F1F1F1;
-}
+  .modal_airtime_data .modal-body {
+    min-height: 25rem;
+    background: #F1F1F1;
+  }
 
-.modal_airtime_data .modal-body p {
-  font-size: 12px;
-  font-weight: bold;
-  font-family: var(--text_font);
-}
+  .modal_airtime_data .modal-body p {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: var(--text_font);
+  }
 
-.modal_airtime_data .modal-content,
-.modal_electricity .modal-content,
-.modal_cable .modal-content,
-.modal_bill .modal-content {
-  min-width: 35rem;
+  .modal_airtime_data .modal-content,
+  .modal_electricity .modal-content,
+  .modal_cable .modal-content,
+  .modal_bill .modal-content {
+    min-width: 35rem;
 
-}
+  }
 
-.modal_airtime_data .modal-content button span,
-.modal_electricity .modal-content button span,
-.modal_cable .modal-content button span,
-.modal_bill .modal-content button span {
-  color: var(--secondary_color);
-  font-size: 50px;
-  padding-left: 30rem;
-}
+  .modal_airtime_data .modal-content button span,
+  .modal_electricity .modal-content button span,
+  .modal_cable .modal-content button span,
+  .modal_bill .modal-content button span {
+    color: var(--secondary_color);
+    font-size: 50px;
+    padding-left: 30rem;
+  }
 
-.modal_airtime_data .modal-content select,
-.modal_airtime_data .modal-content input,
-.modal_electricity .modal-content select,
-.modal_electricity .modal-content input,
-.modal_cable .modal-content select,
-.modal_cable .modal-content input,
-.modal_bill .modal-content select,
-.modal_bill .modal-content input {
+  .modal_airtime_data .modal-content select,
+  .modal_airtime_data .modal-content input,
+  .modal_electricity .modal-content select,
+  .modal_electricity .modal-content input,
+  .modal_cable .modal-content select,
+  .modal_cable .modal-content input,
+  .modal_bill .modal-content select,
+  .modal_bill .modal-content input {
 
-  width: 15rem;
-  margin-right: 0.5rem;
-  border-radius: 60px;
-  padding: 15px;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-  box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
-  border: none;
-}
+    width: 15rem;
+    margin-right: 0.5rem;
+    border-radius: 60px;
+    padding: 15px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
+    border: none;
+  }
 
-.modal_airtime_data .modal-content select:focus {
-  border: 0 !important;
-  color: none !important;
-}
+  .modal_airtime_data .modal-content select:focus {
+    border: 0 !important;
+    color: none !important;
+  }
 
 
 
-.modal_airtime_data .btn-primary {
-  border-radius: 80px;
-  padding: 12px;
-  width: 21rem;
-  text-transform: uppercase;
-  background: var(--primary_color);
-  border: none;
-}
+  .modal_airtime_data .btn-primary {
+    border-radius: 80px;
+    padding: 12px;
+    width: 21rem;
+    text-transform: uppercase;
+    background: var(--primary_color);
+    border: none;
+  }
 
-/* ===================================
+  /* ===================================
 END OF ALL MODAL FOR DASHBOARD IPADPRO 
 RESPONSIVENESS
 =================================== */
+
+  /* ACCOUNT AUTHORISATION PAGE STYLING */
+
+  .dashboard3_authorization_4 {
+    padding-top: 5rem;
+    padding-left: 3rem;
+  }
+
+  .authorisation {
+    min-width: 50rem;
+  }
+
+  .read_access {
+    min-width: 48.5rem;
+    box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
+  }
+
+  .dashboard_generate {
+    padding-left: 17.5rem;
+  }
+
+  .authorization_table {
+    padding-left: 1rem;
+  }
+
+  .dashboard-3-note {
+    background: #79BB75;
+    min-width: 27rem;
+    min-height: 5rem;
+  }
+
+
+  /* END OF ACCOUNT AUTHORISATION PAGE STYLING */
 }
 
 
 
-@media screen and (max-width:731px) {
-  .main_content{
+
+@media only screen and (max-width:731px) {
+  /* nav{
+    display: none;
+  } */
+
+  /* .small_screen_btn{
+    display: none;
+  } */
+
+  /* .display_for_731{
+    display: none;
+  } */
+  .search_form_element {
+    display: none !important;
+}
+  .nav_button_holder {
+display: none !important;
+}
+.small_screen_btn {
+  margin-left: 1rem;
+}
+
+/* .balance {
+  font-style: 6px !important;
+}
+
+.balance_1 {
+  width: 48px !important;
+  border-radius: 100px;
+  padding: 0px 5px 0px;
+  border: none;
+}
+
+.balance_1::placeholder {
+  color: var(--secondary_color);
+  font-weight: bolder;
+  padding-left: 8px;
+  font-size: 10px !important;
+} */
+  aside {
     display: none;
   }
 
-  .mobile_dashboard{
+  .main_content {
+    display: none;
+  }
+
+  .mobile_dashboard {
     display: block;
     min-height: 100vh;
   }
 
-  .mobile_slide_out{
+  .mobile_slide_out {
     width: 0;
     position: fixed;
     height: 85vh;
@@ -3339,10 +3428,10 @@ RESPONSIVENESS
     transition: 0.5s;
     overflow-x: hidden;
     z-index: 999999;
-    box-shadow: 9px 0px 15px 2px rgba(0,0,0,0.3)
+    box-shadow: 9px 0px 15px 2px rgba(0, 0, 0, 0.3)
   }
 
-  .user_area{
+  .user_area {
     background-color: var(--secondary_color);
     height: 20vh;
     display: flex;
@@ -3350,39 +3439,39 @@ RESPONSIVENESS
     justify-content: center;
   }
 
-  .user_area .profile_pic_holder{
+  .user_area .profile_pic_holder {
     width: 80px;
     height: 80px;
     border-radius: 50px;
     background-color: #fff;
   }
 
-  .user_area span{
+  .user_area span {
     color: #fff;
     display: flex;
     align-items: center;
     padding-left: 20px;
   }
 
-  .mobile_slide_out_content ul li{
+  .mobile_slide_out_content ul li {
     list-style: none;
     display: flex;
-    padding:  10px;
+    padding: 10px;
     text-align: justify;
     transition: all 0.5s ease;
     width: 100%;
   }
 
-  .mobile_slide_out_content ul li a{
+  .mobile_slide_out_content ul li a {
     color: var(--secondary_color);
     padding-left: 15px;
   }
 
-  .slide_content_icon{
+  .slide_content_icon {
     width: 25px;
   }
 
-  .mobile_slim{
+  .mobile_slim {
     width: 75%;
   }
 
@@ -3407,29 +3496,187 @@ RESPONSIVENESS
     padding-left: 13px;
   }
 
-  .mobile_nav{
+  .mobile_nav {
     background-color: #f2f1f1;
     padding: 0 1em;
     position: relative;
     top: 0;
   }
 
-  .small_screen_btn {
-    width: fit-content;
-    margin: 0 auto;
-    padding-top: 15px;
-  }
+
 
   .mobile_card {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1rem;
+    margin-top: 2rem;
     background: var(--secondary_color);
-    height: 6rem;
-    width: 8rem;
+    height: 10rem;
+    width: 28rem;
     border-radius: 15px;
 
   }
+
+  .mobile_social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: var(--primary_color);
+    color: #eee;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    transition: 0.3s;
+    margin-right: 1rem;
+    cursor: pointer;
+  }
+
+  .mobile_social-links span {
+    font-size: 10px;
+    font-weight: bold;
+    color: var(--secondary_color);
+    margin-right: 1rem;
+  }
+
+  .mobile_airtime_card {
+    background-color: #ffffff;
+    width: 7.5rem;
+    height: 7rem;
+    border-top: 1px solid #DFDFDF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-bottom: 0.5rem;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    z-index: 9999;
+  }
+
+  .mobile_airtime_card p {
+    font-size: 14px;
+    font-weight: bolder;
+    color: black;
+    font-family: var(--text_font);
+
+  }
+
+  .mobile_footer {
+    background: var(--secondary_color);
+    /* position: absolute; */
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    /* padding-left: 3.5rem; */
+  }
+
+  .footer_mobile_links a {
+    font-size: 18px;
+    display: inline-block;
+    color: #eee;
+    line-height: 1;
+    padding: 8px 0;
+    border-radius: 50%;
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    transition: 0.3s;
+    cursor: pointer;
+    margin-left: 4.5rem;
+  }
+
+  /* ===================================
+ALL MODAL FOR DASHBOARD IPADPRO 
+RESPONSIVENESS
+=================================== */
+  .modal_airtime_data,
+  .modal_electricity,
+  .modal_cable,
+  .modal_bill {
+    z-index: 99999;
+    padding-left: 0 !important;
+    margin-top: 0 !important;
+  }
+
+
+  .modal_airtime_data .modal-body {
+    min-height: 45rem;
+    background: #F1F1F1;
+  }
+
+  .modal_airtime_data .modal-body p {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: var(--text_font);
+  }
+
+  .modal_airtime_data .modal-body .dispaly_none {
+    display: none !important;
+  }
+
+  .modal_airtime_data .modal-content,
+  .modal_electricity .modal-content,
+  .modal_cable .modal-content,
+  .modal_bill .modal-content {
+    min-width: 35rem;
+
+  }
+
+  .modal_airtime_data .modal-content button span,
+  .modal_electricity .modal-content button span,
+  .modal_cable .modal-content button span,
+  .modal_bill .modal-content button span {
+    color: var(--secondary_color);
+    font-size: 50px;
+    padding-left: 30rem;
+  }
+
+  .modal_airtime_data .modal-content select,
+  .modal_airtime_data .modal-content input,
+  .modal_electricity .modal-content select,
+  .modal_electricity .modal-content input,
+  .modal_cable .modal-content select,
+  .modal_cable .modal-content input,
+  .modal_bill .modal-content select,
+  .modal_bill .modal-content input {
+
+    width: 18rem !important;
+    margin-right: 0.5rem;
+    border-radius: 60px;
+    padding: 15px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
+    border: none;
+  }
+
+  .modal_airtime_data .modal-content select:focus {
+    border: 0 !important;
+    color: none !important;
+  }
+
+
+
+  .modal_airtime_data .btn-primary {
+    border-radius: 80px;
+    padding: 12px;
+    width: 21rem;
+    text-transform: uppercase;
+    background: var(--primary_color);
+    border: none;
+  }
+
+  .modal_airtime_data .btn_dispaly_none {
+    display: none !important;
+  }
+
+  /* ===================================
+END OF ALL MODAL FOR DASHBOARD IPADPRO 
+RESPONSIVENESS
+=================================== */
 
   .dashboard-3-card1 {
     min-width: 3rem;
@@ -3525,95 +3772,94 @@ RESPONSIVENESS
   }
 } */
 
-/* media query for IPAD only*/
 
 
+
+/* ===================================
+ media query for IPAD only
+=================================== */
 
 @media only screen and (max-width: 768px) {
-/* .main_content p {
-  font-size: 11px;
-  font-weight: bolder;
-  color: red;
-  font-family: var(--text_font);
-} */
 
-.utility_holder{
-  margin-top: 1rem;
-}
+  /* MAIN DASHBOARD STYLING */
+  .utility_holder {
+    margin-top: 1rem;
+  }
 
-.wrapper .content {
-  margin-left: 2.5rem;
-}
-.utility_holder_alt button,
-   #transaction_card4 button {
-     background: var(--secondary_color);
-  
-     border-radius: 15px;
-     height: 5rem;
-     width: 4rem;
-   }
+  .wrapper .content {
+    margin-left: 2.5rem;
+  }
 
-   #transaction_card{
-     width: 11rem;
-   }
-   #transaction_card2 {
+  .utility_holder_alt button,
+  #transaction_card4 button {
+    background: var(--secondary_color);
+
+    border-radius: 15px;
+    height: 5rem;
+    width: 4rem;
+  }
+
+  #transaction_card {
+    width: 11rem;
+  }
+
+  #transaction_card2 {
     background-color: var(--secondary_color);
     height: 12rem;
     cursor: pointer;
     width: 12rem;
-}
-#transaction_card4 {
-  background-color: #fff;
-  min-height: 12rem;
-  padding: 0.5em 2em;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
-  padding-top: 1rem;
-  width: 11rem;
-}
+  }
 
-/* utility button styling on dashboard*/
-.airtime {
-  border-radius: 10px;
-  background: #fff;
-  /* changed both the height and width from 7rem to 6rem, might reduce it to the normal size later depending howw it look */
-  height: 5rem;
-  width: 5rem;
-   /* changed both the height and width from 7rem to 6rem, might reduce it to the normal size later depending howw it look */
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+  #transaction_card4 {
+    background-color: #fff;
+    min-height: 12rem;
+    padding: 0.5em 2em;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    padding-top: 1rem;
+    width: 11rem;
+  }
 
-.main_content p {
-  font-size: 9px;
-  font-weight: bolder;
-  color: black;
-  font-family: var(--text_font);
-}
+  /* utility button styling on dashboard*/
+  .airtime {
+    border-radius: 10px;
+    background: #fff;
+    /* changed both the height and width from 7rem to 6rem, might reduce it to the normal size later depending howw it look */
+    height: 5rem;
+    width: 5rem;
+    /* changed both the height and width from 7rem to 6rem, might reduce it to the normal size later depending howw it look */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .main_content p {
+    font-size: 9px;
+  }
 
 
-/* resizing of img icons inside utility button on dashboard */
-.airtime_btn img {
-  width: 25px;
-}
+  /* resizing of img icons inside utility button on dashboard */
+  .airtime_btn img {
+    width: 25px;
+  }
 
 
-.electricity_btn img {
-  width: 50px;
-}
+  .electricity_btn img {
+    width: 50px;
+  }
 
-.cable_btn img {
-  width: 35px;
-  /* padding-bottom: 0.5rem; */
-}
+  .cable_btn img {
+    width: 35px;
+    /* padding-bottom: 0.5rem; */
+  }
 
 
-.bills_btn img {
-  width: 45px;
-}
-/* resizing of img icons inside utility button on dashboard */
+  .bills_btn img {
+    width: 45px;
+  }
 
-/*end of utility button styling */
+  /* resizing of img icons inside utility button on dashboard */
 
-/* ===================================
+  /*end of utility button styling */
+
+  /* ===================================
   MODAL FOR MODAL FOR REPRINT
 =================================== */
   .reprint_modal {
@@ -3760,14 +4006,53 @@ RESPONSIVENESS
   END OF ALL MODAL FOR DASHBOARD IPADPRO 
   RESPONSIVENESS
 =================================== */
+  /* END OF MAIN DASHBOARD STYLING */
+
+  /* ACCOUNT AUTHORISATION PAGE STYLING */
+
+  .dashboard3_authorization_4 {
+    padding-top: 5rem;
+    padding-left: 8rem;
+  }
+
+  .authorisation {
+    min-width: 42rem;
+  }
+
+  .read_access {
+    min-width: 40.3rem;
+    box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
+  }
+
+  .dashboard_generate {
+    padding-left: 17.5rem;
+  }
+
+  .authorization_table {
+    padding-left: 3rem;
+  }
+
+  .dashboard-3-note {
+    background: #79BB75;
+    min-width: 27rem;
+    min-height: 5rem;
+  }
+
+
+  /* END OF ACCOUNT AUTHORISATION PAGE STYLING */
 }
 
-/* end of media query for IPAD only/
+
+/* ===================================
+ end of media query for IPAD only
+=================================== */
+
+
 
 
 @media (min-width: 768px) and (max-width:1024px) {
 
-   /* .utility_holder_alt button,
+  /* .utility_holder_alt button,
    #transaction_card4 button {
      background: var(--secondary_color);
      border-radius: 20px;
@@ -3779,20 +4064,20 @@ RESPONSIVENESS
      width: 12em;
    } */
 
-   .airtime_btn,
-   .electricity_btn,
-   .cable_btn,
-   .bills_btn {
-     z-index: 9999;
-     animation-duration: 3s;
-     width: fit-content;
-     margin: 0 auto;
-     padding-right: 20px;
-   }
+  .airtime_btn,
+  .electricity_btn,
+  .cable_btn,
+  .bills_btn {
+    z-index: 9999;
+    animation-duration: 3s;
+    width: fit-content;
+    margin: 0 auto;
+    padding-right: 20px;
+  }
 
-   .tablet_pad{
-     padding-left: 3.5em;
-   }
+  .tablet_pad {
+    padding-left: 3.5em;
+  }
 
   .fa-chevron-left {
     font-size: 30px;
@@ -3953,12 +4238,13 @@ RESPONSIVENESS
 
 @media (min-width: 1024px) and (max-width:1200px) {
 
-  .utility_holder_alt button, #transaction_card4 button {
+  .utility_holder_alt button,
+  #transaction_card4 button {
     background: var(--secondary_color);
     border-radius: 20px;
     height: 5em;
     width: 4.5em;
-}
+  }
 
   .fa-chevron-left {
     font-size: 30px;
@@ -3986,7 +4272,7 @@ RESPONSIVENESS
     margin-right: -2rem;
   }
 
-  
+
 
   .large_screen_button {
     margin-left: 290px;
@@ -4023,25 +4309,25 @@ RESPONSIVENESS
   }
 
 
-/* commented it out to make the header responsive when reducing the browser */
+  /* commented it out to make the header responsive when reducing the browser */
   /* .header{
     height: 5vh;
   } */
-  
-.logo_holder {
-  background: #fff;
-  width: auto;
-  display: flex;
-  padding: 0 15px;
- 
-}
+
+  .logo_holder {
+    background: #fff;
+    width: auto;
+    display: flex;
+    padding: 0 15px;
+
+  }
 
 
-.nav_button_holder button {
-  width: 32%;
-  height: 80%;
-  margin-top: 4px;
-}
+  .nav_button_holder button {
+    width: 32%;
+    height: 80%;
+    margin-top: 4px;
+  }
 
 
   aside {
@@ -4052,24 +4338,24 @@ RESPONSIVENESS
 
 
   /* commented this out bcos of the media query 992 i added to main_content */
-/* .main_content{
+  /* .main_content{
   padding-left: 250px;
   min-height: 50vh;
   
 } */
 
-/* commented this out bcos of the media query 992 i added to main_content */
-/* .utility_holder_alt{
+  /* commented this out bcos of the media query 992 i added to main_content */
+  /* .utility_holder_alt{
   flex-wrap: nowrap;
   max-width: 100%;
 } */
 
-.no_padding {
-  padding-left: 70px;
-  transition: all 0.3s ease;
-}
+  .no_padding {
+    padding-left: 70px;
+    transition: all 0.3s ease;
+  }
 
- 
+
 
   .developer_username {
     margin-left: 5rem;
@@ -4095,7 +4381,7 @@ RESPONSIVENESS
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
     width: fit-content;
   } */
-/* 
+  /* 
   #transaction_card .referal_btn {
     margin-left: 1rem;
     margin-top: 3rem
@@ -4118,13 +4404,13 @@ RESPONSIVENESS
   }
 
 
-/* commented this out, it was interrupting the responsiveness */
+  /* commented this out, it was interrupting the responsiveness */
   /* #transaction_card2 {
     background-color: var(--secondary_color);
     height: 8rem;
     cursor: pointer;
   } */
-/* 
+  /* 
   #recurrent_transaction_card2 {
     background-color: var(--secondary_color);
     height: 11rem;
@@ -4151,7 +4437,7 @@ RESPONSIVENESS
     font-family: var(--text_font);
   }
 
-  
+
 
   .support_card {
     padding-left: 25%;
@@ -4190,7 +4476,7 @@ RESPONSIVENESS
     padding-top: 5rem;
     padding-left: 14rem;
   }
-  
+
 
   /* .authorization_card{
       background-color: #fff;
@@ -4624,10 +4910,12 @@ TRANSACTION DETAILS STYLING
     width: 10rem;
   }
 
-  .dashboard_generate {
+  /* .dashboard_generate {
     padding-left: 46.5rem;
     margin-bottom: -65rem;
-  }
+  } */
+
+
 
 
   .dashboard3_authorization_4 {
@@ -5083,7 +5371,9 @@ TRANSACTION DETAILS STYLING
 }
 
 
-
+/* =======================================
+IPHONE 5/SE RESPONSIVENESS STYLING
+======================================= */
 @media only screen and (max-width: 320px) {
 
   #mobile-nav-toggle {
@@ -5136,15 +5426,111 @@ TRANSACTION DETAILS STYLING
     margin-bottom: 0;
   }
 
+  .small_screen_btn {
+    margin-left: 1rem;
+  }
 
-  /* .utility{
-  margin-right:auto;
-  margin-left: auto;
-} */
+  .balance {
+    font-style: 6px !important;
+  }
+
+  .balance_1 {
+    width: 48px !important;
+    border-radius: 100px;
+    padding: 0px 5px 0px;
+    border: none;
+  }
+
+  .balance_1::placeholder {
+    color: var(--secondary_color);
+    font-weight: bolder;
+    padding-left: 8px;
+    font-size: 10px !important;
+  }
+
+
+  .mobile_airtime_card p {
+    font-size: 12px !important;
+    color: black !important;
+  }
+
+  .mobile_airtime_card {
+    margin-left: 2rem !important;
+    width: 7rem !important;
+    height: 7rem !important;
+
+  }
+
+  .footer_mobile_links a {
+    font-size: 15px !important;
+    display: inline-block;
+    color: #eee;
+    line-height: 1;
+    padding: 8px 0;
+    border-radius: 50%;
+    text-align: center;
+    width: 35px !important;
+    height: 45px;
+    transition: 0.3s;
+    cursor: pointer;
+    margin-left: 1.3rem !important;
+  }
+
+  .modal_electricity .modal-content button span,
+  .modal_airtime_data .modal-content button span,
+  .modal_cable .modal-content button span,
+  .modal_bill .modal-content button span {
+    margin-left: -30rem !important;
+  }
+
+  .modal_electricity .modal-content select,
+  .modal_electricity .modal-content input,
+  .modal_airtime_data .modal-content select,
+  .modal_airtime_data .modal-content input,
+  .modal_cable .modal-content select,
+  .modal_cable .modal-content input {
+    width: 16rem !important;
+
+  }
+
+  .modal_electricity .modal-body .mobile_modalairtime_text,
+  .modal_airtime_data .modal-body .mobile_modalairtime_text,
+  .modal_cable .modal-body .mobile_modalairtime_text,
+  .modal_bill .modal-body .mobile_modalairtime_text {
+    font-size: 8.5px !important;
+  }
+
+
+  .modal_bill .modal-content select,
+  .modal_bill .modal-content input {
+    width: 16rem !important;
+  }
 
 
 
+
+  .modal_electricity .btn-primary,
+  .modal_airtime_data .btn-primary,
+  .modal_cable .btn-primary,
+  .modal_bill .btn-primary {
+    border-radius: 60px;
+    padding: 9px;
+    width: 10rem;
+    text-transform: uppercase;
+    background: var(--primary_color);
+    border: none;
+    margin-left: -13rem !important;
+    margin-top: 1.5rem;
+
+  }
 }
+
+/* =======================================
+END OF IPHONE 5/SE RESPONSIVENESS STYLING
+======================================= */
+
+
+
 
 
 
@@ -5153,7 +5539,7 @@ TRANSACTION DETAILS STYLING
   /* ===================================
   LANDING PAGE MEDIA QUERY
 =================================== */
-/* .open_btn, .open_btn_alt{
+  /* .open_btn, .open_btn_alt{
   display: none;
 }  */
 
@@ -5661,7 +6047,7 @@ TRANSACTION DETAILS STYLING
     margin-left: 4rem;
     margin-top: 0.5rem
   } */
-/* 
+  /* 
   .dashboard-form-inline .input-group {
     width: 150px;
     margin-top: 15px;
@@ -5749,7 +6135,7 @@ TRANSACTION DETAILS STYLING
     font-weight: bolder;
     color: black;
     font-family: var(--text_font);
-  
+
   }
 
   .mobile_footer {
@@ -5864,26 +6250,27 @@ TRANSACTION DETAILS STYLING
     padding-top: 30px;
     padding-left: 9px;
   }
-  
-  .transaction_done_bg{
-   padding-top: 10rem;
-   padding-left: 2.5rem;
+
+  .transaction_done_bg {
+    padding-top: 10rem;
+    padding-left: 2.5rem;
   }
-  .transaction_successful{
+
+  .transaction_successful {
     background: transparent;
     border: 0.5px solid black;
     min-width: 18rem;
     min-height: 15rem;
   }
-  
-  .fa-check-circle{
+
+  .fa-check-circle {
     font-size: 50px;
     text-align: center;
     padding-top: 3.5rem;
     color: var(--primary_color);
   }
-  
-  .transaction_successful p{
+
+  .transaction_successful p {
     color: var(--primary_color);
     font-family: var(--text_font);
     font-size: 19px;
@@ -6790,8 +7177,7 @@ TRANSACTION DETAILS STYLING
   .modal_airtime_data .modal-content select,
   .modal_airtime_data .modal-content input,
   .modal_cable .modal-content select,
-  .modal_cable .modal-content input
-   {
+  .modal_cable .modal-content input {
 
     width: 18rem;
     margin-right: 0.5rem;
@@ -6801,7 +7187,7 @@ TRANSACTION DETAILS STYLING
     margin-top: 0.5rem;
     box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
     border: none;
-   
+
   }
 
   .modal_bill .modal-content select,
