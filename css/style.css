@@ -3385,21 +3385,23 @@ RESPONSIVENESS
   .nav_button_holder {
 display: none !important;
 }
-/* .small_screen_btn {
-  margin-left: 1rem;
-} */
 
 .small_screen_btn{
+  margin-top: 1rem;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
-
-/* .balance {
-  font-style: 6px !important;
+.balance {
+  background: var(--primary_color);
+  border: none;
+  font-family: var(--text_font);
+  color: var(--text_font);
+  font-style: 8px;
 }
 
 .balance_1 {
-  width: 48px !important;
+  width: 68px !important;
   border-radius: 100px;
   padding: 0px 5px 0px;
   border: none;
@@ -3409,8 +3411,8 @@ display: none !important;
   color: var(--secondary_color);
   font-weight: bolder;
   padding-left: 8px;
-  font-size: 10px !important;
-} */
+  font-size: 14px !important;
+} 
   aside {
     display: none;
   }
@@ -3618,7 +3620,10 @@ RESPONSIVENESS
     font-family: var(--text_font);
   }
 
-  .modal_airtime_data .modal-body .dispaly_none {
+  .modal_airtime_data .modal-body .dispaly_none,
+  .modal_electricity .modal-body .dispaly_none,
+  .modal_cable .modal-body .dispaly_none,
+  .modal_bill .modal-body .dispaly_none{
     display: none !important;
   }
 
@@ -3674,7 +3679,10 @@ RESPONSIVENESS
     border: none;
   }
 
-  .modal_airtime_data .btn_dispaly_none {
+  .modal_airtime_data .btn_dispaly_none,
+  .modal_electricity .btn_dispaly_none,
+  .modal_cable .btn_dispaly_none,
+  .modal_bill .btn_dispaly_none {
     display: none !important;
   }
 
@@ -6069,6 +6077,7 @@ END OF IPHONE 5/SE RESPONSIVENESS STYLING
   .small_screen_btn{
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
   }
 
   .balance_1 {
