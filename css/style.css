@@ -3385,8 +3385,13 @@ RESPONSIVENESS
   .nav_button_holder {
 display: none !important;
 }
-.small_screen_btn {
+/* .small_screen_btn {
   margin-left: 1rem;
+} */
+
+.small_screen_btn{
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* .balance {
@@ -5646,9 +5651,10 @@ END OF IPHONE 5/SE RESPONSIVENESS STYLING
     font-style: 8px;
   }
 
-  .details_btn .balance_sm {
+  /* .details_btn .balance_sm {
     margin-right: 0;
-  }
+  } */
+
 
   .balance_1 {
     width: 45px;
@@ -6059,6 +6065,11 @@ END OF IPHONE 5/SE RESPONSIVENESS STYLING
   /* .balance{
     font-size: 14px;
   } */
+
+  .small_screen_btn{
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   .balance_1 {
     width: 65px;
