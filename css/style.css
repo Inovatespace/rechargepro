@@ -1412,7 +1412,7 @@ TRANSACTION DETAILS STYLING
 ================================================== */
 .making_payment_section {
 
-  padding-left: 5rem;
+  padding-left: 2rem;
 }
 
 .making_payment_section a {
@@ -1420,30 +1420,42 @@ TRANSACTION DETAILS STYLING
   font-family: var(--text_font);
   text-align: center;
   font-weight: bolder;
+  font-size: 16px;
 }
 
 .making_payment_section .ussd_card>a {
   text-transform: uppercase;
   padding-right: 1rem;
+  font-size: 16px;
+}
+
+.making_payment_section .card {
+  background:#fff;
+  /* height: 12rem; */
+  box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
+  border: none;
 }
 
 .making_payment_section .img_banktransfer {
   cursor: pointer;
-  margin-left: 5.5rem;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
 .making_payment_section .ussd_banktransfer {
   cursor: pointer;
-  margin-left: 5.5rem;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 2rem;
   margin-bottom: 1.5rem;
 }
 
 .making_payment_section .debitcard_banktransfer {
   cursor: pointer;
-  margin-left: 5rem;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 2rem;
   margin-bottom: 3rem;
 }
@@ -1451,7 +1463,6 @@ TRANSACTION DETAILS STYLING
 
 .making_payment_section .img_rechargeprowallet {
   cursor: pointer;
-
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
@@ -1830,7 +1841,17 @@ TRANSACTION DETAILS STYLING
 
 
 /* ===================================
-  TRANSACTION PAGE STYLING
+  TRANSACTION FAILED PAGE STYLING
+=================================== */
+.fa-exclamation-triangle {
+  font-size: 80px;
+  text-align: center;
+  padding-top: 3rem;
+  color: var(--primary_color);
+}
+
+/* ===================================
+  TRANSACTION SUCCESSFUL PAGE STYLING
 =================================== */
 .transaction_done {
   padding-top: 100px;
@@ -2721,10 +2742,11 @@ td {
   border-radius: 0;
   border: none;
   border-bottom: 0.5px solid black;
-  margin-left: -3.4rem;
+  margin-left: -2.9rem;
+  box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
 }
 
-.authorisation2:hover {
+/* .authorisation2:hover {
   background-color: #fff;
   border-bottom: 3px solid #F3F2F2;
   border-top: 3px solid #F3F2F2;
@@ -2741,7 +2763,7 @@ td {
   border: none;
   border-bottom: 0.5px solid black;
   margin-left: -3.4rem;
-}
+} */
 
 
 .authorization_table {
@@ -3108,7 +3130,7 @@ td {
 
 }
 
-@media screen and (max-width: 990px) {
+@media only screen  and (max-width: 990px) {
 
   .dashboard_logo {
     width: 0;
@@ -3362,23 +3384,55 @@ RESPONSIVENESS
 
 
   /* END OF ACCOUNT AUTHORISATION PAGE STYLING */
+
+  /* BECONE AN AGENT PAGE STYLING */
+
+  .profile_page {
+    padding-top: 5rem;
+    padding-left: 2rem;
+}
+
+.user_details {
+  padding-top: 2rem;
+  padding-left: 2rem;
+}
+
+.upload_file button, .upload_file2 button {
+  width: 30%;
+  margin-left: -5.8rem;
+}
+  /* END OF BECONE AN AGENT PAGE STYLING */
+
+
+  /* DASHBOARD-1 PAGE STYLING */
+
+  /* .amount_paid_section {
+    padding-left: 1rem !important;
+} */
+
+  /* END OF DASHBOARD-1 PAGE STYLING */
+
+  /* DASHBOARD-3 PAGE STYLING */
+
+  .banktransfer_details {
+    margin-left: 2rem;
+}
+  .amount_paid_section2 {
+    padding-top: 3rem;
+    padding-left: 2rem;
+}
+
+/* END OF DASHBOARD-3 PAGE STYLING */
+
+.debitcard {
+  margin-left: 0;
 }
 
 
 
 
 @media only screen and (max-width:731px) {
-  /* nav{
-    display: none;
-  } */
 
-  /* .small_screen_btn{
-    display: none;
-  } */
-
-  /* .display_for_731{
-    display: none;
-  } */
   .search_form_element {
     display: none !important;
 }
@@ -3691,6 +3745,25 @@ END OF ALL MODAL FOR DASHBOARD IPADPRO
 RESPONSIVENESS
 =================================== */
 
+
+
+
+  /* ===================================
+ACCOUNT AUTHORISATION PAGE STYLING
+=================================== */
+
+.dashboard3_authorization_4 {
+  padding-top: 5rem;
+  padding-left: 1rem !important;
+}
+
+.dashboard_generate {
+  padding-left: 8.5rem !important;
+}
+  /* ===================================
+END OF ACCOUNT AUTHORISATION PAGE STYLING
+=================================== */
+
   .dashboard-3-card1 {
     min-width: 3rem;
     border-right: 1px solid red;
@@ -3728,7 +3801,46 @@ RESPONSIVENESS
 
   }
 
+  /* BECONE AN AGENT PAGE STYLING */
 
+ 
+
+.upload_file button, .upload_file2 button {
+  width: 20%;
+} 
+  /* END OF BECONE AN AGENT PAGE STYLING */
+
+
+  /* DASHBOARD-1 PAGE STYLING */
+
+  .amount_paid_section {
+    padding-top: 7rem;
+    padding-left: 3rem;
+}
+
+  .amount_paid_section .amount_paid_sectionheader::before {
+    width: 550px;
+  }
+
+  .proceed_amount {
+    padding-left: 8rem;
+    padding-top: 2rem;
+  }
+  
+  /* END OF DASHBOARD-1 PAGE STYLING */
+
+    /* DASHBOARD-3 PAGE STYLING */
+
+    /* .banktransfer_details {
+      margin-left: 1rem !important;
+      width: 35rem !important;
+  } */
+    .amount_paid_section2 {
+      padding-top: 3rem;
+      padding-left: 0 !important;
+  }
+  
+  /* END OF DASHBOARD-3 PAGE STYLING */
 
 }
 
@@ -4053,6 +4165,66 @@ RESPONSIVENESS
 
 
   /* END OF ACCOUNT AUTHORISATION PAGE STYLING */
+
+
+
+  /* ACCOUNT READ ACCESS PAGE STYLING */
+
+  .authorisation2 {
+    min-width: 44rem;
+    margin-left: -5.6rem;
+}
+
+.read_access2 {
+  min-width: 44rem;;
+  margin-left: -5.6rem;
+}
+  /* END OF ACCOUNT READ ACCESS PAGE STYLING */
+
+
+  /* BECONE AN AGENT PAGE STYLING */
+
+  .profile_page {
+    padding-top: 5rem;
+    padding-left: 5rem;
+}
+
+.user_details {
+  padding-top: 2rem;
+  padding-left: 4rem;
+}
+/* 
+.upload_file button, .upload_file2 button {
+  width: 30% !important;
+  margin-left: -5.8rem !important;
+} */
+  /* END OF BECONE AN AGENT PAGE STYLING */
+
+
+  /* DASHBOARD-2 PAGE STYLING */
+  
+
+  .amount_paid_section2 {
+    padding-top: 3rem;
+    padding-left: 5rem;
+}
+
+  .banktransfer_details {
+    margin-left: 0;
+    border: 1px solid #F53840;
+    min-height: 31rem;
+    width: 38rem;
+}
+
+/* END OF DASHBOARD-2 PAGE STYLING */
+
+  /* DASHBOARD-7 PAGE STYLING */
+
+.debitcard {
+  margin-left: 0;
+}
+
+/* END OF DASHBOARD-7 PAGE STYLING */
 }
 
 
@@ -4246,6 +4418,31 @@ RESPONSIVENESS
     padding-left: 1rem;
   }
 
+  /* DASHBOARD-1 PAGE STYLING */
+
+  .amount_paid_section {
+    padding-left: 5rem;
+}
+
+.amount_paid_section .amount_paid_sectionheader::before {
+  width: 600px;
+  /* left: 3%; */
+}
+
+.enter_amount {
+  padding-left: 1rem;
+}
+
+.enter_amount input {
+  width: 600px;;
+}
+
+.proceed_amount {
+  padding-left: 10rem;
+  padding-top: 2rem;
+}
+
+/* END OF DASHBOARD-1 PAGE STYLING */
 
 }
 
@@ -4673,6 +4870,8 @@ RESPONSIVENESS
 
 
 
+
+
   /* ===================================
  DASHBOARD-1 STYLING
 =================================== */
@@ -4719,7 +4918,7 @@ RESPONSIVENESS
   }
 
   .proceed_amount {
-    padding-left: 13rem;
+    padding-left: 17rem;
     padding-top: 2rem;
   }
 
@@ -4817,7 +5016,7 @@ TRANSACTION DETAILS STYLING
 
   .amount_paid_section {
     padding-top: 5rem;
-    padding-left: 10rem;
+    padding-left: 9rem;
   }
 
   .making_payment_section {
@@ -5192,6 +5391,10 @@ TRANSACTION DETAILS STYLING
     background: #1492E6;
   }
 
+  
+
+
+
   /* ===================================
    PROFILE PAGE STYLING
 =================================== */
@@ -5224,7 +5427,9 @@ TRANSACTION DETAILS STYLING
     padding-bottom: 3px;
 
   }
-
+  .user_details .section::before {
+    width: 280px;
+  }
   .user-input label {
     font-size: 14px;
     padding-top: 1.5rem;
@@ -5240,17 +5445,6 @@ TRANSACTION DETAILS STYLING
     border: 1px solid grey;
     width: 80%;
     padding: 5px;
-  }
-
-  .user_details .section::before {
-    content: '';
-    position: absolute;
-    display: block;
-    width: 180px;
-    height: 2px;
-    background: #F53B43;
-    bottom: 0;
-
   }
 
   .upload_file button {
@@ -5349,7 +5543,7 @@ TRANSACTION DETAILS STYLING
   margin-right: 1rem;
 } */
   .content2 {
-    padding-left: 1rem;
+    padding-left: 1rem !important;
   }
 
   .developer_tool {
@@ -5535,6 +5729,14 @@ IPHONE 5/SE RESPONSIVENESS STYLING
     margin-left: -13rem !important;
     margin-top: 1.5rem;
 
+  }
+
+
+  /* BECOME AN AGENT PAGE STYLING */
+
+  .upload_file button, .upload_file2 button {
+    width: 30% !important;
+    margin-left: -5rem !important;
   }
 }
 
@@ -6399,7 +6601,7 @@ TRANSACTION DETAILS STYLING
 =================================== */
   .amount_paid_section {
     padding-top: 4rem;
-    padding-left: 4rem;
+    padding-left: 1rem;
 
   }
 
@@ -6464,7 +6666,7 @@ TRANSACTION DETAILS STYLING
   .banktransfer_details {
     margin-left: 13rem;
     border: 1px solid #F53840;
-    min-height: 50rem;
+    min-height: 20rem;
     width: 38rem;
   }
 
@@ -6734,6 +6936,12 @@ TRANSACTION DETAILS STYLING
     padding-left: 1rem;
   }
 
+  .dashboard3_authorization_4{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  
   .authorisation {
     background: var(--secondary_color);
     cursor: pointer;
@@ -6767,33 +6975,12 @@ TRANSACTION DETAILS STYLING
 
 
   .read_access2 {
-    background: var(--secondary_color);
-    cursor: pointer;
-    min-width: 22rem;
-    min-height: 5.5rem;
-    text-align: center;
-    font-family: var(--text_font);
-    color: var(--text_color);
-    border-radius: 0;
+    min-width: 27rem;
   }
 
   .authorisation2 {
-    background-color: #fff;
-    border-bottom: 3px solid #F3F2F2;
-    border-top: 3px solid #F3F2F2;
-    cursor: pointer;
-    margin: 0;
-    padding: 0;
-    min-width: 25.5rem;
-    min-height: 5.5rem;
-    text-align: center;
-    font-weight: bold;
-    font-family: var(--text_font);
-    color: var(--secondary_color);
-    border-radius: 0;
-    border: none;
-    border-top: 0.5px solid black;
-    margin-left: -3.4rem;
+    min-width: 27rem;
+   
   }
 
   .authorization_table {
