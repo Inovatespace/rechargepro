@@ -2325,7 +2325,7 @@ TRANSACTION DETAILS STYLING
 #support_card_inner {
   background-color: #fff;
   height: 3rem;
-  box-shadow: 1px 1px 1px 1px gray;
+  box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
   border: none;
 }
 
@@ -3413,6 +3413,22 @@ RESPONSIVENESS
 width: 270px;
   margin-right: 12rem;
 }
+
+.support_card h5 {
+  padding-left: 22.5rem;
+}
+
+.developer_main {
+  padding-left: 10rem;
+}
+
+.developer_main .developer_card {
+  min-width: 13rem;
+ 
+}
+.content2 {
+  padding-left: 0;
+}
 }
 
 
@@ -4253,6 +4269,21 @@ width: 270px;
   margin-right: 12rem;
 }
 
+.support_card h5 {
+  padding-left: 22.5rem;
+}
+
+.developer_main {
+  padding-left: 10rem;
+}
+
+.developer_main .developer_card {
+  min-width: 13rem;
+ 
+}
+.content2 {
+  padding-left: 0;
+}
 
 }
 
@@ -6696,9 +6727,7 @@ TRANSACTION DETAILS STYLING
     }
 
     #support_card_inner {
-      background-color: #fff;
-      height: 3rem;
-      box-shadow: 1px 1px 1px 1px gray;
+      box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
       margin-bottom: 1.5rem;
     }
 
