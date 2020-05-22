@@ -210,14 +210,14 @@
         <div class="row support_card">
             <a onClick="javascript:history.go(-1)"><i class="fa fa-chevron-left support_chevron"></i></a>
             <div class="col-md-3">
-                <div class="card" id="support_card_inner">
+                <div class="card mb-3" id="support_card_inner">
                     <div class="mt-1 text-center">
                         <p><span>0</span>All Ticket</p>
                     </div>
 
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 mb-3">
                 <div class="card" id="support_card_inner">
                     <div class="mt-1 text-center">
                         <p><span>0</span>Unresolved</p>
@@ -226,7 +226,7 @@
 
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 mb-3">
                 <div class="card" id="support_card_inner">
                     <div class="mt-1 text-center">
                         <p><span>0</span>Unread</p>
@@ -234,7 +234,7 @@
 
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 mb-3">
                 <div class="card" id="support_card_inner">
                     <div class="mt-1 text-center">
                         <p><span>0</span>Closed</p>
@@ -249,7 +249,10 @@
 
     <div class="container mb-5">
         <div class="row support_card">
-            <h5>Create New Ticket</h5>
+            <div class="support_btn_holder">
+            <button class="btn btn-lg btn-primary" data-toggle="modal" data-target="#supportModal">Create New Ticket</button>
+        </div>
+            <!-- <h5>Create New Ticket</h5> -->
 
             <div class="table-responsive">
                 <table class="table  mt-3" cellpadding="5" cellspacing="5">
@@ -275,6 +278,59 @@
         </div>
 
     </div>
+
+        <!-- ===================================
+    MODAL FOR OTP
+ ===================================  -->
+ <div class="modal support_modal fade" id="supportModal" tabindex="-1" role="dialog" aria-labelledby="supportModal"
+ aria-hidden="true">
+ <div class="modal-dialog" role="document">
+     <div class="modal-content modal-sm">
+         <div class="modal-header" style="background: #F1F1F1;">
+             <!-- <h6 class="modal-title" id="exampleModalLabel">Support Ticket</h6> -->
+             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                 <span aria-hidden="true">&times;</span>
+             </button>
+         </div>
+         <div class="modal-body">
+             <form action="">
+                 <label for=""><strong>Category of Issues:</strong></label>
+                 <br>
+                 <select name="" id="">
+                     <option value="" selected>Select Issues</option>
+                     <option value="" selected>Account not credited</option>
+                     <option value="" selected>Transfer issue</option>
+                     <option value="" selected>Payment issue</option>
+                 </select>
+                 <br>
+
+                 <label for=""><strong>Name:</strong></label>
+                 <br>
+                 <input type="text" placeholder="Enter Name" />
+
+                 <label for=""><strong>Email:</strong></label>
+                 <br>
+
+                 <input type="email" placeholder="Enter Email" />
+                 <br>
+                
+                 <label for=""><strong>Subject:</strong></label>
+                 <br>
+                 <textarea name=""></textarea>
+                 <br>
+                <div class="text-center mt-3">
+                 <a href="invoice-details.html"><button type="button" class="btn btn-primary">Submit</button></a>
+                </div>
+             </form>
+         </div>
+
+     </div>
+ </div>
+</div>
+
+<!-- /* ===================================
+END OF MODAL FOR REPRINT
+=================================== */ -->
 
 
     <!-- Javascript Libraries -->

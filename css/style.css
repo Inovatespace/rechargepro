@@ -128,6 +128,7 @@ input {
 .open_btn_alt {
   font-size: 20px;
   cursor: pointer;
+  margin-top:0.5rem;
 }
 
 .open_btn_alt {
@@ -158,6 +159,114 @@ input {
 /* ===================================
           END OF NAVBAR
 =================================== */
+
+/*--------------------------
+   VERIFICATION PAGES STYLING
+---------------------------*/
+.verification{
+  margin: auto;
+  text-align: center;
+}
+.verification img{
+  width: 300px;
+  padding-top: 2rem;
+}
+
+.verification_content{
+  margin: auto;
+  text-align: center;
+  padding-top: 2rem;
+}
+.verification_content h5{
+  padding-bottom: 3rem;
+  color: var(--primary_color);
+  font-size: 20px;
+}
+
+.verification_content .verification_input input {
+  border: 1px solid var(--secondary_color); 
+  box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
+  width: auto;
+  padding: 3px;
+  transition: all 0.6s ease-in-out;
+  background: transparent;
+  font-size: 17px;
+  outline: none;
+}
+
+.verification_content .verification_input input::placeholder{
+color: var(--secondary_color);
+font-weight: bold;
+text-align: center;
+}
+
+.verification_content .btn-primary{
+  background: var(--primary_color);
+  border: none;
+  border-radius: 20rem;
+  width: auto;
+  margin-top: 0.5rem;
+  font-size: 16px;
+  text-transform: uppercase;
+  transition: all 0.6s ease-in-out;
+  padding: 10px 20px;
+  font-family: var(--text_font);
+}
+
+
+/*--------------------------
+OTP MODAL
+---------------------------*/
+.otp_modal {
+padding-top: 10rem;
+padding-left: 15rem;
+}
+
+
+.otp_modal .modal-body {
+  background: #F1F1F1;
+ width: auto;
+ height: auto;
+  padding-top: 2rem;
+}
+
+
+
+
+.reprint_modal .modal-content button span {
+  color: var(--secondary_color);
+  font-size: 25px;
+}
+
+.otp_modal .modal-content input {
+width: 15rem;
+margin-right: 0.5rem;
+padding: 5px;
+margin-bottom: 1rem;
+box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
+border: none;
+}
+
+.reprint_modal .modal-content select:focus {
+  border: 0 !important;
+  color: none !important;
+}
+
+
+
+.otp_modal .btn-primary {
+  border-radius: 80px;
+  padding: 3px;
+  width: 9rem;
+  background: var(--primary_color);
+  border: none;
+  margin-left: 3rem;
+  padding: 10px 20px;
+}
+
+/*--------------------------
+    END OF VERIFICATION PAGES STYLING
+---------------------------*/
 
 
 
@@ -2316,10 +2425,15 @@ TRANSACTION DETAILS STYLING
   padding-top: 8%;
 }
 
-.support_card h5 {
-  text-align: center;
-  color: var(--primary_color);
-  padding-left: 42.5rem;
+.support_btn_holder {
+  padding-left: 42rem;
+}
+
+.support_btn_holder .btn-primary{
+  background: transparent;
+  border: none;
+color: var(--primary_color);
+font-size: 20px;
 }
 
 #support_card_inner {
@@ -2385,6 +2499,84 @@ TRANSACTION DETAILS STYLING
   font-weight: bolder;
   margin-top: 0.5rem;
 }
+
+/* ===================================
+  MODAL FOR SUPPORT
+=================================== */
+.support_modal {
+  padding-top: 3rem;
+  padding-left: 15rem;
+
+}
+
+.support_modal .modal-title{
+  font-size: 20px;
+  color: var(--primary_color);
+  text-align: center;
+}
+
+
+.support_modal .modal-body {
+  height: auto;
+
+  background: #F1F1F1;
+}
+
+.support_modal .modal-body p {
+  font-size: 12px;
+  font-weight: bold;
+  font-family: var(--text_font);
+}
+
+.support_modal .modal-content {
+  min-width: 35rem;
+
+}
+
+.support_modal .modal-content button span {
+  color: var(--secondary_color);
+  font-size: 50px;
+  padding-left: 25rem;
+}
+
+.support_modal .modal-content select,
+.support_modal .modal-content input {
+
+  width: 30rem;
+  margin-right: 0.5rem;
+  border-radius: 60px;
+  padding: 15px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
+  border: none;
+}
+.support_modal textarea{
+  box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
+  border: none;
+  width: 30rem;
+  height: 10rem;
+}
+
+.modal_airtime_data .modal-content select:focus {
+  border: 0 !important;
+  color: none !important;
+}
+
+
+
+.support_modal .btn-primary {
+  border-radius: 80px;
+  padding: 12px;
+  width: 21rem;
+  text-transform: uppercase;
+  background: var(--primary_color);
+  border: none;
+}
+
+/* ===================================
+  END OF MODAL FOR SUPPORT
+=================================== */
 
 
 /* ===================================
@@ -3429,6 +3621,22 @@ width: 270px;
 .content2 {
   padding-left: 0;
 }
+
+/* SUPPORT PAGE STYLING */
+.support_btn_holder {
+  padding-left: 21.5rem;
+}
+
+/* ===================================
+  MODAL FOR SUPPORT
+=================================== */
+.support_modal {
+  padding-top: 3rem;
+  padding-left: 3rem;
+
+}
+
+
 }
 
 
@@ -3885,6 +4093,20 @@ TRANSACTION DETAILS STYLING
 
 /* END TRANSACTION DETAILS PAGE STYLING */
 
+/* SUPPORT PAGE STYLING */
+.support_btn_holder {
+  padding-left: 5rem !important;
+}
+
+/* ===================================
+  MODAL FOR SUPPORT
+=================================== */
+.support_modal {
+  padding-top: 3rem;
+  padding-left: 3rem;
+
+}
+
   }
 
  
@@ -4269,10 +4491,20 @@ width: 270px;
   margin-right: 12rem;
 }
 
-.support_card h5 {
-  padding-left: 22.5rem;
+
+/* SUPPORT PAGE STYLING */
+.support_btn_holder {
+  padding-left: 21.5rem;
 }
 
+/* ===================================
+  MODAL FOR SUPPORT
+=================================== */
+.support_modal {
+  padding-top: 3rem;
+  padding-left: 3rem;
+
+}
 .developer_main {
   padding-left: 10rem;
 }
@@ -5558,6 +5790,12 @@ TRANSACTION DETAILS STYLING
 /* END TRANSACTION DETAILS PAGE STYLING */
 
 
+/* SUPPORT PAGE STYLING */
+.support_btn_holder {
+  padding-left: 32rem;
+}
+
+
   }
 
 
@@ -5734,6 +5972,26 @@ END OF IPHONE 5/SE RESPONSIVENESS STYLING
 
 
   @media only screen and (max-width: 600px) {
+
+    /*--------------------------
+OTP MODAL
+---------------------------*/
+
+.support_btn_holder {
+  padding-left: 0;
+  text-align: center;
+}
+.otp_modal {
+ margin: auto;
+ padding-left: 0;
+ text-align: center;
+  }
+
+  
+.otp_modal .btn-primary {
+  margin-left: 0;
+}
+
 
     /* ===================================
   LANDING PAGE MEDIA QUERY
@@ -6775,6 +7033,81 @@ TRANSACTION DETAILS STYLING
       font-weight: bolder;
       margin-top: 0.5rem;
     }
+
+    /* ===================================
+  MODAL FOR SUPPORT
+=================================== */
+.support_modal {
+  padding-top: 3rem;
+  padding-left: 0;
+
+}
+
+.support_modal .modal-title{
+  font-size: 20px;
+  color: var(--primary_color);
+  text-align: center;
+}
+
+
+.support_modal .modal-body {
+  height: auto;
+
+  background: #F1F1F1;
+}
+
+.support_modal .modal-body p {
+  font-size: 12px;
+  font-weight: bold;
+  font-family: var(--text_font);
+}
+
+.support_modal .modal-content {
+  min-width: 20rem;
+
+}
+
+.support_modal .modal-content button span {
+  color: var(--secondary_color);
+  font-size: 50px;
+  padding-left: 10rem;
+}
+
+.support_modal .modal-content select,
+.support_modal .modal-content input {
+
+  width: 20rem;
+  margin-right: 0.5rem;
+  border-radius: 60px;
+  padding: 15px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
+  border: none;
+}
+.support_modal textarea{
+  box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
+  border: none;
+  width: 20rem;
+  height: 10rem;
+}
+
+.modal_airtime_data .modal-content select:focus {
+  border: 0 !important;
+  color: none !important;
+}
+
+
+
+.support_modal .btn-primary {
+  border-radius: 80px;
+  padding: 12px;
+  width: 21rem;
+  text-transform: uppercase;
+  background: var(--primary_color);
+  border: none;
+}
+
 
     /* ===================================
    DEVELOPER PAGE STYLING
