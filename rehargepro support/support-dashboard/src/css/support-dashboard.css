@@ -1,0 +1,60 @@
+@import url("../../../src/style.css");
+
+.logo{
+       top: -10px;
+}
+
+nav{
+    box-shadow: none;
+}
+
+.sidebar-nav{
+    padding: 0;
+    margin-top: 10px;
+}
+
+.navtop{
+    background: var(--primary-color) !important;
+    position: relative;
+    top: -8px;
+}
+
+.sidebar-item{
+    font-size: 18px;
+}
+
+.pills_holder{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ticket_card{
+   box-shadow: 0 0 4px 3px rgb(0, 0, 0, 0.15);
+   min-height: 30vh;
+   padding: 30px;
+    min-width: 200px;
+    background: transparent;
+    color: var(--primary-color);
+    transition: all 0.3s ease;
+}
+
+.ticket_card:hover{
+    background: var(--primary-color);
+    color: #fff;
+}
+
+.search{
+    width: 250px;
+    float: right;
+    padding-bottom: 20px;
+}
+
+.search .form_element{
+    display: flex;
+}
+
+.search .form_element span {
+    position: relative;
+    top: 13px;
+    right: 5px;
+}
