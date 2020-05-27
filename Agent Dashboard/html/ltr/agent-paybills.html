@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+
+<!-- Mirrored from www.wrappixel.com/demos/admin-templates/xtreme-admin/html/ltr/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 21 May 2020 17:16:24 GMT -->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/images/favicon/favicon.png">
+
+
+    <link rel="apple-touch-icon" sizes="57x57" href="../../assets/images/favicon/apple-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="../../assets/images/favicon/apple-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="../../assets/images/favicon/apple-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="../../assets/images/favicon/apple-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="../../assets/images/favicon/apple-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="../../assets/images/favicon/apple-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="../../assets/images/favicon/apple-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="../../assets/images/favicon/apple-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../../assets/images/favicon/apple-icon-180x180.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="../../assets/images/favicon/android-icon-192x192.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="../../assets/images/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="../../assets/images/favicon/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/images/favicon/favicon-16x16.png" />
+
+
+    <title>Agent_Payills - Rechargepro</title>
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Monoton|Nunito|Roboto+Mono&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+    <link rel="canonical" href="https://www.wrappixel.com/templates/xtremeadmin/" />
+    <!-- Custom CSS -->
+    <link href="../../assets/libs/chartist/dist/chartist.min.css" rel="stylesheet">
+    <link href="../../assets/extra-libs/c3/c3.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="../../dist/css/style.min.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+    <!-- ============================================================== -->
+    <!-- Preloader - style you can find in spinners.css -->
+    <!-- ============================================================== -->
+    <!-- <div class="preloader">
+        <div class="lds-ripple">
+            <div class="lds-pos"></div>
+            <div class="lds-pos"></div>
+        </div>
+    </div> -->
+    <!-- ============================================================== -->
+    <!-- Main wrapper - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <div id="main-wrapper">
+        <!-- ============================================================== -->
+        <!-- Topbar header - style you can find in pages.scss -->
+        <!-- ============================================================== -->
+        <header class="topbar">
+            <nav class="navbar top-navbar navbar-expand-md navbar-dark">
+                <div class="navbar-header">
+                    <!-- This is for the sidebar toggle which is visible on mobile only -->
+                    <a class="nav-toggler waves-effect waves-light d-block d-md-none" href="javascript:void(0)"><i
+                            class="ti-menu ti-close"></i></a>
+                    <!-- ============================================================== -->
+                    <!-- Logo -->
+                    <!-- ============================================================== -->
+                    <a class="navbar-brand" href="index.html">
+                        <!-- Logo icon -->
+                        <div class="dashboard_logo" class="pull-left">
+                            <img src="../../assets/images/logo_sm.png" alt="homepage" />
+                        </div>
+                        <!--End Logo icon -->
+
+                    </a>
+                    <!-- ============================================================== -->
+                    <!-- End Logo -->
+                    <!-- ============================================================== -->
+                    <!-- ============================================================== -->
+                    <!-- Toggle which is visible on mobile only -->
+                    <!-- ============================================================== -->
+                    <a class="topbartoggler d-block d-md-none waves-effect waves-light" href="javascript:void(0)"
+                        data-toggle="collapse" data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i
+                            class="ti-more"></i></a>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-collapse collapse" id="navbarSupportedContent">
+                    <!-- ============================================================== -->
+                    <!-- toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav float-left mr-auto">
+                        <li class="nav-item d-none d-md-block"><a
+                                class="nav-link sidebartoggler waves-effect waves-light" href="javascript:void(0)"
+                                data-sidebartype="mini-sidebar"><i class="mdi mdi-menu font-24"></i></a></li>
+
+                        <!-- ============================================================== -->
+                        <!-- Search -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item search-box"> <a class="nav-link waves-effect waves-dark"
+                                href="javascript:void(0)"><i class="ti-search"></i></a>
+                            <form class="app-search position-absolute">
+                                <input type="text" class="form-control" placeholder="Search &amp; enter"> <a
+                                    class="srh-btn"><i class="ti-close"></i></a>
+                            </form>
+                        </li>
+                    </ul>
+                    <!-- ============================================================== -->
+                    <!-- Right side toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav float-right">
+                        <!-- ============================================================== -->
+                        <!-- create new -->
+                        <!-- ============================================================== -->
+                        <div class="nav_button_holder pt-1 d-none d-sm-block">
+                            <button class="ml-2"><span class=""> Balance</span><input class="ml-2" placeholder="50000"
+                                    disabled></button>
+                            <button class="ml-2"> <span class="">Profit</span><input class="ml-2" placeholder="2000"
+                                    disabled></button>
+                        </div>
+                        <!-- ============================================================== -->
+                        <!-- User profile and search -->
+                        <!-- ============================================================== -->
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- ============================================================== -->
+        <!-- End Topbar header -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <aside class="left-sidebar">
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar">
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav">
+                        <!-- User Profile-->
+                        <li>
+                            <!-- User Profile-->
+                            <div class="user-profile d-flex no-block dropdown mt-3">
+                                <div class="user-pic"><img src="../../assets/images/users/1.jpg" alt="users"
+                                        class="rounded-circle" width="40" /></div>
+                                <div class="user-content hide-menu ml-2">
+                                    <a href="javascript:void(0)" class="" id="Userdd" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <h5 class="mb-0 user-name font-medium">Steave Jobs <i
+                                                class="fa fa-angle-down"></i></h5>
+                                        <span class="op-5 user-email"><span class="__cf_email__"
+                                                data-cfemail="23554251564d63444e424a4f0d404c4e">[email&#160;protected]</span></span>
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="Userdd">
+                                        <a class="dropdown-item" href="javascript:void(0)"><i
+                                                class="ti-user mr-1 ml-1"></i> My Profile</a>
+                                        <a class="dropdown-item" href="javascript:void(0)"><i
+                                                class="ti-wallet mr-1 ml-1"></i> My Balance</a>
+                                        <a class="dropdown-item" href="javascript:void(0)"><i
+                                                class="ti-email mr-1 ml-1"></i> Inbox</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="javascript:void(0)"><i
+                                                class="ti-settings mr-1 ml-1"></i> Account Setting</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="javascript:void(0)"><i
+                                                class="fa fa-power-off mr-1 ml-1"></i> Logout</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End User Profile-->
+                        </li>
+                        <li class="p-15 mt-2"><a href="agent-paybills.html"
+                                class="btn btn-block create-btn text-white no-block d-flex align-items-center"><i
+                                    class="fa fa-plus-square"></i> <span class="hide-menu ml-1">Pay Bills</span> </a>
+                        </li>
+                        <!-- User Profile-->
+
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
+                                href="agent.html" aria-expanded="false"><i data-feather="home"
+                                    class="feather-icon"></i><span class="hide-menu">Dashboard</span></a></li>
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
+                                href="agent-transfer.html" aria-expanded="false"><i data-feather="message-circle"
+                                    class="feather-icon"></i><span class="hide-menu">Transfer funds</span></a></li>
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
+                                href="agent-transaction.html" aria-expanded="false"><i data-feather="message-circle"
+                                    class="feather-icon"></i><span class="hide-menu">Transactions</span></a></li>
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
+                                href="support.html" aria-expanded="false"><i data-feather="message-circle"
+                                    class="feather-icon"></i><span class="hide-menu">Support</span></a></li>
+
+
+
+                    </ul>
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div>
+            <!-- End Sidebar scroll-->
+        </aside>
+        <!-- ============================================================== -->
+        <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Page wrapper  -->
+        <!-- ============================================================== -->
+        <div class="page-wrapper">
+            <!-- ============================================================== -->
+            <!-- Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <div class="page-breadcrumb">
+                <div class="row">
+                    <div class="col-5 align-self-center">
+                        <h4 class="page-title">Dashboard</h4>
+                        <div class="d-flex align-items-center">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">Library</li>
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-7 align-self-center">
+                        <div class="d-flex no-block justify-content-end align-items-center">
+                            <div class="mr-2">
+                                <div class="lastmonth"></div>
+                            </div>
+                            <div class=""><small>LAST MONTH</small>
+                                <h4 class="text-info mb-0 font-medium">$58,256</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- Container fluid  -->
+            <!-- ============================================================== -->
+            <div class="container-fluid">
+
+                <!-- ============================================================== -->
+                <!-- Ravenue - page-view-bounce rate -->
+                <!-- ============================================================== -->
+                <div class="row main_content mt-5">
+                    <!-- <div class="card"> -->
+                    <!-- column -->
+                    <div class="col-md-4">
+                        <div class="airtime_btn animated zoomIn">
+                            <button class="btn btn-lg airtime" id="airtime_data" data-toggle="modal"
+                                data-target="#airtimeModal">
+                                <img src="../../assets/images/airtime.png" alt="">
+                                <p class="mt-3">Airtime/Data</p>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- column -->
+                    <div class="col-md-4 mb-5">
+                        <div class="electricity_btn animated zoomIn mt-3">
+                            <button class="btn btn-lg airtime" data-toggle="modal" data-target="#electricityModal">
+                                <img src="../../assets/images/electricity.png" alt="">
+                                <p class="mt-2">Electricity</p>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- column -->
+                    <div class="col-md-4">
+                        <div class="cable_btn animated zoomIn mt-3">
+                            <button class="btn btn-lg airtime" data-toggle="modal" data-target="#cableModal">
+                                <img src="../../assets/images/cable.png" alt="">
+                                <p class="mt-2">Cable</p>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="bills_btn animated zoomIn mt-3">
+                            <button class="btn btn-lg airtime" data-toggle="modal" data-target="#billsModal">
+                                <img src="../../assets/images/bills.png" alt="">
+                                <p class="mt-2">Bills</p>
+                            </button>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-4 mt-4">
+                        <div class="airtime_btn animated zoomIn">
+                            <button class="btn btn-lg airtime" data-toggle="modal"
+                                data-target="#agentTransferFundModal">
+                                <img src="../../assets/images/Group 300.png" alt="">
+                                <p class="mt-3">Add Fund</p>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- column -->
+                    <div class="col-md-4">
+                        <div class="electricity_btn animated zoomIn mt-3">
+                            <button class="btn btn-lg airtime" data-toggle="modal" data-target="#agentWithdrawalModal">
+                                <img src="../../assets/images/Group 301.png" alt="">
+                                <p class="mt-2">Withdraw</p>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- </div> -->
+                </div>
+
+            </div>
+            <!-- ============================================================== -->
+            <!-- Recent comment and chats -->
+            <!-- ============================================================== -->
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Container fluid  -->
+        <!-- ============================================================== -->
+
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Page wrapper  -->
+    <!-- ============================================================== -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Wrapper -->
+    <!-- ============================================================== -->
+
+
+    <!-- ==========================================
+     MODAL FOR AIRTIME/DATA
+    ========================================== -->
+    <div class="modal modal_airtime_data fade" id="airtimeModal" tabindex="-1" role="dialog"
+        aria-labelledby="airtimeModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <button style="background: #F1F1F1;" type="button" class="close" data-dismiss="modal"
+                    aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+
+                <div class="modal-body">
+
+                    <form action="">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <select name="" id="" placeholder="Select Airtime/Data">
+                                        <option value="" disabled selected>Select Airtime/Data</option>
+                                        <option value="">Airtime</option>
+                                        <option value="">Data</option>
+                                    </select>
+
+                                    <br>
+
+                                    <select name="" id="">
+                                        <option value="" selected>Select Network</option>
+                                        <option value="">MTN</option>
+                                        <option value="">AIRTEL</option>
+                                        <option value="">GLO</option>
+                                        <option value="">9MOBILE</option>
+                                    </select>
+
+                                    <br>
+
+                                    <input type="text" name="" value="" placeholder="Enter Amount">
+
+                                    <p class="d-none d-sm-block dispaly_none">Token/Receipt will be sent to the
+                                        email/phone entered above</p>
+
+                                    <button type="button"
+                                        class="btn btn-lg btn-primary d-none d-sm-block btn_dispaly_none">Pay</button>
+                                </div>
+
+                                <div class="col-md-6 mobile_modal">
+                                    <input type="text" name="" value="" placeholder="Enter Phone/Account Number">
+
+                                    <br>
+                                    <input type="text" name="" value="" placeholder="Email Address no compulsory">
+                                </div>
+
+
+                                <!-- mobile view responsiveness text -->
+                                <p class="d-md-none d-lg-none mobile_modalairtime_text">Token/Receipt will
+                                    be sent to the email/phone entered above</p>
+
+                                <button type="button" class="btn btn-lg btn-primary d-md-none d-lg-none">Pay</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==========================================
+END OF MODAL FOR AIRTIME/DATA
+========================================== -->
+
+
+
+    <!-- ==========================================
+MODAL FOR ELECTRICITY
+========================================== -->
+    <div class="modal modal_electricity fade" id="electricityModal" tabindex="-1" role="dialog"
+        aria-labelledby="electricityModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+
+                <div class="modal-body">
+
+                    <form action="">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <select name="" id="" placeholder="Select Airtime/Data">
+                                        <option value="" selected>Select Provider</option>
+                                        <option value="">PHED</option>
+                                        <option value="">AECD</option>
+                                    </select>
+
+                                    <br>
+
+                                    <input type="number" name="" value="" placeholder="Enter Amount">
+
+                                    <br>
+
+                                    <input type="number" name="" value="" placeholder="Email Address no compulsory">
+
+                                    <p class="d-none d-sm-block dispaly_none">Token/Receipt will be sent to the
+                                        email/phone entered above</p>
+
+                                    <button type="button"
+                                        class="btn btn-lg btn-primary d-none d-sm-block btn_dispaly_none">Pay</button>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <input type="number" name="" value="" placeholder="Enter Meter Number">
+
+                                    <br>
+                                    <input type="number" name="" value="" placeholder="Email Phone Number">
+                                </div>
+
+                                <!-- mobile view responsiveness text -->
+                                <p class="d-md-none d-lg-none mobile_modalairtime_text">Token/Receipt will
+                                    be sent to the email/phone entered above</p>
+
+                                <button type="button" class="btn btn-lg btn-primary d-md-none d-lg-none">Pay</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==========================================
+END OF MODAL FOR ELECTRICITY
+========================================== -->
+
+
+    <!-- ==========================================
+MODAL FOR CABLE
+========================================== -->
+    <div class="modal modal_cable fade" id="cableModal" tabindex="-1" role="dialog" aria-labelledby="cableModal"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+
+                <div class="modal-body">
+
+                    <form action="">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <select name="" id="" placeholder="Select Airtime/Data">
+                                        <option value="" selected>Select Provide</option>
+                                        <option value="">Airtime</option>
+                                        <option value="">Data</option>
+                                    </select>
+
+                                    <br>
+
+                                    <input type="number" name="" value="" placeholder="Enter Amount">
+
+                                    <br>
+
+                                    <input type="number" name="" value="" placeholder="Email Address no compulsory">
+
+                                    <p class="d-none d-sm-block dispaly_none">Token/Receipt will be sent to the
+                                        email/phone entered above</p>
+
+                                    <button type="button"
+                                        class="btn btn-lg btn-primary d-none d-sm-block btn_dispaly_none">Pay</button>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <input type="number" name="" value="" placeholder="Enter Smart Card Number">
+
+                                    <br>
+                                    <input type="number" name="" value="" placeholder="Enter Phone Number">
+                                </div>
+                                <!-- mobile view responsiveness text -->
+                                <p class="d-md-none d-lg-none mobile_modalairtime_text">Token/Receipt will
+                                    be sent to the email/phone entered above</p>
+
+                                <button type="button" class="btn btn-lg btn-primary d-md-none d-lg-none">Pay</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==========================================
+END OF MODAL FOR CABLE
+========================================== -->
+
+
+    <!-- ==========================================
+MODAL FOR BILLS
+========================================== -->
+    <div class="modal modal_bill fade" id="billsModal" tabindex="-1" role="dialog" aria-labelledby="billsModal"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+
+                <div class="modal-body">
+
+                    <form action="">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <select name="" id="" placeholder="Select Airtime/Data">
+                                        <option value="" selected>Select Bills</option>
+                                        <option value="">Airtime</option>
+                                        <option value="">Data</option>
+                                    </select>
+
+                                    <br>
+
+                                    <input type="number" name="" value="" placeholder="Enter Amount">
+
+                                    <br>
+
+
+
+                                    <p class="d-none d-sm-block dispaly_none">Token/Receipt will be sent to the
+                                        email/phone entered above</p>
+
+                                    <button type="button"
+                                        class="btn btn-lg btn-primary d-none d-sm-block btn_dispaly_none">Pay</button>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <input type="number" name="" value="" placeholder="Enter Phone Number">
+
+                                    <br>
+                                    <input type="number" name="" value="" placeholder="Email Address no compulsory">
+                                </div>
+                                <!-- mobile view responsiveness text -->
+                                <p class="d-md-none d-lg-none mobile_modalairtime_text">Token/Receipt will
+                                    be sent to the email/phone entered above</p>
+
+                                <button type="button" class="btn btn-lg btn-primary d-md-none d-lg-none">Pay</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==========================================
+END OF MODAL FOR BILLS
+========================================== -->
+
+    <!-- Agent Transferfunds Modal -->
+    <div class="modal modal_wallet2bank_transfer fade" id="agentTransferFundModal" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content modal-sm">
+                <div class="modal-header">
+                    <!-- <h5 class="modal-title" id="exampleModalLabel">Wallet to Bank Transfer</h5> -->
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <input type="text" placeholder="Enter Amount" />
+                    <br>
+                    
+                    <button type="button" class="btn btn-primary mt-5" data-toggle="modal" data-target="#TransferOptionFundModal">Procced</button>
+                </div>
+                <div class="modal-footer">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Agent Transferoptions Modal -->
+    <div class="modal modal_wallet2bank_transfer fade" id="TransferOptionFundModal" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content modal-sm">
+                <div class="modal-header">
+                    <!-- <h5 class="modal-title" id="exampleModalLabel">Wallet to Bank Transfer</h5> -->
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body AgentTransferOption">
+                            
+                                <a class="bank_transfer" data-toggle="modal" data-target="#BankDepositModal">
+                                    <div class="card bank_transfer_card ">
+                                        <img class="img_banktransfer" src="../../assets/images/banking-svgrepo-com (1).png" alt="" width="30%">
+                                        <br>
+                                        Bank transfer
+                                    </div> 
+                                </a>
+                         
+                            
+                                <a data-toggle="modal" data-target="#UssdDepositModal" class="ussd">
+                                    <div class="card ussd_card">
+                                        <img class="ussd_banktransfer" src="../../assets/images/ussd.png" alt="" width="30%">
+                                        <br>
+                                        ussd
+                                    </div>
+                                </a> 
+                            
+                          
+                                <a href="dashboard-7.html" class="debit_card">
+                                    <div class="card debitcard_card">
+                                        <img class="debitcard_banktransfer" class="mb-4" src="../../assets/images/debit-card.png" alt="" width="35%">
+                                        <br>
+                                        Debit card
+                                    </div> 
+                                </a>
+                           
+                        </div>
+                    
+                    <!-- <button type="button" class="btn btn-primary mt-5">Procced</button> -->
+                </div>
+                <!-- <div class="modal-footer">
+
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+     <!-- ==========================================
+MODAL Agent bank transer option
+========================================== -->
+<div class="modal modal_bill modal_BankDeposit fade" id="BankDepositModal" tabindex="-1" role="dialog" aria-labelledby="BankDepositModal"
+aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+
+        <div class="modal-body amount_paid_section2">
+
+            <div class="mt-5">
+                <div class="banktransfer_details">
+                    <img src="../../assets/images/banking-svgrepo-com (1).png" alt="">
+                    <h6>Bank Deposit</h6>
+                    <p class="send">Send the amount to be deposited to the bank account below, then create a ticket to get funded</p>
+    
+                    <p>Account Number <span class="acc_no">3132981212</span></p>
+                    <p>Bank name <span class="bank_name">First bank</span></p>
+                    <p>Account Name <span>Vertis Technologies Ltd.</span></p>
+                    <div class="text-center mt-5">
+                        <button class="btn btn-lg sent_funds">I have sent the funds</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- ==========================================
+END OF MODAL FOR MODAL Agent bank transer option
+========================================== -->
+
+
+     <!-- ==========================================
+MODAL USSD bank transer option
+========================================== -->
+<div class="modal modal_bill modal_BankDeposit fade" id="UssdDepositModal" tabindex="-1" role="dialog" aria-labelledby="UssdDepositModal"
+aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+
+        <div class="modal-body amount_paid_section2">
+
+            <div class="mt-5">
+                <div class="banktransfer_details">
+                    <img src="assets/images/icons/ussd.png" alt="">
+                    <h6 style="text-transform: uppercase; font-weight: bolder; font-size: 35px;" class="mb-5">ussd</h6>
+                    <p>Account Name <span>Vertis Technologies Ltd.</span></p>
+                    <p>Account Number <span class="acc_no">3132981212</span></p>
+                    <p class="preferred_ussd">Select Preffered <br>Bank USSD <span class="bank_name">
+                        <select>
+                            <option selected>Choose prefferd USSD </option>
+                            <option>Sterling Bank - *822#</option>
+                            <option>Access Bank - *901#</option>
+                            <option>First Bank - *822#</option>
+                            <option>GT Bank - *822#</option>
+                            <option>ECO Bank - *822#</option>
+                        </select></span></p>
+                    <p>*BankUSSD*Account Number*Amount#</p>
+                    
+                    <div class="text-center mt-5 mb-3">
+                        <button class="btn btn-lg sent_funds">I have sent the funds</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- ==========================================
+END OF MODAL FOR Agent USSD transer option
+========================================== -->
+
+
+    <!-- Agent Withdrawal Modal -->
+    <div class="modal modal_wallet2bank_transfer fade" id="agentWithdrawalModal" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content modal-sm">
+                <div class="modal-header">
+                    <!-- <h5 class="modal-title" id="exampleModalLabel">Wallet to Bank Transfer</h5> -->
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <input type="text" placeholder="Enter Account Number" />
+                    <br>
+                    <input type="text" placeholder="Enter Account name">
+                    <br>
+                    <input type="text" placeholder="Enter Bank name">
+                    <br>
+                    <input type="text" placeholder="Enter Amount">
+                    <br>
+                    <button type="button" class="btn btn-primary mt-5">Withdraw</button>
+                </div>
+                <div class="modal-footer">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script data-cfasync="false" src="../../../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js">
+    </script>
+    <script src="../../assets/libs/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="../../assets/libs/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../../assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- apps -->
+    <script src="../../dist/js/app.min.js"></script>
+    <script src="../../dist/js/app.init.js"></script>
+    <script src="../../dist/js/app-style-switcher.js"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="../../assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
+    <script src="../../assets/extra-libs/sparkline/sparkline.js"></script>
+    <!--Wave Effects -->
+    <script src="../../dist/js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="../../dist/js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+    <script src="../../dist/js/feather.min.js"></script>
+    <script src="../../dist/js/custom.min.js"></script>
+    <!--This page JavaScript -->
+    <!--chartis chart-->
+    <script src="../../assets/libs/chartist/dist/chartist.min.js"></script>
+    <script src="../../assets/libs/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js"></script>
+    <!--c3 charts -->
+    <script src="../../assets/extra-libs/c3/d3.min.js"></script>
+    <script src="../../assets/extra-libs/c3/c3.min.js"></script>
+    <!--chartjs -->
+    <script src="../../assets/libs/chart.js/dist/Chart.min.js"></script>
+    <script src="../../dist/js/pages/dashboards/dashboard1.js"></script>
+</body>
+
+
+<!-- Mirrored from www.wrappixel.com/demos/admin-templates/xtreme-admin/html/ltr/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 21 May 2020 17:25:18 GMT -->
+
+</html>
