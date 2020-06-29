@@ -1349,6 +1349,7 @@ aside {
 TRANSACTION DETAILS STYLING
 =================================== */
 
+
 .transaction_details_holder {
   padding-top: 5rem;
   padding-left: 13rem;
@@ -1423,6 +1424,16 @@ TRANSACTION DETAILS STYLING
   margin-top: 0.5rem;
 }
 
+.transaction_details .payment_img img{
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+
+.transaction_details p{
+  font-size: 18px;
+  font-weight: bold;
+}
 
 
 /* ===================================
@@ -4736,6 +4747,13 @@ width: 270px;
   }
 
   @media (min-width: 1024px) and (max-width:1200px) {
+    .side_nav_content ul li a span {
+      color: #fff;
+      font-size: 12px;
+      transition: all 0.3s ease-in;
+      text-transform: uppercase;
+      font-family: var(--text_font);
+    }
 
     .utility_holder_alt button,
     #transaction_card4 button {
