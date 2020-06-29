@@ -1,0 +1,998 @@
+/* RESUABLE */
+
+:root {
+    --primary_color: #D31B23;
+    --secondary_color: #212020;
+    --white_bg: #F3F2F2;
+    --text_color: #F1F1F1;
+    --header_font: 'Roboto Mono', monospace;
+    --text_font: 'Poppins', sans-serif;
+}
+
+
+body {
+    background: #ffffff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: var(--header_font);
+}
+
+a,
+input,
+button,
+span,
+p,
+textarea {
+    font-family: var(--text_font);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+button,
+input {
+    outline: none !important;
+    border: none;
+}
+
+
+.header {
+    padding: 0;
+    display: flex !important;
+    background: #f2f1f1;
+    height: 8vh;
+    position: fixed;
+    z-index: 999;
+}
+
+.logo_holder {
+    background: #fff;
+    width: fit-content;
+    display: flex;
+    padding: 0 20px;
+}
+
+.dashboard_logo {
+    width: 200px;
+}
+
+.search_form_holder {
+    position: relative;
+    width: 30%;
+    left: 40px;
+}
+
+.search_form_element {
+    background: #fff;
+    border: none;
+    border-radius: 30px;
+    display: flex;
+    padding: 0 10px;
+}
+
+.search_form_element input {
+    border: 0;
+    outline: none;
+    padding: 0.3em;
+    border-radius: 30px;
+}
+
+.search_form_element button {
+    background: transparent;
+}
+
+.nav_button_holder {
+    position: relative;
+    left: 10%;
+    display: flex;
+    padding: 10px;
+}
+
+.open_btn,
+.open_btn_alt {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.open_btn_alt {
+    display: none;
+}
+
+.nav_button_holder button {
+    background: var(--primary_color);
+    color: #f5f5f5;
+    font-size: 13px;
+    padding: 0.3em;
+}
+
+.nav_button_holder input {
+    background: #fff;
+    width: 50%;
+    border-radius: 30px;
+    padding: 2px 3px;
+}
+
+/***side navigation**/
+aside {
+    width: 261px;
+    position: fixed;
+    background: var(--secondary_color);
+    margin-top: 3.4em;
+    padding-top: 2rem;
+}
+
+.side_nav_content {
+    padding-bottom: 0;
+    display: flex;
+    align-items: start;
+    height: 100vh;
+    justify-content: center;
+}
+
+.side_nav_content ul {
+    list-style: none;
+    padding-left: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.side_nav_content ul li {
+    padding: 20px 50px 10px 20px;
+    text-align: justify;
+    transition: all 0.5s ease;
+    width: 100%;
+    display: flex;
+}
+
+.side_nav_content ul li:hover {
+    background: #070606;
+    border-left: 2px solid var(--primary_color);
+}
+
+.side_nav_content ul li img {
+    margin-right: 1rem;
+    margin-top: -0.5rem;
+}
+
+.side_nav_content ul li a {
+    color: #fff;
+    font-size: 14px;
+    transition: all 0.3s ease-in;
+    text-transform: uppercase;
+    font-family: var(--text_font);
+}
+
+.side_nav_content ul li span,
+.side_nav_content ul li .username {
+    color: #fff;
+    font-size: 16px;
+    transition: all 0.3s ease-in;
+    text-transform: uppercase;
+}
+
+
+.side_nav_content_alt {
+    color: #fff;
+}
+
+.side_nav_content ul li a:hover,
+.side_nav_content ul li a:focus {
+    color: red;
+    font-weight: bold;
+}
+
+/**main content***/
+.main_content {
+    padding-left: 250px;
+    padding-top: 100px;
+}
+
+
+/* I added background color to card */
+.utility_holder_alt button{
+    background-color: var(--secondary_color);
+    border-radius: 10px;
+}
+
+/* i added to color to p tag */
+.utility_holder_alt p{
+    color:#fff;
+}
+#transaction_card4 button{
+    background-color: var(--secondary_color);
+    border-radius: 10px;
+}
+
+.utility_holder {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.airtime_btn,
+.electricity_btn,
+.cable_btn,
+.bills_btn {
+    animation-duration: 3s;
+
+}
+
+.airtime_btn img {
+    width: 40px;
+}
+
+
+.electricity_btn img {
+    width: 60px;
+}
+
+.cable_btn img {
+    width: 60px;
+    padding-bottom: 0.5rem;
+}
+
+
+.bills_btn img {
+    width: 80px;
+}
+
+.card_shadow {
+    border-radius: 30px;
+    background: #fff;
+    min-height: 7rem;
+    min-width: 7rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/***modals****/
+
+/* .card_shadow{
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+     0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     min-width: 7em;
+     padding: 0.6em 1em;
+} */
+
+.modal_airtime_data {
+    z-index: 99999;
+    padding-left: 114px;
+    padding-top: 20px;
+}
+
+
+.modal_airtime_data .modal-body {
+    min-height: 25rem;
+    background: #F1F1F1;
+}
+
+.modal_airtime_data .modal-body p {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: var(--text_font);
+}
+
+.modal_airtime_data .modal-content {
+    min-width: 50rem;
+
+}
+
+.modal_airtime_data .modal-content button span {
+    color: var(--secondary_color);
+    font-size: 50px;
+    padding-left: 40rem;
+}
+
+.modal_airtime_data .modal-content select,
+.modal_airtime_data .modal-content input {
+
+    width: 20rem;
+    margin-right: 0.5rem;
+    border-radius: 60px;
+    padding: 15px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
+    border: none;
+}
+
+.modal_airtime_data .modal-content select:focus {
+    border: 0 !important;
+    color: none !important;
+}
+
+
+
+.modal_airtime_data .btn-primary {
+    border-radius: 80px;
+    padding: 12px;
+    width: 21rem;
+    text-transform: uppercase;
+    background: var(--primary_color);
+    border: none;
+}
+
+/* ===================================
+  END OF MODAL FOR AIRTIME/DATA
+=================================== */
+
+
+/* ===================================
+  MODAL FOR MODAL FOR ELECTRICITY
+=================================== */
+.modal_electricity {
+    z-index: 99999;
+    padding-left: 114px;
+    padding-top: 20px;
+}
+
+
+.modal_electricity .modal-body {
+    min-height: 25rem;
+    background: #F1F1F1;
+}
+
+.modal_electricity .modal-body p {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: var(--text_font);
+}
+
+.modal_electricity .modal-content {
+    min-width: 50rem;
+
+}
+
+.modal_electricity .modal-content button span {
+    color: var(--secondary_color);
+    font-size: 50px;
+    padding-left: 40rem;
+}
+
+.modal_electricity .modal-content select,
+.modal_electricity .modal-content input {
+
+    width: 20rem;
+    margin-right: 0.5rem;
+    border-radius: 60px;
+    padding: 15px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
+    border: none;
+}
+
+.modal_electricity .modal-content select:focus {
+    border: 0 !important;
+    color: none !important;
+}
+
+
+
+.modal_electricity .btn-primary {
+    border-radius: 80px;
+    padding: 12px;
+    width: 21rem;
+    text-transform: uppercase;
+    background: var(--primary_color);
+    border: none;
+}
+
+/* ===================================
+  END OF MODAL FOR ELECTRICITY
+=================================== */
+
+
+/* ===================================
+  MODAL FOR MODAL FOR CABLE
+=================================== */
+.modal_cable {
+    z-index: 99999;
+    padding-left: 114px;
+    padding-top: 20px;
+}
+
+
+.modal_cable .modal-body {
+    min-height: 25rem;
+    background: #F1F1F1;
+}
+
+.modal_cable .modal-body p {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: var(--text_font);
+}
+
+.modal_cable .modal-content {
+    min-width: 50rem;
+
+}
+
+.modal_cable .modal-content button span {
+    color: var(--secondary_color);
+    font-size: 50px;
+    padding-left: 40rem;
+}
+
+.modal_cable .modal-content select,
+.modal_cable .modal-content input {
+
+    width: 20rem;
+    margin-right: 0.5rem;
+    border-radius: 60px;
+    padding: 15px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
+    border: none;
+}
+
+.modal_cable .modal-content select:focus {
+    border: 0 !important;
+    color: none !important;
+}
+
+
+
+.modal_cable .btn-primary {
+    border-radius: 80px;
+    padding: 12px;
+    width: 21rem;
+    text-transform: uppercase;
+    background: var(--primary_color);
+    border: none;
+}
+
+/* ===================================
+  END OF MODAL FOR CABLE
+=================================== */
+
+
+/* ===================================
+  MODAL FOR MODAL FOR BILL
+=================================== */
+.modal_bill {
+    z-index: 99999;
+    padding-left: 114px;
+    padding-top: 20px;
+}
+
+
+.modal_bill .modal-body {
+    min-height: 25rem;
+    background: #F1F1F1;
+}
+
+.modal_bill .modal-body p {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: var(--text_font);
+}
+
+.modal_bill .modal-content {
+    min-width: 50rem;
+
+}
+
+.modal_bill .modal-content button span {
+    color: var(--secondary_color);
+    font-size: 50px;
+    padding-left: 40rem;
+}
+
+.modal_bill .modal-content select,
+.modal_bill .modal-content input {
+
+    width: 20rem;
+    margin-right: 0.5rem;
+    border-radius: 60px;
+    padding: 15px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
+    border: none;
+}
+
+.modal_bill .modal-content select:focus {
+    border: 0 !important;
+    color: none !important;
+}
+
+
+
+.modal_bill .btn-primary {
+    border-radius: 80px;
+    padding: 12px;
+    width: 21rem;
+    text-transform: uppercase;
+    background: var(--primary_color);
+    border: none;
+}
+
+/* ===================================
+  END OF MODAL FOR BILL
+=================================== */
+
+
+/* ===================================
+  MODAL FOR MODAL FOR REPRINT
+=================================== */
+.reprint_modal {
+    z-index: 99999;
+    padding-left: 550px;
+    padding-top: 100px;
+
+}
+
+
+.reprint_modal .modal-body {
+    background: #F1F1F1;
+    height: 11rem;
+    padding-top: 2rem;
+}
+
+.reprint_modal .modal-body p {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: var(--text_font);
+    line-height: 0.5rem;
+}
+
+.reprint_modal .modal-header h6 {
+    text-align: center;
+}
+
+
+.reprint_modal .modal-content button span {
+    color: var(--secondary_color);
+    font-size: 25px;
+}
+
+.reprint_modal .modal-content input {
+
+    width: 15rem;
+    margin-right: 0.5rem;
+
+    padding: 5px;
+    margin-bottom: 1rem;
+    /* margin-top: 1rem; */
+    box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
+    border: none;
+}
+
+.reprint_modal .modal-content select:focus {
+    border: 0 !important;
+    color: none !important;
+}
+
+
+
+.reprint_modal .btn-primary {
+    border-radius: 80px;
+    padding: 3px;
+    width: 9rem;
+    background: var(--primary_color);
+    border: none;
+    margin-left: 3rem;
+}
+
+/* ===================================
+  END OF MODAL FOR REPRINT
+=================================== */
+
+
+/* ===================================
+  Wallet to bank modal
+=================================== */
+
+.modal_wallet2bank_transfer {
+    z-index: 99999;
+    padding-left: 300px;
+    padding-top: 80px;
+}
+
+
+.modal_wallet2bank_transfer .modal-body {
+    background: #F1F1F1;
+}
+
+.modal_wallet2bank_transfer .modal-body p {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: var(--text_font);
+}
+
+/* .reprint_modal .modal-content{
+  min-width: 50rem;
+  
+} */
+
+.modal_wallet2bank_transfer .modal-content button span {
+    color: var(--secondary_color);
+    font-size: 30px;
+}
+
+.modal_wallet2bank_transfer .modal-content select,
+.modal_wallet2bank_transfer .modal-content input {
+
+    width: 15rem;
+    margin-right: 0.5rem;
+    border-radius: 60px;
+    padding: 15px;
+    margin-bottom: 0.5rem;
+    margin-top: 0.3rem;
+    box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
+    border-radius: 10rem;
+    border: none;
+}
+
+.modal_wallet2bank_transfer .modal-content select:focus {
+    border: 0 !important;
+    color: none !important;
+}
+
+
+
+.modal_wallet2bank_transfer .btn-primary {
+    border-radius: 80px;
+    padding: 9px;
+    width: 9rem;
+    text-transform: uppercase;
+    background: var(--primary_color);
+    border: none;
+    margin-left: 3rem;
+}
+
+/* ===================================
+   END OF   Wallet to bank modal
+=================================== */
+
+
+/* ===================================
+  Wallet to wallet modal
+=================================== */
+
+.modal_wallet2wallet_transfer {
+    z-index: 99999;
+    padding-left: 300px;
+    padding-top: 80px;
+}
+
+
+.modal_wallet2wallet_transfer .modal-body {
+    background: #F1F1F1;
+}
+
+.modal_wallet2wallet_transfer .modal-body p {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: var(--text_font);
+}
+
+/* .reprint_modal .modal-content{
+  min-width: 50rem;
+  
+} */
+
+.modal_wallet2wallet_transfer .modal-content button span {
+    color: var(--secondary_color);
+    font-size: 30px;
+}
+
+.modal_wallet2wallet_transfer .modal-content select,
+.modal_wallet2wallet_transfer .modal-content input {
+
+    width: 15rem;
+    margin-right: 0.5rem;
+    border-radius: 60px;
+    padding: 15px;
+    margin-bottom: 0.5rem;
+    margin-top: 0.3rem;
+    box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
+    border-radius: 10rem;
+    border: none;
+}
+
+.modal_wallet2wallet_transfer .modal-content select:focus {
+    border: 0 !important;
+    color: none !important;
+}
+
+
+
+.modal_wallet2wallet_transfer .btn-primary {
+    border-radius: 80px;
+    padding: 9px;
+    width: 9rem;
+    text-transform: uppercase;
+    background: var(--primary_color);
+    border: none;
+    margin-left: 3rem;
+}
+
+/* ===================================
+   END OF   Wallet to walletmodal
+=================================== */
+
+
+
+/***slim classes***/
+.slim_side {
+    width: 80px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.slim_side .side_nav_content li a,
+.slim_side .avatar-holder {
+    display: none;
+}
+
+.slim .logo_holder {
+    width: 80px;
+}
+
+.slim .dashboard_logo {
+    width: 0;
+}
+
+.slim .search_form_holder {
+    width: 45%;
+}
+
+.no_padding {
+    padding-left: 0;
+    transition: all 0.3s ease;
+}
+
+#transaction_card4 {
+    background-color: #fff;
+    min-height: 11rem;
+    padding: 0.5em 2em;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.transaction_card_btn {
+    margin: 0 auto;
+    width: fit-content;
+}
+
+#transaction_card p,
+#transaction_card4 p {
+    color: #fff;
+    font-size: 10px;
+}
+
+#transaction_card .card_heading_text {
+    color: #fff;
+    font-size: 14px;
+}
+
+#transaction_card2 {
+    background-color: var(--secondary_color);
+    height: 14rem;
+    cursor: pointer;
+}
+
+#recurrent_transaction_card2 {
+    background-color: var(--secondary_color);
+    height: 13rem;
+    width: 13rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+
+.transfer_fund {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    font-size: 14px;
+}
+
+
+.card-heading {
+    background: var(--primary_color);
+    color: var(--text_color);
+    text-align: center;
+    max-height: 3rem;
+    padding-top: 1rem;
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: var(--text_font);
+}
+
+.inner_card {
+    border: 1px solid var(--primary_color);
+    background: transparent;
+    z-index: 99999;
+    height: 12rem;
+    width: 12rem;
+    color: #fff;
+}
+
+.inner_card2 {
+    border: 1px solid var(--primary_color);
+    background: transparent;
+    z-index: 99999;
+    height: 13rem;
+    width: 11.3rem;
+    color: #fff;
+}
+
+.inner_card p,
+.inner_card2 p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+/* ===================================
+TRANSACTION DETAILS STYLING
+=================================== */
+
+.transaction_details_holder {
+    padding-top: 5rem;
+    padding-left: 13rem;
+}
+
+.transaction_details_sectionheader h5 {
+    color: var(--primary_color);
+    font-family: var(--text_font);
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.transaction_details_holder .transaction_details_sectionheader {
+    /* margin-bottom: 60px; */
+    position: relative;
+    padding-bottom: 0.3px;
+
+}
+
+.transaction_details_holder .transaction_details_sectionheader::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 950px;
+    height: 1px;
+    background: #F53B43;
+    bottom: 0;
+    /* left: 3%; */
+}
+
+.transaction_details_uppercase {
+    text-transform: uppercase;
+}
+
+.transaction_details {
+    padding-left: 3rem;
+}
+
+.transaction_details input {
+    border: none;
+    float: right;
+    margin-right: 23rem;
+}
+
+.transaction_details input::placeholder {
+    color: red;
+    font-family: var(--text_font);
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.transaction_details label {
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: var(--text_font);
+    color: var(--secondary_color);
+}
+
+.hr_transaction {
+    border: 0.9px solid #9E9D9D;
+    margin-top: -0.3rem;
+}
+
+.transaction_details p {
+    font-family: var(--text_font);
+    text-align: center;
+    font-size: 27px;
+    line-height: 0.2rem;
+}
+
+.transaction_details .btn-primary {
+    border-radius: 80px;
+    padding: 12px;
+    width: 23rem;
+    text-transform: uppercase;
+    background: var(--primary_color);
+    border: none;
+    margin-left: 3rem;
+}
+
+.mobile_slide_out{
+    position: sticky;
+    width: 50%;
+    height: 100%;
+    background: #0000;
+}
+
+
+
+@media screen and (max-width: 988px) {
+    .mobile_slide_out {
+        position: sticky;
+        width: 50%;
+        height: 80vh;
+        background: #0000;
+    }
+
+    .dashboard_logo {
+        width: 0;
+    }
+
+    .slim .logo_holder {
+        width: 32%;
+    }
+
+    .slim .dashboard_logo {
+        width: 200px;
+    }
+    .main_content{
+        padding-left: 0;
+    }
+
+    .no_padding{
+        padding-left: 250px;
+    }
+
+    .side_nav_content li a,
+    .avatar-holder {
+        display: none;
+    }
+
+    aside {
+        width: 61px;
+    }
+
+
+    .slim_side {
+        width: 250px;
+        z-index: 999;
+    }
+
+    .slim_side .side_nav_content li a,
+    .slim_side .avatar-holder {
+        display: block;
+    }
+
+    .nav_button_holder button {
+        width: 40%;
+        height: 70%;
+        margin-top: 4px;
+    }
+
+
+    .utility_holder {
+        display: flex;
+    }
+
+    .electricity_btn,
+    .cable_btn,
+    .bills_btn{
+        margin-left: 20px;
+    }
+}
