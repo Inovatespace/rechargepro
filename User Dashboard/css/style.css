@@ -3257,6 +3257,27 @@ td {
   margin-top: -0.1rem;
 }
 
+.upgrade_acct .upload_file button,
+.upgrade_acct .upload_file2 button
+ {
+  background: var(--primary_color);
+  border-radius: 20px;
+  color: #FFF;
+  padding: 4.5px;
+  width: 30%;
+  margin-left: -5.3rem;
+  margin-top: -0.1rem;
+}
+
+.download_kyc button{
+  background: #212529;
+  border-radius: 20px;
+  color: #FFF;
+  padding: 4.5px;
+  width: 80%;
+
+}
+
 .upload_file2 button {
   background: var(--primary_color);
   border-radius: 20px;
@@ -3555,6 +3576,12 @@ RESPONSIVENESS
     padding-top: 2rem;
     padding-left: 2rem;
   }
+
+  .upgrade_acct .upload_file button,
+.upgrade_acct .upload_file2 button{
+  margin-left: 0;
+  width: 40%;
+}
 
   .upload_file button,
   .upload_file2 button {
@@ -4043,6 +4070,11 @@ END OF ACCOUNT AUTHORISATION PAGE STYLING
     .upload_file2 button {
       width: 20%;
     }
+    /* .upgrade_acct .upload_file button,
+    .upgrade_acct .upload_file2 button{
+      margin-left: 0 !important;
+      width: 20%;
+    } */
 
     /* END OF BECONE AN AGENT PAGE STYLING */
 
@@ -4426,6 +4458,12 @@ TRANSACTION DETAILS STYLING
     .user_details {
       padding-top: 2rem;
       padding-left: 4rem;
+    }
+
+    .upgrade_acct .upload_file button,
+    .upgrade_acct .upload_file2 button{
+      margin-left: -5rem !important;
+      width: 40%;
     }
 
     /* 
@@ -5666,6 +5704,12 @@ width: 320px;
       width: 20%;
       margin-left: -4.3rem;
       margin-top: -0.1rem;
+    }
+
+    .upgrade_acct .upload_file button,
+    .upgrade_acct .upload_file2 button{
+      margin-left: -5.5rem;
+      width: 40%;
     }
 
     .agent-card {
