@@ -1,0 +1,44 @@
+/* tables */
+table.tablesorter {
+	width: 100%;
+	text-align: left;
+}
+
+
+table.tablesorter thead tr .headerSortUp {
+	background-image: url(asc.gif);
+}
+table.tablesorter thead tr .headerSortDown {
+	background-image: url(desc.gif);
+}
+
+.tablesorter tr:nth-child(even) {background: #F1F1F1;}
+.tablesorter tr:nth-child(odd) {background: #FFF;}
+.tablesorter td {
+    padding: 5px;
+}
+.tablesorter th {
+    color:black;
+    padding: 5px;
+        background-color: #FEFEFF;
+        background: -webkit-gradient(linear, left top, left bottom, from(#F1F1F1), to(#FEFEFF));
+        background: -webkit-linear-gradient(top, #F1F1F1, #FEFEFF);
+        background: -moz-linear-gradient(top, #F1F1F1, #FEFEFF);
+        background: -ms-linear-gradient(top, #F1F1F1, #FEFEFF);
+        background: -o-linear-gradient(top, #F1F1F1, #FEFEFF);
+        background: linear-gradient(top, #F1F1F1, #FEFEFF);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#F1F1F1', EndColorStr='#FEFEFF');
+        -ms-filter: 'progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#F1F1F1', endColorstr='#FEFEFF')';
+}
+.tablesorter td col:first-child {background: #FF0}
+.tablesorter td col:nth-child(2n+3) {background: #CCC}
+
+
+/*  Define the background color for all the ODD table columns  */
+	.tablesorter tr td:nth-child(odd){ 
+		color: #861212;
+	}
+	/*  Define the background color for all the EVEN table columns  */
+	.tablesorte tr td:nth-child(even){
+		color: #861212;
+	}
