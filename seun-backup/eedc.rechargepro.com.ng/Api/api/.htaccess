@@ -1,0 +1,22 @@
+RewriteEngine on
+RewriteBase /api
+RewriteRule ^(.*)\.(json|xml|csv|txt|printr|pdf|doc)$ trans.php?url_param=$1&api_type=$2
+
+
+
+<IfModule mod_rewrite.c>
+ #ignor folder and file
+ RewriteCond %{REQUEST_FILENAME} !-d
+ RewriteCond %{REQUEST_FILENAME} !-f
+ #RewriteCond %{REQUEST_FILENAME}.php -f
+
+ RewriteRule ^([a-zA-Z0-9-_",'w\s@]+)?(.*)$ service.php?u=$1&p=$2
+ #RewriteRule ^([a-zA-Z0-9-_",'w\s@]+)/$ service.php?u=$1
+</IfModule>
+
+
+<Files ~ "\.ini$">
+Order allow,deny
+Deny from all
+</Files>
+
