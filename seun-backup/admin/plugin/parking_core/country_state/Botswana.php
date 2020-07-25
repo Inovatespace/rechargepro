@@ -1,0 +1,9 @@
+<option>Central District</option>
+<option>Ghanzi District</option>
+<option>Kgalagadi District</option>
+<option>Kgatleng District</option>
+<option>Kweneng District</option>
+<option>North-East District</option>
+<option>Ngamiland District</option>
+<option>South-East District</option>
+<option>Southern District</option>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<note oruko="Payment Information" details="Transaction" image_class="fa fa-list-alt fa-fw">
+<index>Transaction Log</index>
+<failed>Pending Transaction</failed>
+<refund>Refund</refund>
+</note>

@@ -1,0 +1,9 @@
+<option>Bafata Region (Bafata)</option>
+<option>Biombo Region (Quinhamel)</option>
+<option>Bissau Region (Bissau)</option>
+<option>Bolama Region (Bolama)</option>
+<option>Cacheu Region (Cacheu)</option>
+<option>GabU Region (GabU)</option>
+<option>Oio Region (Farim)</option>
+<option>Quinara Region (Buba)</option>
+<option>Tombali Region (Catio)</option>

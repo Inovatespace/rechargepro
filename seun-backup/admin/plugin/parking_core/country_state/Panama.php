@@ -1,0 +1,1 @@
+<option>Bocas del Toro</option><option>Chiriqui</option><option>Cocle</option><option>Colon</option><option>Darien</option><option>Herrera</option><option>Los Santos</option><option>Panama</option><option>Veraguas</option>

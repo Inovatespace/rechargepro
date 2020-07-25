@@ -1,0 +1,21 @@
+<option>Stockholm</option>
+<option>Vasterbotten</option>
+<option>Norrbotten</option>
+<option>Uppsala</option>
+<option>Sodermanland</option>
+<option>ostergotland</option>
+<option>Jonkoping</option>
+<option>Kronoberg</option>
+<option>Kalmar</option>
+<option>Gotland</option>
+<option>Blekinge</option>
+<option>Skåne</option>
+<option>Halland</option>
+<option>Vastra Gotaland</option>
+<option>Varmland</option>
+<option>orebro</option>
+<option>Vastmanland</option>
+<option>Dalarna</option>
+<option>Gavleborg</option>
+<option>Vasternorrland</option>
+<option>Jamtland</option>

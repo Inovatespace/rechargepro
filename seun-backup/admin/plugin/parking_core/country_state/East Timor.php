@@ -1,0 +1,1 @@
+<option>Lautem</option><option>Baucau</option><option>Viqueque</option><option>Manatuto</option><option>Dili</option><option>Aileu</option><option>Manufahi</option><option>Liquica2<option>Ermera</option><option>Ainaro</option><option>Bobonaro</option><option>Cova Lima</option><option>Oecusse</option>

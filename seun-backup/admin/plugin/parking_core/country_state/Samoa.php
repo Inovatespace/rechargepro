@@ -1,0 +1,2 @@
+<option>Tuamasaga</option><option>A'ana</option><option>Aiga-i-le-Tai</option><option>Atua</option><option>Va'a-o-Fonoti</option>
+<option>Fa'asaleleaga</option><option>Gaga'emauga</option><option>Gaga'ifomauga</option><option>Vaisigano</option><option>Satupa'itea</option><option>Palauli</option>

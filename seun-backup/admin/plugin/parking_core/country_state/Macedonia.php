@@ -1,0 +1,1 @@
+<option>Eastern</option><option>Northeastern</option><option>Pelagonia</option><option>Polog</option><option>Skopje</option><option>Southeastern</option><option>Southwestern</option><option>Vardar</option>

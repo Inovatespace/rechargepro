@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<note>
+<index>{LANMAIN_ADMINUSER}</index>
+<plugin>Plugin</plugin>
+<theme>Theme</theme>
+<setting>Settings</setting>
+<backup>Back Up</backup>
+<message>System Log</message>
+</note>
