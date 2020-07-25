@@ -1,0 +1,1 @@
+<option>Ruggell</option><option>Schellenberg</option><option>Gamprin</option><option>Eschen</option><option>Mauren</option><option>Schaan</option><option>Planken</option><option>Vaduz</option><option>Triesenberg</option><option>Triesen</option><option>Balzers</option>

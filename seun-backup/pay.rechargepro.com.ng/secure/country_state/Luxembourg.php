@@ -1,0 +1,12 @@
+<option>Diekirch</option>
+<option>Clervaux</option>
+<option>Redange</option>
+<option>Vianden</option>
+<option>Wiltz</option>
+<option>Grevenmacher</option>
+<option>Echternach</option>
+<option>Remich</option>
+<option>Luxembourg</option>
+<option>Capellen</option>
+<option>Esch-sur-Alzette</option>
+<option>Mersch</option>

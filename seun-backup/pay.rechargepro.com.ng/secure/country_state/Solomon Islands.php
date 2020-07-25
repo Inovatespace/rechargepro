@@ -1,0 +1,1 @@
+<option>Central Province</option><option>Choiseul</option><option>Guadalcanal</option><option>Isabel</option><option>Makira-Ulawa</option><option>Malaita</option><option>Rennell and Bellona</option><option>Temotu</option><option>Western</option><option>Capital Territory</option>

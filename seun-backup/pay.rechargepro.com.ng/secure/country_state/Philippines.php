@@ -1,0 +1,3 @@
+<option>National Capital Region</option><option>Cordillera Administrative Region</option><option>Ilocos Region</option><option>Cagayan Valley</option><option>Central Luzon</option><option>CALABARZON</option><option>MIMAROPA</option><option>Bicol Region</option>
+<option>Western Visayas</option><option>Central Visayas</option><option>Eastern Visayas</option>
+<option>Zamboanga Peninsula</option><option>Northern Mindanao</option><option>Davao Region</option><option>SOCCSKSARGEN</option><option>Caraga Region</option><option>Autonomous Region in Muslim Mindanao</option>

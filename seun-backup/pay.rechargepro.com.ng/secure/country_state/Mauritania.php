@@ -1,0 +1,1 @@
+<option>Adrar</option><option>Assaba</option><option>Brakna</option><option>Dakhlet Nouadhibou</option><option>Gorgol</option><option>Guidimaka</option><option>Hodh Ech Chargui</option><option>Hodh El Gharbi</option><option>Inchiri</option><option>Nouakchott</option><option>Tagant</option><option>Tiris Zemmour</option><option>Trarza</option>

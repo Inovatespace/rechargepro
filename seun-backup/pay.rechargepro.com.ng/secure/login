@@ -1,0 +1,215 @@
+<?php
+include ('../engine.autoloader.php');
+
+
+
+function parseUrl($url) {
+    $r  = "^(?:(?P<scheme>\w+)://)?";
+    $r .= "(?:(?P<login>\w+):(?P<pass>\w+)@)?";
+    $r .= "(?P<host>(?:(?P<subdomain>[\w\.]+)\.)?" . "(?P<domain>\w+\.(?P<extension>\w+)))";
+    $r .= "(?::(?P<port>\d+))?";
+    $r .= "(?P<path>[\w/]*/(?P<file>\w+(?:\.\w+)?)?)?";
+    $r .= "(?:\?(?P<arg>[\w=&]+))?";
+    $r .= "(?:#(?P<anchor>\w+))?";
+    $r = "!$r!";                                                // Delimiters
+    
+    preg_match ( $r, $url, $out );
+    
+    if(!isset($out['domain'])){
+        $out['domain'] = parse_url("$url", PHP_URL_HOST);
+    }
+    
+    return $out;
+}
+
+/* TESTING environment (show all PHP errors!) */
+//$prot = new PhProtector("../log/log.xml", true);
+//if ($prot->isMalicious()){
+//    header("location: ../engine/errorpages/index.html"); //if an atack is found, it will be redirected to this page :)
+//    die();
+//}
+
+
+
+
+
+
+
+if (empty($_REQUEST['username']) || empty($_REQUEST['password'])){
+    echo "bad*0";
+    exit;
+}
+
+$username = $_REQUEST['username'];
+$password = $_REQUEST['password'];
+
+$latestpassword = sha1(md5($password) . $engine->config("user_key"));
+
+
+
+$row = $engine->db_query("SELECT readid,readname,reademail,readpassword,quickpayid FROM quickpay_account_read WHERE reademail = ? LIMIT 1",array($username));
+if(!empty($row[0]['reademail'])){
+  
+  
+if ($engine->CheckPassword($password, $row[0]['readpassword'])) {
+$_SESSION['main'] = 2;
+$engine->put_session("quickpayid",$row[0]['quickpayid']);
+$engine->put_session("quickpayrole","2");
+$engine->put_session("name",$row[0]['readname']);
+$engine->put_session("quickpayemail",$row[0]['reademail']);
+$engine->put_session("sms","");
+
+#This makes sure that a user agent is set to avoid error
+if (isset($_SERVER['HTTP_USER_AGENT'])) {
+    $useragent = " [" . $_SERVER['HTTP_USER_AGENT'] . "]";
+} else {
+    $useragent = " [No user agent set]";
+}
+
+$engine->event_log($row[0]['readid'], "READ Login", $row[0]['readname'], $engine->getRealIpAddr(), $useragent);
+
+
+echo "ok*index";
+exit;
+
+  }
+  
+  
+}
+
+
+
+
+
+
+
+
+
+ 
+$rowa = $engine->db_query("SELECT sms_activation,transfer_activation,active,quickpayid,name,sex,mobile,email,quickpayrole,password FROM quickpay_account WHERE email = ? || mobile = ? LIMIT 1",array($username,$username));
+$row = $rowa[0];
+
+
+
+
+
+if ($latestpassword == $row['password']){
+        
+   $newpassword = $engine->shuzia_HashPassword($password,$engine->RandomString(4,20));
+   $engine->db_query("UPDATE quickpay_account SET password =? WHERE quickpayid = ? LIMIT 1",array($newpassword,$row['quickpayid']));
+  
+   } else {
+    
+    if (!$engine->CheckPassword($password, $row['password'])) {
+        
+        //check if mbc_access 
+    $accesspacount = 0;
+    $rowm = $engine->db_query("SELECT password FROM quickpay_access WHERE email = ? AND device_type = '0'",array($username));  
+    for($dbc = 0; $dbc < $engine->array_count($rowm); $dbc++){
+    $accesspassword = $rowm[$dbc]['password']; 
+    if ($engine->CheckPassword($password, $accesspassword)) {
+        $accesspacount++;
+       $_SESSION['main'] = 1;
+        }
+    }
+        
+     if($accesspacount == 0){
+    echo "bad*0";
+    exit;
+    }
+    
+    $_SESSION['main'] = 1;
+    
+    }else{
+        $_SESSION['main'] = 1;
+    }
+    
+    
+   }
+
+if (empty($row['email'])){
+    echo "bad*0";
+    exit;
+} else {
+    
+    
+    if($row['active'] == "0"){
+    echo "block*0";
+        exit;
+    }
+    
+    
+
+
+//if access > 0
+//compare    
+////////////////////////////// if start    
+    
+    
+    
+
+
+//check if it is weballowed or first
+$regdevice = 0;
+$email = $row['email'];
+$isweb = 0;
+$rowb = $engine->db_query("SELECT device_type,id,email,mac,name FROM quickpay_access WHERE email = ?",array($email));
+for($dbc = 0; $dbc < $engine->array_count($rowb); $dbc++){
+    $device_type = $rowb[$dbc]['device_type'];
+    $id = $rowb[$dbc]['id']; 
+    //$email = $rowb[$dbc]['email']; 
+    $mac = $rowb[$dbc]['mac']; 
+    $name = $rowb[$dbc]['name']; 
+    if($device_type == 0){
+        $isweb = 1;
+    }
+    $regdevice++;
+}
+
+if($regdevice > 0){
+    
+if($isweb == 0){
+echo "auth*0";exit;  
+}    
+    
+}else{
+$engine->db_query("INSERT INTO quickpay_access (email,mac,name) VALUES (?,?,?)",array($email,"web","web"));  
+}
+
+
+///////////////////// if end
+
+
+
+
+$engine->put_session("quickpayid",$row['quickpayid']);
+$engine->put_session("quickpayrole",$row['quickpayrole']);
+$engine->put_session("name",$row['name']);
+$engine->put_session("quickpayemail",$row['email']);
+$engine->put_session("sms",$row['sms_activation']);
+if($row['transfer_activation'] == 1){
+$engine->put_session("transfer",$row['transfer_activation']);
+}
+
+    #This makes sure that a user agent is set to avoid error
+    if (isset($_SERVER['HTTP_USER_AGENT'])) {
+        $useragent = " [" . $_SERVER['HTTP_USER_AGENT'] . "]";
+    } else {
+        $useragent = " [No user agent set]";
+    }
+
+    $engine->event_log($row['quickpayid'], "Login", $row['name'], $engine->getRealIpAddr(), $useragent);
+
+
+}
+
+
+
+$returnurl = "index";
+if (!empty($_REQUEST['returnurl'])) {
+    $returnurl = str_replace('%', '&', $_REQUEST['returnurl']);
+}
+echo "ok*".$returnurl;
+exit;
+
+?>

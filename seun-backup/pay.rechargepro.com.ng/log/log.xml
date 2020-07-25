@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href=".log_style.xsl"?>
+<!--PhProtector logs-->
+<logs>
+ <log>
+  <date>23-04-2019 12:47:20</date>
+  <ip>127.0.0.1</ip>
+  <hostname>CHINYERE-OBASI</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36</browser>
+  <request>/invoice&amp;id=1_2462</request>
+  <score>0.5</score>
+  <referer>https://newmcbpay.com/confirmation&amp;detail1=OGUNMAKINDE%20%20OLUWASEUN&amp;detail2=0031632024</referer>
+ </log>
+ <log>
+  <date>30-04-2019 01:44:28</date>
+  <ip>127.0.0.1</ip>
+  <hostname>CHINYERE-OBASI</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=98_2465</request>
+  <score>0.5</score>
+  <referer>https://newmcbpay.com/confirmation&amp;detail1=Sten%20Mockett&amp;detail2=24900235</referer>
+ </log>
+ <log>
+  <date>30-04-2019 01:46:57</date>
+  <ip>127.0.0.1</ip>
+  <hostname>CHINYERE-OBASI</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=98_2465</request>
+  <score>0.5</score>
+  <referer>https://newmcbpay.com/history</referer>
+ </log>
+ <log>
+  <date>30-04-2019 01:47:12</date>
+  <ip>127.0.0.1</ip>
+  <hostname>CHINYERE-OBASI</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=98_2468</request>
+  <score>0.5</score>
+  <referer>https://newmcbpay.com/confirmation&amp;detail1=Sten%20Mockett&amp;detail2=24900235</referer>
+ </log>
+ <log>
+  <date>30-04-2019 01:47:38</date>
+  <ip>127.0.0.1</ip>
+  <hostname>CHINYERE-OBASI</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=98_2471</request>
+  <score>0.5</score>
+  <referer>https://newmcbpay.com/confirmation&amp;detail1=Sten%20Mockett&amp;detail2=24900235</referer>
+ </log>
+ <log>
+  <date>30-04-2019 01:48:01</date>
+  <ip>127.0.0.1</ip>
+  <hostname>CHINYERE-OBASI</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=98_2474</request>
+  <score>0.5</score>
+  <referer>https://newmcbpay.com/confirmation&amp;detail1=Sten%20Mockett&amp;detail2=24900235</referer>
+ </log>
+ <log>
+  <date>30-04-2019 01:48:56</date>
+  <ip>127.0.0.1</ip>
+  <hostname>CHINYERE-OBASI</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=98_2477</request>
+  <score>0.5</score>
+  <referer>https://newmcbpay.com/confirmation&amp;detail1=Sten%20Mockett&amp;detail2=24900235</referer>
+ </log>
+ <log>
+  <date>30-04-2019 01:49:05</date>
+  <ip>127.0.0.1</ip>
+  <hostname>CHINYERE-OBASI</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=98_2477</request>
+  <score>0.5</score>
+  <referer>https://newmcbpay.com/confirmation&amp;detail1=Sten%20Mockett&amp;detail2=24900235</referer>
+ </log>
+ <log>
+  <date>30-04-2019 01:50:30</date>
+  <ip>127.0.0.1</ip>
+  <hostname>CHINYERE-OBASI</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=98_2478</request>
+  <score>0.5</score>
+  <referer>https://newmcbpay.com/confirmation&amp;detail1=Sten%20Mockett&amp;detail2=24900235</referer>
+ </log>
+ <log>
+  <date>30-04-2019 01:52:45</date>
+  <ip>127.0.0.1</ip>
+  <hostname>CHINYERE-OBASI</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=98_2479</request>
+  <score>0.5</score>
+  <referer>https://newmcbpay.com/confirmation&amp;detail1=Sten%20Mockett&amp;detail2=24900235</referer>
+ </log>
+ <log>
+  <date>30-04-2019 01:54:55</date>
+  <ip>127.0.0.1</ip>
+  <hostname>CHINYERE-OBASI</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=98_2480</request>
+  <score>0.5</score>
+  <referer>https://newmcbpay.com/confirmation&amp;detail1=Sten%20Mockett&amp;detail2=24900235</referer>
+ </log>
+ <log>
+  <date>30-04-2019 01:56:20</date>
+  <ip>127.0.0.1</ip>
+  <hostname>CHINYERE-OBASI</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=98_2481</request>
+  <score>0.5</score>
+  <referer>https://newmcbpay.com/confirmation&amp;detail1=Sten%20Mockett&amp;detail2=77883201</referer>
+ </log>
+ <log>
+  <date>30-04-2019 01:56:50</date>
+  <ip>127.0.0.1</ip>
+  <hostname>CHINYERE-OBASI</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=98_2482</request>
+  <score>0.5</score>
+  <referer>https://newmcbpay.com/confirmation&amp;detail1=Sten%20Mockett&amp;detail2=77883201</referer>
+ </log>
+ <log>
+  <date>30-04-2019 02:00:21</date>
+  <ip>127.0.0.1</ip>
+  <hostname>CHINYERE-OBASI</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=98_2483</request>
+  <score>0.5</score>
+  <referer>https://newmcbpay.com/confirmation&amp;detail1=Sten%20Mockett&amp;detail2=77883201</referer>
+ </log>
+ <log>
+  <date>30-04-2019 02:08:01</date>
+  <ip>127.0.0.1</ip>
+  <hostname>CHINYERE-OBASI</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=98_2484</request>
+  <score>0.5</score>
+  <referer>https://newmcbpay.com/confirmation&amp;detail1=Sten%20Mockett&amp;detail2=77883201</referer>
+ </log>
+ <log>
+  <date>30-04-2019 02:10:35</date>
+  <ip>127.0.0.1</ip>
+  <hostname>CHINYERE-OBASI</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=98_2487</request>
+  <score>0.5</score>
+  <referer>https://newmcbpay.com/confirmation&amp;detail1=Sten%20Mockett&amp;detail2=77883201</referer>
+ </log>
+ <log>
+  <date>30-04-2019 02:15:02</date>
+  <ip>127.0.0.1</ip>
+  <hostname>CHINYERE-OBASI</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=98_2490</request>
+  <score>0.5</score>
+  <referer>https://newmcbpay.com/confirmation&amp;detail1=Sten%20Mockett&amp;detail2=77883201</referer>
+ </log>
+ <log>
+  <date>30-04-2019 02:16:02</date>
+  <ip>127.0.0.1</ip>
+  <hostname>CHINYERE-OBASI</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=98_2495</request>
+  <score>0.5</score>
+  <referer>https://newmcbpay.com/confirmation&amp;detail1=Sten%20Mockett&amp;detail2=77883201</referer>
+ </log>
+ <log>
+  <date>30-04-2019 02:37:14</date>
+  <ip>127.0.0.1</ip>
+  <hostname>CHINYERE-OBASI</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=98_2498</request>
+  <score>0.5</score>
+  <referer>https://newmcbpay.com/confirmation&amp;detail1=Sten%20Mockett&amp;detail2=77883201</referer>
+ </log>
+ <log>
+  <date>31-05-2019 01:15:07</date>
+  <ip>127.0.0.1</ip>
+  <hostname>CHINYERE-OBASI</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36</browser>
+  <request>/invoice&amp;id=1_7899</request>
+  <score>0.5</score>
+  <referer>https://jedc.com/confirmation&amp;detail1=08183874966&amp;detail2=08183874966</referer>
+ </log>
+ <log>
+  <date>01-06-2019 22:25:31</date>
+  <ip>127.0.0.1</ip>
+  <hostname>CHINYERE-OBASI</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36</browser>
+  <request>/invoice&amp;id=1_7899</request>
+  <score>0.5</score>
+  <referer>https://jedc.com/dashboard&amp;h=history</referer>
+ </log>
+ <log>
+  <date>02-06-2019 15:05:06</date>
+  <ip>127.0.0.1</ip>
+  <hostname>CHINYERE-OBASI</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36</browser>
+  <request>/invoice&amp;id=1_7899</request>
+  <score>0.5</score>
+  <referer>https://jedc.com/dashboard&amp;h=history</referer>
+ </log>
+ <log>
+  <date>02-06-2019 19:57:11</date>
+  <ip>127.0.0.1</ip>
+  <hostname>CHINYERE-OBASI</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36</browser>
+  <request>/invoice&amp;id=1_7909</request>
+  <score>0.5</score>
+  <referer>https://jedc.com/confirmation&amp;detail1=08183874955&amp;detail2=08183874955</referer>
+ </log>
+ <log>
+  <date>02-06-2019 20:00:18</date>
+  <ip>127.0.0.1</ip>
+  <hostname>CHINYERE-OBASI</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36</browser>
+  <request>/invoice&amp;id=1_7910</request>
+  <score>0.5</score>
+  <referer>https://jedc.com/confirmation&amp;detail1=KANU%20CHUKWUDI&amp;detail2=4620881978</referer>
+ </log>
+</logs>

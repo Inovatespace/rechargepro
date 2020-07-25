@@ -1,0 +1,1 @@
+<option>Mura</option><option>Drava</option><option>Carinthia</option><option>Savinja</option><option>Central Sava</option><option>Lower Sava</option><option>Southeast Slovenia</option><option>Inner Carniola-Karst</option><option>Central Slovenia</option><option>Upper Carniola</option><option>Gorizia</option><option>Coastal-Karst</option>

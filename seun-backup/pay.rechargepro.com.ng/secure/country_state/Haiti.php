@@ -1,0 +1,10 @@
+<option>Artibonite</option>
+<option>Centre</option>
+<option>Grand'Anse</option>
+<option>Nippes</option>
+<option>Nord</option>
+<option>Nord-Est</option>
+<option>Nord-Ouest</option>
+<option>Ouest</option>
+<option>Sud-Est</option>
+<option>Sud</option>

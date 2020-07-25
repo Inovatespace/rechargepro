@@ -1,0 +1,44 @@
+<?php
+//include the class file
+require("engine/phprotector/PhProtector.php");
+/* TESTING environment (show all PHP errors!) */
+$prot= new PhProtector("log/log.xml", true); 
+if($prot->isMalicious()){
+	//header("location: engine/errorpages/index.html");  //if an atack is found, it will be redirected to this page :)
+	//die();
+}
+
+
+include "engine.autoloader.php";
+$init = "index";
+
+
+
+if (!(isset($_SERVER['HTTPS']) && ($_SERVER['HTTPS'] == 'on' ||  $_SERVER['HTTPS'] == 1) ||  isset($_SERVER['HTTP_X_FORWARDED_PROTO']) &&   $_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https'))
+{
+   $redirect = 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+   header('HTTP/1.1 301 Moved Permanently');
+   header('Location: ' . $redirect);
+   exit();
+}
+
+
+$ss = new SecureSession();
+$ss->check_browser = true;
+$ss->check_ip_blocks = 2;
+$ss->secure_word = 'IYO_';
+$ss->regenerate_id = true;
+if (!$ss->Check() && !$engine->config("allow_ipchange"))
+{
+session_destroy();
+header('Location: login');
+die();
+}
+
+
+
+include_once "engine_init.php"; //include "functions.php";
+
+//$_SESSION['state'] = "Abuja";
+//$_SESSION['state'] = "Enugu";
+?>

@@ -1,0 +1,1 @@
+<option>Kayes</option><option>Koulikoro</option><option>Bamako</option><option>Sikasso</option><option>Segou</option><option>Mopti</option><option>Tombouctou</option><option>Gao</option><option>Kidal</option>
