@@ -1,0 +1,117 @@
+
+<link rel="stylesheet" href="java/sort/themes/blue/style.css" type="text/css" id="" media="print, projection, screen" />
+
+<div style="overflow-x:auto;">
+<table id="myTable" class="tablesorter">
+<thead>
+<tr style="text-transform: uppercase;">
+<th>PRIME</th>
+<th>PAYU</th>
+<th>FUND TRANSFER</th>
+<th>SMS</th>
+<th>Capricon</th>
+<th>AEDC</th>
+<th>EEDC</th>
+<th>EKEDC</th>
+<th>IE</th>
+<th>IBEDC</th>
+<th>GLO</th>
+<th>MCB WALLET</th>
+<th>Total Services</th>
+<th>Total Members</th>
+<th>Total Agent</th>
+<th>Total Distributor</th>
+</tr>
+</thead>
+<tbody>
+
+<tr>
+<td>340390.6322</td>
+<td>650</td>
+<td>0</td>
+<td>19700.32</td>
+<td>228206.18</td>
+<td>882631</td>
+<td>25625.00</FetchDealerBalanceResult></FetchDealerBalanceResponse></soap:Body></soap:Envelope></td>
+<td><?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><FetchDealerBalanceResponse xmlns="http://IKEDC_API/vproxy/"><FetchDealerBalanceResult>00_10100.00</FetchDealerBalanceResult></FetchDealerBalanceResponse></soap:Body></soap:Envelope></td>
+<td><?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><FetchDealerBalanceResponse xmlns="http://IKEDC_API/vproxy/"><FetchDealerBalanceResult>00_16400.00</FetchDealerBalanceResult></FetchDealerBalanceResponse></soap:Body></soap:Envelope></td>
+<td>-500</td>
+<td>737876.00</td>
+
+<td>4740431.31</td>
+<td>32/2</td>
+<td>
+283/4</td>
+<td>127</td>
+<td>11</td>
+</tr>
+
+</tbody>
+</table>
+
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        
+        
+Highcharts.chart('container1', {
+    chart: {
+        type: 'column'
+    },credits: {
+enabled: false
+},
+    title: {
+        text: 'Daily transaction for current month'
+    },
+    subtitle: {
+        text: ''
+    },
+    xAxis: {
+        type: 'category',
+        labels: {
+            rotation: -45,
+            style: {
+                fontSize: '13px',
+                fontFamily: 'Verdana, sans-serif'
+            }
+        }
+    },
+    yAxis: {
+        min: 0,
+        title: {
+            text: 'Transaction'
+        }
+    },
+    legend: {
+        enabled: false
+    },
+    tooltip: {
+        pointFormat: 'Transaction {point.y:.1f}'
+    },
+    series: [{
+        name: 'Transaction',
+        colorByPoint: true,
+        data: [['01', 961],['02', 536],['03', 82],['04', 869],['05', 804],['06', 712],['07', 655],['08', 481],],
+        dataLabels: {
+            enabled: true,
+            rotation: -90,
+            color: '#FFFFFF',
+            align: 'right',
+            format: '{point.y:.1f}', // one decimal
+            y: 10, // 10 pixels down from the top
+            style: {
+                fontSize: '13px',
+                fontFamily: 'Verdana, sans-serif'
+            }
+        }
+    }]
+});
+        })
+</script>
+
+<div id="container1" class="shadow"  style="margin:3px; width: 100%; height: 300px;"></div>
+
+
+
+ 
