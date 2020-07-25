@@ -1,0 +1,37 @@
+<?php
+
+$statearray = array(
+    'Azua',
+    'Baoruco',
+    'Barahona',
+    'Dajabon',
+    'Distrito Nacional',
+    'Duarte',
+    'Elias Pina',
+    'El Seibo',
+    'Espaillat',
+    'Hato Mayor',
+    'Hermanas Mirabal',
+    'Independencia',
+    'La Altagracia',
+    'La Romana',
+    'La Vega',
+    'Maria Trinidad Sanchez',
+    'Monsenor Nouel',
+    'Monte Cristi',
+    'Monte Plata',
+    'Pedernales',
+    'Peravia',
+    'Puerto Plata',
+    'Samana',
+    'Sanchez Ramirez',
+    'San Cristobal',
+    'San Jose de Ocoa',
+    'San Juan',
+    'San Pedro de Macoris',
+    'Santiago',
+    'Santiago Rodriguez',
+    'Santo Domingo',
+    'Valverde')
+
+?>

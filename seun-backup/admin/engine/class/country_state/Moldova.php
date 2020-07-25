@@ -1,0 +1,37 @@
+<?php
+
+$statearray = array(
+    'Anenii Noi',
+    'Basarabeasca',
+    'Briceni',
+    'Cahul',
+    'Cantemir',
+    'Calara?i',
+    'Cau?eni',
+    'Cimi?lia',
+    'Criuleni',
+    'Dondu?eni',
+    'Drochia',
+    'Dubasari',
+    'Edine?',
+    'Fale?ti',
+    'Flore?ti',
+    'Glodeni',
+    'HInce?ti',
+    'Ialoveni',
+    'Leova',
+    'Nisporeni',
+    'Ocni?a',
+    'Orhei',
+    'Rezina',
+    'RI?cani',
+    'SIngerei',
+    'Soroca',
+    'Stra?eni',
+    '?oldane?ti',
+    '?tefan Voda',
+    'Taraclia',
+    'Telene?ti',
+    'Ungheni')
+
+?>

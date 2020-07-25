@@ -1,0 +1,25 @@
+<?php
+
+$statearray = array(
+    'Simbu',
+    'Eastern Highlands',
+    'Enga',
+    'Hela',
+    'Jiwaka',
+    'Southern Highlands',
+    'Western Highlands',
+    'East New Britain',
+    'Manus',
+    'New Ireland',
+    'North Solomons (Bougainville)',
+    'West New Britain',
+    'East Sepik',
+    'Madang',
+    'Morobe',
+    'West Sepik (Sandaun)',
+    'Central',
+    'Gulf',
+    'Milne Bay',
+    'Northern Province (Oro)',
+    'Western (Fly)',
+    'National Capital District')?>

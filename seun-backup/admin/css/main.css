@@ -1,0 +1,23 @@
+html { height: 100%; width:100%; }
+*html body { height: 100%; width:100%; }
+body { margin: 0; padding: 0;}
+
+.transparent{
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";/*old explorer*/
+filter: alpha(opacity=30); /* internet explorer */
+-khtml-opacity: 0.3; /* khtml, old safari */
+-moz-opacity: 0.3; /* mozilla, netscape */
+opacity: 0.3; /* fx, safari, opera */
+}
+
+.totaltransparent{
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";/*old explorer*/
+filter: alpha(opacity=0); /* internet explorer */
+-khtml-opacity: 0; /* khtml, old safari */
+-moz-opacity: 0; /* mozilla, netscape */
+opacity: 0; /* fx, safari, opera */
+}
+
+.leftmenu_submenu{
+    display:none;
+}

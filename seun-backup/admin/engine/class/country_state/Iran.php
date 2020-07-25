@@ -1,0 +1,36 @@
+<?php
+
+$statearray = array(
+    'Alborz',
+    'Ardabil',
+    'Azerbaijan, East',
+    'Azerbaijan, West',
+    'Bushehr',
+    'Chahar Mahaal and Bakhtiari',
+    'Fars',
+    'Gilan',
+    'Golestan',
+    'Hamadan',
+    'Hormozgan',
+    'Ilam',
+    'Isfahan',
+    'Kerman',
+    'Kermanshah',
+    'Khorasan, North',
+    'Khorasan, Razavi',
+    'Khorasan, South',
+    'Khuzestan',
+    'Kohgiluyeh and Boyer-Ahmad',
+    'Kurdistan',
+    'Lorestan',
+    'Markazi',
+    'Mazandaran',
+    'Qazvin',
+    'Qom',
+    'Semnan',
+    'Sistan and Baluchistan',
+    'Tehran',
+    'Yazd',
+    'Zanjan')
+
+?>

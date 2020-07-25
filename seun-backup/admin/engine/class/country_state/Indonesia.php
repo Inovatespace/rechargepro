@@ -1,0 +1,38 @@
+<?php
+
+$statearray = array(
+    'Aceh',
+    'Bali',
+    'Bangka-Belitung',
+    'Banten',
+    'Bengkulu',
+    'Central Java',
+    'Central Kalimantan',
+    'Central Sulawesi',
+    'East Java',
+    'East Kalimantan',
+    'East Nusa Tenggara',
+    'Gorontalo',
+    'Jakarta Special Capital Region',
+    'Jambi',
+    'Lampung',
+    'Maluku (Moluccas)',
+    'North Maluku (N.Moluccas)',
+    'North Sulawesi',
+    'North Sumatra',
+    'Papua',
+    'Riau',
+    'Riau Islands',
+    'South East Sulawesi',
+    'South Kalimantan',
+    'South Sulawesi',
+    'South Sumatra',
+    'West Java',
+    'West Kalimantan',
+    'West Nusa Tenggara',
+    'West Papua',
+    'West Sulawesi',
+    'West Sumatra',
+    'Special Region of Yogyakarta')
+
+?>

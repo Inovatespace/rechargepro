@@ -1,0 +1,27 @@
+<?php
+
+$statearray = array(
+    'Kolofo'ou',
+'Kolomotu'a',
+    'Vaini',
+    'Tatakamotonga',
+    'Lapaha',
+    'Nukunuku',
+    'Kolovai',
+    'Neiafu',
+    'Pangaimotu',
+    'Hahake',
+    'Leimatu'a',
+'Hihifo',
+'Motu',
+'Ofu',
+'Pangai',
+'Foa',
+'Lulunga',
+'Mu'omu'a',
+'Ha'ano',
+    ''Uiha',
+''Eua Motu'a',
+''Eua Fo'ou',
+'Niua Toputapu',
+'Niua Fo'ou')?>

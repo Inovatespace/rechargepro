@@ -1,0 +1,37 @@
+<?php
+
+$statearray = array(
+    'Aguascalientes',
+    'Baja California',
+    'Baja California Sur',
+    'Campeche',
+    'Chiapas',
+    'Chihuahua',
+    'Coahuila de Zaragoza',
+    'Colima',
+    'Durango',
+    'Guanajuato',
+    'Guerrero',
+    'Hidalgo',
+    'Jalisco',
+    'Mexico',
+    'Michoacan de Ocampo',
+    'Morelos',
+    'Nayarit',
+    'Nuevo Leon',
+    'Oaxaca',
+    'Puebla',
+    'Queretaro de Arteaga',
+    'Quintana Roo',
+    'San Luis Potosi',
+    'Sinaloa',
+    'Sonora',
+    'Tabasco',
+    'Tamaulipas',
+    'Tlaxcala',
+    'Veracruz de',
+    'Ignacio de la Llave',
+    'Yucatan',
+    'Zacatecas')
+
+?>

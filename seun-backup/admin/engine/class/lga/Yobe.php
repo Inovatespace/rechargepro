@@ -1,0 +1,17 @@
+<option>Bursari</option>
+<option>Damaturu</option>
+<option>Geidam</option>
+<option>Bade</option>
+<option>Gujba</option>
+<option>Gulani</option>
+<option>Fika</option>
+<option>Fune</option>
+<option>Jakusko</option>
+<option>Karasuwa</option>
+<option>Machina</option>
+<option>Nangere</option>
+<option>Nguru</option>
+<option>Potiskum</option>
+<option>Tarmuwa</option>
+<option>Yunusari</option>
+<option>Yusufari</option>

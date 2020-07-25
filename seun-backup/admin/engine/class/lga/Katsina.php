@@ -1,0 +1,27 @@
+<option>Bakori</option>
+<option>Batagarawa</option>
+<option>Batsari</option>
+<option>Baure</option>
+<option>Bindawa</option>
+<option>Charanchi</option>
+<option>Dan Musa</option>
+<option>Dandume</option>
+<option>Danja</option>
+<option>Daura</option>
+<option>Dutsi</option>
+<option>Dutsin-Ma</option>
+<option>Faskari</option>
+<option>Funtua</option>
+<option>Ingawa</option>
+<option>Jibia</option>
+<option>Kafur</option>
+<option>Kaita</option>
+<option>Kankara</option>
+<option>Kankia</option>
+<option>Katsina</option>
+<option>Kurfi</option>
+<option>Kusada</option>
+<option>Mai'Adua</option>
+<option>Malumfashi</option>
+<option>Mani</option>
+<option>Mashi</option>

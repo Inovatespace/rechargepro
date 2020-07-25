@@ -1,0 +1,15 @@
+<?php
+
+$statearray = array(
+    'Saint Andrew Parish',
+    'Saint David Parish',
+    'Saint George Parish',
+    'Saint John Parish',
+    'Saint Joseph Parish',
+    'Saint Luke Parish',
+    'Saint Mark Parish',
+    'Saint Patrick Parish',
+    'Saint Paul Parish',
+    'Saint Peter Parish')
+
+?>

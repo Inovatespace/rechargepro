@@ -1,0 +1,11 @@
+<option>Akko</option>
+<option>Balanga</option>
+<option>Billiri</option>
+<option>Dukku</option>
+<option>Funakaye</option>
+<option>Gombe</option>
+<option>Kaltungo</option>
+<option>Kwami</option>
+<option>Nafada</option>
+<option>Shongom</option>
+<option>Yamaltu/Deba</option>

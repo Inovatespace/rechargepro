@@ -1,0 +1,27 @@
+<?php
+
+$statearray = array(
+    'Amazonas',
+    'Ancash',
+    'Apurimac',
+    'Arequipa',
+    'Ayacucho',
+    'Cajamarca',
+    'Cusco',
+    'Huancavelica',
+    'Huanuco',
+    'Ica',
+    'Junin',
+    'La Libertad',
+    'Lambayeque',
+    'Lima',
+    'Loreto',
+    'Madre de Dios',
+    'Moquegua',
+    'Pasco',
+    'Piura',
+    'Puno',
+    'San Martin',
+    'Tacna',
+    'Tumbes',
+    'Ucayali')?>

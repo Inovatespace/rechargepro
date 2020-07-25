@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^(.*) /next/admin/engine/class/images/resized/anySize.php?file=$1 [QSA]
+</IfModule>
