@@ -1,0 +1,114 @@
+<div id="tholder">
+<script type="text/javascript">
+$(document).ready(function () {
+
+    $("#search").keyup(function () {
+        var searchbox = $(this).val();
+        var active = "0";
+        $("input[id='active']:checked").each(function(i){
+active = "1";
+});
+        var dataString = 'q=' + searchbox+"&active="+active;
+
+        if (searchbox == '') {
+
+        } else {
+
+            $.ajax({
+                type: "POST",
+                url: "plugin/rechargepro_watch/pages/membersb.php",
+                data: dataString,
+                cache: false,
+                success: function (html) {
+                      $("#pagination").hide();
+                      $("#page-content").html(html);
+
+                }
+
+
+            });
+        }
+        return false;
+
+    });
+
+
+});
+
+
+
+function setactive(Id,what){
+            $.ajax({
+                type: "POST",
+                url: "plugin/rechargepro_watch/pages/pro/statuschange.php",
+                data: "buserid="+Id+"&status="+what,
+                cache: false,
+                success: function (html) {
+                      window.location.reload();
+                }
+            });     
+}
+</script>
+
+<link rel="stylesheet" href="java/sort/themes/blue/style.css" type="text/css" id="" media="print, projection, screen" />
+
+<div style="color:#0DAC42; background-color: white; font-size: 150%; padding:10px 0px;">
+Total Accounts : 27</div>
+
+
+
+<div class="shadow" style="margin: 10px 0px; padding:10px 20px; overflow:hidden; background-color:white;">
+<div style="float: left; width:40%;"><input autocomplete="off" id="search" type="text" placeholder="Name / Email / Mobile" style="width: 90%;" class="input" /></div>
+
+</div>
+
+
+
+<div class="adminheader shadow" style="overflow:hidden; border-bottom: solid #DDDDDD 1px; padding:5px; font-weight:bold;  font-size:11px;">
+<div style="float: left;">Account Manager</div></div>
+
+
+
+<div class="profilebg" id="acholder" style="border:solid 1px #EEEEEE; overflow:hidden;">
+
+
+<script type="text/javascript" src="java/jquery.twbsPagination.js"></script>
+
+<script type="text/javascript">
+jQuery(document).ready(function($){
+  $('#pagination').twbsPagination({
+        totalPages: 1,
+        visiblePages: 16,
+        onPageClick: function (event, page) {
+              $.ajax({
+    url : "plugin/rechargepro_watch/pages/membersb.php",
+    type: "POST",
+    data : {page:page},
+    success: function(data, textStatus, jqXHR)
+    {
+        $("#page-content").html(data);
+    }
+});
+        }
+    });
+    })
+</script>
+
+<div id="page-content"></div>
+<div style="clear: both;"></div>
+<ul style="margin-left: 10px;" id="pagination" class="pagination-sm"></ul>
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+

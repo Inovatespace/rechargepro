@@ -1,0 +1,249 @@
+
+<link rel="stylesheet" href="java/sort/themes/blue/style.css" type="text/css" id="" media="print, projection, screen" />
+
+<div style="overflow-x:auto;">
+<table id="myTable" class="tablesorter">
+<thead>
+<tr style="text-transform: uppercase;">
+<th>Mobifin Wallet</th>
+<th>SMS</th>
+<th>Capricon Wallet</th>
+<th>AEDC</th>
+<th>JEDC</th>
+<th>MTN</th>
+<th>GLO</th>
+<th>MONEY WAVE</th>
+<th>rechargepro WALLET</th>
+<th>Total Services (Active/Non Active)</th>
+<th>Total Members (Active/Non Active)</th>
+<th>Total Agent</th>
+<th>Total Distributor</th>
+</tr>
+</thead>
+<tbody>
+
+<tr >
+<td>N183550.42905</td>
+<td>3724.09</td>
+<td>318346.85</td>
+<td>314245.4</td>
+
+<td>-</td>
+<td>123396.0</td>
+<td>1127.50</td>
+
+
+
+<td>0</td>
+<td>2936251.69</td>
+<td>489/9</td>
+<td>
+1316/8</td>
+<td>531</td>
+<td>65</td>
+</tr>
+
+</tbody>
+</table>
+
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        
+        
+Highcharts.chart('container1', {
+    chart: {
+        type: 'column'
+    },credits: {
+enabled: false
+},
+    title: {
+        text: 'Daily transaction for current month'
+    },
+    subtitle: {
+        text: ''
+    },
+    xAxis: {
+        type: 'category',
+        labels: {
+            rotation: -45,
+            style: {
+                fontSize: '13px',
+                fontFamily: 'Verdana, sans-serif'
+            }
+        }
+    },
+    yAxis: {
+        min: 0,
+        title: {
+            text: 'Transaction'
+        }
+    },
+    legend: {
+        enabled: false
+    },
+    tooltip: {
+        pointFormat: 'Transaction {point.y:.1f}'
+    },
+    series: [{
+        name: 'Transaction',
+        colorByPoint: true,
+        data: [['01', 2161],['02', 1509],],
+        dataLabels: {
+            enabled: true,
+            rotation: -90,
+            color: '#FFFFFF',
+            align: 'right',
+            format: '{point.y:.1f}', // one decimal
+            y: 10, // 10 pixels down from the top
+            style: {
+                fontSize: '13px',
+                fontFamily: 'Verdana, sans-serif'
+            }
+        }
+    }]
+});
+        })
+</script>
+
+<div id="container1" class="shadow"  style="margin:3px; width: 100%; height: 300px;"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    $(function () {
+Highcharts.chart('container2', {
+    chart: {
+        plotBackgroundColor: null,
+        plotBorderWidth: null,
+        plotShadow: false,
+        type: 'pie'
+    },credits: {
+enabled: false
+},
+    title: {
+        text: 'Top Ten Services'
+    },
+    tooltip: {
+        pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+    },
+    plotOptions: {
+        pie: {
+            allowPointSelect: true,
+            cursor: 'pointer',
+            dataLabels: {
+                enabled: true,
+                format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                style: {
+                    color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                }
+            }
+        }
+    },
+    series: [{
+        name: 'Service',
+        colorByPoint: true,
+        data: [{name: '', y: 2},{name: '9MOBILE BUNDLE', y: 2},{name: '9MOBILE VTU', y: 2},{name: 'AEDC PREPAID (ABUJA, NIGER, Nassarawa, KOGI)', y: 468},{name: 'AIRTEL BUNDLE', y: 1},{name: 'AIRTEL VTU', y: 19},{name: 'BANK TRANSFER', y: 383},{name: 'BANK WITHDRAWAL', y: 1},{name: 'Bet 9ja', y: 6},{name: 'Credit', y: 145},{name: 'Debit', y: 2},{name: 'DSTV MULTICHOICE', y: 132},{name: 'EXPRESS GoTV', y: 3},{name: 'EXPRESS Startimes Payments', y: 1},{name: 'GLO BUNDLE', y: 1},{name: 'GLO VTU', y: 10},{name: 'GOTV MULTICHOICE', y: 287},{name: 'JEDC PREPAID (PLATEAU,BENUE,GOMBE,BAUCHI)', y: 18},{name: 'MTN BUNDLE', y: 11},{name: 'MTN VTU', y: 191},{name: 'MyTV Smart Payment', y: 2},{name: 'NairaBet', y: 4},{name: 'PROFIT', y: 993},{name: 'REFUND(9MOBILE VTU)', y: 20},{name: 'REFUND(AEDC PREPAID (ABUJA, NIGER, Nassarawa, KOGI', y: 2},{name: 'REFUND(AIRTEL BUNDLE)', y: 2},{name: 'REFUND(AIRTEL VTU)', y: 28},{name: 'REFUND(BANK TRANSFER)', y: 20},{name: 'REFUND(Bet 9ja)', y: 1},{name: 'REFUND(EXPRESS GoTV)', y: 1},{name: 'REFUND(GLO BUNDLE)', y: 3},{name: 'REFUND(GLO VTU)', y: 9},{name: 'REFUND(JEDC PREPAID (PLATEAU,BENUE,GOMBE,BAUCHI))', y: 4},{name: 'REFUND(MTN BUNDLE)', y: 1},{name: 'REFUND(MTN VTU)', y: 64},{name: 'REFUND(STARTIMES)', y: 3},{name: 'REWARD', y: 670},{name: 'STARTIMES', y: 63},{name: 'TOPUP', y: 48},{name: 'TRANSFER', y: 47},]
+    }]
+});
+        })
+</script>
+
+
+
+
+<script type="text/javascript">
+    $(function () {
+Highcharts.chart('container3', {
+    chart: {
+        type: 'column'
+    },credits: {
+enabled: false
+},
+    title: {
+        text: 'TOP 10 Agent'
+    },
+    subtitle: {
+        text: ''
+    },
+    xAxis: {
+        type: 'category',
+        labels: {
+            rotation: -45,
+            style: {
+                fontSize: '13px',
+                fontFamily: 'Verdana, sans-serif'
+            }
+        }
+    },
+    yAxis: {
+        min: 0,
+        title: {
+            text: 'Population (millions)'
+        }
+    },
+    legend: {
+        enabled: false
+    },
+    tooltip: {
+        pointFormat: 'Population in 2008: <b>{point.y:.1f} millions</b>'
+    },
+    series: [{
+        name: 'Population',
+        data: [['0', 171],['1', 28],['5', 19],['12', 13],['13', 7],['15', 5],['17', 5],['25', 5],['27', 15],['34', 17],['58', 5],['60', 2],['78', 12],['79', 9],['85', 18],['91', 3],['93', 11],['95', 3],['99', 4],['103', 23],['112', 6],['120', 101],['123', 192],['214', 2],['259', 24],['268', 2],['273', 6],['288', 4],['290', 22],['311', 2],['312', 4],['322', 18],['349', 8],['352', 2],['353', 40],['363', 33],['364', 156],['365', 59],['374', 4],['379', 3],['380', 23],['383', 20],['386', 16],['400', 52],['401', 107],['404', 4],['406', 21],['411', 16],['413', 15],['415', 36],['431', 11],['433', 34],['436', 18],['450', 19],['459', 5],['466', 76],['488', 2],['491', 9],['496', 1],['501', 4],['502', 4],['503', 4],['517', 5],['520', 9],['526', 18],['536', 11],['546', 9],['573', 6],['616', 1],['634', 7],['648', 110],['651', 15],['652', 19],['653', 24],['659', 13],['678', 3],['684', 7],['685', 13],['688', 6],['703', 21],['709', 132],['714', 6],['725', 2],['729', 3],['732', 4],['749', 5],['764', 3],['765', 6],['769', 12],['771', 9],['773', 1],['783', 23],['798', 10],['809', 5],['814', 8],['821', 3],['823', 35],['825', 3],['830', 55],['834', 15],['840', 7],['846', 11],['847', 9],['853', 3],['854', 55],['865', 5],['866', 12],['884', 12],['885', 13],['892', 2],['914', 6],['924', 7],['925', 20],['926', 82],['927', 4],['934', 2],['937', 5],['942', 42],['955', 21],['956', 26],['958', 50],['969', 6],['970', 12],['971', 2],['972', 7],['974', 6],['977', 3],['987', 46],['991', 22],['992', 3],['996', 4],['997', 20],['1001', 26],['1004', 6],['1006', 129],['1011', 24],['1012', 10],['1014', 2],['1020', 1],['1025', 6],['1032', 18],['1033', 4],['1036', 36],['1037', 11],['1055', 8],['1056', 7],['1068', 4],['1084', 4],['1095', 8],['1102', 4],['1112', 8],['1115', 75],['1116', 25],['1124', 15],['1125', 1],['1126', 3],['1127', 6],['1129', 19],['1130', 11],['1131', 15],['1132', 2],['1134', 1],['1135', 10],['1151', 149],['1154', 4],['1155', 11],['1167', 2],['1169', 19],['1174', 2],['1182', 25],['1183', 2],['1185', 1],['1191', 19],['1198', 69],['1213', 2],['1215', 4],['1217', 2],['1220', 7],['1221', 3],['1222', 5],['1224', 24],['1236', 5],['1246', 2],['1247', 2],['1251', 4],['1253', 48],['1274', 2],['1279', 7],['1283', 6],['1291', 11],['1295', 3],['1309', 2],['1310', 1],['1313', 2],['1315', 1],['1320', 2],['1323', 1],],
+        dataLabels: {
+            enabled: true,
+            rotation: -90,
+            color: '#FFFFFF',
+            align: 'right',
+            format: '{point.y:.1f}', // one decimal
+            y: 10, // 10 pixels down from the top
+            style: {
+                fontSize: '13px',
+                fontFamily: 'Verdana, sans-serif'
+            }
+        }
+    }]
+});
+        })
+</script>
+
+
+
+<script type="text/javascript">
+jQuery(document).ready(function($){
+    
+                        $.ajax({
+                        type: "POST",
+                        //url: "theme/ubuntu/call_blog.php",
+                        data: '',
+                        cache: false,
+                        success: function(html){
+                       // $("#googleloader").remove();
+                       // $("#hl").append(html);
+              
+                        }
+                        });
+
+    })
+
+</script>
+
+<div id="hl" style="overflow: hidden;">
+<div id="container2" class="shadow"  style="margin:3px; width: 49%; height: 450px; float:left;"></div>
+<div id="container3" class="shadow"  style="margin:3px; width: 49%; height: 300px; float:right;"></div>
+<img id="googleloader" src="theme/ubuntu/images/loading.gif" width="124" height="124" />
+
+ 

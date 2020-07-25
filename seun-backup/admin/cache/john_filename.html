@@ -1,0 +1,749 @@
+<script type="text/javascript">
+$(document).ready(function () {
+
+    $("#search").keyup(function () {
+        var searchbox = $(this).val();
+        var active = "0";
+        $("input[id='active']:checked").each(function(i){
+active = "1";
+});
+        var dataString = 'q=' + searchbox+"&active="+active;
+
+        if (searchbox == '') {
+
+        } else {
+
+            $.ajax({
+                type: "POST",
+                url: "plugin/rechargepro_transactionlog/pages/transactionlogb.php",
+                data: dataString,
+                cache: false,
+                success: function (html) {
+                      $("#pagination").hide();
+                      $("#page-content").html(html);
+
+                }
+
+
+            });
+        }
+        return false;
+
+    });
+
+
+});
+
+</script>
+
+<div class="shadow" style="margin: 10px 0px; padding:10px 20px; overflow:hidden; background-color:white;">
+
+<div style="overflow: hidden;">
+<select id="chice" style="float: left; margin-right:10px; width:20%;" class="input" onchange="updateme()">
+<option value="All">All</option>
+<option >BANK TRANSFER</option>
+<option value="Transfer">Transfer</option>
+<option value="Credit">Credit</option>
+<option >SMS</option>
+<option >BULK_AIRTIME</option>
+<option >BANK WITHDRAWAL</option>
+<option value="AED">AEDC PREPAID (ABUJA, NIGER, Nassarawa, KOGI)</option>
+<option value="2351">AIRTEL VTU</option>
+<option value="ACC">AIRTEL BUNDLE</option>
+<option value="2352">9MOBILE VTU</option>
+<option value="AEC">9MOBILE BUNDLE</option>
+<option value="2353">MTN VTU</option>
+<option value="ALC">MTN BUNDLE</option>
+<option value="2354">GLO VTU</option>
+<option value="ADC">GLO BUNDLE</option>
+<option value="ADD">GLO E-PIN</option>
+<option value="AQA">DSTV MULTICHOICE</option>
+<option value="AQC">GOTV MULTICHOICE</option>
+<option value="AWA">STARTIMES</option>
+<option value="1369">BILGATE COMMUNITY HIGH SCHOOL</option>
+<option value="2009">BOOGIEDOWN PRODUCTION STUDIO N50899</option>
+<option value="2010">BOODIEDOWN REHARSAL STUDIO N8299</option>
+<option value="2011">SAMSONG MUSIC ACADEMY N35690</option>
+<option value="2012">ONTOP OF THE WORLD CONCERT TICKETS -REGULAR- N2199</option>
+<option value="2013">ONTOP OF THE WORLD CONCERT TICKETS -VIP- N5199</option>
+<option value="JOD">JEDC PREPAID (PLATEAU,BENUE,GOMBE,BAUCHI)</option>
+<option value="JOP">JEDC POSTPAID (PLATEAU,BENUE,GOMBE,BAUCHI)</option>
+<option value="856">1960Bet</option>
+<option value="2609">360 BET</option>
+<option value="1169">9ja Predict</option>
+<option value="2871">AccessBET</option>
+<option value="2637">BestBet 360</option>
+<option value="2269">Bet 9ja</option>
+<option value="2508">Betdey - Fund Account</option>
+<option value="3233">BETWAY</option>
+<option value="2849">Ebonybet</option>
+<option value="3005">FortuneBet</option>
+<option value="2890">Gameon Limited</option>
+<option value="3083">Give and Take Lottery</option>
+<option value="3046">Hamabets</option>
+<option value="2490">Jackpotbet</option>
+<option value="2280">Kickoff102 Bet</option>
+<option value="2602">Lions Bet</option>
+<option value="2491">LOKABET</option>
+<option value="2266">Loving Bet - Portal Payments</option>
+<option value="2917">Megabet</option>
+<option value="508">Merrybet Gold Limited</option>
+<option value="759">MLotto</option>
+<option value="1191">Mobilotto</option>
+<option value="317">MYBETCITY</option>
+<option value="2739">Naija Billionaire</option>
+<option value="2768">NairaBet</option>
+<option value="556">NairaBet - Get Altitude Nig Ltd</option>
+<option value="1181">Nairabet Prepaid</option>
+<option value="2972">NAIRAPOWERBET</option>
+<option value="3263">PlentyMillions Ticket</option>
+<option value="2555">PLUSBET-PIN</option>
+<option value="829">QuickLotto</option>
+<option value="2297">RookieBets</option>
+<option value="3404">Rukkabet</option>
+<option value="2298">SportyBet</option>
+<option value="1344">Superior Bet</option>
+<option value="1019">Surebet247</option>
+<option value="3270">UBC365</option>
+<option value="2557">Wescobet</option>
+<option value="3068">Western Lotto</option>
+<option value="1418">Winlot Global Resources Limited</option>
+<option value="1449">Winners Golden Bet</option>
+<option value="820">Abia State Govt. IGR POS</option>
+<option value="169">Abuja Metropolitan Management Council</option>
+<option value="692">234Give</option>
+<option value="1708">Act Now</option>
+<option value="1397">Buhari Support Organisation</option>
+<option value="986">Excel Charity</option>
+<option value="211">Freedom Foundation</option>
+<option value="925">The Irede Foundation</option>
+<option value="778">United For Kids Foundation</option>
+<option value="310">4Sure payments</option>
+<option value="3225">ADRON HOMES AND PROPERTIES LIMITED</option>
+<option value="930">Afrinvest</option>
+<option value="245">AIICO Insurance Plc</option>
+<option value="707">Aiico POS General Payments</option>
+<option value="304">ARM Investments</option>
+<option value="836">ARM Life Plc</option>
+<option value="314">ARM Securities</option>
+<option value="316">BGL Plc</option>
+<option value="2509">CAPEX Assure</option>
+<option value="338">Corper Insurance Premium Service</option>
+<option value="770">FBN Insurance</option>
+<option value="186">FBN QUEST ASSET MANAGEMENT</option>
+<option value="3223">HYGEIA HMO</option>
+<option value="1013">Interswitch Health</option>
+<option value="226">Investment One Financial services</option>
+<option value="537">Leadway Assurance</option>
+<option value="2386">Leadway Capital</option>
+<option value="780">Mutual Benefits Life Assurance</option>
+<option value="1597">NSIA Insurance Existing Customers</option>
+<option value="1754">NSIA Insurance New Customer or Agent</option>
+<option value="730">RenMoney MFB Limited</option>
+<option value="3114">Stanbic Assets Mgt Funds Mgr</option>
+<option value="662">Stanbic IBTC Asset Management Limited</option>
+<option value="794">Standard Alliance</option>
+<option value="942">UnityKapital Premium</option>
+<option value="305">DealDey Portal Payments</option>
+<option value="313">DHL shipping payments POS</option>
+<option value="483">Hududullah</option>
+<option value="210">Chinese Embassy Visa Payments - LGS</option>
+<option value="215">AERO Book-On-Hold</option>
+<option value="915">AERO Mobile Book-On-Hold</option>
+<option value="1202">Africa World Airlines</option>
+<option value="1277">Air Peace</option>
+<option value="667">Arik Air Book-On-Hold</option>
+<option value="1170">Asky Air Mobile Book on Hold</option>
+<option value="1675">AZMAN AIRLINE</option>
+<option value="336">Dana Air- Book On Hold</option>
+<option value="2234">Emirates</option>
+<option value="2747">Ethiopian Airlines</option>
+<option value="290">Hak Air Book-On-Hold</option>
+<option value="1162">JEFA TRAVELS</option>
+<option value="281">Medview Airlines</option>
+<option value="2947">Pan-Atlantic University</option>
+<option value="3304">PENCILLAND TRAVELS AND TOURS LIMITED</option>
+<option value="2712">South African Airlines</option>
+<option value="134">Travelstart Web Logistics</option>
+<option value="123">Wakanow</option>
+<option value="2521">Chisco Transport Nigeria Limited</option>
+<option value="3324">GIG MOBILITY LIMITED</option>
+<option value="217">Lekki Concession Company Lekki  Epe Expressway</option>
+<option value="1254">Adorable Clothiers</option>
+<option value="1256">Airtel Smartstore</option>
+<option value="1446">Arabel Online Payment</option>
+<option value="1158">ATD Online Enterprise</option>
+<option value="1056">Audacious Clothing</option>
+<option value="1755">Avalinh Limited</option>
+<option value="750">Babybliss</option>
+<option value="1015">Biz LifeLines And Company</option>
+<option value="2530">BrainBox Software</option>
+<option value="179">Builders Station Ltd</option>
+<option value="1022">Buttergrey</option>
+<option value="845">Cartways</option>
+<option value="234">Cherries Gifts</option>
+<option value="1089">Chictouches Enyoungboss</option>
+<option value="687">Chops On Wheels</option>
+<option value="1139">DealDeycom</option>
+<option value="1576">Edenbaby</option>
+<option value="588">Essence De Beaute</option>
+<option value="1855">HRF</option>
+<option value="1915">IMaka</option>
+<option value="2717">Pinnacle Oil and Gas</option>
+<option value="920">Tiny Shoes Online</option>
+<option value="731">Tyre Palace Global Resources</option>
+<option value="688">Wisdom Books</option>
+<option value="1758">Yummypartypacks</option>
+<option value="125">Airtel Blackberry</option>
+<option value="900">*909# Stanbic MobileMoney</option>
+<option value="258">FETS  Mobile Money</option>
+<option value="1033">Flash Me Cash</option>
+<option value="534">Fortis Mobile Money</option>
+<option value="2419">Quickteller Paypoint</option>
+<option value="381">Adebukola Idayat Nestle</option>
+<option value="378">Ajoke Stores Nestle</option>
+<option value="380">Alwadud Ventures Nestle</option>
+<option value="373">Basrose Stores Nestle</option>
+<option value="372">Butsun Ratboh Nestle</option>
+<option value="374">Kenny Comm Nestle</option>
+<option value="375">Kofaj Nigeria Nestle</option>
+<option value="137">Airtel Dealer payment</option>
+<option value="2776">Airtel Non Mobile Services</option>
+<option value="513">Beyond Branches Agent Cashin</option>
+<option value="145">Calabar South Dealer Payment</option>
+<option value="147">Calabar South LG Offline Collections</option>
+<option value="394">Cashless Payments</option>
+<option value="1506">Complete Marketing Services Subscription</option>
+<option value="155">NITUZ Agent Topup Payments</option>
+<option value="919">Eset Nigeria and Ghana</option>
+<option value="819">Federal Inland Revenue Service</option>
+<option value="2754">Above Only MFB</option>
+<option value="2081">Aella Financial Solutions Limited</option>
+<option value="524">Afemai Microfinance Bank Ltd</option>
+<option value="1003">AL HAYAT Microfinance Bank</option>
+<option value="2270">AlBarakah Microfinance Bank</option>
+<option value="1846">Alekun MFB</option>
+<option value="2782">ALLWORKERS MFB</option>
+<option value="1859">ALLY MFB</option>
+<option value="170">Aloaye Microfinance Bank Ltd</option>
+<option value="2620">Alpha Kapital MFB</option>
+<option value="554">Amoye Microfinance Bank</option>
+<option value="681">Apeks Microfinance Bank</option>
+<option value="477">Apex Microfinance Banks</option>
+<option value="1844">Apple MFB</option>
+<option value="1685">Asset Matrix MFB</option>
+<option value="544">AstraPolaris MFB</option>
+<option value="171">Atlas Micofinance bank</option>
+<option value="296">Auchi Microfinance Bank Ltd</option>
+<option value="2445">Awkuzu MFB</option>
+<option value="2706">BAINES CREDIT MFB</option>
+<option value="2117">Balogun Fulani Mfb</option>
+<option value="2432">BC Kash MFB</option>
+<option value="2428">Betterlife MFB</option>
+<option value="686">BishopGate Microfinance Bank</option>
+<option value="2565">Boctrust MFB</option>
+<option value="677">Bokkos Microfinance Bank</option>
+<option value="2765">Bridgeway MFB</option>
+<option value="543">BrightWay MFB</option>
+<option value="683">Calabar Microfinance Bank</option>
+<option value="2022">Capital Plan MFB</option>
+<option value="295">Cedar Microfinance Bank Ltd</option>
+<option value="2391">Chase Microfinance Bank</option>
+<option value="2841">Cherish MFB</option>
+<option value="2279">Chibueze MFB</option>
+<option value="2028">Chikum MFB</option>
+<option value="1527">Conpro Microfinance Bank</option>
+<option value="787">Consumer Microfinance Bank</option>
+<option value="445">Cornerstone Savings  Loan</option>
+<option value="3373">CREDIT AFRIQUE MFB</option>
+<option value="1791">CreditPlus MFB</option>
+<option value="2716">Crossover MFB</option>
+<option value="2222">Crowned Eagle Microfinance Bank Limited</option>
+<option value="1789">Crutech MFB</option>
+<option value="2142">Davo Dani Microfinance Bank Ltd</option>
+<option value="1954">Daylight MFB</option>
+<option value="517">DesMonarchy MFB Limited</option>
+<option value="2883">Diamond Bank Plc</option>
+<option value="1727">Diobu MFB</option>
+<option value="552">Eagle Flight Microfinance Bank</option>
+<option value="292">Echo Microfinance Bank</option>
+<option value="1935">Ekondo MFB</option>
+<option value="1077">EKReliable Microfinance Bank</option>
+<option value="1745">Empire Trust MFB</option>
+<option value="1709">EQUINOX MFB</option>
+<option value="1004">Esan Microfinance Bank</option>
+<option value="2021">EsoE MFB</option>
+<option value="2842">Everest MFB</option>
+<option value="2052">Excel MFB</option>
+<option value="2646">Excellent MFB</option>
+<option value="2934">FCT Microfinance Bank</option>
+<option value="1845">Fedpoly Nasarawa MFB</option>
+<option value="1001">FFS Microfinance Bank</option>
+<option value="2371">Fidfund Microfinance Bank</option>
+<option value="590">FINATRUST MICROFINANCE BANK</option>
+<option value="584">First Lowland Microfinance Bank</option>
+<option value="2843">First Multiple MFB</option>
+<option value="2607">First Royal MFB</option>
+<option value="1934">Fud MFB</option>
+<option value="2853">Garki MFB</option>
+<option value="2762">Gateway Saving and Loans Ltd</option>
+<option value="2072">Giant Stride MFB</option>
+<option value="1528">Glory Microfinance Bank</option>
+<option value="2233">Good Shepherd Micro Finance Bank</option>
+<option value="2881">Gowans MFB</option>
+<option value="684">Grassroot Microfinance Bank</option>
+<option value="2082">Headway MFB</option>
+<option value="2430">Hedgeworth MFB</option>
+<option value="1953">Highland MFB</option>
+<option value="1002">IC GLOBAL Microfinance Bank</option>
+<option value="682">Ikenne Microfinance Bank</option>
+<option value="476">Illisan MFB</option>
+<option value="2683">ILORIN MFB</option>
+<option value="1744">Imo State MFB</option>
+<option value="1955">Imsu MFB</option>
+<option value="1799">IMT MFB</option>
+<option value="679">Interland Microfinance Bank</option>
+<option value="2615">Isiaku Microfinance Bank</option>
+<option value="2307">Isuofia MFB</option>
+<option value="2550">IyeruOkin MFB</option>
+<option value="1933">Iyin Ekiti MFB</option>
+<option value="1858">Izon MFB</option>
+<option value="1800">Izzi MFB</option>
+<option value="685">KCMB Microfinance Bank</option>
+<option value="2846">Kebbi Home Savings and Loans</option>
+<option value="2743">Ksley Mega MFB</option>
+<option value="2255">Kwasu Microfinance Bank</option>
+<option value="1021">La Fayette Microfinance Bank</option>
+<option value="2228">Levite Microfinance Bank Limited</option>
+<option value="470">Lovonus MFB</option>
+<option value="2836">Malachy Microfinance Bank Limited</option>
+<option value="1794">Maritime MFB</option>
+<option value="2140">Mautech Microfinance Bank</option>
+<option value="1725">Mayfair MFB</option>
+<option value="1402">MegaPraise Mfb</option>
+<option value="2665">Meridian Microfinance Bank Limited</option>
+<option value="2049">Metro Microfinance Bank</option>
+<option value="2262">Microvis Microfinance Bank</option>
+<option value="2653">Mutual Trust MFB</option>
+<option value="2263">Ndiagu Microfinance Bank</option>
+<option value="1914">Ndiorah MFB</option>
+<option value="2645">New Golden Pastures MFB</option>
+<option value="2141">Nigerian Navy Microfinance Bank</option>
+<option value="1847">Nut Endwell MFB</option>
+<option value="478">Oduduwa MFB</option>
+<option value="2282">Oko Microfinance Bank Limited</option>
+<option value="173">Olabisi Onabanjo University MFB</option>
+<option value="527">One Microfinance Bank Ltd</option>
+<option value="788">Peace Microfinance Bank</option>
+<option value="2728">PECANTRUST MFB</option>
+<option value="1932">Penny Wise MFB</option>
+<option value="1793">Pentecost MFB</option>
+<option value="2682">PERSONAL TRUST MFB</option>
+<option value="2919">Petra MFB</option>
+<option value="190">Polybadan Microfinance Bank Limited</option>
+<option value="1710">Prolific MFB</option>
+<option value="2050">PurpleMoney MFB</option>
+<option value="1522">REFUGE HOMES SAVINGS AND LOANS LTD</option>
+<option value="2474">Regent MFB</option>
+<option value="2708">RELIANCE MFB</option>
+<option value="553">Rephidim Microfinance Bank</option>
+<option value="546">RIC MICROFINANCE BANK LTD</option>
+<option value="2845">Richway MFB</option>
+<option value="2870">Royal Child Heritage MFB</option>
+<option value="2295">Royal Exchange Microfinance Bank Limited</option>
+<option value="525">Sagamu Microfinance Bank</option>
+<option value="1786">SBDC</option>
+<option value="1146">SEAP Microfinance Bank</option>
+<option value="2051">SEED CAPITAL</option>
+<option value="471">Shepherd Trust MFB</option>
+<option value="834">Solid Allianze MFB</option>
+<option value="545">Sovereign Microfinance Bank</option>
+<option value="1843">Stallion MFB</option>
+<option value="2281">Stanford Microfinance Bank Limited</option>
+<option value="2453">Sulspap Microfinance Bank</option>
+<option value="622">Sunbeam Microfinance Bank</option>
+<option value="2481">TCF MFB</option>
+<option value="2880">The Millennium Microfinance Bank</option>
+<option value="1796">Titare MFB</option>
+<option value="678">Total Trust Microfinance Bank</option>
+<option value="2905">Transwealth MFB</option>
+<option value="1029">UDA MICROFINANCE BANK</option>
+<option value="481">Ultimate Benefit Integrated MFB</option>
+<option value="2452">Verdant MFB</option>
+<option value="1524">Verite Microfinance Bank</option>
+<option value="2304">VFD Microfinance Bank</option>
+<option value="2053">Vibrant MFB</option>
+<option value="886">Visa MFB</option>
+<option value="1616">Viscount Microfinance Bank</option>
+<option value="885">Wapo MFB</option>
+<option value="2616">XSLNCE MFB</option>
+<option value="482">Christ Embassy Prepaid</option>
+<option value="1215">EaziLaundry Prepaid</option>
+<option value="772">Freedom Card Prepaid</option>
+<option value="142">Verve Like Me Payments</option>
+<option value="143">Verve LikeMe Prepaid</option>
+<option value="979">Bourdillion Court Estate</option>
+<option value="998">Friends Colony Estates</option>
+<option value="891">Vodacom Nigeria</option>
+<option value="2113">Chulaworld</option>
+<option value="1871">Elliesbeddings</option>
+<option value="1925">Tobbies</option>
+<option value="1130">Wines et al</option>
+<option value="740">Maze Montessori School</option>
+<option value="1143">Association of Medical Lab Scientists</option>
+<option value="2513">Wakanow Mobile</option>
+<option value="2526">Empowering The Corps ETC</option>
+<option value="2257">KwikCash</option>
+<option value="3131">APM Terminals</option>
+<option value="2874">Battle Cry Christian Ministries</option>
+<option value="2154">Catholic Archdiocese of Lagos</option>
+<option value="2069">CCTVGC</option>
+<option value="259">Christ Chapel Int'l Churches</option>
+<option value="978">Christ Embassy</option>
+<option value="522">Church Of God Mission Int'l ((Byazhin District HQ)</option>
+<option value="2034">City of David</option>
+<option value="1842">Eckankar</option>
+<option value="953">Eckankar FCT Area</option>
+<option value="2827">Emmanuel Global Network Limited</option>
+<option value="291">GRACE ASSEMBLY</option>
+<option value="519">HighLife Church</option>
+<option value="221">House on the Rock</option>
+<option value="2751">MGIVING</option>
+<option value="2976">NASFAT</option>
+<option value="2882">RCCG Jubilee Christian Centre</option>
+<option value="2961">RCCG Solid Rock Parish</option>
+<option value="1965">Rhapsody of Realities Subscription</option>
+<option value="2083">St. Charles Lwanga Catholic Church</option>
+<option value="964">The Bible Society of Nigeria</option>
+<option value="515">The Father's House Church</option>
+<option value="2598">The Fountain Of Life Church</option>
+<option value="3066">The Lords Chosen Charismatic Revival Ministry</option>
+<option value="333">This Present House</option>
+<option value="2824">UPPER ROOM BAPTIST CHURCH</option>
+<option value="518">Voice Of The Christian Martyrs Nigeria</option>
+<option value="2799">WINNERS CHAPEL</option>
+<option value="2810">WINNERS CHAPEL APP PAYMENTS</option>
+<option value="2821">Winners Living Faith PWQ</option>
+<option value="516">1004 Estates Limited</option>
+<option value="328">ANAN</option>
+<option value="2506">Nigerian Institute of Management</option>
+<option value="2144">Nigerian Society of Engineers</option>
+<option value="2722">Victory Life Bible Church</option>
+<option value="756">Adeleke University Ede</option>
+<option value="1090">Afe Babalola University Ado Ekiti</option>
+<option value="343">Ajayi Crowther University</option>
+<option value="563">Bayero Uni_BUK Fees</option>
+<option value="562">Baze University</option>
+<option value="2950">BellFlower Academy</option>
+<option value="1014">Benson Idahosa University (Graduate)</option>
+<option value="927">BRAS School of Vocational Studies</option>
+<option value="3015">BRIGHTER SCHOOL</option>
+<option value="833">Capville School</option>
+<option value="2922">Caray Montessori School International</option>
+<option value="2000">Chicago Institute of Business Online</option>
+<option value="448">Corona Schools</option>
+<option value="773">Crescent University, Abeokuta</option>
+<option value="560">CRUTech CollegePAY</option>
+<option value="666">Delta State PolyTechnic</option>
+<option value="159">Delta State School of Marine Technology</option>
+<option value="528">Delta State University</option>
+<option value="293">Educational Advancement Centre</option>
+<option value="965">Ekiti State University</option>
+<option value="2879">Evaron Schools Invoice Payments</option>
+<option value="2964">EVERGREEN HIGH SCHOOL</option>
+<option value="1765">Executive Housing Co-Operative Society Limited</option>
+<option value="631">Federal Science and Technical College Uromi</option>
+<option value="651">Federal University Dutsin-ma</option>
+<option value="995">Federal University Wukari</option>
+<option value="924">FGGC Ikot Obio</option>
+<option value="2951">FOCAL POINT NUR AND PRY SCHOOL</option>
+<option value="989">FPT Bauchi App. Form,Stream A and Other Fees</option>
+<option value="3010">GGI SCHOOLS LIMITED</option>
+<option value="149">Glisten International Academy</option>
+<option value="984">Glory Land Baptist School,Abuja</option>
+<option value="2895">Golden Vessel Academy</option>
+<option value="1225">Gombe State University</option>
+<option value="675">Grundtvig International Sec School</option>
+<option value="2079">Guided Beginnings</option>
+<option value="3001">HALCYON INTERNATIONAL SCHOOL</option>
+<option value="561">Hallmark University</option>
+<option value="1801">Hassan Usman Polytechnic</option>
+<option value="2212">Heritage Bank Schools</option>
+<option value="2639">IBB University, Lapai</option>
+<option value="464">Infant Jesus School</option>
+<option value="936">International Community School</option>
+<option value="2959">ITREE International Preparatory School</option>
+<option value="629">Kambridge Educational Services</option>
+<option value="983">King of KIngs Academy, Abuja</option>
+<option value="581">Lagos Business School</option>
+<option value="2580">Lagos Preparatory School - Misc Payts</option>
+<option value="272">Lagos State Polytechnic</option>
+<option value="277">LASPOTECH SPTS E-payment</option>
+<option value="598">Lord's Gate School Montessori</option>
+<option value="627">Loyola Jesuit College</option>
+<option value="1425">Lumen Christi International School</option>
+<option value="704">Maritime Academy</option>
+<option value="832">Methodist Boys High School</option>
+<option value="2977">MODERN COMPREHESIVE SEC SCH NSUKKA LTD</option>
+<option value="251">MYPA School</option>
+<option value="253">Nigerian College of Accountancy (NCA|ANAN)</option>
+<option value="176">OAU- CDL E-Learning</option>
+<option value="2956">Pearls Modern School</option>
+<option value="824">Primage Schools</option>
+<option value="1133">Quickteller Schools- Sacred Heart College</option>
+<option value="148">Sacred Heart College</option>
+<option value="1391">SchoolNET</option>
+<option value="392">SkoolCheckout</option>
+<option value="2740">St Matthias Anglican High School, Akure</option>
+<option value="267">Trinity International College</option>
+<option value="465">UNICAL EDUPORTAL</option>
+<option value="466">UNIPORT Post-UME</option>
+<option value="538">University of Agriculture Makurdi</option>
+<option value="591">University of Ilorin</option>
+<option value="831">Valida International School</option>
+<option value="680">Afritickets</option>
+<option value="567">Ariiya Tickets</option>
+<option value="769">Cokobar.com</option>
+<option value="621">Gidi Culture Festival</option>
+<option value="64605">Benin Electricity Distribution Company Postpaid</option>
+<option value="76701">Benin Electricity Distribution Company Prepaid</option>
+<option value="88401">Cross River Water Board</option>
+<option value="04131606">Eko Electricity Distribution Company Plc Postpaid</option>
+<option value="04147302">Eko Electricity Distribution Company Plc Prepaid</option>
+<option value="78599">Enugu Electricity Distribution Company Postpaid</option>
+<option value="78399">Enugu Electricity Distribution Company Prepaid</option>
+<option value="79201">Ibadan Electricity Distribution Company Postpaid</option>
+<option value="84801">Ikeja Electric (Postpaid)</option>
+<option value="76601">Ikeja Electric Prepaid</option>
+<option value="84701">Kano Electricity Distribution Company Prepaid</option>
+<option value="49101">Kano Electricity Distribution Company(Postpaid)</option>
+<option value="24601">PHCN Prepaid (EKO)</option>
+<option value="86001">PortHacourt Electricity Distribution Company (POST</option>
+<option value="04175304">Yola Electricity Distribution Company</option>
+<option value="1803">African Cable Television (ACTV) Subscription</option>
+<option value="496">Cable Africa Network TV(CanTV)</option>
+<option value="113">DAARSAT Communications</option>
+<option value="53601">DSTV Box Office Wallet Topup</option>
+<option value="104">EXPRESS DSTV Subscription</option>
+<option value="459">EXPRESS GoTV</option>
+<option value="308">Infinity TV Payments</option>
+<option value="977">iROKOtv</option>
+<option value="3126">Kwese TV</option>
+<option value="720">Montage Cable TV</option>
+<option value="112">MyTV Smart Payment</option>
+<option value="04323401">Platinum Plus TV</option>
+<option value="341">Play Subscription</option>
+<option value="240">EXPRESS Startimes Payments</option>
+<option value="402">TrendTV</option>
+<option value="3145">TSTV</option>
+<option value="844">Cloudware Technologies</option>
+<option value="04148601">Coollink</option>
+<option value="04150902">Interbound Resources Hosting</option>
+<option value="110">ipNX Subscription Payments</option>
+<option value="857">Smile Bundle</option>
+<option value="991">Spectranet Limited</option>
+<option value="202101">Swift 4G Subscription</option>
+<option value="61301">WhoGoHost Limited</option>
+<option value="7846">CONCEPTS</option>
+</select>
+
+
+<input type="text" id="search" placeholder="Ref / TransactionID" class="input search" style="float: left; width:20%;"/>
+
+
+<div style="float: right;">
+<form action="plugin/rechargepro_transactionlog/pages/pro/exportdownload.php">
+<input autocomplete="off" type="text" id="calendar2" name="date2" placeholder="End Date" value="2018-11-02" style="width:100px; float:right;" class="input" />
+<input autocomplete="off" type="text" id="calendar3" name="date1" placeholder="Start Date" value="2018-11-02" style="width:100px; float:right; margin-right:5px;" class="input" />
+<input type="submit" value="Download Sales Report" style="margin:3px; float: right; color:white; border:none; padding:5px 10px; margin-right:5px;" class="greenmenu shadow"/>
+</form>
+</div>
+</div>
+
+</div>
+
+
+
+<div class="adminheader shadow" style="overflow:hidden; border-bottom: solid #DDDDDD 1px; padding:5px; font-weight:bold;  font-size:11px;">
+<div style="float: left;">Transaction Log</div></div>
+
+
+
+<div class="profilebg" id="acholder" style="padding:10px; border:solid 1px #EEEEEE; overflow:hidden;">
+<style type="text/css">
+.stats{position: relative; overflow:hidden; border-bottom:1px solid #EEEEEE; padding:1px;}
+.stats2{position: relative; overflow:hidden; background-color: #F1F1F1; border-bottom:1px solid #DDDDDD; padding:1px;}
+.stats:hover {background: #F2F2F2; color:#F9C93A;}
+</style>
+<div>
+
+<script type="text/javascript"> 
+    $(function () {
+    $('#container').highcharts({
+        chart: {
+            zoomType: 'xy'
+        },credits: {
+enabled: false
+},
+        title: {
+            text: 'Attempted Sales VS Successful Sales by Day'
+        },
+        subtitle: {
+            text: ''
+        },
+        xAxis: [{
+            categories: ['01','02',],
+            crosshair: true
+        }],
+        yAxis: [{ // Primary yAxis
+            labels: {
+                format: '{value}',
+                style: {
+                    color: Highcharts.getOptions().colors[1]
+                }
+            },
+            title: {
+                text: 'Attempt',
+                style: {
+                    color: Highcharts.getOptions().colors[1]
+                }
+            }
+        }, { // Secondary yAxis
+            title: {
+                text: 'Success',
+                style: {
+                    color: Highcharts.getOptions().colors[0]
+                }
+            },
+            labels: {
+                format: '{value}',
+                style: {
+                    color: Highcharts.getOptions().colors[0]
+                }
+            },
+            opposite: true
+        }],
+        tooltip: {
+            shared: true
+        },
+        legend: {
+            layout: 'vertical',
+            align: 'right',
+            x: -30,
+            verticalAlign: 'top',
+            y: 5,
+            floating: true,
+            backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF'
+        },
+        series: [{
+            name: 'Attempt',
+            type: 'column',
+            yAxis: 1,
+            data: [184,34,],
+            tooltip: {
+                valueSuffix: ''
+            }
+
+        }, {
+            name: 'Success',
+            type: 'spline',
+            data: [1979,407,],
+            tooltip: {
+                valueSuffix: ''
+            }
+        }, {
+            type: 'pie',
+            name: 'Payment Method',
+            data: [{
+                name: 'Card',
+                y: 1077,
+                color: Highcharts.getOptions().colors[2] // Jane's color
+            }, {
+                name: 'Wallet',
+                y: 7,
+                color: Highcharts.getOptions().colors[3] // John's color
+            }],
+            center: [100, 80],
+            size: 100,
+            showInLegend: true,
+            dataLabels: {
+                enabled: true
+            }
+        }
+        
+        
+        ]
+    });
+});
+</script>
+
+<div id="container" style="width: 100%; height: 300px;"></div>
+
+
+
+
+</div>
+
+
+<script type="text/javascript">
+function updateme(){
+   var chice = $("#chice").val();
+   
+   window.location.href = "rechargepro_transactionlog&p=index&t="+chice; 
+}
+
+
+</script>
+
+<script type="text/javascript">
+jQuery(document).ready(function($){
+    
+          
+    })
+</script>
+
+
+<link rel="stylesheet" href="java/sort/themes/blue/style.css" type="text/css" id="" media="print, projection, screen" />
+
+
+
+
+
+<script type="text/javascript" src="java/jquery.twbsPagination.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function($){
+    
+    var type = "All";
+        
+    
+    
+  $('#pagination').twbsPagination({
+        totalPages: 8199,
+        visiblePages: 16,
+        onPageClick: function (event, page) {
+              $.ajax({
+    url : "plugin/rechargepro_transactionlog/pages/transactionlogb.php",
+    type: "POST",
+    data : {page:page,type:type},
+    success: function(data, textStatus, jqXHR)
+    {
+        $("#page-content").html(data);
+    }
+});
+        }
+    });
+    })
+</script>
+
+<div id="page-content"></div>
+<div style="clear: both;"></div>
+<ul style="margin-left: 10px;" id="pagination" class="pagination-sm"></ul>
+
+
+</div>
+
+
+
+
+
+

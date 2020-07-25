@@ -1,0 +1,249 @@
+
+<link rel="stylesheet" href="java/sort/themes/blue/style.css" type="text/css" id="" media="print, projection, screen" />
+
+<div style="overflow-x:auto;">
+<table id="myTable" class="tablesorter">
+<thead>
+<tr style="text-transform: uppercase;">
+<th>Mobifin Wallet</th>
+<th>SMS</th>
+<th>Capricon Wallet</th>
+<th>AEDC</th>
+<th>JEDC</th>
+<th>MTN</th>
+<th>GLO</th>
+<th>MONEY WAVE</th>
+<th>rechargepro WALLET</th>
+<th>Total Services (Active/Non Active)</th>
+<th>Total Members (Active/Non Active)</th>
+<th>Total Agent</th>
+<th>Total Distributor</th>
+</tr>
+</thead>
+<tbody>
+
+<tr >
+<td>N229641.50905</td>
+<td>2981.59</td>
+<td>177444.25</td>
+<td>248596.4</td>
+
+<td>-</td>
+<td>164127.0</td>
+<td>1127.50</td>
+
+
+
+<td>0</td>
+<td>2367959.78</td>
+<td>495/3</td>
+<td>
+1283/8</td>
+<td>517</td>
+<td>62</td>
+</tr>
+
+</tbody>
+</table>
+
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        
+        
+Highcharts.chart('container1', {
+    chart: {
+        type: 'column'
+    },credits: {
+enabled: false
+},
+    title: {
+        text: 'Daily transaction for current month'
+    },
+    subtitle: {
+        text: ''
+    },
+    xAxis: {
+        type: 'category',
+        labels: {
+            rotation: -45,
+            style: {
+                fontSize: '13px',
+                fontFamily: 'Verdana, sans-serif'
+            }
+        }
+    },
+    yAxis: {
+        min: 0,
+        title: {
+            text: 'Transaction'
+        }
+    },
+    legend: {
+        enabled: false
+    },
+    tooltip: {
+        pointFormat: 'Transaction {point.y:.1f}'
+    },
+    series: [{
+        name: 'Transaction',
+        colorByPoint: true,
+        data: [['01', 1763],['02', 2318],['03', 2499],['04', 2237],['05', 2426],['06', 2603],['07', 526],['08', 2245],['09', 1862],['10', 1852],['11', 2102],['12', 2158],['13', 2086],['14', 1083],['15', 2275],['16', 1811],['17', 1809],['18', 1878],['19', 3],],
+        dataLabels: {
+            enabled: true,
+            rotation: -90,
+            color: '#FFFFFF',
+            align: 'right',
+            format: '{point.y:.1f}', // one decimal
+            y: 10, // 10 pixels down from the top
+            style: {
+                fontSize: '13px',
+                fontFamily: 'Verdana, sans-serif'
+            }
+        }
+    }]
+});
+        })
+</script>
+
+<div id="container1" class="shadow"  style="margin:3px; width: 100%; height: 300px;"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    $(function () {
+Highcharts.chart('container2', {
+    chart: {
+        plotBackgroundColor: null,
+        plotBorderWidth: null,
+        plotShadow: false,
+        type: 'pie'
+    },credits: {
+enabled: false
+},
+    title: {
+        text: 'Top Ten Services'
+    },
+    tooltip: {
+        pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+    },
+    plotOptions: {
+        pie: {
+            allowPointSelect: true,
+            cursor: 'pointer',
+            dataLabels: {
+                enabled: true,
+                format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                style: {
+                    color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                }
+            }
+        }
+    },
+    series: [{
+        name: 'Service',
+        colorByPoint: true,
+        data: [{name: '', y: 47},{name: '1960Bet', y: 9},{name: '9ja Predict', y: 2},{name: '9MOBILE BUNDLE', y: 24},{name: '9MOBILE VTU', y: 416},{name: 'AEDC PREPAID (ABUJA, NIGER, Nassarawa, KOGI)', y: 4256},{name: 'Air Peace', y: 1},{name: 'AIRTEL BUNDLE', y: 96},{name: 'Airtel Dealer payment', y: 10},{name: 'AIRTEL VTU', y: 781},{name: 'Arik Air Book-On-Hold', y: 3},{name: 'BANK TRANSFER', y: 2841},{name: 'BANK WITHDRAWAL', y: 39},{name: 'Bet 9ja', y: 90},{name: 'BETWAY', y: 1},{name: 'Christ Embassy Prepaid', y: 2},{name: 'Credit', y: 1244},{name: 'Debit', y: 32},{name: 'DENIS REFUN(DBANK TRANSFER)', y: 1},{name: 'DENIS REFUND (BANK TRANSFER)', y: 1},{name: 'DENIS REFUND(BANK TRANSFER)', y: 4},{name: 'DSTV MULTICHOICE', y: 1164},{name: 'Eset Nigeria and Ghana', y: 1},{name: 'EXPRESS DSTV Subscription', y: 31},{name: 'EXPRESS GoTV', y: 109},{name: 'EXPRESS Startimes Payments', y: 15},{name: 'GLO BUNDLE', y: 21},{name: 'GLO VTU', y: 365},{name: 'GOTV MULTICHOICE', y: 2505},{name: 'GTB-BILLS', y: 5},{name: 'House on the Rock', y: 1},{name: 'Ikeja Electric (Postpaid)', y: 2},{name: 'JEDC PREPAID (PLATEAU,BENUE,GOMBE,BAUCHI)', y: 81},{name: 'MANUAL REFUND(BANK TRANSFER)', y: 3},{name: 'MTN BUNDLE', y: 97},{name: 'MTN VTU', y: 2044},{name: 'MyTV Smart Payment', y: 20},{name: 'PortHacourt Electricity Distribution Company (POST', y: 2},{name: 'PROFIT', y: 10343},{name: 'Quickteller Paypoint', y: 2},{name: 'REFUND  MANUAL(BANK TRANSFER)', y: 1},{name: 'REFUND (BANK TRANSFER', y: 1},{name: 'REFUND MANUAL(BANK TRANSFER)', y: 1},{name: 'REFUND(9MOBILE BUNDLE)', y: 3},{name: 'REFUND(9MOBILE VTU)', y: 17},{name: 'REFUND(AEDC PREPAID (ABUJA, NIGER, Nassarawa, KOGI', y: 277},{name: 'REFUND(Airtel Dealer payment)', y: 1},{name: 'REFUND(AIRTEL VTU)', y: 27},{name: 'REFUND(BANK TRANSFER)', y: 298},{name: 'REFUND(DSTV MULTICHOICE)', y: 108},{name: 'REFUND(EXPRESS DSTV Subscription)', y: 1},{name: 'REFUND(EXPRESS GoTV)', y: 5},{name: 'REFUND(EXPRESS Startimes Payments)', y: 1},{name: 'REFUND(GLO BUNDLE)', y: 4},{name: 'REFUND(GLO VTU)', y: 29},{name: 'REFUND(GOTV MULTICHOICE)', y: 193},{name: 'REFUND(JEDC PREPAID (PLATEAU,BENUE,GOMBE,BAUCHI))', y: 3},{name: 'REFUND(MTN BUNDLE)', y: 10},{name: 'REFUND(MTN VTU)', y: 328},{name: 'REFUND(MyTV Smart Payment)', y: 5},{name: 'REFUND(STARTIMES)', y: 47},{name: 'REFUND(Swift 4G Subscription)', y: 1},{name: 'REWARD', y: 6310},{name: 'Smile Bundle', y: 2},{name: 'Spectranet Limited', y: 1},{name: 'STARTIMES', y: 349},{name: 'TOPUP', y: 411},{name: 'TRANSFER', y: 384},{name: 'WhoGoHost Limited', y: 1},{name: 'WITHDRAW', y: 6},]
+    }]
+});
+        })
+</script>
+
+
+
+
+<script type="text/javascript">
+    $(function () {
+Highcharts.chart('container3', {
+    chart: {
+        type: 'column'
+    },credits: {
+enabled: false
+},
+    title: {
+        text: 'TOP 10 Agent'
+    },
+    subtitle: {
+        text: ''
+    },
+    xAxis: {
+        type: 'category',
+        labels: {
+            rotation: -45,
+            style: {
+                fontSize: '13px',
+                fontFamily: 'Verdana, sans-serif'
+            }
+        }
+    },
+    yAxis: {
+        min: 0,
+        title: {
+            text: 'Population (millions)'
+        }
+    },
+    legend: {
+        enabled: false
+    },
+    tooltip: {
+        pointFormat: 'Population in 2008: <b>{point.y:.1f} millions</b>'
+    },
+    series: [{
+        name: 'Population',
+        data: [['0', 816],['1', 342],['5', 359],['6', 9],['9', 5],['11', 2],['12', 64],['13', 121],['15', 170],['16', 1],['17', 52],['18', 3],['24', 2],['25', 10],['26', 83],['27', 217],['29', 30],['34', 168],['35', 4],['37', 75],['42', 38],['43', 5],['44', 5],['58', 90],['60', 39],['70', 12],['71', 2],['78', 209],['79', 23],['80', 1],['81', 132],['85', 205],['91', 28],['92', 4],['93', 53],['95', 29],['99', 37],['103', 253],['105', 7],['112', 401],['120', 1625],['123', 1325],['146', 3],['187', 20],['190', 17],['192', 5],['194', 5],['210', 13],['214', 8],['218', 16],['220', 13],['227', 43],['242', 11],['244', 50],['259', 107],['263', 15],['268', 27],['273', 57],['284', 11],['285', 44],['288', 63],['290', 5],['306', 5],['309', 5],['311', 8],['312', 29],['322', 186],['330', 83],['340', 40],['343', 2],['349', 6],['351', 33],['353', 378],['356', 3],['359', 3],['362', 1],['363', 285],['364', 698],['365', 403],['374', 45],['377', 3],['379', 59],['380', 532],['383', 176],['386', 110],['387', 10],['399', 63],['400', 318],['401', 706],['404', 91],['406', 134],['411', 175],['413', 247],['415', 497],['419', 6],['428', 3],['430', 30],['431', 136],['433', 338],['436', 122],['440', 1],['443', 3],['450', 320],['459', 157],['466', 819],['468', 2],['478', 32],['488', 15],['491', 145],['496', 52],['499', 2],['501', 50],['502', 73],['503', 36],['507', 24],['514', 5],['516', 15],['517', 45],['535', 13],['536', 50],['537', 17],['546', 100],['573', 140],['615', 117],['616', 26],['621', 46],['622', 2],['632', 237],['634', 108],['636', 14],['644', 17],['647', 12],['648', 906],['651', 133],['652', 138],['653', 124],['657', 18],['659', 64],['661', 2],['664', 12],['678', 39],['679', 17],['680', 32],['685', 36],['688', 12],['695', 50],['703', 405],['709', 1100],['714', 72],['725', 5],['729', 129],['732', 193],['744', 2],['755', 65],['756', 29],['758', 8],['764', 37],['765', 51],['768', 36],['769', 31],['771', 35],['773', 8],['776', 6],['783', 94],['788', 3],['798', 284],['799', 121],['807', 48],['809', 48],['814', 40],['817', 8],['821', 1],['822', 26],['823', 275],['830', 203],['834', 66],['835', 27],['840', 33],['841', 6],['844', 2],['846', 221],['847', 132],['851', 1],['853', 224],['854', 315],['861', 50],['864', 13],['865', 137],['866', 253],['884', 72],['885', 102],['890', 17],['892', 134],['894', 35],['897', 4],['900', 1],['901', 29],['907', 7],['909', 41],['914', 45],['917', 1],['919', 8],['922', 59],['924', 32],['926', 1300],['927', 41],['931', 1],['934', 164],['936', 2],['937', 47],['942', 221],['955', 155],['956', 143],['958', 304],['959', 3],['960', 25],['961', 1],['964', 8],['965', 19],['966', 17],['967', 10],['969', 37],['970', 177],['971', 38],['972', 41],['974', 91],['977', 37],['982', 144],['987', 53],['991', 81],['992', 65],['996', 105],['997', 119],['998', 13],['1001', 167],['1003', 78],['1004', 58],['1005', 1],['1006', 977],['1011', 233],['1012', 17],['1014', 69],['1019', 11],['1020', 2],['1025', 48],['1027', 15],['1028', 4],['1029', 202],['1032', 125],['1033', 50],['1035', 15],['1036', 22],['1037', 89],['1050', 1],['1051', 20],['1055', 216],['1056', 67],['1063', 30],['1067', 16],['1068', 27],['1083', 1],['1084', 34],['1089', 48],['1092', 106],['1093', 1],['1095', 108],['1098', 47],['1099', 15],['1102', 102],['1109', 11],['1110', 9],['1112', 56],['1115', 350],['1116', 162],['1117', 27],['1118', 2],['1124', 67],['1125', 74],['1126', 2],['1127', 212],['1128', 2],['1129', 180],['1130', 151],['1131', 123],['1132', 15],['1134', 190],['1135', 50],['1136', 8],['1137', 239],['1140', 1],['1142', 56],['1146', 18],['1149', 51],['1150', 3],['1151', 603],['1154', 119],['1155', 133],['1158', 1],['1165', 211],['1166', 39],['1167', 7],['1169', 92],['1172', 2],['1173', 4],['1174', 30],['1175', 12],['1180', 5],['1181', 17],['1182', 74],['1183', 11],['1184', 1],['1185', 85],['1187', 4],['1189', 24],['1191', 168],['1193', 9],['1195', 16],['1198', 925],['1201', 2],['1204', 20],['1208', 1],['1210', 2],['1213', 11],['1215', 44],['1217', 1],['1220', 135],['1221', 32],['1222', 42],['1224', 106],['1225', 7],['1233', 3],['1234', 2],['1236', 62],['1237', 1],['1239', 6],['1242', 2],['1245', 5],['1246', 71],['1247', 269],['1250', 2],['1251', 66],['1253', 93],['1254', 3],['1257', 13],['1258', 15],['1263', 5],['1264', 2],['1266', 1],['1269', 14],['1270', 8],['1271', 2],['1272', 2],['1273', 2],['1274', 18],['1278', 25],['1279', 30],['1282', 1],['1283', 2],['1284', 1],['1285', 3],['1286', 1],['1287', 2],],
+        dataLabels: {
+            enabled: true,
+            rotation: -90,
+            color: '#FFFFFF',
+            align: 'right',
+            format: '{point.y:.1f}', // one decimal
+            y: 10, // 10 pixels down from the top
+            style: {
+                fontSize: '13px',
+                fontFamily: 'Verdana, sans-serif'
+            }
+        }
+    }]
+});
+        })
+</script>
+
+
+
+<script type="text/javascript">
+jQuery(document).ready(function($){
+    
+                        $.ajax({
+                        type: "POST",
+                        //url: "theme/ubuntu/call_blog.php",
+                        data: '',
+                        cache: false,
+                        success: function(html){
+                       // $("#googleloader").remove();
+                       // $("#hl").append(html);
+              
+                        }
+                        });
+
+    })
+
+</script>
+
+<div id="hl" style="overflow: hidden;">
+<div id="container2" class="shadow"  style="margin:3px; width: 49%; height: 450px; float:left;"></div>
+<div id="container3" class="shadow"  style="margin:3px; width: 49%; height: 300px; float:right;"></div>
+<img id="googleloader" src="theme/ubuntu/images/loading.gif" width="124" height="124" />
+
+ 

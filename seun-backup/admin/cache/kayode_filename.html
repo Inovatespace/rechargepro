@@ -1,0 +1,249 @@
+
+<link rel="stylesheet" href="java/sort/themes/blue/style.css" type="text/css" id="" media="print, projection, screen" />
+
+<div style="overflow-x:auto;">
+<table id="myTable" class="tablesorter">
+<thead>
+<tr style="text-transform: uppercase;">
+<th>Mobifin Wallet</th>
+<th>SMS</th>
+<th>Capricon Wallet</th>
+<th>AEDC</th>
+<th>JEDC</th>
+<th>MTN</th>
+<th>GLO</th>
+<th>MONEY WAVE</th>
+<th>rechargepro WALLET</th>
+<th>Total Services (Active/Non Active)</th>
+<th>Total Members (Active/Non Active)</th>
+<th>Total Agent</th>
+<th>Total Distributor</th>
+</tr>
+</thead>
+<tbody>
+
+<tr >
+<td>N38498.79405</td>
+<td>6758.69</td>
+<td>298413.65</td>
+<td>480682.4</td>
+
+<td>-</td>
+<td>188981.0</td>
+<td>724812.50</td>
+
+
+
+<td>0</td>
+<td>1297253.73</td>
+<td>32/9</td>
+<td>
+834/3</td>
+<td>280</td>
+<td>36</td>
+</tr>
+
+</tbody>
+</table>
+
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        
+        
+Highcharts.chart('container1', {
+    chart: {
+        type: 'column'
+    },credits: {
+enabled: false
+},
+    title: {
+        text: 'Daily transaction for current month'
+    },
+    subtitle: {
+        text: ''
+    },
+    xAxis: {
+        type: 'category',
+        labels: {
+            rotation: -45,
+            style: {
+                fontSize: '13px',
+                fontFamily: 'Verdana, sans-serif'
+            }
+        }
+    },
+    yAxis: {
+        min: 0,
+        title: {
+            text: 'Transaction'
+        }
+    },
+    legend: {
+        enabled: false
+    },
+    tooltip: {
+        pointFormat: 'Transaction {point.y:.1f}'
+    },
+    series: [{
+        name: 'Transaction',
+        colorByPoint: true,
+        data: [['01', 1560],['02', 276],],
+        dataLabels: {
+            enabled: true,
+            rotation: -90,
+            color: '#FFFFFF',
+            align: 'right',
+            format: '{point.y:.1f}', // one decimal
+            y: 10, // 10 pixels down from the top
+            style: {
+                fontSize: '13px',
+                fontFamily: 'Verdana, sans-serif'
+            }
+        }
+    }]
+});
+        })
+</script>
+
+<div id="container1" class="shadow"  style="margin:3px; width: 100%; height: 300px;"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    $(function () {
+Highcharts.chart('container2', {
+    chart: {
+        plotBackgroundColor: null,
+        plotBorderWidth: null,
+        plotShadow: false,
+        type: 'pie'
+    },credits: {
+enabled: false
+},
+    title: {
+        text: 'Top Ten Services'
+    },
+    tooltip: {
+        pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+    },
+    plotOptions: {
+        pie: {
+            allowPointSelect: true,
+            cursor: 'pointer',
+            dataLabels: {
+                enabled: true,
+                format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                style: {
+                    color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                }
+            }
+        }
+    },
+    series: [{
+        name: 'Service',
+        colorByPoint: true,
+        data: [{name: '', y: 9},{name: '9MOBILE VTU', y: 34},{name: 'AEDC PREPAID (ABUJA)', y: 269},{name: 'AIRTEL BUNDLE', y: 1},{name: 'AIRTEL VTU', y: 48},{name: 'BANK TRANSFER', y: 21},{name: 'BANK WITHDRAWAL', y: 4},{name: 'Credit', y: 55},{name: 'Debit', y: 2},{name: 'DSTV MULTICHOICE', y: 48},{name: 'GLO VTU', y: 25},{name: 'GOTV MULTICHOICE', y: 67},{name: 'JEDC PREPAID (JOS)', y: 5},{name: 'MTN VTU', y: 174},{name: 'PROFIT', y: 622},{name: 'REFUND(9MOBILE BUNDLE)', y: 1},{name: 'REFUND(AEDC PREPAID (ABUJA))', y: 5},{name: 'REFUND(BANK TRANSFER)', y: 1},{name: 'REFUND(MTN VTU)', y: 15},{name: 'REFUND(STARTIMES)', y: 2},{name: 'REWARD', y: 323},{name: 'STARTIMES', y: 22},{name: 'TOPUP', y: 48},{name: 'TRANSFER', y: 29},{name: 'WITHDRAW', y: 6},]
+    }]
+});
+        })
+</script>
+
+
+
+
+<script type="text/javascript">
+    $(function () {
+Highcharts.chart('container3', {
+    chart: {
+        type: 'column'
+    },credits: {
+enabled: false
+},
+    title: {
+        text: 'TOP 10 Agent'
+    },
+    subtitle: {
+        text: ''
+    },
+    xAxis: {
+        type: 'category',
+        labels: {
+            rotation: -45,
+            style: {
+                fontSize: '13px',
+                fontFamily: 'Verdana, sans-serif'
+            }
+        }
+    },
+    yAxis: {
+        min: 0,
+        title: {
+            text: 'Population (millions)'
+        }
+    },
+    legend: {
+        enabled: false
+    },
+    tooltip: {
+        pointFormat: 'Population in 2008: <b>{point.y:.1f} millions</b>'
+    },
+    series: [{
+        name: 'Population',
+        data: [['0', 43],['1', 30],['5', 14],['12', 14],['13', 4],['17', 9],['26', 6],['27', 7],['29', 1],['34', 1],['35', 2],['37', 1],['39', 1],['42', 7],['44', 13],['49', 2],['60', 7],['66', 3],['67', 6],['70', 2],['78', 16],['79', 4],['81', 9],['82', 6],['85', 12],['91', 2],['93', 10],['95', 9],['99', 2],['103', 3],['114', 3],['120', 81],['123', 106],['139', 3],['182', 2],['187', 4],['190', 3],['192', 4],['210', 3],['244', 25],['259', 13],['268', 6],['273', 4],['285', 1],['290', 4],['309', 2],['322', 11],['326', 2],['340', 1],['352', 27],['353', 3],['364', 78],['365', 42],['373', 3],['374', 13],['379', 5],['380', 60],['383', 5],['386', 8],['387', 6],['399', 2],['400', 29],['401', 59],['404', 2],['406', 11],['411', 4],['413', 5],['415', 38],['421', 2],['430', 5],['433', 31],['434', 6],['443', 3],['449', 2],['459', 1],['466', 48],['469', 7],['478', 6],['485', 1],['496', 2],['501', 1],['502', 14],['503', 4],['507', 5],['516', 11],['520', 8],['526', 8],['529', 4],['546', 2],['573', 4],['615', 38],['616', 6],['621', 9],['632', 50],['633', 2],['634', 13],['647', 4],['648', 170],['651', 43],['652', 1],['653', 40],['659', 12],['660', 2],['664', 71],['678', 6],['685', 2],['687', 2],['689', 4],['697', 5],['703', 15],['709', 23],['711', 4],['714', 3],['722', 10],['723', 4],['729', 3],['730', 3],['731', 12],['732', 7],['749', 6],['761', 6],['765', 2],['766', 6],['768', 3],['771', 4],['773', 10],['783', 6],['788', 5],['798', 44],['808', 2],['811', 3],['814', 11],['819', 10],['823', 20],['830', 4],['836', 15],['837', 14],['838', 2],],
+        dataLabels: {
+            enabled: true,
+            rotation: -90,
+            color: '#FFFFFF',
+            align: 'right',
+            format: '{point.y:.1f}', // one decimal
+            y: 10, // 10 pixels down from the top
+            style: {
+                fontSize: '13px',
+                fontFamily: 'Verdana, sans-serif'
+            }
+        }
+    }]
+});
+        })
+</script>
+
+
+
+<script type="text/javascript">
+jQuery(document).ready(function($){
+    
+                        $.ajax({
+                        type: "POST",
+                        //url: "theme/ubuntu/call_blog.php",
+                        data: '',
+                        cache: false,
+                        success: function(html){
+                       // $("#googleloader").remove();
+                       // $("#hl").append(html);
+              
+                        }
+                        });
+
+    })
+
+</script>
+
+<div id="hl" style="overflow: hidden;">
+<div id="container2" class="shadow"  style="margin:3px; width: 49%; height: 450px; float:left;"></div>
+<div id="container3" class="shadow"  style="margin:3px; width: 49%; height: 300px; float:right;"></div>
+<img id="googleloader" src="theme/ubuntu/images/loading.gif" width="124" height="124" />
+
+ 

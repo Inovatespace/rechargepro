@@ -1,0 +1,1 @@
+<div style="font-size: 30px; margin:40px 10px;" class="nWarning">404 Not Found</div>
