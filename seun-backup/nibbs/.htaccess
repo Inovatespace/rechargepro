@@ -1,0 +1,19 @@
+Options  -Indexes
+
+RewriteEngine On
+
+
+
+
+
+<IfModule mod_rewrite.c>
+ #ignor folder and file
+ RewriteCond %{REQUEST_FILENAME} !-d
+ RewriteCond %{REQUEST_FILENAME} !-f
+
+
+RewriteRule ^payment/(.*)$ index.php?u=$1&p=$2&s=$3 
+
+
+
+</IfModule>

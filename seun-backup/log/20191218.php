@@ -1,0 +1,35 @@
+<?php exit() ?> 
+74.208.147.106 - 12/18/19 01:03:02 @ Notice # Undefined index: x * /var/www/vhosts/rechargepro.com.ng/httpdocs/admin/cronjob/pdf/tcpdf.php $ 17328 |
+74.208.147.106 - 12/18/19 01:03:02 @ Notice # Undefined index: x * /var/www/vhosts/rechargepro.com.ng/httpdocs/admin/cronjob/pdf/tcpdf.php $ 17329 |
+74.208.147.106 - 12/18/19 01:03:02 @ Notice # Undefined index: xmax * /var/www/vhosts/rechargepro.com.ng/httpdocs/admin/cronjob/pdf/tcpdf.php $ 17330 |
+74.208.147.106 - 12/18/19 01:03:02 @ Notice # Undefined index: old_cell_padding * /var/www/vhosts/rechargepro.com.ng/httpdocs/admin/cronjob/pdf/tcpdf.php $ 19750 |
+74.208.147.106 - 12/18/19 01:04:03 @ Notice # Undefined index: x * /var/www/vhosts/rechargepro.com.ng/httpdocs/admin/cronjob/pdf/tcpdf.php $ 17328 |
+74.208.147.106 - 12/18/19 01:04:03 @ Notice # Undefined index: x * /var/www/vhosts/rechargepro.com.ng/httpdocs/admin/cronjob/pdf/tcpdf.php $ 17329 |
+74.208.147.106 - 12/18/19 01:04:03 @ Notice # Undefined index: xmax * /var/www/vhosts/rechargepro.com.ng/httpdocs/admin/cronjob/pdf/tcpdf.php $ 17330 |
+74.208.147.106 - 12/18/19 01:04:03 @ Notice # Undefined index: old_cell_padding * /var/www/vhosts/rechargepro.com.ng/httpdocs/admin/cronjob/pdf/tcpdf.php $ 19750 |
+74.208.147.106 - 12/18/19 01:05:02 @ Notice # Undefined index: x * /var/www/vhosts/rechargepro.com.ng/httpdocs/admin/cronjob/pdf/tcpdf.php $ 17328 |
+74.208.147.106 - 12/18/19 01:05:02 @ Notice # Undefined index: x * /var/www/vhosts/rechargepro.com.ng/httpdocs/admin/cronjob/pdf/tcpdf.php $ 17329 |
+74.208.147.106 - 12/18/19 01:05:02 @ Notice # Undefined index: xmax * /var/www/vhosts/rechargepro.com.ng/httpdocs/admin/cronjob/pdf/tcpdf.php $ 17330 |
+74.208.147.106 - 12/18/19 01:05:02 @ Notice # Undefined index: old_cell_padding * /var/www/vhosts/rechargepro.com.ng/httpdocs/admin/cronjob/pdf/tcpdf.php $ 19750 |
+74.208.147.106 - 12/18/19 01:06:02 @ Notice # Undefined index: x * /var/www/vhosts/rechargepro.com.ng/httpdocs/admin/cronjob/pdf/tcpdf.php $ 17328 |
+74.208.147.106 - 12/18/19 01:06:02 @ Notice # Undefined index: x * /var/www/vhosts/rechargepro.com.ng/httpdocs/admin/cronjob/pdf/tcpdf.php $ 17329 |
+74.208.147.106 - 12/18/19 01:06:02 @ Notice # Undefined index: xmax * /var/www/vhosts/rechargepro.com.ng/httpdocs/admin/cronjob/pdf/tcpdf.php $ 17330 |
+74.208.147.106 - 12/18/19 01:06:02 @ Notice # Undefined index: old_cell_padding * /var/www/vhosts/rechargepro.com.ng/httpdocs/admin/cronjob/pdf/tcpdf.php $ 19750 |
+74.208.147.106 - 12/18/19 01:07:03 @ Notice # Undefined index: x * /var/www/vhosts/rechargepro.com.ng/httpdocs/admin/cronjob/pdf/tcpdf.php $ 17328 |
+74.208.147.106 - 12/18/19 01:07:03 @ Notice # Undefined index: x * /var/www/vhosts/rechargepro.com.ng/httpdocs/admin/cronjob/pdf/tcpdf.php $ 17329 |
+74.208.147.106 - 12/18/19 01:07:03 @ Notice # Undefined index: xmax * /var/www/vhosts/rechargepro.com.ng/httpdocs/admin/cronjob/pdf/tcpdf.php $ 17330 |
+74.208.147.106 - 12/18/19 01:07:03 @ Notice # Undefined index: old_cell_padding * /var/www/vhosts/rechargepro.com.ng/httpdocs/admin/cronjob/pdf/tcpdf.php $ 19750 |
+74.208.147.106 - 12/18/19 01:08:03 @ Notice # Undefined index: x * /var/www/vhosts/rechargepro.com.ng/httpdocs/admin/cronjob/pdf/tcpdf.php $ 17328 |
+74.208.147.106 - 12/18/19 01:08:03 @ Notice # Undefined index: x * /var/www/vhosts/rechargepro.com.ng/httpdocs/admin/cronjob/pdf/tcpdf.php $ 17329 |
+74.208.147.106 - 12/18/19 01:08:03 @ Notice # Undefined index: xmax * /var/www/vhosts/rechargepro.com.ng/httpdocs/admin/cronjob/pdf/tcpdf.php $ 17330 |
+74.208.147.106 - 12/18/19 01:08:03 @ Notice # Undefined index: old_cell_padding * /var/www/vhosts/rechargepro.com.ng/httpdocs/admin/cronjob/pdf/tcpdf.php $ 19750 |
+74.208.147.106 - 12/18/19 01:09:03 @ Notice # Undefined index: x * /var/www/vhosts/rechargepro.com.ng/httpdocs/admin/cronjob/pdf/tcpdf.php $ 17328 |
+74.208.147.106 - 12/18/19 01:09:03 @ Notice # Undefined index: x * /var/www/vhosts/rechargepro.com.ng/httpdocs/admin/cronjob/pdf/tcpdf.php $ 17329 |
+74.208.147.106 - 12/18/19 01:09:03 @ Notice # Undefined index: xmax * /var/www/vhosts/rechargepro.com.ng/httpdocs/admin/cronjob/pdf/tcpdf.php $ 17330 |
+74.208.147.106 - 12/18/19 01:09:03 @ Notice # Undefined index: old_cell_padding * /var/www/vhosts/rechargepro.com.ng/httpdocs/admin/cronjob/pdf/tcpdf.php $ 19750 |
+197.210.129.202 - 12/18/19 12:23:25 @ Notice # Undefined variable: cocount * /var/www/vhosts/rechargepro.com.ng/httpdocs/theme/classic/pages/payment_daily.php $ 689 |
+197.210.129.202 - 12/18/19 17:05:29 @ Notice # Undefined index: response_code * /var/www/vhosts/rechargepro.com.ng/httpdocs/api/source/pro/phedc.php $ 570 |
+197.210.129.202 - 12/18/19 17:07:37 @ Notice # Undefined index: response_code * /var/www/vhosts/rechargepro.com.ng/httpdocs/api/source/pro/phedc.php $ 570 |
+192.241.155.216 - 12/18/19 17:33:29 @ Notice # Undefined variable: amount * /var/www/vhosts/rechargepro.com.ng/httpdocs/api/source/pro/refund.php $ 1234 |
+197.210.129.202 - 12/18/19 21:00:11 @ Notice # Undefined index: response_code * /var/www/vhosts/rechargepro.com.ng/httpdocs/api/source/pro/phedc.php $ 570 |
+197.210.227.96 - 12/18/19 21:13:27 @ Exception # SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '143932' for key 'PRIMARY' * /var/www/vhosts/rechargepro.com.ng/httpdocs/engine/class/engine.php $ 1421 |
