@@ -1,0 +1,3 @@
+100.43.90.165 - - [28/Jun/2019:05:13:33 +0100] "GET /robots.txt HTTP/1.0" 200 12420 "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+100.43.90.165 - - [28/Jun/2019:05:13:33 +0100] "GET /robots.txt HTTP/1.0" 200 12420 "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+100.43.90.165 - - [28/Jun/2019:05:13:36 +0100] "GET / HTTP/1.0" 200 14867 "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"

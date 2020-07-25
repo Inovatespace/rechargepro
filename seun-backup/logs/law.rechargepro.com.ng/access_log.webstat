@@ -1,0 +1,2 @@
+178.154.244.148 - - [28/Jun/2019:05:13:33 +0100] "GET /robots.txt HTTP/1.0" 301 412 "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+37.9.87.224 - - [28/Jun/2019:05:13:37 +0100] "GET / HTTP/1.0" 301 402 "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
