@@ -1,0 +1,147 @@
+body {
+	background-color: #222;
+	margin: 0px;
+}
+
+body, td, a {
+	font-family: "Courier New", "Trebuchet MS", Arial;
+	font-size: 9pt;
+	color: #fff;
+}
+
+a {
+	text-decoration: none;
+	color: #55bbfe;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+hr {
+	border: 0px;
+	border-top: 1px solid #ccc;
+	height: 1px;
+}
+
+.hr_big {
+	border: 0px;
+	border-top: 6px solid #ccc;
+	height: 1px;
+}
+
+#head {
+	background: #333;
+	padding: 20px;
+	color: #fff;
+}
+
+#head > img.logo {
+	float: left;
+	height: 40pt;
+	margin-right: 10px;
+}
+
+#head > .title {
+	height: 40pt;
+	line-height: 1.3em;
+	vertical-align: baseline;
+}
+
+.block {
+	overflow: hidden;
+	padding: 40px;
+	border-bottom: dotted rgba(255, 255, 255, 0.1) 1px;
+}
+
+.block_title {
+	font-family: "Courier New", "Trebuchet MS", Arial;
+	font-size: 12pt;
+	line-height: 2em;
+	color: #fe9900;
+}
+
+.pairs {
+	width: 50%;
+	float: left;
+}
+
+.pairs > .pair {
+	white-space: nowrap;
+	padding: 2px 0;
+	border-top: dotted rgba(255, 255, 255, 0.1) 1px;
+}
+
+.pairs > .pair > .key {
+	display: inline-block;
+	margin-right: 1em;
+	color: rgba(255, 255, 255, 0.4);
+	vertical-align: top;
+	white-space: pre-wrap;
+}
+
+.pairs > .pair > .value {
+	display: inline-block;
+	vertical-align: top;
+	white-space: pre-wrap;
+	padding-right: 15px;
+}
+
+.buttons {
+	white-space: nowrap;
+}
+
+.button {
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	background: rgba(255, 255, 255, 0.05);
+	padding: 5px 10px;
+}
+
+.button:hover {
+	text-decoration: none;
+	background: rgba(255, 255, 255, 0.2);
+	color: #fff;
+}
+
+iframe.message_preview {
+	border: solid #fff 2px;
+	margin: 40px;
+	width: calc(100% - 80px);
+	height: 1000px;
+}
+
+.tableMessages {
+	width: 100%;
+}
+
+.tableMessages th {
+	white-space: nowrap;
+	font-size: 9pt;
+	text-align: left;
+	color: #fff;
+	padding: 10px 15px;
+}
+
+.tableMessages td {
+	vertical-align: top;
+	border-left: dotted rgba(255, 255, 255, 0.2) 1px;
+	border-top: dotted rgba(255, 255, 255, 0.2) 1px;
+	padding: 10px 15px;
+	min-width: 70px;
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.tableMessages tr:hover td {
+	color: #fff;
+	background: rgba(255, 255, 255, 0.02);
+}
+
+.tableMessages td:last-child {
+	border-right: dotted rgba(255, 255, 255, 0.2) 1px;
+}
+
+.tableMessages tr:last-child td {
+	border-bottom: dotted rgba(255, 255, 255, 0.2) 1px;
+}
