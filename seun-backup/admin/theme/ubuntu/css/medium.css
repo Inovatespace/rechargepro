@@ -1,0 +1,89 @@
+/*{SITE_MENU}*/  
+ .block { float:left;}
+#leftmenu { width:auto; overflow:hidden;}
+#leftmenu, .leftmenucontent { padding:0;}
+#leftmenu, .leftmenucontent ul { margin:0px 1px; padding:0px;}
+#leftmenu, .leftmenucontent li { background:none; margin:0px; float:left;}
+
+
+#leftmenu, .leftmenucontent li a { color:white; font-size:12px; text-decoration:none; -webkit-transition:all .3s ease; -moz-transition:all .3s ease; padding:6px 9px 6px 9px; display:block}
+#leftmenu, .leftmenucontent li a:hover { background:url(../images/bg-categories.gif) top repeat-x; color:white;}
+
+
+#leftmenu .leftmenucontent li a .menu_icon2 {display:inline;}
+
+#leftmenu .leftmenucontent li a .menu_icon1 {display:none;}
+#leftmenu, .leftmenucontent li a:hover .menu_icon1 { margin:0px; padding:0px; -moz-transform:rotate(360deg); -webkit-transform:rotate(360deg); transform:rotate(360deg); background:none;}
+
+
+
+.leftmenucontent li a.active_submenu{
+    color:white;
+    background-color: #AB4546;
+        background: -webkit-gradient(linear, left top, left bottom, from(#D85F5F), to(#AB4546));
+        background: -webkit-linear-gradient(top, #D85F5F, #AB4546);
+        background: -moz-linear-gradient(top, #D85F5F, #AB4546);
+        background: -ms-linear-gradient(top, #D85F5F, #AB4546);
+        background: -o-linear-gradient(top, #D85F5F, #AB4546);
+        background: linear-gradient(top, #D85F5F, #AB4546);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#D85F5F', EndColorStr='#AB4546');
+        -ms-filter: 'progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#D85F5F', endColorstr='#AB4546')';   
+   
+}
+
+.leftmenucontent li { 
+    margin:5px;
+    box-shadow:none;
+-moz-box-shadow:none;
+-webkit-box-shadow:none;
+  /* IE 8 or below */}
+.glow{display:none;} 
+
+
+
+.submenu_icon{display:none;} 
+    
+/*{PLUGIN_MENU}*/ 
+.submenu_icon{display:none;}    
+#submenu, .submenucontent { padding:0; margin:0px;}
+#submenu, .submenucontent ul { margin:0px; padding:0px; list-style: none;}
+#submenu, .submenucontent li { float:left; margin:3px; }
+.submenucontent li a {        color:white;
+       background-color: #111111;
+        background: -webkit-gradient(linear, left top, left bottom, from(#595959), to(#111111));
+        background: -webkit-linear-gradient(top, #595959, #111111);
+        background: -moz-linear-gradient(top, #595959, #111111);
+        background: -ms-linear-gradient(top, #595959, #111111);
+        background: -o-linear-gradient(top, #595959, #111111);
+        background: linear-gradient(top, #595959, #111111);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#595959', EndColorStr='#111111');
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#595959', endColorstr='#111111')";         
+        
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";/*old explorer*/
+filter: alpha(opacity=80); /* internet explorer */
+-khtml-opacity: 0.8; /* khtml, old safari */
+-moz-opacity: 0.8; /* mozilla, netscape */
+opacity: 0.8; /* fx, safari, opera */
+
+        padding:3px 5px;
+        margin:5px 0px;
+        box-shadow:0 1px 3px rgba(34,25,25,0.4);
+-moz-box-shadow:0 1px 2px rgba(34,25,25,0.4);
+-webkit-box-shadow:0 1px 3px rgba(34,25,25,0.4);
+border:solid 1px #EEEEEE\8;  /* IE 8 or below */
+        }
+.submenucontent li a:hover { background:url(../images/bg-categories.gif) top repeat-x; color:#fff}    
+    
+.submenucontent li a.active_submenu{
+    color:white;
+    background-color: #AB4546;
+        background: -webkit-gradient(linear, left top, left bottom, from(#D85F5F), to(#AB4546));
+        background: -webkit-linear-gradient(top, #D85F5F, #AB4546);
+        background: -moz-linear-gradient(top, #D85F5F, #AB4546);
+        background: -ms-linear-gradient(top, #D85F5F, #AB4546);
+        background: -o-linear-gradient(top, #D85F5F, #AB4546);
+        background: linear-gradient(top, #D85F5F, #AB4546);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#D85F5F', EndColorStr='#AB4546');
+        -ms-filter: 'progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#D85F5F', endColorstr='#AB4546')';   
+   
+}

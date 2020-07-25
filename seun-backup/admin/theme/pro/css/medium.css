@@ -1,0 +1,40 @@
+/*{SITE_MENU}*/  
+ .block { float:left;}
+#leftmenu { width:auto; overflow:hidden;}
+#leftmenu, .leftmenucontent { padding:0;}
+#leftmenu, .leftmenucontent ul { margin:0px 1px; padding:0px;}
+#leftmenu, .leftmenucontent li { background:none; margin:0px; float:left;}
+
+
+#leftmenu, .leftmenucontent li a { color:white; font-size:12px; text-decoration:none; -webkit-transition:all .3s ease; -moz-transition:all .3s ease; padding:6px 9px 6px 9px; display:block}
+#leftmenu, .leftmenucontent li a:hover { background:url(../images/bg-categories.gif) top repeat-x; color:white;}
+
+
+#leftmenu .leftmenucontent li a .menu_icon2 {display:inline;}
+
+#leftmenu .leftmenucontent li a .menu_icon1 {display:none;}
+#leftmenu, .leftmenucontent li a:hover .menu_icon1 { margin:0px; padding:0px; -moz-transform:rotate(360deg); -webkit-transform:rotate(360deg); transform:rotate(360deg); background:none;}
+
+
+
+.leftmenucontent li a.active_submenu{
+    color:white;
+    background-color: #AB4546;
+        background: -webkit-gradient(linear, left top, left bottom, from(#D85F5F), to(#AB4546));
+        background: -webkit-linear-gradient(top, #D85F5F, #AB4546);
+        background: -moz-linear-gradient(top, #D85F5F, #AB4546);
+        background: -ms-linear-gradient(top, #D85F5F, #AB4546);
+        background: -o-linear-gradient(top, #D85F5F, #AB4546);
+        background: linear-gradient(top, #D85F5F, #AB4546);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#D85F5F', EndColorStr='#AB4546');
+        -ms-filter: 'progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#D85F5F', endColorstr='#AB4546')';   
+   
+}
+
+.leftmenucontent li { 
+    margin:5px;
+    box-shadow:none;
+-moz-box-shadow:none;
+-webkit-box-shadow:none;
+  /* IE 8 or below */}
+.glow{display:none;} 
