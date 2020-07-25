@@ -1,0 +1,26 @@
+<option>Lviv</option>
+<option>Volyn</option>
+<option>Rivne</option>
+<option>Zakarpattia</option>
+<option>I.F</option>
+<option>Chernivtsi</option>
+<option>Ternopil</option>
+<option>Khmel</option>
+<option>Zhytomyr</option>
+<option>Vinnytsia</option>
+<option>Kiev</option>
+<option>Cherkasy</option>
+<option>Kirovohrad</option>
+<option>Mykolaiv</option>
+<option>Chernihiv</option>
+<option>Sumy</option>
+<option>Poltava</option>
+<option>Dnipropetrovsk</option>
+<option>Kharkiv</option>
+<option>Donetsk</option>
+<option>Kherson</option>
+<option>Zaporizhia</option>
+<option>A.R. Crimea</option>
+<option>Luhansk</option>
+<option>Dnieper</option>
+<option>Odessa</option>

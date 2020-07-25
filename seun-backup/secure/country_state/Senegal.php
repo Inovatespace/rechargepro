@@ -1,0 +1,14 @@
+<option>Dakar</option>
+<option>Diourbel</option>
+<option>Fatick</option>
+<option>Kaffrine</option>
+<option>Kaolack</option>
+<option>Kedougou</option>
+<option>Kolda</option>
+<option>Louga</option>
+<option>Matam</option>
+<option>Saint-Louis</option>
+<option>Sedhiou</option>
+<option>Tambacounda</option>
+<option>Thies</option>
+<option>Ziguinchor</option>

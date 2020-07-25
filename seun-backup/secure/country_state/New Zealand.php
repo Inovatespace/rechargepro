@@ -1,0 +1,2 @@
+<option>Northland</option><option>Auckland</option><option>Waikato</option><option>Bay of Plenty</option><option>Gisborne</option><option>Hawke's Bay</option><option>Taranaki</option><option>Manawatu-Wanganui</option><option>Wellington</option><option>Tasman</option><option>Nelson</option><option>Marlborough</option>
+<option>West Coast</option><option>Canterbury</option><option>Otago</option><option>Southland</option>

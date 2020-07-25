@@ -1,0 +1,12 @@
+<option>Alibori</option>
+<option>Atakora</option>
+<option>Atlantique</option>
+<option>Borgou</option>
+<option>Collines</option>
+<option>Donga</option>
+<option>Kouffo</option>
+<option>Littoral</option>
+<option>Mono</option>
+<option>Oueme</option>
+<option>Plateau</option>
+<option>Zou</option>

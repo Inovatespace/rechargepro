@@ -1,0 +1,10 @@
+<option>Bagmati</option>
+<option>Janakpur</option>
+<option>Narayani</option><option>Dhawalagiri</option>
+<option>Gandaki</option>
+<option>Lumbini</option><option>Bheri</option>
+<option>Karnali</option>
+<option>Rapti</option><option>Mahakali</option>
+<option>Seti</option><option>Kosi</option>
+<option>Mechi</option>
+<option>Sagarmatha</option>

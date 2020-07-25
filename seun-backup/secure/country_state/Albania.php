@@ -1,0 +1,12 @@
+<option>Berat</option>
+<option>Diber</option>
+<option>Durres</option>
+<option>Elbasan</option>
+<option>Fier</option>
+<option>Gjirokaster</option>
+<option>Korce</option>
+<option>Kukes</option>
+<option>Lezhe</option>
+<option>Shkoder</option>
+<option>Tirana</option>
+<option>Vlore</option>

@@ -1,0 +1,1 @@
+<option>Alajuela</option><option>Cartago</option><option>Guanacaste</option><option>Heredia</option><option>Limon</option><option>Puntarenas</option><option>San Jose</option>
