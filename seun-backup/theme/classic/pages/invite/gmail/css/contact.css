@@ -1,0 +1,117 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+h1{
+    text-align:center;
+    //color: black;
+    font-size: 2em;
+}
+
+#main{
+margin: -150px 100px;
+font-family: 'Raleway', sans-serif;
+}
+
+h2{
+background-color: #FEFFED;
+text-align:center;
+border-radius: 10px 10px 0 0;
+margin: -58px -40px;
+padding: 40px 40px;
+color: black;
+font-weight: bolder;
+font-size: 1.5em;
+margin-bottom: -67px;
+}
+
+hr{
+border:0;
+border-bottom:1px solid #ccc;
+margin: 10px -40px;
+}
+
+#login{
+width:580px;
+float: left;
+border-radius: 10px;
+font-family:raleway;
+border: 2px solid #ccc;
+padding: 0px 40px 0px;
+//margin-top: 70px;
+//margin: 50px;
+margin: 15px 345px;
+}
+
+input[type=text],input[type=email],input[type=password]{
+width:99.5%;
+padding: 10px;
+margin-top: 8px;
+border: 1px solid #ccc;
+padding-left: 5px;
+font-size: 16px;
+font-family:raleway;
+}
+
+textarea{
+width:99.5%;
+padding: 10px;
+margin-top: 8px;
+border: 1px solid #ccc;
+padding-left: 5px;
+margin-bottom: 5px;
+font-size: 16px;
+font-family:raleway;
+}
+
+input[type=submit]{
+width: 40%;
+background-color:#FFBC00;
+color: white;
+border: 2px solid #FFCB00;
+padding: 10px;
+font-size:20px;
+cursor:pointer;
+border-radius: 5px;
+margin-bottom: 12px;
+}
+
+h3{
+    text-align: center;
+    font-weight: bold;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+}
+
+thead{
+    font-weight: bold;
+}
+
+#contab td{
+    border: 1px solid black;
+}
+
+#download{
+    float: left;
+    margin-top: 7px;
+}
+
+#logout{
+    float: right;
+    margin-top: -31px;
+    margin-right: -14px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+img{
+   // margin-top: -60px;
+}
+
+ h2 span {
+margin-left: -67px;
+}

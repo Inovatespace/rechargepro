@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://service.haiwai.sms.star.com" xmlns:ns2="http://haiwai.model.sms.star.com" xmlns:ns1="http://condition.haiwai.model.sms.star.com" xmlns:ns4="http://dto.beans.crm.com" xmlns:ns3="http://model.service.sms.star.com" xmlns:soapenc12="http://www.w3.org/2003/05/soap-encoding" xmlns:tns="http://service.haiwai.sms.star.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap11="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc11="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap12="http://www.w3.org/2003/05/soap-envelope">
+  <wsdl:types>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://condition.haiwai.model.sms.star.com">
+<xsd:complexType name="SubscriberQueryCondition">
+<xsd:sequence>
+<xsd:element minOccurs="0" name="payerID" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="payerPwd" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="smartCardCode" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="transactionNo" nillable="true" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+<xsd:complexType name="RechargeAndChangeProductCondition">
+<xsd:sequence>
+<xsd:element minOccurs="0" name="fee" nillable="true" type="xsd:double"/>
+<xsd:element minOccurs="0" name="payerID" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="payerPwd" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="productNo" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="smartCardCode" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="transactionNo" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="transferTime" nillable="true" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:schema>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://service.haiwai.sms.star.com">
+<xsd:element name="querySubscriberInfo">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="in0" nillable="true" type="ns1:SubscriberQueryCondition"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="querySubscriberInfoResponse">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="out" nillable="true" type="ns2:SubscriberQueryResult"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="customerPayByAgent">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="in0" nillable="true" type="ns2:CustomerPayByAgentDTO"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:complexType name="anyType2anyTypeMap">
+<xsd:sequence>
+<xsd:element maxOccurs="unbounded" minOccurs="0" name="entry">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="0" name="key" type="xsd:anyType"/>
+<xsd:element maxOccurs="1" minOccurs="0" name="value" type="xsd:anyType"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+</xsd:sequence>
+</xsd:complexType>
+<xsd:element name="customerPayByAgentResponse">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="out" nillable="true" type="ns2:CustomerPayByAgentResult"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="queryBalance">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="transactionNo" nillable="true" type="xsd:string"/>
+<xsd:element maxOccurs="1" minOccurs="1" name="payerID" nillable="true" type="xsd:string"/>
+<xsd:element maxOccurs="1" minOccurs="1" name="payerPwd" nillable="true" type="xsd:string"/>
+<xsd:element maxOccurs="1" minOccurs="1" name="customerCode" nillable="true" type="xsd:string"/>
+<xsd:element maxOccurs="1" minOccurs="1" name="smartCardCode" nillable="true" type="xsd:string"/>
+<xsd:element maxOccurs="1" minOccurs="1" name="customerPwd" nillable="true" type="xsd:string"/>
+<xsd:element maxOccurs="1" minOccurs="1" name="deviceType" nillable="true" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="queryBalanceResponse">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="out" nillable="true" type="ns3:BalanceInfo"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="rechargeAndMultiChangeProduct">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="smartCardNum" nillable="true" type="xsd:string"/>
+<xsd:element maxOccurs="1" minOccurs="1" name="offerNo" nillable="true" type="xsd:string"/>
+<xsd:element maxOccurs="1" minOccurs="1" name="actualFee" nillable="true" type="xsd:double"/>
+<xsd:element maxOccurs="1" minOccurs="1" name="payerCode" nillable="true" type="xsd:string"/>
+<xsd:element maxOccurs="1" minOccurs="1" name="payerPwd" nillable="true" type="xsd:string"/>
+<xsd:element maxOccurs="1" minOccurs="1" name="transactionlNo" nillable="true" type="xsd:string"/>
+<xsd:element maxOccurs="1" minOccurs="1" name="transferTime" nillable="true" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="rechargeAndMultiChangeProductResponse">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="out" nillable="true" type="ns4:USSDApiResponse"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="customerPay2">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="in0" nillable="true" type="ns2:CustomerPayDto2"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="customerPay2Response">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="out" nillable="true" type="ns2:CustomerPayResult2"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="multiChangeProduct">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="smartCardNum" nillable="true" type="xsd:string"/>
+<xsd:element maxOccurs="1" minOccurs="1" name="offerNo" nillable="true" type="xsd:string"/>
+<xsd:element maxOccurs="1" minOccurs="1" name="payerCode" nillable="true" type="xsd:string"/>
+<xsd:element maxOccurs="1" minOccurs="1" name="payerPwd" nillable="true" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="multiChangeProductResponse">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="out" nillable="true" type="ns4:USSDApiResponse"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="customerPay">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="transactionNo" nillable="true" type="xsd:string"/>
+<xsd:element maxOccurs="1" minOccurs="1" name="payerID" nillable="true" type="xsd:string"/>
+<xsd:element maxOccurs="1" minOccurs="1" name="payerPwd" nillable="true" type="xsd:string"/>
+<xsd:element maxOccurs="1" minOccurs="1" name="customerCode" nillable="true" type="xsd:string"/>
+<xsd:element maxOccurs="1" minOccurs="1" name="customerName" nillable="true" type="xsd:string"/>
+<xsd:element maxOccurs="1" minOccurs="1" name="customerTel" nillable="true" type="xsd:string"/>
+<xsd:element maxOccurs="1" minOccurs="1" name="smartCardCode" nillable="true" type="xsd:string"/>
+<xsd:element maxOccurs="1" minOccurs="1" name="fee" nillable="true" type="xsd:double"/>
+<xsd:element maxOccurs="1" minOccurs="1" name="receiptCode" nillable="true" type="xsd:string"/>
+<xsd:element maxOccurs="1" minOccurs="1" name="deviceType" nillable="true" type="xsd:string"/>
+<xsd:element maxOccurs="1" minOccurs="1" name="transferTime" nillable="true" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="customerPayResponse">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="out" nillable="true" type="ns3:CustomerPayResult"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="validateAndQuerySubscriberInfo">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="smartCardNum" nillable="true" type="xsd:string"/>
+<xsd:element maxOccurs="1" minOccurs="1" name="payerCode" nillable="true" type="xsd:string"/>
+<xsd:element maxOccurs="1" minOccurs="1" name="payerPwd" nillable="true" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="validateAndQuerySubscriberInfoResponse">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="out" nillable="true" type="ns4:USSDApiResponse"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="rechargeAndChangeProduct">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="in0" nillable="true" type="ns1:RechargeAndChangeProductCondition"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="rechargeAndChangeProductResponse">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="out" nillable="true" type="ns2:ThirdPartnerRes"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="payByRechargeCard">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="smartCardNum" nillable="true" type="xsd:string"/>
+<xsd:element maxOccurs="1" minOccurs="1" name="rechargeCardPin" nillable="true" type="xsd:string"/>
+<xsd:element maxOccurs="1" minOccurs="1" name="payerCode" nillable="true" type="xsd:string"/>
+<xsd:element maxOccurs="1" minOccurs="1" name="payerPwd" nillable="true" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="payByRechargeCardResponse">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="out" nillable="true" type="ns4:USSDApiResponse"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="rechargeAndChangeProductAndCalDays">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="in0" nillable="true" type="ns1:RechargeAndChangeProductCondition"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="rechargeAndChangeProductAndCalDaysResponse">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="out" nillable="true" type="ns2:ThirdPartnerResult"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+</xsd:schema>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://haiwai.model.sms.star.com">
+<xsd:complexType name="SubscriberQueryResult">
+<xsd:sequence>
+<xsd:element minOccurs="0" name="balance" nillable="true" type="xsd:double"/>
+<xsd:element minOccurs="0" name="canOrderProductInfos" nillable="true" type="ns2:ArrayOfProductInfo"/>
+<xsd:element minOccurs="0" name="customerName" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="orderedProductsDesc" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="returnCode" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="returnMsg" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="smartCardCode" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="subscriberStatus" nillable="true" type="xsd:int"/>
+<xsd:element minOccurs="0" name="transactionlNo" nillable="true" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+<xsd:complexType name="ArrayOfProductInfo">
+<xsd:sequence>
+<xsd:element maxOccurs="unbounded" minOccurs="0" name="ProductInfo" nillable="true" type="ns2:ProductInfo"/>
+</xsd:sequence>
+</xsd:complexType>
+<xsd:complexType name="ProductInfo">
+<xsd:sequence>
+<xsd:element minOccurs="0" name="productDesc" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="productNo" nillable="true" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+<xsd:complexType name="CustomerPayByAgentDTO">
+<xsd:sequence>
+<xsd:element minOccurs="0" name="agentCode" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="customerCode" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="customerName" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="customerTel" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="deviceType" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="email" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="fee" nillable="true" type="xsd:double"/>
+<xsd:element minOccurs="0" name="payerID" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="payerPwd" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="receiptCode" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="smartCardCode" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="transactionNo" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="transferTime" nillable="true" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+<xsd:complexType name="CustomerPayByAgentResult">
+<xsd:sequence>
+<xsd:element minOccurs="0" name="agentRates" nillable="true" type="tns:anyType2anyTypeMap"/>
+<xsd:element minOccurs="0" name="orderCode" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="returnCode" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="returnMsg" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="transactionlNo" nillable="true" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+<xsd:complexType name="CustomerPayDto2">
+<xsd:sequence>
+<xsd:element minOccurs="0" name="customerCode" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="customerName" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="customerTel" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="deviceType" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="email" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="expectedSmartCardCode" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="fee" nillable="true" type="xsd:double"/>
+<xsd:element minOccurs="0" name="payerID" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="payerPwd" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="receiptCode" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="smartCardCode" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="transactionNo" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="transferTime" nillable="true" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+<xsd:complexType name="CustomerPayResult2">
+<xsd:sequence>
+<xsd:element minOccurs="0" name="orderCode" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="returnCode" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="returnMsg" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="transactionlNo" nillable="true" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+<xsd:complexType name="ThirdPartnerRes">
+<xsd:sequence>
+<xsd:element minOccurs="0" name="returnCode" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="returnMsg" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="transactionlNo" nillable="true" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+<xsd:complexType name="ThirdPartnerResult">
+<xsd:sequence>
+<xsd:element minOccurs="0" name="returnCode" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="returnMsg" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="transactionlNo" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="watchDays" type="xsd:int"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:schema>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://model.service.sms.star.com">
+<xsd:complexType name="BalanceInfo">
+<xsd:sequence>
+<xsd:element minOccurs="0" name="TELDealID" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="balance" nillable="true" type="xsd:double"/>
+<xsd:element minOccurs="0" name="billAmount" nillable="true" type="xsd:double"/>
+<xsd:element minOccurs="0" name="customerCode" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="customerName" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="payType" nillable="true" type="xsd:int"/>
+<xsd:element minOccurs="0" name="returnCode" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="returnMsg" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="smartCardCode" nillable="true" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+<xsd:complexType name="CustomerPayResult">
+<xsd:sequence>
+<xsd:element minOccurs="0" name="TELDealID" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="balance" nillable="true" type="xsd:double"/>
+<xsd:element minOccurs="0" name="customerCode" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="customerContectTel" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="customerName" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="fee" nillable="true" type="xsd:double"/>
+<xsd:element minOccurs="0" name="orderCode" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="returnCode" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="returnMsg" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="smartCardCode" nillable="true" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:schema>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://dto.beans.crm.com">
+<xsd:complexType name="USSDApiResponse">
+<xsd:sequence>
+<xsd:element minOccurs="0" name="data" nillable="true" type="xsd:anyType"/>
+<xsd:element minOccurs="0" name="errormessage" nillable="true" type="xsd:string"/>
+<xsd:element minOccurs="0" name="resultcode" nillable="true" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="multiChangeProductRequest">
+    <wsdl:part name="parameters" element="tns:multiChangeProduct"/>
+  </wsdl:message>
+  <wsdl:message name="payByRechargeCardRequest">
+    <wsdl:part name="parameters" element="tns:payByRechargeCard"/>
+  </wsdl:message>
+  <wsdl:message name="customerPayResponse">
+    <wsdl:part name="parameters" element="tns:customerPayResponse"/>
+  </wsdl:message>
+  <wsdl:message name="customerPayRequest">
+    <wsdl:part name="parameters" element="tns:customerPay"/>
+  </wsdl:message>
+  <wsdl:message name="rechargeAndChangeProductResponse">
+    <wsdl:part name="parameters" element="tns:rechargeAndChangeProductResponse"/>
+  </wsdl:message>
+  <wsdl:message name="customerPayByAgentResponse">
+    <wsdl:part name="parameters" element="tns:customerPayByAgentResponse"/>
+  </wsdl:message>
+  <wsdl:message name="customerPayByAgentRequest">
+    <wsdl:part name="parameters" element="tns:customerPayByAgent"/>
+  </wsdl:message>
+  <wsdl:message name="rechargeAndChangeProductAndCalDaysRequest">
+    <wsdl:part name="parameters" element="tns:rechargeAndChangeProductAndCalDays"/>
+  </wsdl:message>
+  <wsdl:message name="rechargeAndChangeProductRequest">
+    <wsdl:part name="parameters" element="tns:rechargeAndChangeProduct"/>
+  </wsdl:message>
+  <wsdl:message name="rechargeAndMultiChangeProductRequest">
+    <wsdl:part name="parameters" element="tns:rechargeAndMultiChangeProduct"/>
+  </wsdl:message>
+  <wsdl:message name="querySubscriberInfoRequest">
+    <wsdl:part name="parameters" element="tns:querySubscriberInfo"/>
+  </wsdl:message>
+  <wsdl:message name="customerPay2Response">
+    <wsdl:part name="parameters" element="tns:customerPay2Response"/>
+  </wsdl:message>
+  <wsdl:message name="validateAndQuerySubscriberInfoResponse">
+    <wsdl:part name="parameters" element="tns:validateAndQuerySubscriberInfoResponse"/>
+  </wsdl:message>
+  <wsdl:message name="querySubscriberInfoResponse">
+    <wsdl:part name="parameters" element="tns:querySubscriberInfoResponse"/>
+  </wsdl:message>
+  <wsdl:message name="rechargeAndMultiChangeProductResponse">
+    <wsdl:part name="parameters" element="tns:rechargeAndMultiChangeProductResponse"/>
+  </wsdl:message>
+  <wsdl:message name="customerPay2Request">
+    <wsdl:part name="parameters" element="tns:customerPay2"/>
+  </wsdl:message>
+  <wsdl:message name="validateAndQuerySubscriberInfoRequest">
+    <wsdl:part name="parameters" element="tns:validateAndQuerySubscriberInfo"/>
+  </wsdl:message>
+  <wsdl:message name="queryBalanceRequest">
+    <wsdl:part name="parameters" element="tns:queryBalance"/>
+  </wsdl:message>
+  <wsdl:message name="queryBalanceResponse">
+    <wsdl:part name="parameters" element="tns:queryBalanceResponse"/>
+  </wsdl:message>
+  <wsdl:message name="rechargeAndChangeProductAndCalDaysResponse">
+    <wsdl:part name="parameters" element="tns:rechargeAndChangeProductAndCalDaysResponse"/>
+  </wsdl:message>
+  <wsdl:message name="payByRechargeCardResponse">
+    <wsdl:part name="parameters" element="tns:payByRechargeCardResponse"/>
+  </wsdl:message>
+  <wsdl:message name="multiChangeProductResponse">
+    <wsdl:part name="parameters" element="tns:multiChangeProductResponse"/>
+  </wsdl:message>
+  <wsdl:portType name="IHaiWaiElectronicPaymentServicePortType">
+    <wsdl:operation name="querySubscriberInfo">
+      <wsdl:input name="querySubscriberInfoRequest" message="tns:querySubscriberInfoRequest"/>
+      <wsdl:output name="querySubscriberInfoResponse" message="tns:querySubscriberInfoResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="customerPayByAgent">
+      <wsdl:input name="customerPayByAgentRequest" message="tns:customerPayByAgentRequest"/>
+      <wsdl:output name="customerPayByAgentResponse" message="tns:customerPayByAgentResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="queryBalance">
+      <wsdl:input name="queryBalanceRequest" message="tns:queryBalanceRequest"/>
+      <wsdl:output name="queryBalanceResponse" message="tns:queryBalanceResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="rechargeAndMultiChangeProduct">
+      <wsdl:input name="rechargeAndMultiChangeProductRequest" message="tns:rechargeAndMultiChangeProductRequest"/>
+      <wsdl:output name="rechargeAndMultiChangeProductResponse" message="tns:rechargeAndMultiChangeProductResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="customerPay2">
+      <wsdl:input name="customerPay2Request" message="tns:customerPay2Request"/>
+      <wsdl:output name="customerPay2Response" message="tns:customerPay2Response"/>
+    </wsdl:operation>
+    <wsdl:operation name="multiChangeProduct">
+      <wsdl:input name="multiChangeProductRequest" message="tns:multiChangeProductRequest"/>
+      <wsdl:output name="multiChangeProductResponse" message="tns:multiChangeProductResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="customerPay">
+      <wsdl:input name="customerPayRequest" message="tns:customerPayRequest"/>
+      <wsdl:output name="customerPayResponse" message="tns:customerPayResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="validateAndQuerySubscriberInfo">
+      <wsdl:input name="validateAndQuerySubscriberInfoRequest" message="tns:validateAndQuerySubscriberInfoRequest"/>
+      <wsdl:output name="validateAndQuerySubscriberInfoResponse" message="tns:validateAndQuerySubscriberInfoResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="rechargeAndChangeProduct">
+      <wsdl:input name="rechargeAndChangeProductRequest" message="tns:rechargeAndChangeProductRequest"/>
+      <wsdl:output name="rechargeAndChangeProductResponse" message="tns:rechargeAndChangeProductResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="payByRechargeCard">
+      <wsdl:input name="payByRechargeCardRequest" message="tns:payByRechargeCardRequest"/>
+      <wsdl:output name="payByRechargeCardResponse" message="tns:payByRechargeCardResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="rechargeAndChangeProductAndCalDays">
+      <wsdl:input name="rechargeAndChangeProductAndCalDaysRequest" message="tns:rechargeAndChangeProductAndCalDaysRequest"/>
+      <wsdl:output name="rechargeAndChangeProductAndCalDaysResponse" message="tns:rechargeAndChangeProductAndCalDaysResponse"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="IHaiWaiElectronicPaymentServiceHttpBinding" type="tns:IHaiWaiElectronicPaymentServicePortType">
+    <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="querySubscriberInfo">
+      <wsdlsoap:operation soapAction=""/>
+      <wsdl:input name="querySubscriberInfoRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="querySubscriberInfoResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="customerPayByAgent">
+      <wsdlsoap:operation soapAction=""/>
+      <wsdl:input name="customerPayByAgentRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="customerPayByAgentResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="queryBalance">
+      <wsdlsoap:operation soapAction=""/>
+      <wsdl:input name="queryBalanceRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="queryBalanceResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="rechargeAndMultiChangeProduct">
+      <wsdlsoap:operation soapAction=""/>
+      <wsdl:input name="rechargeAndMultiChangeProductRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="rechargeAndMultiChangeProductResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="customerPay2">
+      <wsdlsoap:operation soapAction=""/>
+      <wsdl:input name="customerPay2Request">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="customerPay2Response">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="multiChangeProduct">
+      <wsdlsoap:operation soapAction=""/>
+      <wsdl:input name="multiChangeProductRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="multiChangeProductResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="customerPay">
+      <wsdlsoap:operation soapAction=""/>
+      <wsdl:input name="customerPayRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="customerPayResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="validateAndQuerySubscriberInfo">
+      <wsdlsoap:operation soapAction=""/>
+      <wsdl:input name="validateAndQuerySubscriberInfoRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="validateAndQuerySubscriberInfoResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="rechargeAndChangeProduct">
+      <wsdlsoap:operation soapAction=""/>
+      <wsdl:input name="rechargeAndChangeProductRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="rechargeAndChangeProductResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="payByRechargeCard">
+      <wsdlsoap:operation soapAction=""/>
+      <wsdl:input name="payByRechargeCardRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="payByRechargeCardResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="rechargeAndChangeProductAndCalDays">
+      <wsdlsoap:operation soapAction=""/>
+      <wsdl:input name="rechargeAndChangeProductAndCalDaysRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="rechargeAndChangeProductAndCalDaysResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="IHaiWaiElectronicPaymentService">
+    <wsdl:port name="IHaiWaiElectronicPaymentServiceHttpPort" binding="tns:IHaiWaiElectronicPaymentServiceHttpBinding">
+      <wsdlsoap:address location="https://62.173.36.18:8443/stariboss-haiwai_proxy/electronicPaymentService"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
