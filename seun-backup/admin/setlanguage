@@ -1,0 +1,10 @@
+<?php
+include ('engine.autoloader.php');
+$inTwoMonths = 60 * 60 * 24 * 60 + time();
+$lan = $engine->safe_html($_REQUEST['l']);;
+setrawcookie('language', $lan, $inTwoMonths, "/", false);
+$location = "index";
+if(isset($_SERVER['HTTP_REFERER'])){$location = $_SERVER['HTTP_REFERER'];}
+
+header("location:$location");
+?>

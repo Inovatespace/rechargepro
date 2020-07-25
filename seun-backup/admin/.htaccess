@@ -1,0 +1,104 @@
+Options  -Indexes
+
+RewriteEngine On
+
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} ^(.+)/$
+RewriteRule ^(.+)/$  /$1 [R=301,L]
+
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://rechargepro.com.ng/admin/$1 [R,L]
+
+<IfModule mod_rewrite.c>
+ RewriteRule ^&([a-zA-Z0-9-_",'w\s@]+)$ brand?u=$1
+ RewriteRule ^&([a-zA-Z0-9-_",'w\s@]+)/$ brand?u=$1
+ RewriteRule ^@([a-zA-Z0-9-_",'w\s@]+)$ brand?u=$1
+ RewriteRule ^@([a-zA-Z0-9-_",'w\s@]+)/$ brand?u=$1
+ 
+ #ignor folder and file
+ RewriteCond %{REQUEST_FILENAME} !-d
+ RewriteCond %{REQUEST_FILENAME} !-f
+ #RewriteCond %{REQUEST_FILENAME}.php -f
+
+ 
+ RewriteRule ^([a-zA-Z0-9-_",'w\s@]+)?(.*)$ index?u=$1&p=$2
+ #RewriteRule ^([a-zA-Z0-9-_",'w\s@]+)/$ index?u=$1
+</IfModule>
+
+
+
+RewriteRule ^([^/.]+)$ $1.php [L]
+
+DirectoryIndex index.php
+
+
+
+#Error Documents
+ErrorDocument 400 /errorpages/400.php
+ErrorDocument 401 /errorpages/401.php
+ErrorDocument 402 402.html
+ErrorDocument 403 /errorpages/403.php
+ErrorDocument 404 /errorpages/404.php
+ErrorDocument 405 405.html
+ErrorDocument 406 406.html
+ErrorDocument 407 407.html
+ErrorDocument 408 408.html
+ErrorDocument 409 409.html
+ErrorDocument 410 410.html
+ErrorDocument 411 411.html
+ErrorDocument 412 412.html
+ErrorDocument 413 413.html
+ErrorDocument 414 414.html
+ErrorDocument 501 501.html
+ErrorDocument 502 502.html
+ErrorDocument 503 503.html
+ErrorDocument 504 504.html
+ErrorDocument 505 /errorpages/505.php
+
+
+
+
+
+<Files engine.autoloader.php>
+  order allow,deny
+  deny from all
+</Files>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#deny start 
+#order deny,allow 
+#deny from all
+#allow from 127.0.0.1
+#allow from ::1
+#allow from 127.0.0.16
+#allow from 127.0.0.16
+#allow from 127.0.0.16
+#allow from 192.168.1.
+
+#deny end
+
+
+
+
+
+
+#order allow,deny
+#deny from 192.168.0.7-56
+#deny from 127.1.0.
+#deny from 127.0.0.7
+#allow from all
